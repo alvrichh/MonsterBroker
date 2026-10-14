@@ -1,6 +1,20 @@
 from fastapi import APIRouter
 
-from .routes import admin, auth, auth_social, bot, certificates, defi, futures, health, market, news, token, wallet
+from .routes import (
+    admin,
+    auth,
+    auth_social,
+    bot,
+    certificates,
+    defi,
+    futures,
+    health,
+    market,
+    news,
+    reviews,
+    token,
+    wallet,
+)
 
 api_router = APIRouter()
 
@@ -16,6 +30,7 @@ api_router.include_router(wallet.router, prefix="/wallet", tags=["wallet"])
 api_router.include_router(bot.router, prefix="/bot", tags=["bot"])
 api_router.include_router(token.router, prefix="/token", tags=["token"])
 api_router.include_router(certificates.router, prefix="/certificates", tags=["certificates"])
+api_router.include_router(reviews.router, prefix="/reviews", tags=["reviews"])
 api_router.include_router(auth.router, prefix="/auth", tags=["auth"])
 api_router.include_router(auth_social.router, prefix="/auth", tags=["auth"])
 
