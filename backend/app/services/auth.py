@@ -13,7 +13,8 @@ from pydantic import BaseModel
 from sqlalchemy import func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.db.models import PROVIDER_PASSWORD, PROVIDER_WALLET, ROLE_ADMIN, ROLE_USER, User
+from app.db.models import PLAN_FREE, PROVIDER_PASSWORD, PROVIDER_WALLET, ROLE_ADMIN, ROLE_USER, User
+from app.services.membership import as_utc, is_pro
 from app.utils.helpers import utc_now
 
 WALLET_EMAIL_SUFFIX = "@wallet.monsterbroker"  # wallet-only accounts have no real email
@@ -45,6 +46,9 @@ class UserOut(BaseModel):
     role: str
     provider: str = PROVIDER_PASSWORD
     wallet_address: str | None = None
+    plan: str = PLAN_FREE
+    plan_until: str | None = None
+    is_pro: bool = False
     is_active: bool
     is_verified: bool
     created_at: str
@@ -54,7 +58,8 @@ class UserOut(BaseModel):
     def from_user(cls, user: User) -> UserOut:
         return cls(
             id=user.id, email=user.email, name=user.name, role=user.role, provider=user.provider,
-            wallet_address=user.wallet_address, is_active=user.is_active, is_verified=user.is_verified,
+            wallet_address=user.wallet_address, plan=user.plan or PLAN_FREE, plan_until=_iso(as_utc(user.plan_until)),
+            is_pro=is_pro(user), is_active=user.is_active, is_verified=user.is_verified,
             created_at=_iso(user.created_at) or "", last_login_at=_iso(user.last_login_at),
         )
 
