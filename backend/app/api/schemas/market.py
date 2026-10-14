@@ -1,4 +1,16 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+
+from app.services.coingecko import GlobalMetrics
+from app.services.sentiment import FearGreed
+
+
+class OverviewOut(BaseModel):
+    """Global metrics and sentiment. Either half may be missing when its
+    upstream is down; the other still renders."""
+
+    metrics: GlobalMetrics | None = None
+    fear_greed: FearGreed | None = None
+    errors: list[str] = Field(default_factory=list)
 
 
 class TickerOut(BaseModel):
