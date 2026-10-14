@@ -5,6 +5,7 @@ and the quarterly contracts with their basis. Read-only; cached briefly."""
 from __future__ import annotations
 
 import asyncio
+import time
 from datetime import UTC, datetime
 
 from pydantic import BaseModel, Field
@@ -12,8 +13,11 @@ from pydantic import BaseModel, Field
 from app.services.exchange import Candle
 from app.utils.cache import cache
 from app.utils.helpers import utc_now
+from app.utils.logger import get_logger
 
-from .http import JsonClient
+from .http import JsonClient, UpstreamError
+
+log = get_logger(__name__)
 
 FAPI = "https://fapi.binance.com"
 PERIODS = ("5m", "15m", "30m", "1h", "2h", "4h", "6h", "12h", "1d")
@@ -95,6 +99,7 @@ class QuarterlyRow(BaseModel):
 
 
 class FuturesOverview(BaseModel):
+    provider: str = "binance"  # which exchange answered (bybit when Binance refuses this host)
     index: PremiumIndex
     ticker: PerpTicker | None = None
     open_interest: float | None = None
@@ -197,38 +202,43 @@ def parse_quarterly(symbols: list[dict], premiums: dict[str, PremiumIndex], now_
 
 
 class BinanceFuturesService(JsonClient):
+    provider = "binance"
+
     def __init__(self, base_url: str = FAPI) -> None:
         super().__init__(base_url, timeout=10.0)
 
+    def _key(self, *parts: object) -> str:
+        return ":".join((self.provider, "fut", *map(str, parts)))
+
     async def premium(self, symbol: str) -> PremiumIndex:
-        return await cache.get_or_fetch(f"fut:premium:{symbol}", 10,
+        return await cache.get_or_fetch(self._key("premium", symbol), 10,
                                         lambda: self._premium(symbol))
 
     async def _premium(self, symbol: str) -> PremiumIndex:
         return parse_premium(await self.get("/fapi/v1/premiumIndex", symbol=symbol))
 
     async def premium_all(self) -> dict[str, PremiumIndex]:
-        return await cache.get_or_fetch("fut:premium:all", 15, self._premium_all)
+        return await cache.get_or_fetch(self._key("premium", "all"), 15, self._premium_all)
 
     async def _premium_all(self) -> dict[str, PremiumIndex]:
         rows = await self.get("/fapi/v1/premiumIndex")
         return {r["symbol"]: parse_premium(r) for r in rows if r.get("markPrice")}
 
     async def funding(self, symbol: str, limit: int = 30) -> list[FundingPoint]:
-        return await cache.get_or_fetch(f"fut:funding:{symbol}:{limit}", 300,
+        return await cache.get_or_fetch(self._key("funding", symbol, limit), 300,
                                         lambda: self._funding(symbol, limit))
 
     async def _funding(self, symbol: str, limit: int) -> list[FundingPoint]:
         return parse_funding(await self.get("/fapi/v1/fundingRate", symbol=symbol, limit=limit))
 
     async def open_interest(self, symbol: str) -> float:
-        return await cache.get_or_fetch(f"fut:oi:{symbol}", 30, lambda: self._open_interest(symbol))
+        return await cache.get_or_fetch(self._key("oi", symbol), 30, lambda: self._open_interest(symbol))
 
     async def _open_interest(self, symbol: str) -> float:
         return float((await self.get("/fapi/v1/openInterest", symbol=symbol))["openInterest"])
 
     async def open_interest_history(self, symbol: str, period: str = "1h", limit: int = 168) -> list[OpenInterestPoint]:
-        return await cache.get_or_fetch(f"fut:oih:{symbol}:{period}:{limit}", 300,
+        return await cache.get_or_fetch(self._key("oih", symbol, period, limit), 300,
                                         lambda: self._oi_history(symbol, period, limit))
 
     async def _oi_history(self, symbol: str, period: str, limit: int) -> list[OpenInterestPoint]:
@@ -240,24 +250,24 @@ class BinanceFuturesService(JsonClient):
 
     async def long_short(self, symbol: str, period: str = "1h", limit: int = 48) -> list[RatioPoint]:
         return await cache.get_or_fetch(
-            f"fut:ls:{symbol}:{period}:{limit}", 300,
+            self._key("ls", symbol, period, limit), 300,
             lambda: self._ratio("/futures/data/globalLongShortAccountRatio", symbol, period, limit, parse_ratios),
         )
 
     async def top_traders(self, symbol: str, period: str = "1h", limit: int = 48) -> list[RatioPoint]:
         return await cache.get_or_fetch(
-            f"fut:top:{symbol}:{period}:{limit}", 300,
+            self._key("top", symbol, period, limit), 300,
             lambda: self._ratio("/futures/data/topLongShortPositionRatio", symbol, period, limit, parse_ratios),
         )
 
     async def taker(self, symbol: str, period: str = "1h", limit: int = 48) -> list[TakerPoint]:
         return await cache.get_or_fetch(
-            f"fut:taker:{symbol}:{period}:{limit}", 300,
+            self._key("taker", symbol, period, limit), 300,
             lambda: self._ratio("/futures/data/takerlongshortRatio", symbol, period, limit, parse_taker),
         )
 
     async def tickers(self) -> dict[str, PerpTicker]:
-        return await cache.get_or_fetch("fut:tickers", 30, self._tickers)
+        return await cache.get_or_fetch(self._key("tickers"), 30, self._tickers)
 
     async def _tickers(self) -> dict[str, PerpTicker]:
         rows = await self.get("/fapi/v1/ticker/24hr")
@@ -268,7 +278,7 @@ class BinanceFuturesService(JsonClient):
                                            limit=min(max(limit, 1), 1500)))
 
     async def symbols(self) -> list[dict]:
-        return await cache.get_or_fetch("fut:symbols", 3600, self._symbols)
+        return await cache.get_or_fetch(self._key("symbols"), 3600, self._symbols)
 
     async def _symbols(self) -> list[dict]:
         return (await self.get("/fapi/v1/exchangeInfo"))["symbols"]
@@ -283,7 +293,7 @@ class BinanceFuturesService(JsonClient):
         )
         if isinstance(premium, BaseException):
             raise premium
-        out = FuturesOverview(index=premium)
+        out = FuturesOverview(provider=self.provider, index=premium)
         for name, value in (("open_interest", oi), ("long_short", ls), ("top_traders", top), ("taker", taker),
                             ("tickers", tickers)):
             if isinstance(value, BaseException):
@@ -330,13 +340,70 @@ class BinanceFuturesService(JsonClient):
         return parse_quarterly(symbols, by_symbol, int(utc_now().timestamp() * 1000))
 
 
-_service: BinanceFuturesService | None = None
+BLOCKED_MARKERS = ("HTTP 418", "HTTP 451", "HTTP 403")  # Binance refusing this host, not a bad request
 
 
-def get_futures() -> BinanceFuturesService:
+class ResilientFutures:
+    """Binance first; when it refuses this host (418 ban, 451 geo-block),
+    the fallback exchange answers for a while, then Binance gets retried.
+    Every method of the underlying services is reachable through it."""
+
+    def __init__(self, primary: BinanceFuturesService, fallback: BinanceFuturesService | None,
+                 cooldown: float = 600.0) -> None:
+        self.primary, self.fallback, self.cooldown = primary, fallback, cooldown
+        self._blocked_until = 0.0
+
+    @property
+    def blocked(self) -> bool:
+        return time.monotonic() < self._blocked_until
+
+    @property
+    def provider(self) -> str:
+        return self.fallback.provider if (self.blocked and self.fallback) else self.primary.provider
+
+    async def _call(self, name: str, *args, **kwargs):
+        if not (self.blocked and self.fallback):
+            try:
+                return await getattr(self.primary, name)(*args, **kwargs)
+            except UpstreamError as error:
+                if self.fallback is None or not any(marker in str(error) for marker in BLOCKED_MARKERS):
+                    raise
+                self._blocked_until = time.monotonic() + self.cooldown
+                log.warning("%s refused us (%s); using %s for %.0f s", self.primary.provider, error,
+                            self.fallback.provider, self.cooldown)
+        return await getattr(self.fallback, name)(*args, **kwargs)
+
+    def __getattr__(self, name: str):
+        if name.startswith("_"):
+            raise AttributeError(name)
+
+        async def method(*args, **kwargs):
+            return await self._call(name, *args, **kwargs)
+
+        return method
+
+    async def close(self) -> None:
+        await self.primary.close()
+        if self.fallback:
+            await self.fallback.close()
+
+
+_service: ResilientFutures | None = None
+
+
+def get_futures() -> ResilientFutures:
     global _service
     if _service is None:
         from app.config import get_settings
+        from app.services.futures_bybit import BybitFuturesService
 
-        _service = BinanceFuturesService(get_settings().binance_futures_url)
+        settings = get_settings()
+        binance = BinanceFuturesService(settings.binance_futures_url)
+        bybit = BybitFuturesService(settings.bybit_url)
+        if settings.futures_provider == "bybit":
+            _service = ResilientFutures(bybit, None)
+        elif settings.futures_provider == "binance":
+            _service = ResilientFutures(binance, None)
+        else:  # auto
+            _service = ResilientFutures(binance, bybit)
     return _service
