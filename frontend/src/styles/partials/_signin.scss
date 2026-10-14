@@ -1,0 +1,168 @@
+/* --------------------------------------------------------------------------
+   Sign-in bubble and one-click options
+   -------------------------------------------------------------------------- */
+
+/* The header's "Entrar" opens a speech bubble under it. The bubble is part
+   of the header, so it stays navy in both themes like the bar itself. */
+.signin {
+  position: relative;
+}
+
+.signin__bubble {
+  position: absolute;
+  top: calc(100% + 14px);
+  right: 0;
+  z-index: 30;
+  width: 290px;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--navy);
+  border: 1px solid var(--rule-strong);
+  box-shadow: var(--shadow);
+  animation: signin-pop 0.22s var(--ease-out);
+
+  /* the bubble's tail, pointing at the button */
+  &::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 26px;
+    width: 12px;
+    height: 12px;
+    background: var(--navy);
+    border-left: 1px solid var(--rule-strong);
+    border-top: 1px solid var(--rule-strong);
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes signin-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.signin__title {
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.signin__list {
+  display: grid;
+  gap: 6px;
+}
+
+/* One option = one way in. A button or a link, same look. */
+.signin__option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--rule);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s var(--ease-out);
+
+  svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  &:not(:disabled):hover {
+    border-color: var(--accent);
+    background: var(--accent-wash);
+    color: var(--ink);
+    transform: translateX(2px);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: wait;
+  }
+}
+
+.signin__option--wallet svg {
+  color: var(--accent);
+}
+
+.signin__hint {
+  margin-top: 8px;
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.signin__foot {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-align: center;
+
+  a {
+    color: var(--accent);
+  }
+}
+
+/* On the login/register pages the same options sit above the email form,
+   in the page's own colours. */
+.auth .signin__options {
+  .signin__option {
+    background: var(--bg-raised);
+    border-color: var(--rule-strong);
+  }
+
+  .notice {
+    margin-top: 10px;
+  }
+}
+
+.signin__divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.82rem;
+  color: var(--muted);
+
+  &::before,
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule-strong);
+  }
+}
+
+/* Inside the folded nav panel the bubble opens in place, full width. */
+@media (max-width: 900px) {
+  .signin {
+    width: 100%;
+  }
+
+  .signin__bubble {
+    position: static;
+    width: 100%;
+    margin-top: 12px;
+    animation: none;
+
+    &::before {
+      display: none;
+    }
+  }
+}
