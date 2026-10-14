@@ -51,6 +51,7 @@ Or everything at once with Docker: `docker compose up --build`.
 | Course certificates: progress, issue, public verification, SVG render | `GET /api/certificates/courses`, `POST /api/certificates/{course}/issue`, `GET /api/certificates/{code}` and `.svg` + `/certificates` pages | done |
 | Membership (free / Pro): admin grants, a month of Pro for finishing every quest | `PATCH /api/admin/users/{id} {plan, plan_days}` + `/pro` page | done (card payments later) |
 | Member reviews (moderated) with real usage numbers; legal & privacy page | `GET/POST /api/reviews`, `GET/PATCH /api/admin/reviews` + home section, `/legal` | done (sample cards are labelled as samples) |
+| Member levels Bronze → Silver → Gold → Platinum from real activity; certificates carry the level and upgrade | `GET /api/levels`, `/api/levels/me` + medals on `/pro`, `/certificates`, the header | done |
 | Smart contracts: MonsterCoin (MBK), soulbound Monster Badges, paid Monster Certificates | `contracts/` (Foundry, Base Sepolia) | compiled and tested; deploy pending |
 | Real trading | — | **not connected on purpose** (`PAPER_TRADING=true`) |
 
