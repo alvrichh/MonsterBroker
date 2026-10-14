@@ -80,8 +80,14 @@ docs/news/                informes diarios del radar
 - **Base de datos**: SQLAlchemy async. Sin configurar nada usa SQLite en
   `backend/data/monsterbroker.db`. Para producción pon un Postgres gratuito
   en `DATABASE_URL` (Neon no pausa el proyecto; Supabase lo pausa tras 7 días
-  sin uso): `postgresql+asyncpg://user:pass@host/db`. Las tablas se crean al
-  arrancar.
+  sin uso). Vale la URL tal cual la da el proveedor (`postgresql://…?sslmode=require`):
+  se normaliza para asyncpg. Las tablas se crean al arrancar, por la URL sin
+  pooler (`DATABASE_URL_UNPOOLED`) si existe.
+- **Neon desde la terminal**: el repo lleva los *agent skills* de Neon en
+  `.claude/skills/` (`npx neon skills -y`, requiere Node ≥ 22). `npx neon claim
+  create --env-pull` crea un Postgres sin cuenta y escribe `DATABASE_URL` en
+  `.env.local` (el backend lo lee); `npx neon claim accept` lo pasa a tu
+  cuenta. Un proyecto sin reclamar caduca a las 72 h.
 - **Registro**: el usuario recibe un correo con un enlace de confirmación
   (caduca en 24 h) y no puede entrar hasta confirmarlo. Con
   `REQUIRE_EMAIL_VERIFICATION=false` entra directamente.
