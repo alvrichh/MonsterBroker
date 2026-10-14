@@ -1,0 +1,77 @@
+# Render Blueprint: the whole app on one platform, free tier.
+#   API      → Python web service (FastAPI), Frankfurt: Binance's public API refuses US addresses.
+#   Frontend → static site (Vite build) served from Render's CDN.
+#   Database → Neon (DATABASE_URL), set in the dashboard, never here.
+# The services find each other through fromService, so renaming them is safe.
+# Each service's own URL still has to reach the GitHub OAuth app's redirect URIs:
+#   https://<api host>/api/auth/oauth/github/callback
+services:
+  - type: web
+    name: monsterbroker-api
+    runtime: python
+    region: frankfurt
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: PAPER_TRADING
+        value: "true"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PUBLIC_API_URL
+        fromService:
+          type: web
+          name: monsterbroker-api
+          property: host
+      - key: FRONTEND_URL
+        fromService:
+          type: web
+          name: monsterbroker
+          property: host
+      # Set in the dashboard (secrets): the Neon URLs, who is admin, GitHub OAuth.
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_URL_UNPOOLED
+        sync: false
+      - key: ADMIN_EMAILS
+        sync: false
+      - key: GITHUB_CLIENT_ID
+        sync: false
+      - key: GITHUB_CLIENT_SECRET
+        sync: false
+      # No mail provider yet: accounts work without confirming the email.
+      - key: EMAIL_BACKEND
+        value: console
+      - key: REQUIRE_EMAIL_VERIFICATION
+        value: "false"
+      - key: NEWS_AUTO_REFRESH
+        value: "true"
+
+  - type: web
+    name: monsterbroker
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: VITE_API_HOST
+        fromService:
+          type: web
+          name: monsterbroker-api
+          property: host
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
