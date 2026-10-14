@@ -18,7 +18,10 @@ cd frontend && npm run build
 
 - **Nunca trading real.** `PAPER_TRADING=true` es el único modo soportado;
   `LiveExecutor` lanza `NotImplementedError` a propósito. No lo "arregles"
-  sin que el usuario lo pida de forma explícita.
+  sin que el usuario lo pida de forma explícita. Los perpetuos
+  (`config.market = perp`, largos y cortos con apalancamiento) son siempre
+  papel: `PerpExecutor` simula margen aislado, comisión taker, funding y
+  liquidación con datos públicos de Binance Futures.
 - `.env` no se commitea. Las claves se leen solo en `app/config.py`.
 - El bot de noticias (Action `daily-news.yml`) solo escribe en
   `backend/data/news/` y `docs/news/`. Nada más se commitea automáticamente.
