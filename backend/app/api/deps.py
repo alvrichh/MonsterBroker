@@ -17,6 +17,9 @@ from app.config import Settings, get_settings
 from app.db.database import get_session
 from app.db.models import ROLE_ADMIN, User
 from app.news.collector import NewsCollector, get_news_collector
+from app.onchain.chains import chain_by_id
+from app.onchain.rewards import Web3Minter, minter_address
+from app.onchain.token import TokenService
 from app.onchain.wallet import WalletService
 from app.services.auth import AuthService
 from app.services.coingecko import CoinGeckoService, get_coingecko
@@ -25,6 +28,7 @@ from app.services.email import EmailService
 from app.services.exchange import MarketDataService, get_market_service
 from app.services.futures import BinanceFuturesService, get_futures
 from app.services.oauth import build_oauth
+from app.services.quests import QuestService
 from app.services.sentiment import SentimentService, get_sentiment
 from app.services.siwe import SiweService
 
@@ -108,10 +112,36 @@ def get_siwe(settings: SettingsDep) -> SiweService:
     return _siwe
 
 
+_token: TokenService | None = None
+_quests: QuestService | None = None
+
+
+def get_token(settings: SettingsDep) -> TokenService:
+    """Read-only view of MBK and the badges on CHAIN_ID."""
+    global _token
+    if _token is None:
+        _token = TokenService(settings.chain_id, settings.token_address, settings.badge_address, settings.chain_rpc_url)
+    return _token
+
+
+def get_quests(settings: SettingsDep) -> QuestService:
+    """Quests and claims. The minter exists only with a key and both addresses."""
+    global _quests
+    if _quests is None:
+        minter = None
+        if settings.minter_private_key and settings.token_address and settings.badge_address:
+            rpc = settings.chain_rpc_url or chain_by_id(settings.chain_id).public_rpc
+            minter = Web3Minter(rpc, settings.chain_id, settings.token_address, settings.badge_address,
+                                settings.minter_private_key)
+        _quests = QuestService(minter, settings.public_api_url, settings.frontend_url,
+                               minter_address=minter_address(settings.minter_private_key))
+    return _quests
+
+
 def reset_singletons() -> None:
     """For tests: forget the cached services so new settings apply."""
-    global _agent, _auth, _email, _oauth, _siwe
-    _agent = _auth = _email = _oauth = _siwe = None
+    global _agent, _auth, _email, _oauth, _siwe, _token, _quests
+    _agent = _auth = _email = _oauth = _siwe = _token = _quests = None
 
 
 _bearer = HTTPBearer(auto_error=False)
@@ -147,5 +177,7 @@ AuthDep = Annotated[AuthService, Depends(get_auth)]
 EmailDep = Annotated[EmailService, Depends(get_email)]
 OAuthDep = Annotated[tuple, Depends(get_oauth)]
 SiweDep = Annotated[SiweService, Depends(get_siwe)]
+TokenDep = Annotated[TokenService, Depends(get_token)]
+QuestsDep = Annotated[QuestService, Depends(get_quests)]
 CurrentUser = Annotated[User, Depends(get_current_user)]
 AdminUser = Annotated[User, Depends(require_admin)]
