@@ -149,6 +149,53 @@
   }
 }
 
+/* "Sign in to see this": a blurred preview with one button over it, or a
+   compact row when there is nothing worth previewing. */
+.gate {
+  position: relative;
+}
+
+.gate__preview {
+  filter: blur(5px) saturate(0.6);
+  opacity: 0.55;
+  pointer-events: none;
+  user-select: none;
+  max-height: 320px;
+  overflow: hidden;
+  mask-image: linear-gradient(to bottom, #000 40%, transparent);
+}
+
+.gate__cta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+
+  p {
+    flex: 1;
+    min-width: 200px;
+    margin: 0;
+    color: var(--ink-soft);
+  }
+}
+
+.gate:not(.gate--compact) .gate__cta {
+  position: absolute;
+  inset: auto 16px 16px;
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: linear-gradient(135deg, var(--accent-wash), transparent 70%), var(--bg-raised);
+  box-shadow: var(--shadow);
+}
+
+.gate--compact {
+  margin: 12px 0;
+  padding: 12px 18px;
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: linear-gradient(135deg, var(--accent-wash), transparent 70%), var(--bg-glass);
+}
+
 /* Inside the folded nav panel the bubble opens in place, full width. */
 @media (max-width: 900px) {
   .signin {
