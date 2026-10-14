@@ -1,0 +1,61 @@
+/* --------------------------------------------------------------------------
+   Admin: users table; auth extras (sent panel, inline link button)
+   -------------------------------------------------------------------------- */
+
+.users-table {
+  td {
+    vertical-align: middle;
+  }
+
+  tr.is-off td {
+    opacity: 0.55;
+  }
+}
+
+.users-table__actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  min-width: 260px;
+}
+
+.btn--danger:not(:disabled):hover {
+  border-color: var(--down);
+  color: var(--down);
+}
+
+.nav__link--admin {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.auth__sent {
+  align-items: stretch;
+  text-align: center;
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .btn {
+    align-self: center;
+  }
+}
+
+/* A button that reads as a link, for "send me another one" inside a notice */
+.link-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+  font: inherit;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+}
