@@ -23,10 +23,19 @@
   <meta name="twitter:image" content="/images/brand/og.png">
   <meta name="theme-color" content="#0f3a50">
 
+  <!-- Tab icon: the Monster mark on a transparent background, white on dark
+       tab bars and navy on light ones. It follows the browser/OS colour scheme
+       (the tab bar's colour), not the site's theme toggle. The .ico is the
+       fallback for browsers that ignore `media` (navy mark). The 192px and
+       Apple icons keep their navy square: they live on phone home screens.
+       Scheme-specific links go last: Firefox uses the last matching one. -->
   <link rel="icon" href="/images/brand/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/images/brand/favicon-192.png">
   <link rel="apple-touch-icon" href="/images/brand/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-dark-32.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/brand/favicon-dark-64.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-light-32.png" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/brand/favicon-light-64.png" media="(prefers-color-scheme: dark)">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
