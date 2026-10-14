@@ -64,6 +64,26 @@ class Settings(BaseSettings):
     admin_emails: list[str] = []
     frontend_url: str = "http://localhost:5173"  # where the email links point
 
+    # Social login. A provider appears in the sign-in menu only when both values are set.
+    # Redirect URI to register at each provider: {public_api_url}/api/auth/oauth/{provider}/callback
+    public_api_url: str = "http://127.0.0.1:8000"
+    google_client_id: str = ""
+    google_client_secret: str = ""
+    github_client_id: str = ""
+    github_client_secret: str = ""
+    microsoft_client_id: str = ""
+    microsoft_client_secret: str = ""
+    microsoft_tenant: str = "common"  # personal + work accounts
+
+    # Sign-In with Ethereum. The domain the wallet shows must match the site.
+    siwe_domain: str = ""  # empty = derived from FRONTEND_URL
+
+    # On-chain: Base Sepolia by default. Addresses come from contracts/README.md's deploy step.
+    chain_id: int = 84532
+    token_address: str = ""
+    badge_address: str = ""
+    minter_private_key: str = ""  # the backend wallet with MINTER_ROLE; never commit it
+
     # Database: empty = SQLite under data/. Postgres: postgresql://user:pass@host/db (libpq
     # style is fine; it is normalised for asyncpg). The unpooled URL, when the
     # provider gives one, is used for DDL only.
@@ -83,6 +103,12 @@ class Settings(BaseSettings):
     data_dir: Path = BACKEND_DIR / "data"
     logs_dir: Path = BACKEND_DIR / "logs"
     docs_dir: Path = REPO_DIR / "docs"
+
+    @property
+    def siwe_host(self) -> str:
+        if self.siwe_domain:
+            return self.siwe_domain
+        return self.frontend_url.split("://", 1)[-1].rstrip("/")
 
     @property
     def db_url(self) -> str:
