@@ -7,21 +7,18 @@ import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
 import { money } from '../lib/format.js';
-import { storage } from '../lib/storage.js';
 
 const short = (address) => `${address.slice(0, 6)}…${address.slice(-4)}`;
 
 // Where to go to complete a quest that is not done yet.
 const QUEST_LINKS = { first_tick: '/bot', glossary: '/futures' };
 
-// A quest's state on screen. Client-attested quests ("self") also need the
-// local flag the relevant screen sets when the user has actually been there.
+// A quest's state on screen; the API already knows what the user has done.
 function questState(quest, user) {
   if (quest.claim) return quest.claim.status; // pending | minted | failed
   if (!user) return 'signin';
   if (!user.wallet_address) return 'nowallet';
-  const seen = quest.check !== 'self' || Boolean(storage.get(`quest.${quest.id}`));
-  return quest.eligible && seen ? 'claimable' : 'locked';
+  return quest.eligible ? 'claimable' : 'locked';
 }
 
 export default function Token() {
