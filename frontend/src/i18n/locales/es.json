@@ -71,7 +71,9 @@
   "bot.symbols": "Pares (separados por coma)",
   "bot.timeframe": "Marco temporal",
   "bot.fraction": "Fracción del efectivo por compra",
+  "bot.fractionHint": "Cuánto de tu efectivo mete el bicho en cada compra.",
   "bot.minConfidence": "Confianza mínima",
+  "bot.minConfidenceHint": "Por debajo de esto, la señal se apunta pero no se ejecuta. 0 % = a todo que sí.",
   "bot.llm": "Pedir segunda opinión a Claude",
   "bot.llmOff": "Sin ANTHROPIC_API_KEY en el backend: las señales van a pelo, sin que nadie las revise.",
   "bot.save": "Guardar",
@@ -166,7 +168,7 @@
   "chart.volume": "Volumen",
   "chart.live": "En vivo",
   "chart.offline": "Se ha caído el directo",
-  "chart.loading": "Cargando velas…",
+  "chart.loading": "Encendiendo las velas…",
   "chart.open": "Apertura",
   "chart.high": "Máx",
   "chart.low": "Mín",
@@ -245,6 +247,26 @@
 
   "footer.made": "Hecho con cariño (y mucho café) por Álvaro Rodríguez Molina. Proyecto de aprendizaje, código abierto.",
   "footer.disclaimer": "Nada de esto es asesoramiento financiero. El bot juega con dinero simulado; con el tuyo decides tú.",
-  "notfound.title": "Aquí no hay nada. Ni lo ha habido.",
-  "notfound.back": "Volver al inicio"
+  "notfound.title": "Esta página ha hecho un rug pull.",
+  "notfound.back": "Volver al inicio",
+
+  "home.coins.spark": "Últimos 7 días (velas de 4 h)",
+  "notfound.lead": "Aquí había algo… y se ha esfumado con la liquidez. Tranqui, el resto de la web sigue en pie.",
+  "notfound.market": "Ver el mercado",
+  "loading.0": "Despertando al bicho…",
+  "loading.1": "Leyendo velas…",
+  "loading.2": "Preguntando a Binance…",
+  "loading.3": "Calentando motores…",
+  "loading.4": "Contando satoshis…",
+  "loading.5": "Un segundito, que esto vuela…",
+  "pulse.kicker": "El bicho dice…",
+  "pulse.empty": "Todavía no ha abierto la boca. Lánzale un tick y que hable.",
+  "vs.title": "El bicho contra el HODL",
+  "vs.waiting": "Lanza el primer tick y empezamos a medir: el bot contra comprar BTC y no tocarlo.",
+  "vs.since": "desde {when}",
+  "vs.bot": "El bicho",
+  "vs.hodl": "Comprar {coin} y aguantar",
+  "vs.win": "El bicho va ganando a tu primo el del HODL. 😎",
+  "vs.lose": "De momento gana el HODL. El bicho está tomando nota.",
+  "vs.tie": "Empate técnico. Aquí nadie invita a cenar."
 }
