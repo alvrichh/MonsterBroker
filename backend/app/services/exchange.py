@@ -15,7 +15,7 @@ from app.utils.logger import get_logger
 
 log = get_logger(__name__)
 
-BINANCE_API = "https://api.binance.com/api/v3"
+BINANCE_API = "https://data-api.binance.vision/api/v3"  # see Settings.binance_spot_url
 TIMEFRAMES = ("1m", "5m", "15m", "30m", "1h", "4h", "1d", "1w")
 
 
@@ -104,5 +104,7 @@ _service: MarketDataService | None = None
 def get_market_service() -> MarketDataService:
     global _service
     if _service is None:
-        _service = MarketDataService()
+        from app.config import get_settings
+
+        _service = MarketDataService(get_settings().binance_spot_url)
     return _service

@@ -197,8 +197,8 @@ def parse_quarterly(symbols: list[dict], premiums: dict[str, PremiumIndex], now_
 
 
 class BinanceFuturesService(JsonClient):
-    def __init__(self) -> None:
-        super().__init__(FAPI, timeout=10.0)
+    def __init__(self, base_url: str = FAPI) -> None:
+        super().__init__(base_url, timeout=10.0)
 
     async def premium(self, symbol: str) -> PremiumIndex:
         return await cache.get_or_fetch(f"fut:premium:{symbol}", 10,
@@ -336,5 +336,7 @@ _service: BinanceFuturesService | None = None
 def get_futures() -> BinanceFuturesService:
     global _service
     if _service is None:
-        _service = BinanceFuturesService()
+        from app.config import get_settings
+
+        _service = BinanceFuturesService(get_settings().binance_futures_url)
     return _service
