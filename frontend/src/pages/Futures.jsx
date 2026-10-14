@@ -8,6 +8,8 @@ import LiquidationFeed from '../components/LiquidationFeed.jsx';
 import Notice from '../components/Notice.jsx';
 import StatCard from '../components/StatCard.jsx';
 import { TIMEFRAMES } from '../data/coins.js';
+import SignInGate from '../components/SignInGate.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 import { useBinanceStream } from '../hooks/useBinanceStream.js';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
@@ -37,7 +39,9 @@ export default function Futures() {
 
   const klineSpec = useMemo(() => ({ symbol, interval: timeframe }), [symbol, timeframe]);
   const streamSymbols = useMemo(() => [symbol], [symbol]);
-  const { candle, marks, liquidations, connected } = useBinanceStream(streamSymbols, klineSpec, { market: 'futures', markPrice: true, liquidations: true });
+  const { user } = useAuth();
+  // The live liquidation feed is for members: visitors don't even open that stream.
+  const { candle, marks, liquidations, connected } = useBinanceStream(streamSymbols, klineSpec, { market: 'futures', markPrice: true, liquidations: Boolean(user) });
 
   const o = overview.data;
   const live = marks[symbol];
@@ -130,7 +134,9 @@ export default function Futures() {
           <h2 className="section__title--small">{t('futures.lsHistory')}</h2>
           <AreaChart points={lsPoints} formatter={(v) => `${v.toFixed(0)}%`} timeVisible />
         </section>
-        <LiquidationFeed items={liquidations} connected={connected} />
+        <SignInGate text={t('gate.liq')}>
+          <LiquidationFeed items={liquidations} connected={connected} />
+        </SignInGate>
       </div>
 
       <section className="card">
