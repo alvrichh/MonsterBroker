@@ -1,0 +1,68 @@
+/* --------------------------------------------------------------------------
+   Wallet, auth, not found
+   -------------------------------------------------------------------------- */
+
+.balance {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.balance__value {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--accent);
+
+  span {
+    font-size: 1rem;
+    color: var(--muted);
+  }
+}
+
+.balance__address {
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
+.auth {
+  padding-top: clamp(32px, 6vw, 64px);
+
+  .form {
+    align-items: stretch;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  > .form > .muted {
+    text-align: center;
+    margin-top: -8px;
+  }
+}
+
+.auth__logo {
+  align-self: center;
+  width: 80px;
+  filter: drop-shadow(0 0 12px rgba(230, 10, 102, 0.4));
+}
+
+.auth__switch {
+  text-align: center;
+  font-size: 0.9rem;
+
+  a {
+    color: var(--accent);
+  }
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: clamp(48px, 10vw, 96px);
+  text-align: center;
+}
