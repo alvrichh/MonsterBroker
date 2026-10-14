@@ -10,19 +10,21 @@ from uuid import uuid4
 
 from pydantic import BaseModel
 from sqlalchemy import select
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.agent.state import AgentState
-from app.db.models import QuestClaim, User
+from app.db.models import QuestClaim, User, UserEvent
 from app.onchain.rewards import Minter
 from app.onchain.token import TOKEN_DECIMALS, quest_kind
 from app.utils.helpers import utc_now
 
 STATUS_PENDING, STATUS_MINTED, STATUS_FAILED = "pending", "minted", "failed"
 
-# How a quest is checked: the account has a wallet | the paper bot has run a
-# tick | the client attests it (reading the glossary leaves no server trace).
-CHECK_WALLET, CHECK_BOT_TICK, CHECK_SELF = "wallet", "bot_tick", "self"
+# Events the API records itself when the signed-in user does the thing.
+EVENT_BOT_TICK = "bot_tick"
+# Events the client reports (reading a page leaves no other trace). The
+# rewards are testnet-only, so a self-report is an acceptable proof here.
+CLIENT_EVENTS = frozenset({"glossary_read"})
 
 
 @dataclass(frozen=True, slots=True)
@@ -30,7 +32,7 @@ class Quest:
     id: str
     mbk: int  # whole MBK
     badge: bool
-    check: str
+    event: str | None  # None = "the account has a wallet"
     title: str  # English, for the on-chain metadata; the UI has its own strings
     description: str
 
@@ -38,11 +40,11 @@ class Quest:
 QUESTS: dict[str, Quest] = {
     q.id: q
     for q in (
-        Quest("welcome", 10, True, CHECK_WALLET, "Welcome aboard",
+        Quest("welcome", 10, True, None, "Welcome aboard",
               "Linked a wallet to a MonsterBroker account and signed in without a password."),
-        Quest("first_tick", 25, True, CHECK_BOT_TICK, "First tick",
-              "Watched the Monster run a paper-trading tick on real Binance candles."),
-        Quest("glossary", 15, True, CHECK_SELF, "Futures glossary",
+        Quest("first_tick", 25, True, EVENT_BOT_TICK, "First tick",
+              "Ran a paper-trading tick of the Monster on real Binance candles."),
+        Quest("glossary", 15, True, "glossary_read", "Futures glossary",
               "Read the futures glossary: mark price, funding, open interest, basis, liquidation."),
     )
 }
@@ -100,29 +102,48 @@ class QuestService:
         }
 
     @staticmethod
-    def eligible(quest: Quest, user: User, state: AgentState | None) -> bool:
-        if quest.check == CHECK_WALLET:
+    def eligible(quest: Quest, user: User, events: set[str]) -> bool:
+        if quest.event is None:
             return bool(user.wallet_address)
-        if quest.check == CHECK_BOT_TICK:
-            return bool(state and state.ticks > 0)
-        return True  # CHECK_SELF: the client says so
+        return quest.event in events
+
+    # ------------------------------------------------------------------ events
+
+    @staticmethod
+    async def events_for(session: AsyncSession, user_id: str) -> set[str]:
+        rows = await session.scalars(select(UserEvent.event).where(UserEvent.user_id == user_id))
+        return set(rows)
+
+    @staticmethod
+    async def record_event(session: AsyncSession, user_id: str, event: str) -> bool:
+        """Remember that the user did `event`. True the first time, False after."""
+        query = select(UserEvent.id).where(UserEvent.user_id == user_id, UserEvent.event == event)
+        if await session.scalar(query):
+            return False
+        session.add(UserEvent(id=uuid4().hex[:12], user_id=user_id, event=event, created_at=utc_now()))
+        try:
+            await session.commit()
+        except IntegrityError:  # two requests raced; the other one won
+            await session.rollback()
+            return False
+        return True
 
     # ------------------------------------------------------------------ claims
 
     @staticmethod
-    async def claims_for(session: AsyncSession, user: User) -> dict[str, QuestClaim]:
-        rows = await session.scalars(select(QuestClaim).where(QuestClaim.user_id == user.id))
+    async def claims_for(session: AsyncSession, user_id: str) -> dict[str, QuestClaim]:
+        rows = await session.scalars(select(QuestClaim).where(QuestClaim.user_id == user_id))
         return {claim.quest: claim for claim in rows}
 
-    async def claim(self, session: AsyncSession, user: User, quest_id: str, state: AgentState | None) -> QuestClaim:
+    async def claim(self, session: AsyncSession, user: User, quest_id: str) -> QuestClaim:
         quest = QUESTS.get(quest_id)
         if quest is None:
             raise QuestError("Ese reto no existe.", "unknown_quest", 404)
         if not user.wallet_address:
             raise QuestError("Vincula una wallet para recibir recompensas.", "no_wallet")
-        if not self.eligible(quest, user, state):
+        if not self.eligible(quest, user, await self.events_for(session, user.id)):
             raise QuestError("Todavía no has completado ese reto.", "not_eligible")
-        if quest_id in await self.claims_for(session, user):
+        if quest_id in await self.claims_for(session, user.id):
             raise QuestError("Ese reto ya está reclamado.", "already_claimed", 409)
         claim = QuestClaim(id=uuid4().hex[:12], user_id=user.id, quest=quest_id, wallet_address=user.wallet_address,
                            mbk=quest.mbk, status=STATUS_PENDING, created_at=utc_now())
