@@ -1,0 +1,224 @@
+/* --------------------------------------------------------------------------
+   Charts and market KPIs: candle chart, legend, KPI row, meters, Fear & Greed,
+   coins table. Gridlines are hairlines; the data is the only loud thing.
+   -------------------------------------------------------------------------- */
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chart__canvas {
+  position: relative;
+  width: 100%;
+  height: clamp(280px, 45vw, 440px);
+}
+
+.chart__canvas--short {
+  height: clamp(160px, 24vw, 220px);
+}
+
+.chart__legend {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  min-height: 1.4em;
+
+  em {
+    font-style: normal;
+    color: var(--muted);
+    margin-right: 4px;
+  }
+}
+
+.chart__keys {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.chart__key {
+  display: inline-block;
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  margin-left: 8px;
+}
+
+.chart__key--fast {
+  background: var(--accent);
+}
+
+.chart__key--slow {
+  background: var(--series-2);
+}
+
+.card--chart {
+  padding-bottom: 8px;
+}
+
+.source {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+/* KPI row ---------------------------------------------------------------- */
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.kpi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.kpi--2 {
+  grid-template-columns: minmax(200px, 1fr) minmax(0, 3fr);
+  margin-bottom: 16px;
+}
+
+/* Meter: a same-ramp track with the share filled in. */
+.meter {
+  position: relative;
+  height: 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background: var(--accent-wash);
+  overflow: hidden;
+  display: flex;
+}
+
+.meter__fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px 0 0 4px;
+}
+
+.meter__fill--2 {
+  background: var(--series-2);
+  border-radius: 0;
+  margin-left: 2px; /* surface gap between the two shares */
+}
+
+.meter--fng {
+  overflow: visible;
+  background: linear-gradient(90deg, var(--down-wash), var(--rule) 50%, var(--up-wash));
+}
+
+.meter__needle {
+  position: absolute;
+  top: -4px;
+  width: 3px;
+  height: 16px;
+  margin-left: -1px;
+  border-radius: 2px;
+  background: var(--ink);
+  box-shadow: 0 0 0 2px var(--bg-raised);
+}
+
+/* Fear & Greed ----------------------------------------------------------- */
+
+.fng__row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.fng__value {
+  font-family: var(--font-body);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.fng__label {
+  font-weight: 600;
+}
+
+.fng--down .fng__label,
+.fng--fear .fng__label {
+  color: var(--down);
+}
+
+.fng--up .fng__label,
+.fng--greed .fng__label {
+  color: var(--up);
+}
+
+.fng__spark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+
+  .sparkline {
+    width: 160px;
+    flex: none;
+  }
+}
+
+/* Coins and protocols tables -------------------------------------------- */
+
+.table .num {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.coin {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+
+  img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    flex: none;
+  }
+
+  svg {
+    opacity: 0.5;
+  }
+
+  &:not(:disabled):hover .coin__name {
+    color: var(--accent);
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.coin__name {
+  font-weight: 600;
+}
+
+.coin__symbol {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.coins-table tr.is-selected td {
+  background: var(--accent-wash);
+}
+
+.coins-table .sparkline {
+  width: 110px;
+  height: 30px;
+}
