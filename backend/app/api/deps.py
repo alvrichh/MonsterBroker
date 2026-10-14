@@ -9,7 +9,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
 from app.agent.agent import TradingAgent
-from app.agent.executor import LiveExecutor, PaperExecutor
+from app.agent.executor import LiveExecutor, PaperExecutor, PerpExecutor
 from app.agent.memory import Memory
 from app.agent.state import AgentConfig, AgentState, Portfolio
 from app.config import Settings, get_settings
@@ -44,7 +44,9 @@ def get_agent(settings: SettingsDep) -> TradingAgent:
         )
         memory = Memory(settings.data_dir / "paper" / "state.json", initial)
         executor = PaperExecutor() if settings.paper_trading else LiveExecutor()
-        _agent = TradingAgent(get_market_service(), memory, executor, reviewer=_build_reviewer(settings))
+        # Perpetuals are paper-only, whatever PAPER_TRADING says.
+        _agent = TradingAgent(get_market_service(), memory, executor, reviewer=_build_reviewer(settings),
+                              futures=get_futures(), perp_executor=PerpExecutor())
     return _agent
 
 
