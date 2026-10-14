@@ -11,10 +11,17 @@ def test_strategies_are_listed(client, auth_headers):
     assert {"sma_cross", "rsi_reversion"} <= names
 
 
-def test_bot_requires_a_signed_in_user(client):
-    assert client.get("/api/bot/status").status_code == 401
-    assert client.get("/api/wallet/chains").status_code == 401
-    assert client.get("/api/market/tickers").status_code != 401  # public data stays public
+def test_visitors_can_watch_the_bot_but_not_drive_it(client):
+    # watching is public, so people can see what the app does without an account
+    assert client.get("/api/bot/status").status_code == 200
+    assert client.get("/api/bot/strategies").status_code == 200
+    assert client.get("/api/bot/trades").status_code == 200
+    assert client.get("/api/bot/decisions").status_code == 200
+    assert client.get("/api/wallet/chains").status_code == 200
+    # driving the shared paper portfolio needs an account
+    assert client.post("/api/bot/tick").status_code == 401
+    assert client.post("/api/bot/reset").status_code == 401
+    assert client.put("/api/bot/config", json={"trade_fraction": 0.5}).status_code == 401
 
 
 def test_bot_status_starts_flat(client, settings_env, auth_headers):
