@@ -4,6 +4,7 @@ import MarketOverview from '../components/MarketOverview.jsx';
 import Notice from '../components/Notice.jsx';
 import PriceCard from '../components/PriceCard.jsx';
 import TopCoins from '../components/TopCoins.jsx';
+import Loading from '../components/Loading.jsx';
 import { HOME_SYMBOLS, TIMEFRAMES } from '../data/coins.js';
 import { useBinanceStream } from '../hooks/useBinanceStream.js';
 import { usePolling } from '../hooks/usePolling.js';
@@ -98,7 +99,7 @@ export default function Dashboard() {
       </div>
 
       {tickers.error && <Notice tone="error" onRetry={tickers.refresh} retryLabel={t('common.retry')}>{t('dashboard.empty')}</Notice>}
-      {tickers.loading && !tickers.data && <p className="muted">{t('common.loading')}</p>}
+      {tickers.loading && !tickers.data && <Loading />}
 
       <div className="price-grid">
         {liveTickers.map((ticker) => (
