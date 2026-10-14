@@ -1,7 +1,8 @@
 # MonsterBroker — guía para agentes
 
 Monorepo: `backend/` (Python 3.12, FastAPI) y `frontend/` (React 19, Vite,
-JSX, SCSS). Español en UI y docs; commits, código e identificadores en inglés.
+JSX, SCSS). Español en UI y en `docs/`; los README, los commits, el código y
+los identificadores en inglés.
 Commits pequeños (uno por cambio), sin trailers de co-autoría.
 
 ## Comandos
