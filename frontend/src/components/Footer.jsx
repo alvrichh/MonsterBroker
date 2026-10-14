@@ -15,6 +15,7 @@ export default function Footer() {
           <Wordmark className="footer__wordmark" onDark />
           <p>{t('footer.made')}</p>
           <p className="footer__disclaimer">{t('footer.disclaimer')}</p>
+          <p className="footer__disclaimer">{t('footer.hosting')}</p>
           <p className="footer__links">
             <a href="https://github.com/alvrichh/MonsterBroker" target="_blank" rel="noreferrer">GitHub</a>
             <span aria-hidden="true">·</span>
