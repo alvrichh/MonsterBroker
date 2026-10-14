@@ -541,6 +541,9 @@
   "cert.event.perp_mode": "Switch the Monster to perpetuals",
   "cert.event.wallet_lookup": "Look up a wallet's balance",
 
+  "futures.provider": "Data: {name}",
+  "futures.providerHint": "Binance refuses the server the API runs on, so perpetuals data comes from Bybit. Live liquidations still come from Binance (straight from your browser).",
+
   "footer.made": "Made with love (and lots of coffee) by Álvaro Rodríguez Molina. Learning project, open source.",
   "footer.disclaimer": "Nothing here is financial advice. The bot plays with simulated money; with yours, you call the shots.",
   "notfound.title": "This page got rug-pulled.",

@@ -80,6 +80,9 @@ export default function Futures() {
           ))}
         </div>
         <span className={`pill ${connected ? 'pill--ok' : 'pill--muted'}`}>{connected ? t('chart.live') : t('chart.offline')}</span>
+        {o?.provider && o.provider !== 'binance' && (
+          <span className="pill pill--muted" title={t('futures.providerHint')}>{t('futures.provider', { name: 'Bybit' })}</span>
+        )}
       </div>
 
       {overview.error && <Notice tone="error" onRetry={overview.refresh} retryLabel={t('common.retry')}>{overview.error.message}</Notice>}
