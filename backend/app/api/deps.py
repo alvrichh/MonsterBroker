@@ -22,6 +22,7 @@ from app.onchain.rewards import Web3Minter, minter_address
 from app.onchain.token import TokenService
 from app.onchain.wallet import WalletService
 from app.services.auth import AuthService
+from app.services.certificates import CertificateService
 from app.services.coingecko import CoinGeckoService, get_coingecko
 from app.services.defillama import DefiLlamaService, get_defillama
 from app.services.email import EmailService
@@ -138,10 +139,20 @@ def get_quests(settings: SettingsDep) -> QuestService:
     return _quests
 
 
+_certs: CertificateService | None = None
+
+
+def get_certificates(settings: SettingsDep) -> CertificateService:
+    global _certs
+    if _certs is None:
+        _certs = CertificateService(settings.frontend_url, settings.public_api_url)
+    return _certs
+
+
 def reset_singletons() -> None:
     """For tests: forget the cached services so new settings apply."""
-    global _agent, _auth, _email, _oauth, _siwe, _token, _quests
-    _agent = _auth = _email = _oauth = _siwe = _token = _quests = None
+    global _agent, _auth, _email, _oauth, _siwe, _token, _quests, _certs
+    _agent = _auth = _email = _oauth = _siwe = _token = _quests = _certs = None
 
 
 _bearer = HTTPBearer(auto_error=False)
@@ -157,6 +168,17 @@ async def get_current_user(
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Sesión no válida o caducada.",
                             headers={"WWW-Authenticate": "Bearer"})
     return user
+
+
+async def get_optional_user(
+    credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(_bearer)],
+    session: DbSession,
+    auth: Annotated[AuthService, Depends(get_auth)],
+) -> User | None:
+    """Public routes that add something for a signed-in user."""
+    if not credentials:
+        return None
+    return await auth.user_from_token(session, credentials.credentials)
 
 
 def require_admin(user: Annotated[User, Depends(get_current_user)]) -> User:
@@ -179,5 +201,7 @@ OAuthDep = Annotated[tuple, Depends(get_oauth)]
 SiweDep = Annotated[SiweService, Depends(get_siwe)]
 TokenDep = Annotated[TokenService, Depends(get_token)]
 QuestsDep = Annotated[QuestService, Depends(get_quests)]
+CertsDep = Annotated[CertificateService, Depends(get_certificates)]
 CurrentUser = Annotated[User, Depends(get_current_user)]
+OptionalUser = Annotated[User | None, Depends(get_optional_user)]
 AdminUser = Annotated[User, Depends(require_admin)]
