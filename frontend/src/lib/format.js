@@ -5,7 +5,7 @@ const moneyFormatters = new Map();
 export function money(value, { digits } = {}) {
   if (value === null || value === undefined || Number.isNaN(value)) return '—';
   const abs = Math.abs(value);
-  const decimals = digits ?? (abs >= 1000 ? 0 : abs >= 1 ? 2 : abs >= 0.01 ? 4 : 6);
+  const decimals = digits ?? (abs >= 1000 ? 0 : abs >= 1 || abs === 0 ? 2 : abs >= 0.01 ? 4 : 6);
   if (!moneyFormatters.has(decimals)) {
     moneyFormatters.set(decimals, new Intl.NumberFormat('es-ES', {
       minimumFractionDigits: decimals,
@@ -31,6 +31,7 @@ export function compact(value) {
 const SUFFIXES = [[1e12, 'T'], [1e9, 'B'], [1e6, 'M'], [1e3, 'K']];
 export function usd(value, digits = 2) {
   if (value === null || value === undefined || Number.isNaN(value)) return '—';
+  if (value === 0) return '$0';
   const abs = Math.abs(value);
   for (const [limit, suffix] of SUFFIXES) {
     if (abs >= limit) return `$${(value / limit).toFixed(digits)}${suffix}`;
