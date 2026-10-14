@@ -14,6 +14,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.models import Certificate, User
+from app.services.levels import outranks
 from app.services.membership import as_utc
 from app.utils.helpers import utc_now
 
@@ -54,6 +55,7 @@ class CertificateOut(BaseModel):
     course: str
     course_title: str
     holder: str
+    tier: str
     issued_at: str
     nft_tx: str | None = None
     verify_url: str
@@ -75,12 +77,22 @@ LABELS = {
         "kicker": "CERTIFICADO DE APRENDIZAJE", "certifies": "Se certifica que", "completed": "ha completado",
         "date": "Fecha", "code": "Código de verificación", "verify": "Verifica en", "seal": "VERIFICADO",
         "free": "VERSIÓN GRATUITA · CON PRO EL CERTIFICADO VA LIMPIO", "nft": "También acuñado como NFT en Base",
+        "level": "NIVEL {tier}", "bronze": "BRONCE", "silver": "PLATA", "gold": "ORO", "platinum": "PLATINO",
     },
     "en": {
         "kicker": "CERTIFICATE OF LEARNING", "certifies": "This certifies that", "completed": "has completed",
         "date": "Date", "code": "Verification code", "verify": "Verify at", "seal": "VERIFIED",
         "free": "FREE VERSION · PRO MEMBERS GET IT CLEAN", "nft": "Also minted as an NFT on Base",
+        "level": "{tier} LEVEL", "bronze": "BRONZE", "silver": "SILVER", "gold": "GOLD", "platinum": "PLATINUM",
     },
+}
+
+# Frame, seal and label colours per level: (light, dark).
+TIER_COLOURS = {
+    "bronze": ("#e09a5a", "#9a5a2a"),
+    "silver": ("#e6ebf0", "#8e9aa6"),
+    "gold": ("#ffb347", "#ff7a1a"),
+    "platinum": ("#d9f1ff", "#7fb6e8"),
 }
 
 DISPLAY = "'Space Grotesk', 'Instrument Sans', 'Segoe UI', system-ui, sans-serif"
@@ -116,7 +128,7 @@ class CertificateService:
     def to_out(self, cert: Certificate) -> CertificateOut:
         return CertificateOut(
             code=cert.id, course=cert.course, course_title=COURSES[cert.course].title, holder=cert.holder,
-            issued_at=as_utc(cert.issued_at).isoformat(), nft_tx=cert.nft_tx,
+            tier=cert.tier or "bronze", issued_at=as_utc(cert.issued_at).isoformat(), nft_tx=cert.nft_tx,
             verify_url=f"{self.site_base}/certificates/verify/{cert.id}",
             svg_url=f"{self.api_base}/api/certificates/{cert.id}.svg",
         )
@@ -131,9 +143,10 @@ class CertificateService:
         return await session.get(Certificate, code.strip().upper())
 
     async def issue(self, session: AsyncSession, user: User, course_id: str, holder: str | None,
-                    events: set[str]) -> Certificate:
-        """Issue (once) the certificate of a finished course. The holder name
-        defaults to the account name."""
+                    events: set[str], tier: str = "bronze") -> Certificate:
+        """Issue (once) the certificate of a finished course at the holder's
+        current level. Issuing again upgrades the tier when the holder has
+        levelled up since; the code and the name stay."""
         course = COURSES.get(course_id)
         if course is None:
             raise CertificateError("Ese curso no existe.", "unknown_course", 404)
@@ -142,9 +155,14 @@ class CertificateService:
             raise CertificateError("Todavía no has completado ese curso.", "not_completed")
         existing = (await self.mine(session, user.id)).get(course_id)
         if existing:
+            if outranks(tier, existing.tier or "bronze"):
+                existing.tier = tier
+                await session.commit()
+                await session.refresh(existing)
             return existing
         name = (holder or "").strip() or user.name
-        cert = Certificate(id=new_code(), user_id=user.id, course=course_id, holder=name[:80], issued_at=utc_now())
+        cert = Certificate(id=new_code(), user_id=user.id, course=course_id, holder=name[:80], tier=tier,
+                           issued_at=utc_now())
         session.add(cert)
         await session.commit()
         await session.refresh(cert)
@@ -161,6 +179,8 @@ class CertificateService:
         verify_url = f"{self.site_base}/certificates/verify/{cert.id}"
         issued = as_utc(cert.issued_at)
         date = issued.strftime("%d/%m/%Y") if lang == "es" else issued.strftime("%Y-%m-%d")
+        tier = cert.tier if cert.tier in TIER_COLOURS else "bronze"
+        light, dark = TIER_COLOURS[tier]
         watermark = "" if clean else (
             f'<text transform="rotate(-18 600 470)" x="600" y="500" text-anchor="middle" font-family="{DISPLAY}" '
             f'font-size="150" font-weight="700" fill="#ff7a1a" opacity="0.07">FREE</text>'
@@ -174,11 +194,13 @@ class CertificateService:
   <title>{label["kicker"]} · {holder} · {escape(course.title)}</title>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a1a"/><stop offset="1" stop-color="#ffb347"/></linearGradient>
+    <linearGradient id="tier" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{light}"/><stop offset="1" stop-color="{dark}"/></linearGradient>
   </defs>
   <rect width="1200" height="850" fill="#0a1c26"/>
   <path d="M0 0H1200V110C900 90 450 150 0 210Z" fill="#0e2d3a"/>
   <path d="M0 210C450 150 900 90 1200 110" fill="none" stroke="url(#g)" stroke-width="6"/>
-  <rect x="40" y="40" width="1120" height="770" rx="24" fill="none" stroke="#ff7a1a" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="40" y="40" width="1120" height="770" rx="24" fill="none" stroke="url(#tier)" stroke-opacity="0.9" stroke-width="3"/>
+  <rect x="52" y="52" width="1096" height="746" rx="18" fill="none" stroke="{light}" stroke-opacity="0.25" stroke-width="1"/>
   <text x="80" y="92" font-family="{DISPLAY}" font-size="36" font-weight="700" fill="#f0ede6">Monster<tspan fill="#ff7a1a">B</tspan>roker</text>
   <text x="80" y="118" font-size="13" letter-spacing="3" fill="#8ea2ad">FREE LEARN ABOUT CRYPTO</text>
   {watermark}
@@ -190,9 +212,11 @@ class CertificateService:
   <text x="600" y="560" text-anchor="middle" font-family="{DISPLAY}" font-size="{_fit(course.title, 40, 34)}" font-weight="700" fill="#ffb347">{escape(course.title)}</text>
   <text x="600" y="598" text-anchor="middle" font-size="18" fill="#8ea2ad">{escape(course.subtitle)}</text>
   {nft}
-  <circle cx="1010" cy="690" r="62" fill="#0e2d3a" stroke="url(#g)" stroke-width="6"/>
-  <text x="1010" y="684" text-anchor="middle" font-family="{DISPLAY}" font-size="34" font-weight="700" fill="#f0ede6">M<tspan fill="#ff7a1a">B</tspan></text>
-  <text x="1010" y="712" text-anchor="middle" font-size="10" letter-spacing="2" fill="#8ea2ad">{label["seal"]}</text>
+  <circle cx="1010" cy="680" r="62" fill="#0e2d3a" stroke="url(#tier)" stroke-width="7"/>
+  <circle cx="1010" cy="680" r="50" fill="none" stroke="{light}" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="1010" y="674" text-anchor="middle" font-family="{DISPLAY}" font-size="34" font-weight="700" fill="#f0ede6">M<tspan fill="#ff7a1a">B</tspan></text>
+  <text x="1010" y="702" text-anchor="middle" font-size="10" letter-spacing="2" fill="#8ea2ad">{label["seal"]}</text>
+  <text x="1010" y="772" text-anchor="middle" font-family="{DISPLAY}" font-size="15" font-weight="700" letter-spacing="4" fill="{light}">{label["level"].format(tier=label[tier])}</text>
   <text x="80" y="690" font-size="14" fill="#8ea2ad">{label["date"]}</text>
   <text x="80" y="716" font-size="20" fill="#f0ede6">{date}</text>
   <text x="80" y="758" font-size="14" fill="#8ea2ad">{label["code"]}</text>

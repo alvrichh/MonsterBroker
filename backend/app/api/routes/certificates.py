@@ -7,6 +7,7 @@ from pydantic import BaseModel, Field
 from app.api.deps import CertsDep, CurrentUser, DbSession, OptionalUser, QuestsDep
 from app.db.models import User
 from app.services.certificates import COURSES, CertificateError, CertificateOut, CourseOut
+from app.services.levels import score
 from app.services.membership import is_pro
 
 router = APIRouter()
@@ -38,7 +39,9 @@ async def mine(session: DbSession, certs: CertsDep, user: CurrentUser):
 async def issue(course_id: str, body: IssueIn, session: DbSession, certs: CertsDep, quests: QuestsDep,
                 user: CurrentUser):
     try:
-        cert = await certs.issue(session, user, course_id, body.name, await quests.events_for(session, user.id))
+        events = await quests.events_for(session, user.id)
+        tier = (await score(session, user)).level  # the holder's level goes on the certificate
+        cert = await certs.issue(session, user, course_id, body.name, events, tier)
     except CertificateError as error:
         raise HTTPException(error.status, {"code": error.code, "message": error.message}) from error
     return certs.to_out(cert)
