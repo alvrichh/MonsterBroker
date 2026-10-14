@@ -3,15 +3,28 @@ from fastapi import APIRouter, HTTPException, Query
 from app.agent.agent import TickResult
 from app.agent.state import AgentState, Decision
 from app.api.deps import AgentDep, SettingsDep
-from app.api.schemas.bot import ConfigIn, StatusOut, StrategyOut, TradesOut
+from app.api.schemas.bot import ConfigIn, PerpPositionOut, StatusOut, StrategyOut, TradesOut
 from app.strategies import STRATEGIES
 
 router = APIRouter()
 
 
+def _perp_positions(state: AgentState) -> dict[str, PerpPositionOut]:
+    out = {}
+    for symbol, position in state.portfolio.perp_positions.items():
+        mark = state.last_prices.get(symbol, position.entry_price)
+        pnl = position.unrealized_pnl(mark)
+        out[symbol] = PerpPositionOut(
+            **position.model_dump(), mark_price=mark, unrealized_pnl=pnl,
+            roe=(pnl / position.margin * 100) if position.margin else 0.0, equity=position.equity(mark),
+        )
+    return out
+
+
 def _status(state: AgentState, llm: bool) -> StatusOut:
     return StatusOut(
         mode=state.mode,
+        market=state.config.market,
         config=state.config,
         portfolio=state.portfolio,
         equity=state.portfolio.equity(state.last_prices),
@@ -20,6 +33,7 @@ def _status(state: AgentState, llm: bool) -> StatusOut:
         ticks=state.ticks,
         llm_review_available=llm,
         recent_decisions=state.decisions[-20:][::-1],
+        perp_positions=_perp_positions(state),
         benchmark=state.benchmark,
     )
 
@@ -48,6 +62,8 @@ def update_config(body: ConfigIn, agent: AgentDep, settings: SettingsDep):
         state = agent.update_config(**body.model_dump())
     except KeyError as error:
         raise HTTPException(400, str(error.args[0])) from error
+    except ValueError as error:
+        raise HTTPException(400, str(error)) from error
     return _status(state, settings.llm_enabled)
 
 
