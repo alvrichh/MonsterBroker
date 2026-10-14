@@ -381,6 +381,13 @@
   "token.quest.glossary.desc": "Read what mark price, funding, open interest, basis and liquidation are.",
   "token.quest.glossary.hint": "Open the glossary in the Futures section.",
 
+  "gate.cta": "Sign in to see it",
+  "gate.text": "This one is for members. Signing in is one click: GitHub, wallet or email.",
+  "gate.top": "You're seeing the top 10. With an account you get all {total} and can chart any of them.",
+  "gate.liq": "Live liquidations are for members. Sign in and watch every long and short blow up, by the second.",
+  "gate.decisions": "Only the last 3 decisions are shown. With an account you get the full history and the AI's comments.",
+  "gate.news": "Searching and filtering the archive ({total} stories) by tag is for members.",
+
   "footer.made": "Made with love (and lots of coffee) by Álvaro Rodríguez Molina. Learning project, open source.",
   "footer.disclaimer": "Nothing here is financial advice. The bot plays with simulated money; with yours, you call the shots.",
   "notfound.title": "This page got rug-pulled.",
