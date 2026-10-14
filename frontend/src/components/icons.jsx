@@ -45,6 +45,20 @@ export const MailIcon = () => (
   <svg {...base}><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
 );
 
+// A gold coin for the points counter.
+export const CoinIcon = ({ size = 18 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
+    <defs>
+      <radialGradient id="coin-g" cx="35%" cy="30%" r="75%">
+        <stop offset="0" stopColor="#ffe08a" /><stop offset="0.6" stopColor="#ffb347" /><stop offset="1" stopColor="#d9731a" />
+      </radialGradient>
+    </defs>
+    <circle cx="12" cy="12" r="11" fill="url(#coin-g)" />
+    <circle cx="12" cy="12" r="8.2" fill="none" stroke="#b35a12" strokeOpacity="0.55" strokeWidth="1.2" />
+    <text x="12" y="16.2" textAnchor="middle" fontFamily="'Space Grotesk', system-ui, sans-serif" fontSize="11" fontWeight="700" fill="#7a3a08">M</text>
+  </svg>
+);
+
 // Provider marks keep their own brand colours (their guidelines ask for it).
 export const GoogleIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
