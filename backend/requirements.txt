@@ -12,6 +12,8 @@ anthropic>=1.0
 apscheduler>=3.10,<4
 pyjwt>=2.9
 bcrypt>=4.1
+authlib>=1.6
+itsdangerous>=2.2
 python-dotenv>=1.0
 # Optional, heavier. The app runs without them (public prices, no on-chain).
 web3>=7.0
