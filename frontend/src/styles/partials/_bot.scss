@@ -1,0 +1,64 @@
+/* --------------------------------------------------------------------------
+   Bot
+   -------------------------------------------------------------------------- */
+
+.bot-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(0, 1.6fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.decisions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.decision {
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  border: 1px solid var(--rule);
+  border-left-width: 3px;
+  font-size: 0.9rem;
+
+  p {
+    margin-top: 6px;
+    color: var(--ink-soft);
+  }
+}
+
+.decision--buy {
+  border-left-color: var(--up);
+}
+
+.decision--sell {
+  border-left-color: var(--down);
+}
+
+.decision--hold {
+  border-left-color: var(--rule-strong);
+}
+
+.decision__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+
+  time {
+    margin-left: auto;
+    font-size: 0.78rem;
+  }
+}
+
+.decision__review {
+  font-size: 0.85rem;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--accent-wash);
+  color: var(--ink);
+  border-left: 2px solid var(--accent);
+}
