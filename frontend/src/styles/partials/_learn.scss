@@ -397,6 +397,33 @@
   }
 }
 
+.level-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 6px 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+
+  > li > span {
+    display: inline-block;
+    width: 18px;
+    color: var(--accent);
+  }
+
+  a {
+    margin-left: 8px;
+    color: var(--accent);
+  }
+
+  .is-done {
+    color: var(--ink);
+
+    > span {
+      color: var(--up);
+    }
+  }
+}
+
 .level-card__hint {
   font-size: 0.85rem;
 

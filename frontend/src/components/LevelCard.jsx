@@ -7,6 +7,8 @@ import LevelBadge, { LEVELS } from './LevelBadge.jsx';
 import SignInGate from './SignInGate.jsx';
 
 const RULES = ['event', 'claim', 'certificate', 'review', 'wallet'];
+// Where each event is earned.
+const EVENT_LINKS = { bot_tick: '/bot', glossary_read: '/futures', bot_config: '/bot', perp_mode: '/bot', wallet_lookup: '/wallet' };
 
 // Where the member stands on the ladder, how far to the next medal and how
 // points are earned. Visitors see the ladder and a sign-in teaser.
@@ -55,6 +57,18 @@ export default function LevelCard({ compact = false }) {
                 {level && <span className="muted"> · ×{level.counts[rule]}</span>}
               </li>
             ))}
+          </ul>
+          <h3>{t('level.events')}</h3>
+          <ul className="level-events">
+            {(ladder.data?.events ?? []).map((id) => {
+              const done = level?.events_done?.includes(id);
+              return (
+                <li key={id} className={done ? 'is-done' : ''}>
+                  <span aria-hidden="true">{done ? '✓' : '○'}</span> {t(`cert.event.${id}`)}
+                  {!done && user && EVENT_LINKS[id] && <Link to={EVENT_LINKS[id]}>→</Link>}
+                </li>
+              );
+            })}
           </ul>
           {user && <p className="muted level-card__hint">{t('level.hint')} <Link to="/token">{t('learn.quests')}</Link> · <Link to="/certificates">{t('learn.certificates')}</Link></p>}
         </>
