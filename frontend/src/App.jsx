@@ -24,6 +24,7 @@ import ResetPassword from './pages/ResetPassword.jsx';
 import Token from './pages/Token.jsx';
 import Verify from './pages/Verify.jsx';
 import Wallet from './pages/Wallet.jsx';
+import WakeBanner from './components/WakeBanner.jsx';
 
 // Every section is public so visitors can see what the app does without an
 // account; driving the bot asks them to sign in from inside the Bot page.
@@ -35,6 +36,7 @@ export default function App() {
     <I18nProvider>
       <AuthProvider>
         <Header />
+        <WakeBanner />
         <main className="page">
           <Routes>
             <Route path="/" element={<Home />} />

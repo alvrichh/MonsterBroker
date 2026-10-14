@@ -196,6 +196,74 @@
   background: linear-gradient(135deg, var(--accent-wash), transparent 70%), var(--bg-glass);
 }
 
+/* "The API is waking up": a toast at the bottom while the free host boots. */
+.wake {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  z-index: 40;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: min(460px, calc(100vw - 32px));
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in srgb, var(--accent) 50%, var(--rule));
+  background: var(--bg-raised);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  transform: translateX(-50%);
+  animation: signin-pop 0.3s var(--ease-out);
+
+  strong {
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+}
+
+.wake__dot {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 60%, transparent);
+  animation: wake-pulse 1.4s ease-out infinite;
+}
+
+.wake--done {
+  border-color: color-mix(in srgb, var(--up) 50%, var(--rule));
+
+  .wake__dot {
+    background: var(--up);
+    animation: none;
+  }
+}
+
+@keyframes wake-pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 60%, transparent);
+  }
+
+  100% {
+    box-shadow: 0 0 0 12px transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wake,
+  .wake__dot {
+    animation: none;
+  }
+}
+
 /* Inside the folded nav panel the bubble opens in place, full width. */
 @media (max-width: 900px) {
   .signin {
