@@ -189,3 +189,19 @@ button {
   letter-spacing: 0.14em;
   color: var(--accent);
 }
+
+/* Brand images come in a light and a navy version (see Brand.jsx); only the
+   one that matches the theme is shown. */
+.theme-light-only {
+  display: none;
+}
+
+:root[data-theme="light"] {
+  .theme-dark-only {
+    display: none;
+  }
+
+  .theme-light-only {
+    display: block;
+  }
+}
