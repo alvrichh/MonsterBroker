@@ -1,13 +1,32 @@
 from fastapi import APIRouter, HTTPException, Query, status
+from pydantic import BaseModel, Field
 
 from app.api.deps import AdminUser, AuthDep, DbSession
 from app.api.schemas.auth import StatsOut, UserPatch, UsersOut
 from app.db.models import PLAN_PRO, ROLE_USER
 from app.services.auth import UserOut
 from app.services.membership import SOURCE_ADMIN, grant_pro, revoke_pro
+from app.services.reviews import ReviewOut, ReviewService
 from app.utils.helpers import utc_now
 
 router = APIRouter()
+
+
+class ReviewPatch(BaseModel):
+    status: str = Field(pattern="^(pending|approved|hidden)$")
+
+
+@router.get("/reviews", response_model=list[ReviewOut])
+async def reviews(session: DbSession, admin: AdminUser, status_: str | None = Query(None, alias="status")):
+    return await ReviewService.list_for_admin(session, status_)
+
+
+@router.patch("/reviews/{review_id}", response_model=ReviewOut)
+async def patch_review(review_id: str, body: ReviewPatch, session: DbSession, admin: AdminUser):
+    updated = await ReviewService.set_status(session, review_id, body.status)
+    if updated is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Opinión no encontrada.")
+    return updated
 
 
 @router.get("/users", response_model=UsersOut)
