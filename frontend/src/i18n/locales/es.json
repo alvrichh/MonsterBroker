@@ -65,6 +65,7 @@
   "bot.run": "Lanzar tick",
   "bot.running": "Pensándoselo…",
   "bot.reset": "Reiniciar cartera",
+  "bot.spectator": "Estás viendo al Monstruo en modo espectador. Entra o hazte una cuenta para lanzarle ticks, tocar su configuración o reiniciarle la cartera.",
   "bot.resetConfirm": "¿Borrón y cuenta nueva? Se van todas las operaciones y vuelves al saldo inicial.",
   "bot.config": "Configuración",
   "bot.strategy": "Estrategia",
