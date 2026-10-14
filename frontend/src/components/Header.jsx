@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import { LANGUAGES, useI18n } from '../i18n/I18nContext.jsx';
@@ -69,6 +69,21 @@ export default function Header() {
   // stays) and curves back on the first scroll up.
   const folded = useFoldOnScroll();
 
+  // "+10" floats off the coin counter whenever the points go up.
+  const [gain, setGain] = useState(null);
+  const lastPoints = useRef(null);
+  useEffect(() => {
+    const points = level?.points ?? null;
+    if (points !== null && lastPoints.current !== null && points > lastPoints.current) {
+      setGain(points - lastPoints.current);
+      const id = setTimeout(() => setGain(null), 1600);
+      lastPoints.current = points;
+      return () => clearTimeout(id);
+    }
+    lastPoints.current = points;
+    return undefined;
+  }, [level?.points]);
+
   const nextLang = LANGUAGES.find((l) => l.code !== lang) ?? LANGUAGES[0];
 
   return (
@@ -107,6 +122,7 @@ export default function Header() {
                     <span className="coin-counter" key={level.points}>
                       <CoinIcon />
                       <span className="mono">{level.points}</span>
+                      {gain && <span className="coin-gain mono" aria-live="polite">+{gain}</span>}
                     </span>
                   </Link>
                 )}
