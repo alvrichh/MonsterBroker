@@ -1,13 +1,11 @@
-// Colour coin icons from spothq/cryptocurrency-icons 0.18.1 (CC0), served
-// from /images/coins/<base>.svg. Anything else gets a lettered fallback in
-// <CoinIcon>.
-const ICON_BASES = [
-  'BTC', 'ETH', 'LTC', 'SOL', 'BNB', 'XRP', 'ADA', 'DOGE', 'DOT', 'MATIC', 'AVAX', 'LINK', 'TRX', 'UNI', 'ATOM',
-  'XLM', 'ETC', 'BCH', 'FIL', 'ALGO', 'VET', 'ICP', 'USDT', 'USDC', 'DAI', 'AAVE', 'MKR', 'XMR', 'GRT', 'SAND',
-  'MANA', 'THETA', 'EOS', 'XTZ', 'ZEC', 'DASH', 'NEO', 'COMP', 'CRV', 'SNX', '1INCH', 'ZIL', 'BAT', 'ENJ',
-];
-export const COIN_ICONS = Object.fromEntries(ICON_BASES.map((base) => [base, `/images/coins/${base.toLowerCase()}.svg`]));
-COIN_ICONS.POL = COIN_ICONS.MATIC; // Polygon's ticker after the MATIC → POL migration
+// Coin icons live in /images/coins/<base>.svg (lower-case ticker): colour
+// icons from spothq/cryptocurrency-icons 0.18.1 (CC0) plus branded token
+// icons from @web3icons/core 4.0.40 (MIT). <CoinIcon> tries the file for any
+// ticker and falls back to letters when there's none. Aliases cover tickers
+// that changed or that Binance prefixes.
+export const COIN_ICON_ALIASES = {
+  POL: 'matic', // Polygon's ticker after the MATIC → POL migration
+};
 
 // Brand colours for the home coin cards' glow and top rule.
 export const COIN_COLORS = {
