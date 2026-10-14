@@ -81,6 +81,13 @@ export default function Header() {
                 </NavLink>
               </li>
             ))}
+            {user?.role === 'admin' && (
+              <li>
+                <NavLink to="/admin" className={({ isActive }) => `nav__link nav__link--admin ${isActive ? 'is-active' : ''}`}>
+                  {t('nav.admin')}
+                </NavLink>
+              </li>
+            )}
           </ul>
           <div className="nav__auth">
             {user ? (
