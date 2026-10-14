@@ -23,9 +23,14 @@ STATUS_PENDING, STATUS_MINTED, STATUS_FAILED = "pending", "minted", "failed"
 
 # Events the API records itself when the signed-in user does the thing.
 EVENT_BOT_TICK = "bot_tick"
+EVENT_BOT_CONFIG = "bot_config"  # changed the Monster's settings
+EVENT_PERP_MODE = "perp_mode"  # switched it to perpetuals (longs and shorts)
+EVENT_WALLET_LOOKUP = "wallet_lookup"  # looked up an on-chain balance
 # Events the client reports (reading a page leaves no other trace). The
 # rewards are testnet-only, so a self-report is an acceptable proof here.
 CLIENT_EVENTS = frozenset({"glossary_read"})
+# Every event that counts for points, in the order the UI lists them.
+EVENTS = (EVENT_BOT_TICK, "glossary_read", EVENT_BOT_CONFIG, EVENT_PERP_MODE, EVENT_WALLET_LOOKUP)
 
 
 @dataclass(frozen=True, slots=True)
