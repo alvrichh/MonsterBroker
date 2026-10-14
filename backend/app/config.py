@@ -33,6 +33,11 @@ class Settings(BaseSettings):
     exchange_id: str = "binance"
     exchange_api_key: str = ""
     exchange_api_secret: str = ""
+    # Public market data. data-api.binance.vision is Binance's own mirror for
+    # keyless endpoints and, unlike api.binance.com, it doesn't answer 418 to
+    # cloud hosts (Render, AWS). Futures have no such mirror.
+    binance_spot_url: str = "https://data-api.binance.vision/api/v3"
+    binance_futures_url: str = "https://fapi.binance.com"
     paper_trading: bool = True
     paper_starting_balance: float = 10_000.0
     default_symbols: list[str] = ["BTC/USDT", "ETH/USDT", "LTC/USDT", "SOL/USDT"]
