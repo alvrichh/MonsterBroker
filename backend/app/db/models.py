@@ -81,6 +81,7 @@ class Certificate(Base):
     user_id: Mapped[str] = mapped_column(String(16), ForeignKey("users.id", ondelete="CASCADE"), index=True)
     course: Mapped[str] = mapped_column(String(32))
     holder: Mapped[str] = mapped_column(String(80))  # the name printed on it
+    tier: Mapped[str] = mapped_column(String(16), default="bronze")  # the holder's level when issued/upgraded
     issued_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
     nft_tx: Mapped[str | None] = mapped_column(String(66), nullable=True)  # once minted on-chain
 
