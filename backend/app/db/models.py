@@ -34,6 +34,19 @@ class User(Base):
     last_login_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
 
 
+class UserEvent(Base):
+    """Something a user did that a quest can check: the first row per
+    (user, event) is what matters, later ones are harmless."""
+
+    __tablename__ = "user_events"
+    __table_args__ = (UniqueConstraint("user_id", "event", name="uq_user_event"),)
+
+    id: Mapped[str] = mapped_column(String(16), primary_key=True)
+    user_id: Mapped[str] = mapped_column(String(16), ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    event: Mapped[str] = mapped_column(String(32))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
+
+
 class QuestClaim(Base):
     """A learn-to-earn reward a user has claimed: pending until the backend
     wallet mints it, then minted (with the tx hashes) or failed (retryable)."""
