@@ -14,9 +14,10 @@ REPO_DIR = BACKEND_DIR.parent
 
 
 class Settings(BaseSettings):
-    # The repo-root .env first, then backend/.env on top of it.
+    # Later files win: repo .env, then .env.local (where `neon env pull`
+    # writes DATABASE_URL), then backend/.env.
     model_config = SettingsConfigDict(
-        env_file=(REPO_DIR / ".env", BACKEND_DIR / ".env"),
+        env_file=(REPO_DIR / ".env", REPO_DIR / ".env.local", BACKEND_DIR / ".env"),
         env_file_encoding="utf-8",
         extra="ignore",
     )
@@ -63,8 +64,11 @@ class Settings(BaseSettings):
     admin_emails: list[str] = []
     frontend_url: str = "http://localhost:5173"  # where the email links point
 
-    # Database: empty = SQLite under data/. Postgres: postgresql+asyncpg://user:pass@host/db
+    # Database: empty = SQLite under data/. Postgres: postgresql://user:pass@host/db (libpq
+    # style is fine; it is normalised for asyncpg). The unpooled URL, when the
+    # provider gives one, is used for DDL only.
     database_url: str = ""
+    database_url_unpooled: str = ""
 
     # Email: console | resend | smtp
     email_backend: str = "console"
