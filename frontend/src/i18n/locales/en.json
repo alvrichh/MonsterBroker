@@ -65,6 +65,7 @@
   "bot.run": "Run tick",
   "bot.running": "Thinking it over…",
   "bot.reset": "Reset portfolio",
+  "bot.spectator": "You're watching the Monster as a spectator. Sign in or create an account to run ticks, tweak its settings or reset its portfolio.",
   "bot.resetConfirm": "Clean slate? All trades go and you're back to the starting balance.",
   "bot.config": "Configuration",
   "bot.strategy": "Strategy",
