@@ -1,13 +1,19 @@
+import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { money, percent, usd } from '../lib/format.js';
+import SignInGate from './SignInGate.jsx';
 import Sparkline from './Sparkline.jsx';
 
 const STABLE = new Set(['USDT', 'USDC', 'DAI', 'USDE', 'FDUSD', 'USDS', 'TUSD', 'PYUSD']);
+const FREE_ROWS = 10; // visitors see the top 10; the rest asks for an account
 
 // The top coins by market cap as a table: more than a handful of classes is
 // a table's job, and the 7-day sparkline carries the shape.
 export default function TopCoins({ coins = [], onSelect, selected }) {
   const { t } = useI18n();
+  const { user } = useAuth();
+  const locked = !user;
+  const shown = locked ? coins.slice(0, FREE_ROWS) : coins;
 
   return (
     <section className="card">
@@ -27,7 +33,7 @@ export default function TopCoins({ coins = [], onSelect, selected }) {
             </tr>
           </thead>
           <tbody>
-            {coins.map((coin) => {
+            {shown.map((coin) => {
               const pair = `${coin.symbol}/USDT`;
               const selectable = onSelect && !STABLE.has(coin.symbol);
               return (
@@ -52,6 +58,7 @@ export default function TopCoins({ coins = [], onSelect, selected }) {
           </tbody>
         </table>
       </div>
+      {locked && coins.length > FREE_ROWS && <SignInGate compact text={t('gate.top', { total: coins.length })} />}
       <p className="source">{t('overview.sourceGecko')}</p>
     </section>
   );
