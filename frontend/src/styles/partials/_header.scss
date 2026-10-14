@@ -25,9 +25,9 @@
   gap: 10px;
   flex-shrink: 0;
 
-  img {
-    width: 40px;
-    height: auto;
+  .brand__mark {
+    height: 32px;
+    width: auto;
     filter: drop-shadow(0 0 8px rgba(230, 10, 102, 0.35));
   }
 }
