@@ -167,6 +167,17 @@
   }
 }
 
+/* Position sides (perps): long reads as up, short as down. */
+.badge--long {
+  background: var(--up-wash);
+  color: var(--up);
+}
+
+.badge--short {
+  background: var(--down-wash);
+  color: var(--down);
+}
+
 /* Coins and protocols tables -------------------------------------------- */
 
 .table .num {
