@@ -143,6 +143,21 @@ docs/news/                daily radar reports · docs/WEB3.md strategy
 - The strategy (learn-to-earn, monetisation paths, what MiCA requires) lives
   in [docs/WEB3.md](docs/WEB3.md).
 
+## Deploy (Render, free tier)
+
+[render.yaml](render.yaml) is a Blueprint with both services: the API as a
+Python web service in Frankfurt (Binance's public API refuses US addresses)
+and the frontend as a static site. Dashboard → *New → Blueprint* → pick the
+repo; then set the secrets it asks for (`DATABASE_URL`,
+`DATABASE_URL_UNPOOLED` from Neon, `ADMIN_EMAILS`, `GITHUB_CLIENT_ID/SECRET`)
+and add `https://<api host>/api/auth/oauth/github/callback` to the GitHub
+OAuth app. The services pass each other their hosts (`PUBLIC_API_URL`,
+`FRONTEND_URL`, `VITE_API_HOST`), so renaming them is safe.
+
+Known limits of the free tier: the API sleeps after 15 idle minutes (first
+request takes ~30 s) and its disk is ephemeral, so the shared paper
+portfolio (`data/paper/state.json`) resets on every deploy.
+
 ## Tests
 
 ```bash
