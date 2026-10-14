@@ -24,3 +24,7 @@ frontend/dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# SQLite database (local accounts); production uses DATABASE_URL
+backend/data/*.db
+backend/data/*.db-journal
