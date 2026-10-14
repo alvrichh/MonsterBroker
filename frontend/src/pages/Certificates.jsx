@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LearnTabs from '../components/LearnTabs.jsx';
+import LevelBadge, { outranks } from '../components/LevelBadge.jsx';
 import Notice from '../components/Notice.jsx';
 import SignInGate from '../components/SignInGate.jsx';
 import { ExternalIcon } from '../components/icons.jsx';
@@ -16,7 +17,7 @@ const fullDate = (iso, lang) => new Date(iso).toLocaleDateString(lang, { day: 'n
 
 export default function Certificates() {
   const { t, lang } = useI18n();
-  const { user } = useAuth();
+  const { user, level, refreshLevel } = useAuth();
   const courses = usePolling(() => api.certificates.courses(), 0, [user?.id]);
   const [names, setNames] = useState({});
   const [busy, setBusy] = useState(null);
@@ -28,7 +29,7 @@ export default function Certificates() {
     setError(null);
     try {
       await api.certificates.issue(course.id, names[course.id] ?? user.name);
-      await courses.refresh();
+      await Promise.all([courses.refresh(), refreshLevel()]);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -55,8 +56,11 @@ export default function Certificates() {
       <LearnTabs />
 
       {!user && <SignInGate compact text={t('cert.signin')} />}
-      {user && !user.is_pro && (
-        <p className="muted cert__pro-hint">{t('cert.watermarkHint')} <Link to="/pro">{t('cert.goPro')}</Link></p>
+      {user && (
+        <p className="muted cert__pro-hint">
+          {level && <>{t('cert.tierHint')} <LevelBadge level={level.level} /> · </>}
+          {!user.is_pro && <>{t('cert.watermarkHint')} <Link to="/pro">{t('cert.goPro')}</Link></>}
+        </p>
       )}
       <Notice tone="error">{error || courses.error?.message}</Notice>
 
@@ -93,8 +97,16 @@ export default function Certificates() {
                 )}
                 {cert && (
                   <div className="cert__meta">
-                    <span className="pill pill--ok">{t('cert.issued', { date: fullDate(cert.issued_at, lang) })}</span>
+                    <span className="cert__pills">
+                      <span className="pill pill--ok">{t('cert.issued', { date: fullDate(cert.issued_at, lang) })}</span>
+                      <LevelBadge level={cert.tier} />
+                    </span>
                     <span className="mono muted">{cert.code}</span>
+                    {level && outranks(level.level, cert.tier) && (
+                      <button type="button" className="btn btn--ghost btn--sm" onClick={() => issue(course)} disabled={busy === course.id}>
+                        {t('cert.upgrade', { level: t(`level.${level.level}`) })}
+                      </button>
+                    )}
                     <div className="cert__actions">
                       <a className="btn btn--primary btn--sm" href={api.certificates.svgUrl(cert.code, lang)} download={`monsterbroker-${cert.code}.svg`}>{t('cert.download')}</a>
                       <Link className="btn btn--ghost btn--sm" to={`/certificates/verify/${cert.code}`}>{t('cert.verifyPage')}</Link>

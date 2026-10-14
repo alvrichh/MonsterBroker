@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import LevelBadge from '../components/LevelBadge.jsx';
 import Loading from '../components/Loading.jsx';
 import Notice from '../components/Notice.jsx';
 import { usePolling } from '../hooks/usePolling.js';
@@ -33,6 +34,7 @@ export default function CertificateVerify() {
             <dl className="cert__facts">
               <dt>{t('cert.verify.holder')}</dt><dd>{cert.holder}</dd>
               <dt>{t('cert.verify.course')}</dt><dd>{cert.course_title}</dd>
+              <dt>{t('cert.verify.tier')}</dt><dd><LevelBadge level={cert.tier} /></dd>
               <dt>{t('cert.verify.date')}</dt><dd>{fullDate(cert.issued_at, lang)}</dd>
               <dt>{t('cert.verify.code')}</dt><dd className="mono">{cert.code}</dd>
               {cert.nft_tx && <><dt>NFT</dt><dd className="mono">{cert.nft_tx}</dd></>}
