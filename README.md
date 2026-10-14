@@ -2,23 +2,23 @@
 
 ![MonsterBroker · Free learn about crypto](frontend/public/images/brand/banner-wide.png)
 
-Bot de trading cripto, panel web3 y radar de noticias. Nace del prototipo
-estático de 2021 (`alvrichh/Front-end/PROYECTO/MonsterBroker.html`) y
-reutiliza la base técnica del portfolio
+Crypto trading bot, web3 panel and news radar. It grows out of the static
+2021 prototype (`alvrichh/Front-end/PROYECTO/MonsterBroker.html`) and reuses
+the technical base of the portfolio
 ([alvrich.vercel.app](https://alvrich.vercel.app)): React + SCSS + Vite,
-tokens de tema claro/oscuro y el bot diario de noticias con GitHub Actions.
+light/dark theme tokens and the daily news bot on GitHub Actions.
 
-- **backend/** · Python 3.12 + FastAPI. Agente de trading (estrategias +
-  revisión opcional con Claude), datos de mercado públicos de Binance, paper
-  trading, colector de noticias RSS, consulta de saldos on-chain y auth JWT.
-- **frontend/** · React 19 + Vite + SCSS (JavaScript, sin TypeScript).
+- **backend/** · Python 3.12 + FastAPI. Trading agent (strategies + optional
+  review by Claude), public Binance market data, paper trading, RSS news
+  collector, on-chain balance lookups and JWT auth.
+- **frontend/** · React 19 + Vite + SCSS (JavaScript, no TypeScript).
 
-## Arrancar en local
+## Run it locally
 
 ```bash
-cp .env.example .env            # opcional: todo funciona vacío
+cp .env.example .env            # optional: everything works empty
 
-# backend  → http://localhost:8000  (docs en /docs)
+# backend  → http://localhost:8000  (docs at /docs)
 cd backend
 python -m venv .venv && .venv/Scripts/activate   # Linux/mac: source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
@@ -30,105 +30,111 @@ npm install
 npm run dev
 ```
 
-O todo junto con Docker: `docker compose up --build`.
+Or everything at once with Docker: `docker compose up --build`.
 
-## Qué hay
+## What's in it
 
-| Área | Endpoint / pantalla | Estado |
+| Area | Endpoint / screen | Status |
 | --- | --- | --- |
-| Precios y velas (Binance público) | `GET /api/market/tickers`, `/ohlcv`, `/indicators` | listo |
-| Bot de trading en papel | `GET /api/bot/status`, `POST /api/bot/tick`, `/trades` | listo, estrategias `sma_cross` y `rsi_reversion` |
-| Perpetuos en papel (largos y cortos) | `PUT /api/bot/config {"market":"perp","leverage":3}` | listo: margen aislado, funding, liquidación |
-| Futuros (mark, funding, OI, liquidaciones en vivo) | `GET /api/futures/*` + página `/futures` | listo (Binance USDT-M público) |
-| Gráficas de velas, mercado global, top 20, DeFi | `GET /api/market/*`, `/api/defi/*` | listo (CoinGecko, alternative.me, DefiLlama) |
-| Revisión de señales con Claude | automática si hay `ANTHROPIC_API_KEY` | listo |
-| Radar de noticias cripto | `GET /api/news/latest`, `/archive?tag=&q=` + Action diaria | listo |
-| Saldos on-chain | `GET /api/wallet/balance?address=&chain=` | requiere `WEB3_RPC_URL` |
-| Cuentas: registro con verificación por correo, login JWT, reset de contraseña | `POST /api/auth/register`, `/verify`, `/login`, `/forgot-password`, `/reset-password` | listo (SQLite/Postgres) |
-| Panel de administración (usuarios, roles, activar/verificar/borrar) | `GET /api/admin/users`, `/stats` + página `/admin` | listo (rol `admin`) |
-| Trading real | — | **no conectado a propósito** (`PAPER_TRADING=true`) |
+| Prices and candles (public Binance) | `GET /api/market/tickers`, `/ohlcv`, `/indicators` | done |
+| Paper trading bot | `GET /api/bot/status`, `POST /api/bot/tick`, `/trades` | done, strategies `sma_cross` and `rsi_reversion` |
+| Paper perpetuals (longs and shorts) | `PUT /api/bot/config {"market":"perp","leverage":3}` | done: isolated margin, funding, liquidation |
+| Futures (mark price, funding, OI, live liquidations) | `GET /api/futures/*` + `/futures` page | done (public Binance USDT-M) |
+| Candle charts, global market, top 20, DeFi | `GET /api/market/*`, `/api/defi/*` | done (CoinGecko, alternative.me, DefiLlama) |
+| Signal review by Claude | automatic when `ANTHROPIC_API_KEY` is set | done |
+| Crypto news radar | `GET /api/news/latest`, `/archive?tag=&q=` + daily Action | done |
+| On-chain balances | `GET /api/wallet/balance?address=&chain=` | needs `WEB3_RPC_URL` |
+| Accounts: sign-up with email confirmation, JWT login, password reset | `POST /api/auth/register`, `/verify`, `/login`, `/forgot-password`, `/reset-password` | done (SQLite/Postgres) |
+| One-click sign-in: Google, GitHub, Microsoft, wallet (SIWE) | `GET /api/auth/oauth/providers`, `/oauth/{provider}/start`, `POST /api/auth/wallet/nonce`, `/verify`, `/link` | done (providers need credentials) |
+| Admin panel (users, roles, activate/verify/delete) | `GET /api/admin/users`, `/stats` + `/admin` page | done (`admin` role) |
+| Smart contracts: MonsterCoin (MBK) and soulbound Monster Badges | `contracts/` (Foundry, Base Sepolia) | compiled and tested; deploy pending |
+| Real trading | — | **not connected on purpose** (`PAPER_TRADING=true`) |
 
-## Estructura
+## Layout
 
 ```text
 backend/
-  main.py                 entrada (uvicorn main:app)
+  main.py                 entry point (uvicorn main:app)
   app/
     config.py             settings (.env)
-    api/                  routers FastAPI + schemas
-    agent/                agente: loop, estado, memoria, ejecutor
-    strategies/           señales a partir de velas
-    tools/                indicadores técnicos
-    models/               cliente Claude
-    prompts/              prompts del agente y del radar
-    news/                 fuentes RSS, tags, colector
-    onchain/              web3: cadenas y saldos
-    services/             mercado (Binance), auth
+    api/                  FastAPI routers + schemas
+    agent/                agent: loop, state, memory, executor
+    strategies/           signals out of candles
+    tools/                technical indicators
+    models/               Claude client
+    prompts/              agent and radar prompts
+    news/                 RSS sources, tags, collector
+    onchain/              web3: chains and balances
+    services/             market (Binance), auth, oauth, siwe, email
     utils/                logger, helpers
   tests/
-  data/                   news/ (commiteado por el bot), paper/ (estado local)
+  data/                   news/ (committed by the bot), paper/ (local state)
   logs/
 frontend/
   src/pages, components, hooks, lib, i18n, styles
-  public/images/{brand,coins,partners}   assets heredados del prototipo
-docs/news/                informes diarios del radar
+  public/images/{brand,coins,partners}   assets inherited from the prototype
+contracts/                Foundry: MonsterToken, MonsterBadge, tests, deploy script
+docs/news/                daily radar reports · docs/WEB3.md strategy
 .github/workflows/        ci.yml · daily-news.yml
 ```
 
-## Cuentas, base de datos y correo
+## Accounts, database and email
 
-- **Base de datos**: SQLAlchemy async. Sin configurar nada usa SQLite en
-  `backend/data/monsterbroker.db`. Para producción pon un Postgres gratuito
-  en `DATABASE_URL` (Neon no pausa el proyecto; Supabase lo pausa tras 7 días
-  sin uso). Vale la URL tal cual la da el proveedor (`postgresql://…?sslmode=require`):
-  se normaliza para asyncpg. Las tablas se crean al arrancar, por la URL sin
-  pooler (`DATABASE_URL_UNPOOLED`) si existe.
-- **Neon desde la terminal**: el repo lleva los *agent skills* de Neon en
-  `.claude/skills/` (`npx neon skills -y`, requiere Node ≥ 22). `npx neon claim
-  create --env-pull` crea un Postgres sin cuenta y escribe `DATABASE_URL` en
-  `.env.local` (el backend lo lee); `npx neon claim accept` lo pasa a tu
-  cuenta. Un proyecto sin reclamar caduca a las 72 h.
-- **Registro**: el usuario recibe un correo con un enlace de confirmación
-  (caduca en 24 h) y no puede entrar hasta confirmarlo. Con
-  `REQUIRE_EMAIL_VERIFICATION=false` entra directamente.
-- **Correo**: `EMAIL_BACKEND=console` (por defecto) imprime el enlace en el
-  log del backend y, en `DEBUG`, lo devuelve en la respuesta de registro para
-  que la pantalla lo muestre. `resend` usa la API de Resend (gratis 100/día;
-  hasta verificar tu dominio solo entrega a tu propio correo desde
-  `onboarding@resend.dev`). `smtp` sirve para Brevo (300/día) o cualquier
-  relay. Un remitente `noreply@tudominio` exige verificar el dominio
-  (SPF/DKIM) en el proveedor.
-- **Admin**: quien se registre con un email de `ADMIN_EMAILS` es admin.
-  También: `cd backend && python -m app.cli promote tu@correo.com`
+- **Database**: async SQLAlchemy. With nothing configured it uses SQLite at
+  `backend/data/monsterbroker.db`. For production point `DATABASE_URL` at a
+  free Postgres (Neon doesn't pause the project; Supabase pauses it after 7
+  idle days). The URL works as the provider gives it
+  (`postgresql://…?sslmode=require`): it is normalised for asyncpg. Tables
+  are created on startup, over the non-pooled URL (`DATABASE_URL_UNPOOLED`)
+  when there is one; columns that newer models declare are added to
+  existing tables the same way.
+- **Neon from the terminal**: the repo ships Neon's *agent skills* in
+  `.claude/skills/` (`npx neon skills -y`, needs Node ≥ 22). `npx neon claim
+  create --env-pull` creates a Postgres without an account and writes
+  `DATABASE_URL` into `.env.local` (the backend reads it); `npx neon claim
+  accept` moves it to your account. An unclaimed project expires after 72 h.
+- **Sign-up**: the user gets an email with a confirmation link (expires in
+  24 h) and cannot sign in until it is confirmed. With
+  `REQUIRE_EMAIL_VERIFICATION=false` they get straight in.
+- **Email**: `EMAIL_BACKEND=console` (default) prints the link in the backend
+  log and, in `DEBUG`, returns it in the register response so the screen can
+  show it. `resend` uses the Resend API (free 100/day; until your domain is
+  verified it only delivers to your own address from `onboarding@resend.dev`).
+  `smtp` works with Brevo (300/day) or any relay. A `noreply@yourdomain`
+  sender requires verifying the domain (SPF/DKIM) at the provider.
+- **Admin**: whoever signs up with an email listed in `ADMIN_EMAILS` is an
+  admin. Also: `cd backend && python -m app.cli promote you@example.com`
   (`list`, `demote`, `verify`).
-- **Entrar en un clic**: el botón «Entrar» abre un bocadillo con Google,
-  GitHub, Microsoft, wallet y email. Un proveedor aparece solo si tiene
-  `*_CLIENT_ID` y `*_CLIENT_SECRET` en `.env` (URI de retorno a registrar:
-  `PUBLIC_API_URL/api/auth/oauth/<proveedor>/callback`). Con la wallet
-  (MetaMask, Rabby…) se entra firmando un mensaje SIWE (EIP-4361): sin gas,
-  sin contraseña, y la cuenta se crea sola. Una cuenta de email puede
-  vincular su wallet después (`POST /api/auth/wallet/link`).
-- **Acceso**: todas las secciones son públicas para que se vea qué hace la
-  app; manejar el bot pide cuenta y `/admin` pide rol admin.
+- **One-click sign-in**: the "Sign in" button opens a small speech bubble
+  with Google, GitHub, Microsoft, wallet and email. A provider shows up only
+  when its `*_CLIENT_ID` and `*_CLIENT_SECRET` are set in `.env` (redirect
+  URI to register at the provider:
+  `PUBLIC_API_URL/api/auth/oauth/<provider>/callback`). With a wallet
+  (MetaMask, Rabby…) you sign a SIWE message (EIP-4361): no gas, no
+  password, and the account creates itself. An email account can link its
+  wallet later (`POST /api/auth/wallet/link`).
+- **Access**: every section is public so visitors can see what the app
+  does; driving the bot needs an account and `/admin` needs the admin role.
 
 ## Web3
 
-- `contracts/`: proyecto Foundry con **MonsterCoin (MBK)**, un ERC-20 con
-  tope que el backend acuña como recompensa por aprender, y **Monster
-  Badges**, logros ERC-721 *soulbound* (no se transfieren). Pensados para
-  Base Sepolia (testnet, sin valor real). Build, tests y despliegue en
+- `contracts/`: a Foundry project with **MonsterCoin (MBK)**, a capped
+  ERC-20 the backend mints as a reward for learning, and **Monster Badges**,
+  *soulbound* ERC-721 achievements (they cannot be transferred). Built for
+  Base Sepolia (testnet, no real value). Build, tests and deployment in
   [contracts/README.md](contracts/README.md).
-- La estrategia (aprender-para-ganar, vías de monetización, qué exige MiCA)
-  está en [docs/WEB3.md](docs/WEB3.md).
+- The strategy (learn-to-earn, monetisation paths, what MiCA requires) lives
+  in [docs/WEB3.md](docs/WEB3.md).
 
 ## Tests
 
 ```bash
 cd backend && pytest -q && ruff check .
 cd frontend && npm run build
+cd contracts && forge test
 ```
 
-## Aviso
+## Disclaimer
 
-Esto es un proyecto de aprendizaje. El bot opera en papel; nada aquí es
-asesoramiento financiero.
+This is a learning project. The bot trades on paper; nothing here is
+financial advice.
