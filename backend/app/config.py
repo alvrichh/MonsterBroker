@@ -7,6 +7,7 @@ prices, trades on paper and collects news without AI summaries.
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
@@ -104,6 +105,19 @@ class Settings(BaseSettings):
     data_dir: Path = BACKEND_DIR / "data"
     logs_dir: Path = BACKEND_DIR / "logs"
     docs_dir: Path = REPO_DIR / "docs"
+
+    @model_validator(mode="after")
+    def _normalise_urls(self) -> "Settings":
+        """Hosting platforms hand out bare hosts (Render's fromService):
+        accept them as https URLs, and always allow the frontend's origin."""
+        for field in ("public_api_url", "frontend_url"):
+            value = getattr(self, field).strip().rstrip("/")
+            if value and "://" not in value:
+                value = f"https://{value}"
+            setattr(self, field, value)
+        if self.frontend_url and self.frontend_url not in self.cors_origins:
+            self.cors_origins = [*self.cors_origins, self.frontend_url]
+        return self
 
     @property
     def siwe_host(self) -> str:
