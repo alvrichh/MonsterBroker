@@ -101,9 +101,25 @@ docs/news/                informes diarios del radar
 - **Admin**: quien se registre con un email de `ADMIN_EMAILS` es admin.
   También: `cd backend && python -m app.cli promote tu@correo.com`
   (`list`, `demote`, `verify`).
-- **Acceso**: la home es pública; Mercado, Futuros, Bot, Noticias, Wallet y
-  DeFi piden cuenta confirmada; `/admin` pide rol admin. En la API, `/bot` y
-  `/wallet` exigen token; los datos de mercado siguen siendo públicos.
+- **Entrar en un clic**: el botón «Entrar» abre un bocadillo con Google,
+  GitHub, Microsoft, wallet y email. Un proveedor aparece solo si tiene
+  `*_CLIENT_ID` y `*_CLIENT_SECRET` en `.env` (URI de retorno a registrar:
+  `PUBLIC_API_URL/api/auth/oauth/<proveedor>/callback`). Con la wallet
+  (MetaMask, Rabby…) se entra firmando un mensaje SIWE (EIP-4361): sin gas,
+  sin contraseña, y la cuenta se crea sola. Una cuenta de email puede
+  vincular su wallet después (`POST /api/auth/wallet/link`).
+- **Acceso**: todas las secciones son públicas para que se vea qué hace la
+  app; manejar el bot pide cuenta y `/admin` pide rol admin.
+
+## Web3
+
+- `contracts/`: proyecto Foundry con **MonsterCoin (MBK)**, un ERC-20 con
+  tope que el backend acuña como recompensa por aprender, y **Monster
+  Badges**, logros ERC-721 *soulbound* (no se transfieren). Pensados para
+  Base Sepolia (testnet, sin valor real). Build, tests y despliegue en
+  [contracts/README.md](contracts/README.md).
+- La estrategia (aprender-para-ganar, vías de monetización, qué exige MiCA)
+  está en [docs/WEB3.md](docs/WEB3.md).
 
 ## Tests
 
