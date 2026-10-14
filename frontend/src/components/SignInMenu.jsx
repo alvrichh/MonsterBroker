@@ -1,14 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import SignInOptions from './SignInOptions.jsx';
 
 // "Entrar" in the header: one click opens a small speech bubble with every
-// way in, so nobody has to go through a long form to get started.
+// way in, so nobody has to go through a long form to get started. Any
+// "sign in to see this" button elsewhere opens the same bubble.
 export default function SignInMenu() {
   const { t } = useI18n();
+  const { signInRequest } = useAuth();
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
+
+  useEffect(() => {
+    if (signInRequest) setOpen(true);
+  }, [signInRequest]);
 
   useEffect(() => {
     if (!open) return undefined;

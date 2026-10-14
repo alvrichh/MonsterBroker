@@ -53,12 +53,16 @@ function useFoldOnScroll() {
 
 export default function Header() {
   const { t, lang, setLang } = useI18n();
-  const { user, logout } = useAuth();
+  const { user, logout, signInRequest } = useAuth();
   const [theme, toggleTheme] = useTheme();
   const [open, setOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => setOpen(false), [location.pathname]);
+  // On phones the sign-in bubble lives inside the folded panel: unfold it.
+  useEffect(() => {
+    if (signInRequest) setOpen(true);
+  }, [signInRequest]);
 
   // The curve flattens into an orange rule while scrolling down (the bar
   // stays) and curves back on the first scroll up.
