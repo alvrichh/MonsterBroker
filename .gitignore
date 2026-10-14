@@ -28,3 +28,7 @@ Thumbs.db
 # SQLite database (local accounts); production uses DATABASE_URL
 backend/data/*.db
 backend/data/*.db-journal
+.neon
+
+# Neon CLI project link (ids only, but local state)
+.neon
