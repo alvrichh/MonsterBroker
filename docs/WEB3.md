@@ -30,7 +30,10 @@ Ordenado de menos a más complejo/regulado:
 3. **NFTs de pago con utilidad**: certificados de curso, acceso a un canal
    privado, mentoría. Los NFT únicos y no fungibles quedan **fuera de MiCA**
    (art. 2.3 del Reglamento), siempre que no sean fraccionados ni emitidos en
-   serie intercambiable. Royalties en reventa (EIP-2981).
+   serie intercambiable. Royalties en reventa (EIP-2981). El contrato ya
+   existe: `contracts/src/MonsterCertificate.sol` (`buy` a precio fijo en ETH,
+   `grant` gratis desde el backend a quien termina el curso, una por curso y
+   wallet, `withdraw` a la tesorería). Falta la tienda en la app.
 4. **Suscripción premium** (más señales del bot, alertas, histórico) pagada en
    euros (Stripe) o en cripto estable. Esto es SaaS normal.
 5. **MBK con valor en mainnet** — *último paso, no primero*. Si el token se
@@ -73,7 +76,9 @@ vende, y todo lo que tenga valor real pasa por un proveedor regulado.
 5. ✅ Tres retos: bienvenida (vincular wallet), primer tick del bot, glosario de
    futuros. ⏳ Siguientes: 7 días seguidos de radar, primera posición en
    perpetuos, racha de aciertos del bot.
-6. ⏳ Certificados NFT de pago + afiliación (primer ingreso real).
+6. ✅ Contrato de certificados NFT de pago (`MonsterCertificate`, con
+   royalties EIP-2981). ⏳ Tienda de certificados en la app + afiliación
+   (primer ingreso real).
 7. 🔒 Mainnet solo con revisión legal.
 
 ## 5. Referencias
