@@ -2,8 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 
 from app.agent.agent import TickResult
 from app.agent.state import AgentState, Decision
-from app.api.deps import AgentDep, SettingsDep, get_current_user
+from app.api.deps import AgentDep, CurrentUser, DbSession, QuestsDep, SettingsDep, get_current_user
 from app.api.schemas.bot import ConfigIn, PerpPositionOut, StatusOut, StrategyOut, TradesOut
+from app.services.quests import EVENT_BOT_TICK
 from app.strategies import STRATEGIES
 
 router = APIRouter()
@@ -52,12 +53,14 @@ def strategies():
     return [s.describe() for s in STRATEGIES.values()]
 
 
-@router.post("/tick", response_model=TickResult, dependencies=signed_in)
-async def tick(agent: AgentDep):
+@router.post("/tick", response_model=TickResult)
+async def tick(agent: AgentDep, user: CurrentUser, session: DbSession, quests: QuestsDep):
     try:
-        return await agent.tick()
+        result = await agent.tick()
     except NotImplementedError as error:
         raise HTTPException(501, str(error)) from error
+    await quests.record_event(session, user.id, EVENT_BOT_TICK)  # the "first tick" quest
+    return result
 
 
 @router.put("/config", response_model=StatusOut, dependencies=signed_in)
