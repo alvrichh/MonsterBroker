@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.sessions import SessionMiddleware
 
 from app import __version__
 from app.api.router import api_router
@@ -70,6 +71,10 @@ def create_app() -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
+    # Only the OAuth dance uses the cookie session (the `state` parameter);
+    # API auth stays stateless with bearer tokens.
+    app.add_middleware(SessionMiddleware, secret_key=settings.jwt_secret, same_site="lax",
+                       https_only=not settings.debug, max_age=600)
     app.include_router(api_router, prefix="/api")
     return app
 
