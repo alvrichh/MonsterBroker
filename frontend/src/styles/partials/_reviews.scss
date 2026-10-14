@@ -1,0 +1,160 @@
+/* --------------------------------------------------------------------------
+   Reviews (home) and the legal page
+   -------------------------------------------------------------------------- */
+
+.reviews__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.reviews__summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  strong {
+    font-size: 1.6rem;
+    color: var(--accent);
+  }
+}
+
+.stars {
+  display: inline-flex;
+  gap: 2px;
+  color: var(--accent-2);
+
+  button {
+    display: inline-grid;
+    place-items: center;
+    padding: 2px;
+    color: inherit;
+    transition: transform 0.15s var(--ease-out);
+
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+}
+
+.reviews__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin: 0 0 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+
+  strong {
+    font-size: 1.1rem;
+    color: var(--ink);
+    margin-right: 4px;
+  }
+}
+
+.reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+
+  p {
+    flex: 1;
+    color: var(--ink-soft);
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+.review--sample {
+  border-style: dashed;
+  opacity: 0.85;
+}
+
+.review__sample {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.reviews__note {
+  margin-top: 12px;
+  font-size: 0.85rem;
+
+  a {
+    color: var(--accent);
+  }
+}
+
+.reviews__form {
+  margin-top: 20px;
+
+  h3 {
+    margin-bottom: 4px;
+  }
+
+  textarea.input {
+    resize: vertical;
+    font-family: inherit;
+  }
+
+  .actions {
+    margin: 4px 0;
+  }
+}
+
+.reviews__own {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  p {
+    color: var(--ink-soft);
+  }
+}
+
+/* Legal ----------------------------------------------------------------- */
+
+.legal__section {
+  margin-bottom: 28px;
+
+  h2 {
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+}
+
+.legal__updated {
+  font-size: 0.85rem;
+}
+
+.footer__links a[href="/legal"] {
+  color: var(--ink-soft);
+}
