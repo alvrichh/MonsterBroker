@@ -1,5 +1,5 @@
 // A tiny line chart of closes. Pure SVG; colour follows the first-to-last move.
-export default function Sparkline({ values = [], width = 160, height = 48, strokeWidth = 2 }) {
+export default function Sparkline({ values = [], width = 160, height = 48, strokeWidth = 2, color }) {
   if (values.length < 2) return <svg className="sparkline" width={width} height={height} aria-hidden="true" />;
 
   const min = Math.min(...values);
@@ -11,7 +11,7 @@ export default function Sparkline({ values = [], width = 160, height = 48, strok
   const id = `spark-${up ? 'up' : 'down'}`;
 
   return (
-    <svg className={`sparkline sparkline--${up ? 'up' : 'down'}`} width={width} height={height} viewBox={`0 0 ${width} ${height}`} aria-hidden="true">
+    <svg className={`sparkline sparkline--${up ? 'up' : 'down'}`} style={color ? { color } : undefined} width={width} height={height} viewBox={`0 0 ${width} ${height}`} aria-hidden="true">
       <defs>
         <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="currentColor" stopOpacity="0.35" />
