@@ -84,6 +84,7 @@ export default function Admin() {
                   <th>{t('admin.user')}</th>
                   <th>{t('admin.role')}</th>
                   <th>{t('admin.status')}</th>
+                  <th>{t('admin.plan')}</th>
                   <th>{t('admin.created')}</th>
                   <th>{t('admin.lastLogin')}</th>
                   <th>{t('admin.actions')}</th>
@@ -104,9 +105,16 @@ export default function Admin() {
                         <span className={`badge ${u.is_verified ? 'badge--up' : 'badge--down'}`}>{u.is_verified ? t('admin.verifiedYes') : t('admin.verifiedNo')}</span>{' '}
                         <span className={`badge ${u.is_active ? 'badge--hold' : 'badge--down'}`}>{u.is_active ? t('admin.activeYes') : t('admin.activeNo')}</span>
                       </td>
+                      <td>
+                        <span className={`badge ${u.is_pro ? 'badge--up' : 'badge--hold'}`}>{u.is_pro ? 'PRO' : t('admin.planFree')}</span>
+                        {u.plan === 'pro' && u.plan_until && <div className="muted">{t('admin.planUntil', { date: dateTime(u.plan_until) })}</div>}
+                      </td>
                       <td className="muted">{dateTime(u.created_at)}</td>
                       <td className="muted">{u.last_login_at ? dateTime(u.last_login_at) : '—'}</td>
                       <td className="users-table__actions">
+                        {u.plan === 'pro'
+                          ? <button type="button" className="btn btn--ghost btn--sm" disabled={busy} onClick={() => act(u.id, () => api.admin.updateUser(u.id, { plan: 'free' }))}>{t('admin.removePro')}</button>
+                          : <button type="button" className="btn btn--ghost btn--sm" disabled={busy} onClick={() => act(u.id, () => api.admin.updateUser(u.id, { plan: 'pro', plan_days: 30 }))}>{t('admin.givePro')}</button>}
                         {!u.is_verified && <button type="button" className="btn btn--ghost btn--sm" disabled={busy} onClick={() => act(u.id, () => api.admin.updateUser(u.id, { is_verified: true }))}>{t('admin.verify')}</button>}
                         <button type="button" className="btn btn--ghost btn--sm" disabled={busy || self} onClick={() => act(u.id, () => api.admin.updateUser(u.id, { is_active: !u.is_active }))}>{u.is_active ? t('admin.deactivate') : t('admin.activate')}</button>
                         <button type="button" className="btn btn--ghost btn--sm" disabled={busy || self} onClick={() => act(u.id, () => api.admin.updateUser(u.id, { role: u.role === 'admin' ? 'user' : 'admin' }))}>{u.role === 'admin' ? t('admin.makeUser') : t('admin.makeAdmin')}</button>
