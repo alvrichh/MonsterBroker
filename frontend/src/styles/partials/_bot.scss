@@ -2,11 +2,93 @@
    Bot
    -------------------------------------------------------------------------- */
 
+/* Bot vs HODL ------------------------------------------------------------ */
+
+.vs {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.vs__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  span {
+    font-size: 0.85rem;
+  }
+}
+
+.vs__row {
+  display: grid;
+  grid-template-columns: minmax(110px, 160px) 1fr auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.vs__label {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.vs__track {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--rule);
+  overflow: hidden;
+}
+
+.vs__bar {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--muted);
+  transition: width 0.6s var(--ease-out);
+
+  .vs__row--bot & {
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  }
+}
+
+.vs__bar--neg {
+  background: var(--down) !important;
+}
+
+.vs__value {
+  min-width: 7ch;
+  text-align: right;
+  font-weight: 600;
+}
+
+.vs__verdict {
+  font-family: var(--font-display);
+  font-weight: 600;
+  padding-top: 4px;
+  border-top: 1px dashed var(--rule-strong);
+}
+
+.vs--win .vs__verdict {
+  color: var(--accent);
+}
+
+.vs--lose .vs__verdict {
+  color: var(--muted);
+}
+
 .bot-grid {
   display: grid;
   grid-template-columns: minmax(280px, 1fr) minmax(0, 1.6fr);
   gap: 16px;
   margin-bottom: 16px;
+
+  /* the config form stacks its fields; the save button keeps its own size */
+  form > .btn {
+    align-self: flex-start;
+    padding-inline: 28px;
+  }
 }
 
 .decisions {
