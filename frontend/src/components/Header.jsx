@@ -98,7 +98,10 @@ export default function Header() {
           <div className="nav__auth">
             {user ? (
               <>
-                <span className="nav__user">{t('auth.hello', { name: user.name })}</span>
+                <span className="nav__user">
+                  {t('auth.hello', { name: user.name })}
+                  {user.is_pro && <> <Link to="/pro" className="pro-pill">PRO</Link></>}
+                </span>
                 <button type="button" className="btn btn--ghost btn--sm" onClick={logout}>{t('nav.logout')}</button>
               </>
             ) : (
