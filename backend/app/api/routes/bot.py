@@ -4,7 +4,7 @@ from app.agent.agent import TickResult
 from app.agent.state import AgentState, Decision
 from app.api.deps import AgentDep, CurrentUser, DbSession, QuestsDep, SettingsDep, get_current_user
 from app.api.schemas.bot import ConfigIn, PerpPositionOut, StatusOut, StrategyOut, TradesOut
-from app.services.quests import EVENT_BOT_TICK
+from app.services.quests import EVENT_BOT_CONFIG, EVENT_BOT_TICK, EVENT_PERP_MODE
 from app.strategies import STRATEGIES
 
 router = APIRouter()
@@ -63,14 +63,19 @@ async def tick(agent: AgentDep, user: CurrentUser, session: DbSession, quests: Q
     return result
 
 
-@router.put("/config", response_model=StatusOut, dependencies=signed_in)
-def update_config(body: ConfigIn, agent: AgentDep, settings: SettingsDep):
+@router.put("/config", response_model=StatusOut)
+async def update_config(body: ConfigIn, agent: AgentDep, settings: SettingsDep, user: CurrentUser, session: DbSession,
+                        quests: QuestsDep):
     try:
         state = agent.update_config(**body.model_dump())
     except KeyError as error:
         raise HTTPException(400, str(error.args[0])) from error
     except ValueError as error:
         raise HTTPException(400, str(error)) from error
+    # Points: touching the settings once, and switching to perpetuals once.
+    await quests.record_event(session, user.id, EVENT_BOT_CONFIG)
+    if body.market == "perp":
+        await quests.record_event(session, user.id, EVENT_PERP_MODE)
     return _status(state, settings.llm_enabled)
 
 
