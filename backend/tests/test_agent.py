@@ -89,6 +89,35 @@ async def test_reviewer_is_skipped_when_disabled(tmp_path):
 
 
 @pytest.mark.asyncio
+async def test_benchmark_is_snapshotted_once_on_first_tick(tmp_path):
+    market = FakeMarket({"BTC/USDT": GOLDEN})
+    agent = make_agent(tmp_path, market)
+    assert agent.state().benchmark is None
+
+    await agent.tick()
+    first = agent.state().benchmark
+    assert first.symbol == "BTC/USDT"
+    assert first.start_price == 101.0
+    assert first.starting_equity == 1000.0  # equity before the first trade
+
+    market.series["BTC/USDT"] = DEATH
+    await agent.tick()
+    assert agent.state().benchmark == first  # the yardstick never moves
+
+    agent.reset()
+    assert agent.state().benchmark is None
+
+
+@pytest.mark.asyncio
+async def test_benchmark_fetches_btc_when_not_traded(tmp_path):
+    market = FakeMarket({"ETH/USDT": GOLDEN, "BTC/USDT": [50.0, 60.0]})
+    agent = make_agent(tmp_path, market)
+    agent.update_config(symbols=["ETH/USDT"])
+    await agent.tick()
+    assert agent.state().benchmark.start_price == 60.0
+
+
+@pytest.mark.asyncio
 async def test_state_survives_reload(tmp_path):
     market = FakeMarket({"BTC/USDT": GOLDEN})
     await make_agent(tmp_path, market).tick()
