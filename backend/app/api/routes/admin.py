@@ -2,8 +2,9 @@ from fastapi import APIRouter, HTTPException, Query, status
 
 from app.api.deps import AdminUser, AuthDep, DbSession
 from app.api.schemas.auth import StatsOut, UserPatch, UsersOut
-from app.db.models import ROLE_USER
+from app.db.models import PLAN_PRO, ROLE_USER
 from app.services.auth import UserOut
+from app.services.membership import SOURCE_ADMIN, grant_pro, revoke_pro
 from app.utils.helpers import utc_now
 
 router = APIRouter()
@@ -32,6 +33,10 @@ async def patch_user(user_id: str, body: UserPatch, session: DbSession, auth: Au
     if body.is_verified is not None:
         user.is_verified = body.is_verified
         user.verified_at = utc_now() if body.is_verified else None
+    if body.plan == PLAN_PRO:
+        grant_pro(user, body.plan_days, SOURCE_ADMIN)
+    elif body.plan is not None:
+        revoke_pro(user)
     await session.commit()
     await session.refresh(user)
     return UserOut.from_user(user)

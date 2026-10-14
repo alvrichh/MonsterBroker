@@ -51,6 +51,8 @@ class UserPatch(BaseModel):
     role: str | None = Field(None, pattern="^(user|admin)$")
     is_active: bool | None = None
     is_verified: bool | None = None
+    plan: str | None = Field(None, pattern="^(free|pro)$")
+    plan_days: int | None = Field(None, ge=1, le=3650)  # with plan=pro; omitted = no expiry
 
 
 class StatsOut(BaseModel):
