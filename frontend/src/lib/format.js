@@ -50,11 +50,41 @@ export function dateTime(iso) {
   return new Intl.DateTimeFormat('es-ES', { dateStyle: 'short', timeStyle: 'short' }).format(date);
 }
 
+// "hace 2 h" / "2 hours ago", in the UI language.
+const AGO_UNITS = [['day', 86400], ['hour', 3600], ['minute', 60]];
+export function ago(iso, lang = 'es', nowMs = Date.now()) {
+  if (!iso) return '';
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  const seconds = Math.round((date.getTime() - nowMs) / 1000);
+  const rtf = new Intl.RelativeTimeFormat(lang, { numeric: 'auto', style: 'short' });
+  for (const [unit, size] of AGO_UNITS) {
+    if (Math.abs(seconds) >= size) return rtf.format(Math.round(seconds / size), unit);
+  }
+  return rtf.format(0, 'minute');
+}
+
 export function shortDate(iso) {
   if (!iso) return '';
   const date = new Date(/\d:\d/.test(iso) ? iso : `${iso}T00:00:00Z`);
   if (Number.isNaN(date.getTime())) return iso;
   return new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short' }).format(date);
+}
+
+// Funding rates are fractions per 8h (0.0001 = 0.01%); shown with a sign.
+export function fundingPct(rate, digits = 4) {
+  if (rate === null || rate === undefined || Number.isNaN(rate)) return '—';
+  const value = rate * 100;
+  return `${value > 0 ? '+' : ''}${value.toFixed(digits)}%`;
+}
+
+export function countdown(targetMs, nowMs = Date.now()) {
+  if (!targetMs) return '—';
+  const total = Math.max(0, Math.floor((targetMs - nowMs) / 1000));
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  return h ? `${h}h ${String(m).padStart(2, '0')}m` : `${m}m ${String(s).padStart(2, '0')}s`;
 }
 
 export const baseOf = (symbol = '') => symbol.split('/')[0];
