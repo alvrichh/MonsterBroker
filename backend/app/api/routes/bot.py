@@ -20,6 +20,7 @@ def _status(state: AgentState, llm: bool) -> StatusOut:
         ticks=state.ticks,
         llm_review_available=llm,
         recent_decisions=state.decisions[-20:][::-1],
+        benchmark=state.benchmark,
     )
 
 
