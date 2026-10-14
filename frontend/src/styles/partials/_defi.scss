@@ -1,0 +1,68 @@
+/* --------------------------------------------------------------------------
+   DeFi: TVL bars by chain (one hue, thin, rounded data-end) and protocols
+   -------------------------------------------------------------------------- */
+
+.defi-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 2fr) minmax(0, 3fr);
+  gap: 16px;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) 72px 40px;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+}
+
+.bar__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bar__track {
+  display: block;
+  height: 14px;
+}
+
+.bar__fill {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+  background: var(--accent);
+  border-radius: 0 4px 4px 0;
+  transition: width 0.4s var(--ease-out);
+}
+
+.bar__value {
+  text-align: right;
+}
+
+.bar__share {
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.protocols-table .coin img {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 900px) {
+  .defi-grid,
+  .kpi--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .bar {
+    grid-template-columns: 80px minmax(0, 1fr) 64px 36px;
+  }
+}
