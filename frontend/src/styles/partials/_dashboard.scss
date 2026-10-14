@@ -1,0 +1,147 @@
+/* --------------------------------------------------------------------------
+   Market: price cards, sparklines, detail
+   -------------------------------------------------------------------------- */
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  text-align: left;
+  background: var(--bg-glass);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  color: inherit;
+  transition: transform 0.2s var(--ease-out), border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--rule-strong);
+  }
+
+  &.is-selected {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-glow);
+  }
+}
+
+.price-card__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price-card__symbol {
+  font-family: var(--font-display);
+  font-weight: 600;
+
+  span {
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 0.85em;
+  }
+}
+
+.price-card__remove {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1;
+
+  &:hover {
+    background: var(--down-wash);
+    color: var(--down);
+  }
+}
+
+.price-card__price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.price-card__meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  font-size: 0.75rem;
+
+  dt {
+    color: var(--muted);
+  }
+
+  dd {
+    margin-top: 2px;
+  }
+}
+
+.sparkline {
+  width: 100%;
+  height: auto;
+}
+
+.sparkline--up {
+  color: var(--up);
+}
+
+.sparkline--down {
+  color: var(--down);
+}
+
+.detail__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.detail__price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.detail__chart {
+  margin: 8px 0 20px;
+}
+
+.indicators {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+
+  > div {
+    padding: 10px 12px;
+    border-radius: var(--radius-sm);
+    background: var(--bg-raised);
+    border: 1px solid var(--rule);
+  }
+
+  dt {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+
+  dd {
+    margin-top: 4px;
+    font-weight: 500;
+  }
+}
