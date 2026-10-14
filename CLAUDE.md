@@ -33,6 +33,13 @@ cd frontend && npm run build
 
 ## Convenciones
 
+- Usuarios en base de datos (SQLAlchemy async, `app/db/`): SQLite por defecto,
+  Postgres vía `DATABASE_URL`. Sesiones JWT HS256 (`JWT_SECRET` ≥ 32 bytes);
+  los enlaces de verificación y de reset son JWT con `purpose` y caducidad.
+  El correo sale por `app/services/email.py` (`console` | `resend` | `smtp`);
+  nunca bloquea una petición (va en `BackgroundTasks`). Las respuestas de
+  error de auth llevan `detail = {"code", "message"}` y el frontend lee el
+  `code`.
 - Backend: pydantic v2 para todo lo que cruza la API; funciones puras en
   `tools/` y `strategies/` (listas de floats, sin pandas) para que se testeen
   sin red. Estado del agente en JSON (`data/paper/state.json`).
