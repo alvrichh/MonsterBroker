@@ -1,13 +1,18 @@
 import { Link } from 'react-router-dom';
+import BotPulse from '../components/BotPulse.jsx';
 import { Wordmark } from '../components/Brand.jsx';
 import CoinIcon from '../components/CoinIcon.jsx';
+import FlashPrice from '../components/FlashPrice.jsx';
+import HeroChart from '../components/HeroChart.jsx';
+import Sparkline from '../components/Sparkline.jsx';
 import TickerTape from '../components/TickerTape.jsx';
 import { ArrowIcon, BotIcon, NewsIcon, WalletIcon } from '../components/icons.jsx';
-import { HOME_SYMBOLS, PARTNERS } from '../data/coins.js';
+import { COIN_COLORS, HOME_SYMBOLS, TAPE_SYMBOLS } from '../data/coins.js';
+import { useLiveTickers } from '../hooks/useLiveTickers.js';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
-import { baseOf, money, percent } from '../lib/format.js';
+import { baseOf, percent } from '../lib/format.js';
 
 const FEATURES = [
   { key: 'bot', to: '/bot', Icon: BotIcon },
@@ -15,15 +20,25 @@ const FEATURES = [
   { key: 'wallet', to: '/wallet', Icon: WalletIcon },
 ];
 
+// What the app really takes from Binance, brokerage-sheet style
+// (after QuantConnect's Lean.Brokerages.Binance README).
+const BINANCE_SPECS = ['prices', 'candles', 'market', 'mode', 'keys'];
+
 export default function Home() {
   const { t } = useI18n();
   const health = usePolling(() => api.health(), 60_000);
-  const coins = usePolling(() => api.market.tickers(HOME_SYMBOLS), 30_000);
+  const tickers = useLiveTickers(TAPE_SYMBOLS);
+  // 42 four-hour candles = the last 7 days, one sparkline per coin card
+  const weeks = usePolling(
+    () => Promise.all(HOME_SYMBOLS.map((s) => api.market.ohlcv(s, '4h', 42).then((r) => [s, r.candles.map((c) => c.close)]).catch(() => [s, []]))),
+    600_000,
+  );
+  const closesBySymbol = Object.fromEntries(weeks.data || []);
 
   return (
     <>
       <section className="hero">
-        <div className="hero__bg" aria-hidden="true" />
+        <HeroChart />
         <div className="wrap hero__inner">
           <p className="kicker">{t('home.kicker')}</p>
           <Wordmark className="hero__wordmark" />
@@ -47,7 +62,7 @@ export default function Home() {
         </div>
       </section>
 
-      <TickerTape />
+      <TickerTape tickers={tickers.data} />
 
       <section className="wrap section">
         <div className="features">
@@ -60,6 +75,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
+        <BotPulse />
       </section>
 
       <section className="wrap section">
@@ -69,26 +85,39 @@ export default function Home() {
         </header>
         <ul className="coins">
           {HOME_SYMBOLS.map((symbol) => {
-            const ticker = coins.data?.find((item) => item.symbol === symbol);
+            const ticker = tickers.data.find((item) => item.symbol === symbol);
             return (
-              <li className="coins__item card" key={symbol}>
+              <li className="coins__item card" key={symbol} style={{ '--coin': COIN_COLORS[baseOf(symbol)] }}>
                 <CoinIcon symbol={symbol} size={56} />
                 <strong>{baseOf(symbol)}</strong>
-                <span className="mono">{ticker ? money(ticker.price) : '…'}</span>
+                {ticker ? <FlashPrice value={ticker.price} /> : <span className="mono">…</span>}
                 {ticker && <span className={`mono ${ticker.change_24h >= 0 ? 'up' : 'down'}`}>{percent(ticker.change_24h)}</span>}
+                <span className="coins__spark" title={t('home.coins.spark')}>
+                  <Sparkline values={closesBySymbol[symbol] || []} width={140} height={36} strokeWidth={1.5} />
+                </span>
               </li>
             );
           })}
         </ul>
       </section>
 
-      <section className="wrap section section--partners">
-        <h2 className="section__title--small">{t('home.partners.title')}</h2>
-        <ul className="partners">
-          {PARTNERS.map((partner) => (
-            <li key={partner.name}><img src={partner.image} alt={partner.name} title={partner.name} loading="lazy" /></li>
-          ))}
-        </ul>
+      <section className="wrap section">
+        <div className="exchange card">
+          <div className="exchange__intro">
+            <img className="exchange__logo" src="/images/partners/binance.png" alt="Binance" loading="lazy" />
+            <h2>{t('home.binance.title')}</h2>
+            <p>{t('home.binance.text')}</p>
+            <Link to="/dashboard" className="btn btn--ghost btn--sm">{t('home.binance.cta')} <ArrowIcon /></Link>
+          </div>
+          <dl className="exchange__specs">
+            {BINANCE_SPECS.map((key) => (
+              <div key={key}>
+                <dt>{t(`home.binance.${key}`)}</dt>
+                <dd>{t(`home.binance.${key}Value`)}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
       </section>
     </>
   );
