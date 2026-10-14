@@ -1,0 +1,200 @@
+/* --------------------------------------------------------------------------
+   Futures: KPI row, funding / OI / positioning charts, liquidation feed,
+   glossary
+   -------------------------------------------------------------------------- */
+
+.kpi--futures {
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  margin-bottom: 16px;
+}
+
+.field--inline {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  .input {
+    width: auto;
+    min-width: 170px;
+  }
+}
+
+.futures-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+
+/* Liquidation feed --------------------------------------------------------- */
+
+.liq__hint {
+  font-size: 0.82rem;
+  margin: -4px 0 12px;
+}
+
+.liq__totals {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.liq__total {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) 90px;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+
+  .mono {
+    text-align: right;
+  }
+}
+
+.liq__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.liq__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.liq__dot--long {
+  background: var(--down);
+}
+
+.liq__dot--short {
+  background: var(--up);
+}
+
+.bar__fill--down {
+  background: var(--down);
+}
+
+.bar__fill--up {
+  background: var(--up);
+}
+
+.liq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 0.8rem;
+}
+
+.liq__row {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) 64px minmax(0, 1.4fr) 84px;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: var(--bg-raised);
+  animation: liq-in 0.4s var(--ease-out);
+}
+
+.liq__time {
+  color: var(--muted);
+}
+
+.liq__symbol {
+  font-weight: 600;
+}
+
+.liq__qty {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.liq__value {
+  text-align: right;
+}
+
+@keyframes liq-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Glossary ------------------------------------------------------------------ */
+
+.glossary {
+  margin-top: 16px;
+
+  summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "+";
+      font-family: var(--font-mono);
+      color: var(--accent);
+      font-size: 1.2rem;
+      width: 20px;
+    }
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  &[open] summary::before {
+    content: "−";
+  }
+}
+
+.glossary__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px 24px;
+  margin-top: 16px;
+
+  dt {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  dd {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .futures-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .liq__row {
+    grid-template-columns: 56px minmax(0, 1fr) 56px 84px;
+
+    .liq__qty {
+      display: none;
+    }
+  }
+
+  .liq__total {
+    grid-template-columns: 120px minmax(0, 1fr) 80px;
+  }
+}
