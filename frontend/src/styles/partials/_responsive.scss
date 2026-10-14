@@ -17,10 +17,8 @@
     align-items: stretch;
     gap: 16px;
     padding: 16px var(--gutter) 24px;
-    background: var(--bg-glass);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    border-bottom: 1px solid var(--rule);
+    background: var(--navy);
+    border-bottom: 2px solid var(--accent);
     box-shadow: var(--shadow);
     transform: translateY(-8px);
     opacity: 0;
@@ -83,9 +81,5 @@
 
   .stat__value {
     font-size: 1.15rem;
-  }
-
-  .partners img {
-    height: 28px;
   }
 }
