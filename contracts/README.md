@@ -22,8 +22,8 @@ forge test -vv
 
 ## Deploying to Base Sepolia
 
-1. Create a wallet for deploying and get testnet ETH from the Base faucets:
-   https://docs.base.org/base-chain/tools/network-faucets
+1. Create a wallet for deploying and get testnet ETH from the
+   [Base faucets](https://docs.base.org/base-chain/tools/network-faucets).
 2. Variables (in `contracts/.env`, never committed):
 
    ```bash
@@ -41,6 +41,8 @@ forge test -vv
    ```
 
 4. Copy the addresses it prints into the backend `.env`: `TOKEN_ADDRESS`,
-   `BADGE_ADDRESS`, `CHAIN_ID=84532`, `WEB3_RPC_URL=https://sepolia.base.org`.
+   `BADGE_ADDRESS`, `CHAIN_ID=84532`, plus `MINTER_PRIVATE_KEY` (the key behind
+   `MINTER`; `GET /api/token/info` shows its address). `CHAIN_RPC_URL` is
+   optional: empty means the public `https://sepolia.base.org`.
 
 Mainnet (`--rpc-url base`, chain 8453) only after the legal review described in `docs/WEB3.md`.
