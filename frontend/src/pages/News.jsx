@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import NewsCard from '../components/NewsCard.jsx';
 import Notice from '../components/Notice.jsx';
 import { RefreshIcon } from '../components/icons.jsx';
+import Loading from '../components/Loading.jsx';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
@@ -83,7 +84,7 @@ export default function News() {
         ))}
       </ul>
 
-      {archive.loading && !archive.data && <p className="muted">{t('common.loading')}</p>}
+      {archive.loading && !archive.data && <Loading />}
       {archive.data && items.length === 0 && <Notice tone="info">{t('news.empty')}</Notice>}
 
       <div className="news-grid">
