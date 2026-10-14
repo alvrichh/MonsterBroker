@@ -14,6 +14,7 @@ import Defi from './pages/Defi.jsx';
 import ForgotPassword from './pages/ForgotPassword.jsx';
 import Futures from './pages/Futures.jsx';
 import Home from './pages/Home.jsx';
+import Legal from './pages/Legal.jsx';
 import Login from './pages/Login.jsx';
 import News from './pages/News.jsx';
 import NotFound from './pages/NotFound.jsx';
@@ -53,6 +54,7 @@ export default function App() {
             <Route path="/certificates" element={<Certificates />} />
             <Route path="/certificates/verify/:code" element={<CertificateVerify />} />
             <Route path="/pro" element={<Pro />} />
+            <Route path="/legal" element={<Legal />} />
             <Route path="/admin" element={adminOnly(<Admin />)} />
             <Route path="*" element={<NotFound />} />
           </Routes>

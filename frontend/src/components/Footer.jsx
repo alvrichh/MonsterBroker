@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { Wordmark } from './Brand.jsx';
 import Curve from './Curve.jsx';
@@ -18,6 +19,8 @@ export default function Footer() {
             <a href="https://github.com/alvrichh/MonsterBroker" target="_blank" rel="noreferrer">GitHub</a>
             <span aria-hidden="true">·</span>
             <a href="https://alvrich.vercel.app" target="_blank" rel="noreferrer">alvrich.vercel.app</a>
+            <span aria-hidden="true">·</span>
+            <Link to="/legal">{t('footer.legal')}</Link>
           </p>
         </div>
       </div>
