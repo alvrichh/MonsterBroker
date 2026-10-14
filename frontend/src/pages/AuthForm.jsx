@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { Mark } from '../components/Brand.jsx';
 import Notice from '../components/Notice.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
@@ -31,7 +32,7 @@ export default function AuthForm({ mode }) {
   return (
     <div className="wrap wrap--narrow auth">
       <form className="card form" onSubmit={submit}>
-        <img src="/images/brand/logo.png" alt="" className="auth__logo" width="80" height="65" />
+        <Mark className="auth__logo" />
         <h1>{t(`auth.${mode}.title`)}</h1>
         <p className="muted">{t(`auth.${mode}.lead`)}</p>
 
