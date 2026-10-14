@@ -25,6 +25,9 @@
   --down: #ff5c7a;
   --up-wash: rgba(61, 220, 151, 0.14);
   --down-wash: rgba(255, 92, 122, 0.14);
+  /* Second chart series (SMA 21, ETH share): blue, so it never collides with
+     the orange accent under colour-blindness (validated ΔE 27 vs accent). */
+  --series-2: #3987e5;
 
   --shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
   --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.3);
@@ -63,10 +66,13 @@
   --accent-ink: #ffffff;
   --accent-wash: rgba(237, 99, 27, 0.1);
 
+  /* Up/down validated as a pair on white: ΔE 8.3 under protanopia (the
+     earlier #d12e52 collapsed into the green at 2.7). */
   --up: #178f5b;
-  --down: #d12e52;
+  --down: #e34948;
   --up-wash: rgba(23, 143, 91, 0.12);
-  --down-wash: rgba(209, 46, 82, 0.12);
+  --down-wash: rgba(227, 73, 72, 0.12);
+  --series-2: #2a78d6;
 
   --shadow: 0 10px 30px rgba(14, 45, 58, 0.1);
   --shadow-sm: 0 3px 10px rgba(14, 45, 58, 0.08);
