@@ -1,0 +1,22 @@
+import { useI18n } from '../i18n/I18nContext.jsx';
+
+// "Free learn about crypto": the terms on the futures page, explained in
+// one paragraph each. Keys live in i18n as futures.gl.<term>.t / .d.
+const TERMS = ['mark', 'index', 'funding', 'oi', 'basis', 'liquidation', 'longshort'];
+
+export default function Glossary() {
+  const { t } = useI18n();
+  return (
+    <details className="card glossary">
+      <summary><h2>{t('futures.glossary')}</h2></summary>
+      <dl className="glossary__list">
+        {TERMS.map((term) => (
+          <div key={term}>
+            <dt>{t(`futures.gl.${term}.t`)}</dt>
+            <dd>{t(`futures.gl.${term}.d`)}</dd>
+          </div>
+        ))}
+      </dl>
+    </details>
+  );
+}
