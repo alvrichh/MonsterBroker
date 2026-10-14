@@ -134,6 +134,12 @@ export const api = {
     walletLink: (message, signature) => request('/auth/wallet/link', { method: 'POST', body: { message, signature } }),
   },
 
+  // Member levels (bronze → platinum) from real activity.
+  levels: {
+    ladder: () => request('/levels'),
+    me: () => request('/levels/me'),
+  },
+
   // Member reviews on the home page: real, moderated, one per account.
   reviews: {
     list: () => request('/reviews'),

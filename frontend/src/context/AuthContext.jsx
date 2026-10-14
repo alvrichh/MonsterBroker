@@ -13,6 +13,15 @@ export function AuthProvider({ children }) {
   const [signInRequest, setSignInRequest] = useState(0);
   const requestSignIn = useCallback(() => setSignInRequest((n) => n + 1), []);
 
+  // The member's level (points, bronze → platinum). Follows the account; screens
+  // that earn points call refreshLevel().
+  const [level, setLevel] = useState(null);
+  const refreshLevel = useCallback(() => api.levels.me().then(setLevel).catch(() => null), []);
+  useEffect(() => {
+    if (user) refreshLevel();
+    else setLevel(null);
+  }, [user?.id, refreshLevel]); // eslint-disable-line react-hooks/exhaustive-deps
+
   // A saved token: ask the API who it belongs to, drop it if it expired.
   useEffect(() => {
     onUnauthorized(() => setUser(null));
@@ -99,12 +108,13 @@ export function AuthProvider({ children }) {
 
   const value = useMemo(
     () => ({
-      user, ready, isAdmin: user?.role === 'admin', providers, signInRequest,
+      user, ready, isAdmin: user?.role === 'admin', providers, signInRequest, level,
       login, register, verify, resetPassword, resendVerification, forgotPassword, logout,
-      loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn, refreshUser,
+      loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn, refreshUser, refreshLevel,
     }),
-    [user, ready, providers, signInRequest, login, register, verify, resetPassword, resendVerification,
-      forgotPassword, logout, loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn, refreshUser],
+    [user, ready, providers, signInRequest, level, login, register, verify, resetPassword, resendVerification,
+      forgotPassword, logout, loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn, refreshUser,
+      refreshLevel],
   );
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
