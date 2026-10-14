@@ -8,6 +8,7 @@ import { PlayIcon, RefreshIcon } from '../components/icons.jsx';
 import Loading from '../components/Loading.jsx';
 import { TIMEFRAMES } from '../data/coins.js';
 import { usePolling } from '../hooks/usePolling.js';
+import SignInGate from '../components/SignInGate.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
@@ -260,7 +261,7 @@ export default function Bot() {
               <h2>{t('bot.decisions')}</h2>
               {s.recent_decisions.length === 0 ? <p className="muted">{t('bot.noDecisions')}</p> : (
                 <ul className="decisions">
-                  {s.recent_decisions.map((d, i) => (
+                  {(canDrive ? s.recent_decisions : s.recent_decisions.slice(0, 3)).map((d, i) => (
                     <li key={`${d.time}-${d.symbol}-${i}`} className={`decision decision--${d.action}`}>
                       <div className="decision__head">
                         <span className={`badge badge--${d.action}`}>{t(`common.${d.action}`)}</span>
@@ -275,6 +276,7 @@ export default function Bot() {
                   ))}
                 </ul>
               )}
+              {!canDrive && s.recent_decisions.length > 3 && <SignInGate compact text={t('gate.decisions')} />}
             </section>
           </div>
 
