@@ -3,9 +3,7 @@
 // icons from @web3icons/core 4.0.40 (MIT). <CoinIcon> tries the file for any
 // ticker and falls back to letters when there's none. Aliases cover tickers
 // that changed or that Binance prefixes.
-export const COIN_ICON_ALIASES = {
-  POL: 'matic', // Polygon's ticker after the MATIC → POL migration
-};
+export const COIN_ICON_ALIASES = {};
 
 // Brand colours for the home coin cards' glow and top rule.
 export const COIN_COLORS = {
