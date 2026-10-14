@@ -11,7 +11,7 @@ valor al público (que es justo lo que MiCA regula con más dureza).
 | **MonsterCoin (MBK)** | Token ERC-20 de aprendizaje. Se gana completando lecciones y retos; sirve para desbloquear contenido y funciones. Sin valor monetario en testnet. | `contracts/src/MonsterToken.sol` |
 | **Monster Badges** | NFTs ERC-721 *soulbound* (no transferibles): insignias por logros (primer tick del bot, glosario de futuros, racha de lectura del radar…). Prueba verificable de lo aprendido. | `contracts/src/MonsterBadge.sol` |
 | **Wallet como identidad** | Entrar con la wallet (Sign-In with Ethereum): el usuario firma un mensaje, no hay contraseña. | backend `auth/wallet/*` |
-| **Learn-to-earn** | El backend es el único *minter*: cuando completas un reto, acuña MBK a tu wallet y la insignia correspondiente. | `app/onchain/rewards.py` |
+| **Learn-to-earn** | El backend es el único *minter*: cuando completas un reto, acuña MBK a tu wallet y la insignia correspondiente. Los retos y las reclamaciones viven en `app/services/quests.py` (tabla `quest_claims`); la acuñación en `app/onchain/rewards.py`; la lectura del saldo y las insignias en `app/onchain/token.py`. Sin `MINTER_PRIVATE_KEY` las reclamaciones quedan `pending` y `python -m app.cli settle` las acuña después. | `app/services/quests.py`, `app/onchain/rewards.py` |
 
 Red: **Base** (L2 de Coinbase, comisiones de céntimos). Primero **Base Sepolia**
 (testnet, gratis). Pasar a mainnet es un cambio de `CHAIN_ID` y direcciones,
@@ -65,18 +65,23 @@ vende, y todo lo que tenga valor real pasa por un proveedor regulado.
 1. ✅ Contratos (Foundry + OpenZeppelin 5), tests, script de despliegue.
 2. ✅ Login con wallet (SIWE) junto a Google/Microsoft/GitHub.
 3. ⏳ Desplegar en Base Sepolia (falta: wallet con ETH de testnet del faucet y
-   `MINTER_PRIVATE_KEY` del backend).
-4. ⏳ Página `/token`: conectar wallet, saldo MBK, insignias, retos reclamables.
-5. ⏳ Retos reales: glosario de futuros, primer tick, 7 días seguidos de radar.
+   `MINTER_PRIVATE_KEY` del backend; `GET /api/token/info` enseña la dirección
+   que hay que pasar como `MINTER`).
+4. ✅ Página `/token`: vincular wallet, saldo MBK, insignias, retos reclamables
+   (`GET /api/token/info|me`, `POST /api/token/claim`); metadatos ERC-721 de
+   cada insignia en `GET /api/token/metadata/{reto}`.
+5. ✅ Tres retos: bienvenida (vincular wallet), primer tick del bot, glosario de
+   futuros. ⏳ Siguientes: 7 días seguidos de radar, primera posición en
+   perpetuos, racha de aciertos del bot.
 6. ⏳ Certificados NFT de pago + afiliación (primer ingreso real).
 7. 🔒 Mainnet solo con revisión legal.
 
 ## 5. Referencias
 
-- Base: https://docs.base.org/get-started/deploy-smart-contracts
-- Foundry: https://getfoundry.sh/introduction/installation
-- OpenZeppelin Contracts 5: https://docs.openzeppelin.com/contracts/5.x/
-- MiCA (texto): https://eur-lex.europa.eu/eli/reg/2023/1114/oj
-- CNMV y MiCA en España: https://www.cnmv.es
-- SIWE (EIP-4361): https://eips.ethereum.org/EIPS/eip-4361
-- EIP-2981 (royalties): https://eips.ethereum.org/EIPS/eip-2981
+- Base: <https://docs.base.org/get-started/deploy-smart-contracts>
+- Foundry: <https://getfoundry.sh/introduction/installation>
+- OpenZeppelin Contracts 5: <https://docs.openzeppelin.com/contracts/5.x/>
+- MiCA (texto): <https://eur-lex.europa.eu/eli/reg/2023/1114/oj>
+- CNMV y MiCA en España: <https://www.cnmv.es>
+- SIWE (EIP-4361): <https://eips.ethereum.org/EIPS/eip-4361>
+- EIP-2981 (royalties): <https://eips.ethereum.org/EIPS/eip-2981>
