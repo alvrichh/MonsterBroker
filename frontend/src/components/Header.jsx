@@ -5,7 +5,7 @@ import { LANGUAGES, useI18n } from '../i18n/I18nContext.jsx';
 import { useTheme } from '../lib/preferences.js';
 import { Mark } from './Brand.jsx';
 import Curve from './Curve.jsx';
-import { CloseIcon, MenuIcon, MoonIcon, SunIcon } from './icons.jsx';
+import { CloseIcon, CoinIcon, MenuIcon, MoonIcon, SunIcon } from './icons.jsx';
 import LevelBadge from './LevelBadge.jsx';
 import SignInMenu from './SignInMenu.jsx';
 
@@ -99,8 +99,18 @@ export default function Header() {
           <div className="nav__auth">
             {user ? (
               <>
+                {level && (
+                  // Level and points, game-style: the medal, then coins. Re-keyed on
+                  // the points so the counter bumps when they go up.
+                  <Link to="/pro" className="level-pill" title={t('level.headerTitle', { level: t(`level.${level.level}`), points: level.points })}>
+                    <LevelBadge level={level.level} />
+                    <span className="coin-counter" key={level.points}>
+                      <CoinIcon />
+                      <span className="mono">{level.points}</span>
+                    </span>
+                  </Link>
+                )}
                 <span className="nav__user">
-                  {level && <Link to="/pro" className="nav__level"><LevelBadge level={level.level} name={false} /></Link>}
                   {t('auth.hello', { name: user.name })}
                   {user.is_pro && <> <Link to="/pro" className="pro-pill">PRO</Link></>}
                 </span>

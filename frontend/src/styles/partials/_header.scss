@@ -196,10 +196,72 @@ $fold-ease: cubic-bezier(0.22, 1, 0.36, 1);
   gap: 8px;
 }
 
+/* Level + points in the bar: a medal and a coin counter, like a game HUD. */
+.level-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 12px 5px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ink);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    border-color: var(--accent);
+    background: var(--accent-wash);
+    color: var(--ink);
+  }
+
+  .medal {
+    font-size: 0.8rem;
+  }
+}
+
+/* (.coins is the home page's coin grid; this is the counter.) */
+.coin-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+  border-left: 1px solid var(--rule-strong);
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: #ffd27a;
+  animation: coins-bump 0.5s var(--ease-out);
+
+  svg {
+    flex-shrink: 0;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  }
+}
+
+@keyframes coins-bump {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.18);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .coin-counter {
+    animation: none;
+  }
+}
+
 .nav__user {
   display: inline-flex;
   align-items: center;
-  max-width: 220px;
+  max-width: 170px;
   font-size: 0.88rem;
   color: var(--muted);
   white-space: nowrap; /* wallet names ("0x1CEC…53A3") must not wrap the bar */
