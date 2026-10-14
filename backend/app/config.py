@@ -80,6 +80,7 @@ class Settings(BaseSettings):
 
     # On-chain: Base Sepolia by default. Addresses come from contracts/README.md's deploy step.
     chain_id: int = 84532
+    chain_rpc_url: str = ""  # empty = the public RPC of CHAIN_ID
     token_address: str = ""
     badge_address: str = ""
     minter_private_key: str = ""  # the backend wallet with MINTER_ROLE; never commit it
