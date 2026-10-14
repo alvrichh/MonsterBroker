@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app import __version__
 from app.api.router import api_router
 from app.config import get_settings
+from app.db.database import dispose_db, init_db
 from app.services.exchange import get_market_service
 from app.utils.logger import get_logger, setup_logging
 
@@ -18,8 +19,11 @@ log = get_logger("monsterbroker")
 async def lifespan(app: FastAPI):
     settings = get_settings()
     setup_logging(settings.logs_dir)
-    log.info("%s v%s starting (%s, paper=%s)", settings.app_name, __version__, settings.environment,
-             settings.paper_trading)
+    log.info("%s v%s starting (%s, paper=%s, db=%s, email=%s)", settings.app_name, __version__,
+             settings.environment, settings.paper_trading, settings.db_url.split("://")[0], settings.email_backend)
+    await init_db()
+    if settings.jwt_secret.startswith("change-me") or len(settings.jwt_secret.encode()) < 32:
+        log.warning("JWT_SECRET is the example value or shorter than 32 bytes; set a real one before exposing this")
 
     scheduler = None
     if settings.news_auto_refresh:
@@ -30,6 +34,7 @@ async def lifespan(app: FastAPI):
     if scheduler:
         scheduler.shutdown(wait=False)
     await get_market_service().close()
+    await dispose_db()
 
 
 def _start_news_scheduler(minutes: int):
