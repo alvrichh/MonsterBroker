@@ -51,6 +51,16 @@ export const api = {
     top: (limit = 20) => request('/market/top', { params: { limit } }),
   },
 
+  futures: {
+    overview: (symbol) => request('/futures/overview', { params: { symbol } }),
+    top: (limit = 15) => request('/futures/top', { params: { limit } }),
+    funding: (symbol, limit = 30) => request('/futures/funding', { params: { symbol, limit } }),
+    openInterest: (symbol, period = '1h', limit = 168) => request('/futures/open-interest', { params: { symbol, period, limit } }),
+    ratios: (symbol, period = '1h', limit = 48) => request('/futures/ratios', { params: { symbol, period, limit } }),
+    ohlcv: (symbol, timeframe = '1h', limit = 200) => request('/futures/ohlcv', { params: { symbol, timeframe, limit } }),
+    quarterly: () => request('/futures/quarterly'),
+  },
+
   defi: {
     chains: (limit = 12) => request('/defi/chains', { params: { limit } }),
     protocols: (limit = 15) => request('/defi/protocols', { params: { limit } }),
