@@ -381,6 +381,13 @@
   "token.quest.glossary.desc": "Lee qué son el precio mark, el funding, el open interest, la base y la liquidación.",
   "token.quest.glossary.hint": "Abre el glosario en la sección de Futuros.",
 
+  "gate.cta": "Entrar para verlo",
+  "gate.text": "Esto es para gente de la casa. Entrar es un clic: GitHub, wallet o email.",
+  "gate.top": "Estás viendo el top 10. Con cuenta ves las {total} y puedes elegir cualquiera para la gráfica.",
+  "gate.liq": "Las liquidaciones en vivo son para gente de la casa. Entra y verás cada long y short que estalla, al segundo.",
+  "gate.decisions": "Solo enseñamos las últimas 3 decisiones. Con cuenta ves el historial completo y los comentarios de la IA.",
+  "gate.news": "Buscar y filtrar por etiqueta en el archivo ({total} noticias) es para gente de la casa.",
+
   "footer.made": "Hecho con cariño (y mucho café) por Álvaro Rodríguez Molina. Proyecto de aprendizaje, código abierto.",
   "footer.disclaimer": "Nada de esto es asesoramiento financiero. El bot juega con dinero simulado; con el tuyo decides tú.",
   "notfound.title": "Esta página ha hecho un rug pull.",
