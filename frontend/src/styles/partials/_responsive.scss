@@ -3,6 +3,29 @@
    on phones.
    -------------------------------------------------------------------------- */
 
+/* Horizontal bar but not much room: the greeting goes first (the level pill
+   already says who you are), then the medal's name, and the links tighten. */
+@media (min-width: 901px) and (max-width: 1440px) {
+  .nav__user {
+    display: none;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1240px) {
+  .level-pill .medal span {
+    display: none;
+  }
+
+  .nav__link {
+    padding: 8px 10px;
+    font-size: 0.88rem;
+  }
+
+  .header__inner {
+    gap: 16px;
+  }
+}
+
 @media (max-width: 900px) {
   .header__burger {
     display: inline-grid;
@@ -46,6 +69,10 @@
     flex-wrap: wrap;
     padding-top: 12px;
     border-top: 1px solid var(--rule);
+  }
+
+  .nav__user {
+    max-width: none;
   }
 
   .bot-grid {
