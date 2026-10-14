@@ -1,12 +1,16 @@
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 
 from app.agent.agent import TickResult
 from app.agent.state import AgentState, Decision
-from app.api.deps import AgentDep, SettingsDep
+from app.api.deps import AgentDep, SettingsDep, get_current_user
 from app.api.schemas.bot import ConfigIn, PerpPositionOut, StatusOut, StrategyOut, TradesOut
 from app.strategies import STRATEGIES
 
 router = APIRouter()
+
+# Anyone can watch the bot; only signed-in users can drive it. There is one
+# shared paper portfolio, so ticks, config changes and resets affect everyone.
+signed_in = [Depends(get_current_user)]
 
 
 def _perp_positions(state: AgentState) -> dict[str, PerpPositionOut]:
@@ -48,7 +52,7 @@ def strategies():
     return [s.describe() for s in STRATEGIES.values()]
 
 
-@router.post("/tick", response_model=TickResult)
+@router.post("/tick", response_model=TickResult, dependencies=signed_in)
 async def tick(agent: AgentDep):
     try:
         return await agent.tick()
@@ -56,7 +60,7 @@ async def tick(agent: AgentDep):
         raise HTTPException(501, str(error)) from error
 
 
-@router.put("/config", response_model=StatusOut)
+@router.put("/config", response_model=StatusOut, dependencies=signed_in)
 def update_config(body: ConfigIn, agent: AgentDep, settings: SettingsDep):
     try:
         state = agent.update_config(**body.model_dump())
@@ -67,7 +71,7 @@ def update_config(body: ConfigIn, agent: AgentDep, settings: SettingsDep):
     return _status(state, settings.llm_enabled)
 
 
-@router.post("/reset", response_model=StatusOut)
+@router.post("/reset", response_model=StatusOut, dependencies=signed_in)
 def reset(agent: AgentDep, settings: SettingsDep):
     return _status(agent.reset(), settings.llm_enabled)
 
