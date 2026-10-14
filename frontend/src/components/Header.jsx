@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import { LANGUAGES, useI18n } from '../i18n/I18nContext.jsx';
 import { useTheme } from '../lib/preferences.js';
+import { Mark } from './Brand.jsx';
 import { CloseIcon, MenuIcon, MoonIcon, SunIcon } from './icons.jsx';
 
 const LINKS = [
@@ -28,7 +29,7 @@ export default function Header() {
     <header className="header">
       <div className="header__inner wrap">
         <Link to="/" className="brand" aria-label="MonsterBroker">
-          <img src="/images/brand/logo.png" alt="" width="40" height="32" />
+          <Mark className="brand__mark" />
           <span className="brand__name">Monster<em>Broker</em></span>
         </Link>
 
