@@ -4,11 +4,12 @@ import { usd } from '../lib/format.js';
 import { hexToRgba } from '../lib/indicators.js';
 import { useTheme } from './CandleChart.jsx';
 
-// One series over time (daily points, 'YYYY-MM-DD'): a 2px line with a 10%
-// wash underneath, crosshair readout handed back through onHover.
+// One series over time: a 2px line with a wash underneath, crosshair
+// readout handed back through onHover. points: [{ date, value }] where date
+// is 'YYYY-MM-DD' or unix seconds.
 const cssVar = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 
-export default function AreaChart({ points = [], onHover }) {
+export default function AreaChart({ points = [], onHover, formatter = (value) => usd(value, 0), timeVisible = false }) {
   const theme = useTheme();
   const containerRef = useRef(null);
   const chartRef = useRef(null);
@@ -21,9 +22,9 @@ export default function AreaChart({ points = [], onHover }) {
       layout: { background: { type: 'solid', color: 'transparent' }, textColor: cssVar('--muted'), fontFamily: cssVar('--font-mono'), fontSize: 11 },
       grid: { vertLines: { visible: false }, horzLines: { color: cssVar('--rule') } },
       rightPriceScale: { borderVisible: false },
-      timeScale: { borderVisible: false },
+      timeScale: { borderVisible: false, timeVisible, secondsVisible: false },
       crosshair: { mode: 0, vertLine: { labelVisible: true }, horzLine: { visible: false, labelVisible: false } },
-      localization: { locale: 'es-ES', priceFormatter: (value) => usd(value, 0) },
+      localization: { locale: 'es-ES', priceFormatter: formatter },
     });
     const series = chart.addSeries(AreaSeries, { lineWidth: 2, priceLineVisible: false, lastValueVisible: false, crosshairMarkerRadius: 4 });
     chart.subscribeCrosshairMove((param) => {
