@@ -24,7 +24,9 @@ from app.services.defillama import DefiLlamaService, get_defillama
 from app.services.email import EmailService
 from app.services.exchange import MarketDataService, get_market_service
 from app.services.futures import BinanceFuturesService, get_futures
+from app.services.oauth import build_oauth
 from app.services.sentiment import SentimentService, get_sentiment
+from app.services.siwe import SiweService
 
 SettingsDep = Annotated[Settings, Depends(get_settings)]
 DbSession = Annotated[AsyncSession, Depends(get_session)]
@@ -87,10 +89,29 @@ def get_email(settings: SettingsDep) -> EmailService:
     return _email
 
 
+_oauth = None
+_siwe: SiweService | None = None
+
+
+def get_oauth(settings: SettingsDep):
+    """(Authlib client, [configured provider names])."""
+    global _oauth
+    if _oauth is None:
+        _oauth = build_oauth(settings)
+    return _oauth
+
+
+def get_siwe(settings: SettingsDep) -> SiweService:
+    global _siwe
+    if _siwe is None:
+        _siwe = SiweService(settings.siwe_host, settings.frontend_url, settings.chain_id)
+    return _siwe
+
+
 def reset_singletons() -> None:
     """For tests: forget the cached services so new settings apply."""
-    global _agent, _auth, _email
-    _agent = _auth = _email = None
+    global _agent, _auth, _email, _oauth, _siwe
+    _agent = _auth = _email = _oauth = _siwe = None
 
 
 _bearer = HTTPBearer(auto_error=False)
@@ -124,5 +145,7 @@ NewsDep = Annotated[NewsCollector, Depends(get_news)]
 WalletDep = Annotated[WalletService, Depends(get_wallet)]
 AuthDep = Annotated[AuthService, Depends(get_auth)]
 EmailDep = Annotated[EmailService, Depends(get_email)]
+OAuthDep = Annotated[tuple, Depends(get_oauth)]
+SiweDep = Annotated[SiweService, Depends(get_siwe)]
 CurrentUser = Annotated[User, Depends(get_current_user)]
 AdminUser = Annotated[User, Depends(require_admin)]
