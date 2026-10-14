@@ -6,6 +6,7 @@ import { useTheme } from '../lib/preferences.js';
 import { Mark } from './Brand.jsx';
 import Curve from './Curve.jsx';
 import { CloseIcon, MenuIcon, MoonIcon, SunIcon } from './icons.jsx';
+import SignInMenu from './SignInMenu.jsx';
 
 const LINKS = [
   { to: '/', key: 'nav.home', end: true },
@@ -96,10 +97,7 @@ export default function Header() {
                 <button type="button" className="btn btn--ghost btn--sm" onClick={logout}>{t('nav.logout')}</button>
               </>
             ) : (
-              <>
-                <Link to="/login" className="btn btn--ghost btn--sm">{t('nav.login')}</Link>
-                <Link to="/register" className="btn btn--primary btn--sm">{t('nav.register')}</Link>
-              </>
+              <SignInMenu />
             )}
           </div>
         </nav>
