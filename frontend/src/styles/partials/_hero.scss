@@ -5,21 +5,24 @@
 .hero {
   position: relative;
   overflow: hidden;
-  padding: clamp(56px, 10vw, 120px) 0 clamp(40px, 6vw, 72px);
+  padding: 52px 0 clamp(40px, 6vw, 72px);
   text-align: center;
 }
 
-.hero__bg {
+/* Animated candlestick chart (HeroChart.jsx). Faded out behind the centred
+   copy so the text stays readable; strongest toward the edges. */
+.hero__chart {
   position: absolute;
   inset: 0;
-  background: url("/images/brand/hero-bg.jpg") center / cover no-repeat;
-  opacity: 0.18;
-  mask-image: linear-gradient(to bottom, black 20%, transparent);
-  -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent);
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  mask-image: radial-gradient(ellipse 42% 58% at 50% 46%, rgba(0, 0, 0, 0.12), #000 100%);
+  -webkit-mask-image: radial-gradient(ellipse 42% 58% at 50% 46%, rgba(0, 0, 0, 0.12), #000 100%);
   pointer-events: none;
 
   :root[data-theme="light"] & {
-    opacity: 0.1;
+    opacity: 0.32;
   }
 }
 
@@ -43,6 +46,7 @@
 .hero__title {
   font-size: clamp(1.6rem, 4vw, 2.4rem);
   max-width: 22ch;
+  text-wrap: balance;
 }
 
 .hero__lead {
@@ -165,6 +169,86 @@
   }
 }
 
+/* Bot pulse ("El bicho dice…") ------------------------------------------ */
+
+.pulse {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 16px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-glow);
+    color: inherit;
+  }
+}
+
+/* a "live" dot that breathes, like an on-air light */
+.pulse__dot {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 var(--accent-wash);
+  animation: on-air 2s ease-out infinite;
+}
+
+@keyframes on-air {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 122, 26, 0.55);
+  }
+
+  100% {
+    box-shadow: 0 0 0 12px rgba(255, 122, 26, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse__dot {
+    animation: none;
+  }
+}
+
+.pulse__body {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.pulse__line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.pulse__reason {
+  color: var(--ink-soft);
+}
+
+.pulse__review {
+  font-size: 0.88rem;
+  color: var(--muted);
+  border-left: 2px solid var(--accent);
+  padding-left: 10px;
+}
+
+.pulse__more {
+  color: var(--muted);
+  transition: color 0.2s ease, transform 0.2s var(--ease-out);
+
+  .pulse:hover & {
+    color: var(--accent);
+    transform: translateX(3px);
+  }
+}
+
 /* Coins ------------------------------------------------------------------ */
 
 .coins {
@@ -173,12 +257,31 @@
   gap: 12px;
 }
 
+/* each card carries its coin's brand colour in --coin (set inline) */
 .coins__item {
+  --coin: var(--accent);
+
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
   text-align: center;
+  border-top: 3px solid var(--coin);
+  background:
+    radial-gradient(160px 110px at 50% 0%, color-mix(in srgb, var(--coin) 22%, transparent), transparent 70%),
+    var(--bg-glass);
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px color-mix(in srgb, var(--coin) 25%, transparent);
+  }
+
+  .coin-icon {
+    filter: drop-shadow(0 6px 14px color-mix(in srgb, var(--coin) 45%, transparent));
+  }
 
   strong {
     font-family: var(--font-display);
@@ -186,29 +289,76 @@
   }
 }
 
-/* Partners --------------------------------------------------------------- */
+.coins__spark {
+  display: block;
+  width: 100%;
+  max-width: 140px;
+  margin-top: 6px;
 
-.section--partners {
-  text-align: center;
+  .sparkline {
+    width: 100%;
+    height: auto;
+  }
 }
 
-.partners {
-  display: flex;
-  gap: clamp(16px, 4vw, 40px);
-  justify-content: center;
+/* Exchange (Binance) ----------------------------------------------------- */
+
+.exchange {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 48px);
   align-items: center;
-  flex-wrap: wrap;
+  border-left: 3px solid #f0b90b; /* Binance yellow */
+}
 
-  img {
-    height: 36px;
-    width: auto;
-    opacity: 0.55;
-    filter: grayscale(1);
-    transition: opacity 0.2s ease, filter 0.2s ease;
+.exchange__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 
-    &:hover {
-      opacity: 1;
-      filter: none;
+  p {
+    color: var(--muted);
+    max-width: 52ch;
+  }
+}
+
+.exchange__logo {
+  height: 34px;
+  width: auto;
+}
+
+.exchange__specs {
+  display: grid;
+  margin: 0;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--rule-strong);
+
+    &:last-child {
+      border-bottom: 0;
     }
+  }
+
+  dt {
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+
+  dd {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
+    text-align: right;
+  }
+}
+
+@media (max-width: 760px) {
+  .exchange {
+    grid-template-columns: 1fr;
   }
 }
