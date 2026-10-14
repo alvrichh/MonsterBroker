@@ -49,6 +49,17 @@ class Portfolio(BaseModel):
         return self.cash + held
 
 
+class Benchmark(BaseModel):
+    """The yardstick: what buying the benchmark and holding it would have
+    done since the bot started. Snapshotted on the first tick after a
+    reset, so the comparison starts from the same moment for both."""
+
+    symbol: str
+    started_at: str
+    start_price: float
+    starting_equity: float
+
+
 class AgentConfig(BaseModel):
     symbols: list[str]
     strategy: str = "sma_cross"
@@ -66,3 +77,4 @@ class AgentState(BaseModel):
     last_tick: str | None = None
     ticks: int = 0
     last_prices: dict[str, float] = Field(default_factory=dict)
+    benchmark: Benchmark | None = None
