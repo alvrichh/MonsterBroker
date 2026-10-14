@@ -7,6 +7,8 @@ import { I18nProvider } from './i18n/I18nContext.jsx';
 import Admin from './pages/Admin.jsx';
 import AuthCallback from './pages/AuthCallback.jsx';
 import Bot from './pages/Bot.jsx';
+import CertificateVerify from './pages/CertificateVerify.jsx';
+import Certificates from './pages/Certificates.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import Defi from './pages/Defi.jsx';
 import ForgotPassword from './pages/ForgotPassword.jsx';
@@ -15,6 +17,7 @@ import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
 import News from './pages/News.jsx';
 import NotFound from './pages/NotFound.jsx';
+import Pro from './pages/Pro.jsx';
 import Register from './pages/Register.jsx';
 import ResetPassword from './pages/ResetPassword.jsx';
 import Token from './pages/Token.jsx';
@@ -47,6 +50,9 @@ export default function App() {
             <Route path="/wallet" element={<Wallet />} />
             <Route path="/defi" element={<Defi />} />
             <Route path="/token" element={<Token />} />
+            <Route path="/certificates" element={<Certificates />} />
+            <Route path="/certificates/verify/:code" element={<CertificateVerify />} />
+            <Route path="/pro" element={<Pro />} />
             <Route path="/admin" element={adminOnly(<Admin />)} />
             <Route path="*" element={<NotFound />} />
           </Routes>
