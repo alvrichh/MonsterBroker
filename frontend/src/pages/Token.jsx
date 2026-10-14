@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import LearnTabs from '../components/LearnTabs.jsx';
 import Notice from '../components/Notice.jsx';
 import { ExternalIcon, WalletIcon } from '../components/icons.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -23,7 +24,7 @@ function questState(quest, user) {
 
 export default function Token() {
   const { t } = useI18n();
-  const { user, linkWallet } = useAuth();
+  const { user, linkWallet, refreshUser } = useAuth();
   const info = usePolling(() => api.token.info(), 60_000);
   const me = usePolling(() => (user ? api.token.me() : Promise.resolve(null)), 0, [user?.id, user?.wallet_address]);
   const [busy, setBusy] = useState(null); // 'link' | quest id
@@ -35,8 +36,14 @@ export default function Token() {
     setError(null);
     setMessage(null);
     try {
-      await action();
-      setMessage(done);
+      const result = await action();
+      // Completing every quest earns a month of Pro: say so and refresh the account.
+      if (result?.pro_days_granted) {
+        setMessage(t('token.proGranted', { days: result.pro_days_granted }));
+        refreshUser();
+      } else {
+        setMessage(done);
+      }
       me.refresh();
     } catch (err) {
       setError(err.code === 4001 ? t('signin.walletRejected') : err.message);
@@ -101,6 +108,7 @@ export default function Token() {
         <h1>{t('token.title')}</h1>
         <p>{t('token.lead')}</p>
       </header>
+      <LearnTabs />
 
       <div className="token-grid">
         <section className="card token-card">
