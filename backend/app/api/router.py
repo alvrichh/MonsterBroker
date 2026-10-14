@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from .routes import admin, auth, bot, defi, futures, health, market, news, wallet
+from .routes import admin, auth, auth_social, bot, defi, futures, health, market, news, wallet
 
 api_router = APIRouter()
 
@@ -15,6 +15,7 @@ api_router.include_router(news.router, prefix="/news", tags=["news"])
 api_router.include_router(wallet.router, prefix="/wallet", tags=["wallet"])
 api_router.include_router(bot.router, prefix="/bot", tags=["bot"])
 api_router.include_router(auth.router, prefix="/auth", tags=["auth"])
+api_router.include_router(auth_social.router, prefix="/auth", tags=["auth"])
 
 # Admins only (checked inside each route).
 api_router.include_router(admin.router, prefix="/admin", tags=["admin"])
