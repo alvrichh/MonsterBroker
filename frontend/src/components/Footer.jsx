@@ -1,11 +1,12 @@
 import { useI18n } from '../i18n/I18nContext.jsx';
+import { Wordmark } from './Brand.jsx';
 
 export default function Footer() {
   const { t } = useI18n();
   return (
     <footer className="footer">
       <div className="wrap footer__inner">
-        <img src="/images/brand/wordmark.png" alt="MonsterBroker" className="footer__wordmark" loading="lazy" />
+        <Wordmark className="footer__wordmark" />
         <p>{t('footer.made')}</p>
         <p className="footer__disclaimer">{t('footer.disclaimer')}</p>
         <p className="footer__links">
