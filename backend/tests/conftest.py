@@ -27,6 +27,11 @@ def settings_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setenv("WEB3_RPC_URL", "")
     monkeypatch.setenv("JWT_SECRET", "test-secret-with-at-least-thirty-two-bytes")  # HS256 wants >= 32
     monkeypatch.setenv("NEWS_AUTO_REFRESH", "false")
+    monkeypatch.setenv("PUBLIC_API_URL", "http://127.0.0.1:8000")
+    # The developer's .env.local may hold real OAuth credentials; tests start with none.
+    for provider in ("GOOGLE", "GITHUB", "MICROSOFT"):
+        monkeypatch.setenv(f"{provider}_CLIENT_ID", "")
+        monkeypatch.setenv(f"{provider}_CLIENT_SECRET", "")
     os.environ.pop("PAPER_TRADING", None)
     os.environ.pop("REQUIRE_EMAIL_VERIFICATION", None)
 
