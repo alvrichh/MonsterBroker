@@ -134,10 +134,19 @@ export const api = {
     walletLink: (message, signature) => request('/auth/wallet/link', { method: 'POST', body: { message, signature } }),
   },
 
+  // Member reviews on the home page: real, moderated, one per account.
+  reviews: {
+    list: () => request('/reviews'),
+    mine: () => request('/reviews/mine'),
+    submit: (rating, text) => request('/reviews', { method: 'POST', body: { rating, text } }),
+  },
+
   admin: {
     users: (params) => request('/admin/users', { params }),
     updateUser: (id, body) => request(`/admin/users/${id}`, { method: 'PATCH', body }),
     deleteUser: (id) => request(`/admin/users/${id}`, { method: 'DELETE' }),
     stats: () => request('/admin/stats'),
+    reviews: (status) => request('/admin/reviews', { params: { status } }),
+    updateReview: (id, status) => request(`/admin/reviews/${id}`, { method: 'PATCH', body: { status } }),
   },
 };
