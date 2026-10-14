@@ -4,6 +4,7 @@
     python -m app.cli promote you@example.com
     python -m app.cli demote you@example.com
     python -m app.cli verify you@example.com
+    python -m app.cli settle          # mint the learn-to-earn claims still owed (needs MINTER_PRIVATE_KEY)
 """
 
 from __future__ import annotations
@@ -19,14 +20,29 @@ from app.services.auth import AuthService, _iso
 from app.utils.helpers import utc_now
 
 
+async def _settle(session) -> int:
+    from app.api.deps import get_quests
+    from app.config import get_settings
+
+    quests = get_quests(get_settings())
+    if quests.minter is None:
+        print("no minter: set MINTER_PRIVATE_KEY, TOKEN_ADDRESS and BADGE_ADDRESS first")
+        return 1
+    for claim in await quests.settle_pending(session):
+        print(f"{claim.id}  {claim.quest:12s} {claim.wallet_address}  {claim.status}  {claim.error or ''}")
+    return 0
+
+
 async def main(argv: list[str]) -> int:
-    if not argv or argv[0] not in {"list", "promote", "demote", "verify"}:
+    if not argv or argv[0] not in {"list", "promote", "demote", "verify", "settle"}:
         print(__doc__)
         return 2
     command, email = argv[0], (argv[1].strip().lower() if len(argv) > 1 else "")
     await init_db()
     try:
         async with session_factory()() as session:
+            if command == "settle":
+                return await _settle(session)
             if command == "list":
                 for user in await session.scalars(select(User).order_by(User.created_at)):
                     verified = "verified" if user.is_verified else "pending "
