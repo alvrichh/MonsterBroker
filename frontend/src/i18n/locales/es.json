@@ -534,6 +534,8 @@
   "cert.upgrade": "Actualizar a {level}",
   "cert.verify.tier": "Nivel",
 
+  "level.headerTitle": "Nivel {level} · {points} puntos. Mira cómo subir.",
+
   "footer.made": "Hecho con cariño (y mucho café) por Álvaro Rodríguez Molina. Proyecto de aprendizaje, código abierto.",
   "footer.disclaimer": "Nada de esto es asesoramiento financiero. El bot juega con dinero simulado; con el tuyo decides tú.",
   "notfound.title": "Esta página ha hecho un rug pull.",

@@ -534,6 +534,8 @@
   "cert.upgrade": "Upgrade to {level}",
   "cert.verify.tier": "Level",
 
+  "level.headerTitle": "{level} level · {points} points. See how to climb.",
+
   "footer.made": "Made with love (and lots of coffee) by Álvaro Rodríguez Molina. Learning project, open source.",
   "footer.disclaimer": "Nothing here is financial advice. The bot plays with simulated money; with yours, you call the shots.",
   "notfound.title": "This page got rug-pulled.",
