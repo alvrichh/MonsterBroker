@@ -19,11 +19,12 @@ from app.utils.logger import get_logger
 
 from .executor import Executor
 from .memory import Memory
-from .state import AgentConfig, AgentState, Decision, Portfolio, Trade
+from .state import AgentConfig, AgentState, Benchmark, Decision, Portfolio, Trade
 
 log = get_logger(__name__)
 
 CANDLES_PER_TICK = 120
+BENCHMARK_SYMBOL = "BTC/USDT"  # the "just buy bitcoin and hold" yardstick
 
 
 class Review(BaseModel):
@@ -75,6 +76,7 @@ class TradingAgent:
         state = self.memory.load()
         strategy = get_strategy(state.config.strategy)
         result = TickResult(time=now_iso(), decisions=[], trades=[], equity=0.0)
+        equity_before = state.portfolio.equity(state.last_prices)
 
         for symbol in state.config.symbols:
             try:
@@ -111,8 +113,24 @@ class TradingAgent:
         state.last_tick = result.time
         state.ticks += 1
         result.equity = state.portfolio.equity(state.last_prices)
+        if state.benchmark is None:
+            await self._start_benchmark(state, result, equity_before)
         self.memory.save(state)
         return result
+
+    async def _start_benchmark(self, state: AgentState, result: TickResult, equity: float) -> None:
+        price = state.last_prices.get(BENCHMARK_SYMBOL)
+        if price is None:
+            try:
+                candles = await self.market.ohlcv(BENCHMARK_SYMBOL, state.config.timeframe, limit=1)
+            except MarketDataError as error:
+                result.errors.append(f"{BENCHMARK_SYMBOL} (benchmark): {error}")
+                return
+            if not candles:
+                return
+            price = candles[-1].close
+        state.benchmark = Benchmark(symbol=BENCHMARK_SYMBOL, started_at=result.time,
+                                    start_price=price, starting_equity=equity)
 
     @staticmethod
     def _actionable(state: AgentState, signal: Signal, decision: Decision) -> bool:
