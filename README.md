@@ -48,6 +48,8 @@ Or everything at once with Docker: `docker compose up --build`.
 | One-click sign-in: Google, GitHub, Microsoft, wallet (SIWE) | `GET /api/auth/oauth/providers`, `/oauth/{provider}/start`, `POST /api/auth/wallet/nonce`, `/verify`, `/link` | done (providers need credentials) |
 | Admin panel (users, roles, activate/verify/delete) | `GET /api/admin/users`, `/stats` + `/admin` page | done (`admin` role) |
 | Learn-to-earn: quests, claims, badge metadata | `GET /api/token/info`, `/me`, `POST /api/token/claim`, `/events` + `/token` page | done (minting waits for the deploy) |
+| Course certificates: progress, issue, public verification, SVG render | `GET /api/certificates/courses`, `POST /api/certificates/{course}/issue`, `GET /api/certificates/{code}` and `.svg` + `/certificates` pages | done |
+| Membership (free / Pro): admin grants, a month of Pro for finishing every quest | `PATCH /api/admin/users/{id} {plan, plan_days}` + `/pro` page | done (card payments later) |
 | Smart contracts: MonsterCoin (MBK), soulbound Monster Badges, paid Monster Certificates | `contracts/` (Foundry, Base Sepolia) | compiled and tested; deploy pending |
 | Real trading | — | **not connected on purpose** (`PAPER_TRADING=true`) |
 
@@ -129,6 +131,13 @@ docs/news/                daily radar reports · docs/WEB3.md strategy
   claim is recorded in `quest_claims`; with `MINTER_PRIVATE_KEY` and the
   contract addresses set the backend mints MBK and the badge, otherwise the
   claim waits and `python -m app.cli settle` mints it later.
+- Certificates: a course is a set of recorded user events; finishing it
+  issues a certificate with a public code (`MB-XXXXXXXX`), a verification
+  page and an SVG in the brand's colours. Free accounts get a discreet
+  watermark; Pro members get it clean.
+- Membership: `users.plan` is `free` or `pro` (`plan_until`, `plan_source`).
+  Admins are Pro by definition, can grant it from `/admin`, and completing
+  every quest earns 30 days. Card payments are the next step.
 - The strategy (learn-to-earn, monetisation paths, what MiCA requires) lives
   in [docs/WEB3.md](docs/WEB3.md).
 

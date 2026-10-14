@@ -35,7 +35,11 @@ Ordenado de menos a más complejo/regulado:
    `grant` gratis desde el backend a quien termina el curso, una por curso y
    wallet, `withdraw` a la tesorería). Falta la tienda en la app.
 4. **Suscripción premium** (más señales del bot, alertas, histórico) pagada en
-   euros (Stripe) o en cripto estable. Esto es SaaS normal.
+   euros (Stripe) o en cripto estable. Esto es SaaS normal. Ya existe el
+   plan **Pro** en la app (`users.plan`, página `/pro`): hoy se gana
+   completando los retos (30 días) o lo concede un admin; sus ventajas son
+   certificados sin marca de agua, insignia Pro, comentarios de la IA y, al
+   desplegar, certificados NFT. El cobro con Stripe es el siguiente paso.
 5. **MBK con valor en mainnet** — *último paso, no primero*. Si el token se
    compra/vende tiene valor y entra en MiCA: white paper notificado a la CNMV
    (salvo exenciones: oferta gratuita, menos de 150 personas por Estado, menos
