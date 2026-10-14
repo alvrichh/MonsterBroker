@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import AreaChart from '../components/AreaChart.jsx';
 import CandleChart from '../components/CandleChart.jsx';
+import Countdown from '../components/Countdown.jsx';
 import Glossary from '../components/Glossary.jsx';
 import HistogramChart from '../components/HistogramChart.jsx';
 import LiquidationFeed from '../components/LiquidationFeed.jsx';
@@ -11,7 +12,7 @@ import { useBinanceStream } from '../hooks/useBinanceStream.js';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
-import { countdown, dateTime, fundingPct, money, percent, usd } from '../lib/format.js';
+import { dateTime, fundingPct, money, percent, usd } from '../lib/format.js';
 
 const DEFAULT_SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'BNBUSDT', 'XRPUSDT', 'DOGEUSDT'];
 const CHART_CANDLES = 200;
@@ -25,12 +26,6 @@ export default function Futures() {
   const [timeframe, setTimeframe] = useState('1h');
   const [fundingHover, setFundingHover] = useState(null);
   const [oiHover, setOiHover] = useState(null);
-  const [now, setNow] = useState(Date.now());
-
-  useEffect(() => {
-    const id = setInterval(() => setNow(Date.now()), 1000);
-    return () => clearInterval(id);
-  }, []);
 
   const overview = usePolling(() => api.futures.overview(symbol), 30_000, [symbol]);
   const funding = usePolling(() => api.futures.funding(symbol, 30), 300_000, [symbol]);
@@ -96,7 +91,9 @@ export default function Futures() {
         <StatCard
           label={t('futures.funding')}
           value={<span className={fundingRate >= 0 ? 'up' : 'down'}>{fundingPct(fundingRate)}</span>}
-          hint={fundingRate !== undefined && `${t('futures.fundingAnnual', { pct: fundingPct(fundingRate * 3 * 365, 1) })} · ${t('futures.fundingNext', { time: countdown(nextFunding, now) })}`}
+          hint={fundingRate !== undefined && (
+            <>{t('futures.fundingAnnual', { pct: fundingPct(fundingRate * 3 * 365, 1) })} · {t('futures.fundingNext', { time: '' })}<Countdown target={nextFunding} /></>
+          )}
         />
         <StatCard label={t('futures.oi')} value={usd(o?.open_interest_value)} hint={o?.open_interest && t('futures.oiContracts', { n: money(o.open_interest, { digits: 0 }), base })} />
         <StatCard label={t('futures.longShort')} value={o?.long_short ? `${ratioPct(o.long_short.long)} / ${ratioPct(o.long_short.short)}` : '—'} hint={o?.long_short && `${t('futures.longs')} / ${t('futures.shorts')} · ratio ${o.long_short.ratio.toFixed(2)}`} />
