@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 
 from app.api.deps import CurrentUser, DbSession, QuestsDep, TokenDep
 from app.onchain.token import TokenError, TokenInfo
+from app.services.membership import PRO_DAYS_FOR_QUESTS
 from app.services.quests import CLIENT_EVENTS, QUESTS, ClaimOut, QuestError
 from app.utils.logger import get_logger
 
@@ -38,6 +39,10 @@ class MeOut(BaseModel):
 
 class ClaimIn(BaseModel):
     quest: str = Field(pattern=r"^[a-z_]{1,32}$")
+
+
+class ClaimCreated(ClaimOut):
+    pro_days_granted: int | None = None  # set when this claim completed every quest
 
 
 class EventIn(BaseModel):
@@ -95,12 +100,15 @@ async def report_event(body: EventIn, user: CurrentUser, session: DbSession, que
     return EventsOut(events=sorted(await quests.events_for(session, user_id)))
 
 
-@router.post("/claim", response_model=ClaimOut, status_code=status.HTTP_201_CREATED)
+@router.post("/claim", response_model=ClaimCreated, status_code=status.HTTP_201_CREATED)
 async def claim(body: ClaimIn, user: CurrentUser, session: DbSession, quests: QuestsDep, background: BackgroundTasks):
     try:
-        created = await quests.claim(session, user, body.quest)
+        created, completed_all = await quests.claim(session, user, body.quest)
     except QuestError as error:
         raise HTTPException(error.status, {"code": error.code, "message": error.message}) from error
     # Minting takes a few seconds on-chain: answer now, settle after the response.
     background.add_task(quests.settle_by_id, created.id)
-    return ClaimOut.from_claim(created)
+    out = ClaimCreated(**ClaimOut.from_claim(created).model_dump())
+    if completed_all:
+        out.pro_days_granted = PRO_DAYS_FOR_QUESTS
+    return out

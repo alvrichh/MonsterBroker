@@ -16,6 +16,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.db.models import QuestClaim, User, UserEvent
 from app.onchain.rewards import Minter
 from app.onchain.token import TOKEN_DECIMALS, quest_kind
+from app.services.membership import PRO_DAYS_FOR_QUESTS, SOURCE_QUESTS, grant_pro
 from app.utils.helpers import utc_now
 
 STATUS_PENDING, STATUS_MINTED, STATUS_FAILED = "pending", "minted", "failed"
@@ -135,7 +136,9 @@ class QuestService:
         rows = await session.scalars(select(QuestClaim).where(QuestClaim.user_id == user_id))
         return {claim.quest: claim for claim in rows}
 
-    async def claim(self, session: AsyncSession, user: User, quest_id: str) -> QuestClaim:
+    async def claim(self, session: AsyncSession, user: User, quest_id: str) -> tuple[QuestClaim, bool]:
+        """Record a claim. The second value is True when this claim completed
+        every quest, which earns a month of Pro."""
         quest = QUESTS.get(quest_id)
         if quest is None:
             raise QuestError("Ese reto no existe.", "unknown_quest", 404)
@@ -143,14 +146,18 @@ class QuestService:
             raise QuestError("Vincula una wallet para recibir recompensas.", "no_wallet")
         if not self.eligible(quest, user, await self.events_for(session, user.id)):
             raise QuestError("Todavía no has completado ese reto.", "not_eligible")
-        if quest_id in await self.claims_for(session, user.id):
+        claimed = await self.claims_for(session, user.id)
+        if quest_id in claimed:
             raise QuestError("Ese reto ya está reclamado.", "already_claimed", 409)
         claim = QuestClaim(id=uuid4().hex[:12], user_id=user.id, quest=quest_id, wallet_address=user.wallet_address,
                            mbk=quest.mbk, status=STATUS_PENDING, created_at=utc_now())
         session.add(claim)
+        completed_all = set(claimed) | {quest_id} >= set(QUESTS)
+        if completed_all:
+            grant_pro(user, PRO_DAYS_FOR_QUESTS, SOURCE_QUESTS)
         await session.commit()
         await session.refresh(claim)
-        return claim
+        return claim, completed_all
 
     async def settle(self, session: AsyncSession, claim: QuestClaim) -> QuestClaim:
         """Mint what a claim is owed. Each transaction is sent at most once:
