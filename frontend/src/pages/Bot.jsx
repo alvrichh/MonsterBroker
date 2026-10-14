@@ -66,6 +66,7 @@ export default function Bot() {
       symbols: form.symbols.split(',').map((s) => s.trim().toUpperCase()).filter(Boolean),
       trade_fraction: Number(form.trade_fraction),
       min_confidence: Number(form.min_confidence),
+      leverage: Number(form.leverage),
     };
     const result = await run(() => api.bot.config(body));
     if (result) setMessage(t('bot.saved'));
@@ -88,9 +89,9 @@ export default function Bot() {
           <div className="stats">
             <StatCard label={t('bot.equity')} value={`${money(s.equity, { digits: 2 })} USDT`} tone="accent" />
             <StatCard label={t('bot.cash')} value={`${money(s.portfolio.cash, { digits: 2 })} USDT`} />
-            <StatCard label={t('bot.positions')} value={Object.keys(s.portfolio.positions).length} />
+            <StatCard label={t('bot.positions')} value={Object.keys(s.portfolio.positions).length + Object.keys(s.perp_positions || {}).length} />
             <StatCard label={t('bot.ticks')} value={s.ticks} hint={`${t('bot.lastTick')}: ${s.last_tick ? dateTime(s.last_tick) : t('bot.never')}`} />
-            <StatCard label={t('bot.mode')} value={t('bot.paper')} hint={s.llm_review_available ? 'Claude ✓' : 'Claude —'} />
+            <StatCard label={t('bot.mode')} value={t('bot.paper')} hint={`${s.market === 'perp' ? `${t('bot.perp')} ${s.config.leverage}x` : 'spot'} · ${s.llm_review_available ? 'Claude ✓' : 'Claude —'}`} />
           </div>
 
           <BotVsHodl status={s} />
@@ -127,6 +128,13 @@ export default function Bot() {
                         {TIMEFRAMES.map((tf) => <option key={tf} value={tf}>{tf}</option>)}
                       </select>
                     </label>
+                    <label className="field">
+                      <span>{t('bot.market')}</span>
+                      <select className="input" value={form.market} onChange={(e) => setForm({ ...form, market: e.target.value })}>
+                        <option value="spot">{t('bot.market.spot')}</option>
+                        <option value="perp">{t('bot.market.perp')}</option>
+                      </select>
+                    </label>
                   </div>
                   <div className="range-group">
                     <RangeField
@@ -149,7 +157,28 @@ export default function Bot() {
                       format={asPercent}
                       onChange={(v) => setForm({ ...form, min_confidence: v })}
                     />
+                    {form.market === 'perp' && (
+                      <RangeField
+                        label={t('bot.leverage')}
+                        hint={t('bot.leverageHint')}
+                        min={1}
+                        max={20}
+                        step={1}
+                        value={form.leverage}
+                        format={(v) => `${Math.round(Number(v))}x`}
+                        onChange={(v) => setForm({ ...form, leverage: v })}
+                      />
+                    )}
                   </div>
+                  {form.market === 'perp' && (
+                    <>
+                      <label className="check">
+                        <input type="checkbox" checked={form.allow_shorts} onChange={(e) => setForm({ ...form, allow_shorts: e.target.checked })} />
+                        <span>{t('bot.allowShorts')}</span>
+                      </label>
+                      <small className="muted">{t('bot.perpNote')}</small>
+                    </>
+                  )}
                   <label className="check">
                     <input type="checkbox" checked={form.use_llm_review} onChange={(e) => setForm({ ...form, use_llm_review: e.target.checked })} />
                     <span>{t('bot.llm')}</span>
@@ -161,21 +190,54 @@ export default function Bot() {
             </form>
 
             <section className="card">
-              <h2>{t('bot.positions')}</h2>
-              {Object.keys(s.portfolio.positions).length === 0 ? <p className="muted">—</p> : (
-                <table className="table">
-                  <thead><tr><th>{t('common.symbol')}</th><th>{t('common.amount')}</th><th>{t('bot.avgPrice')}</th><th>{t('bot.value')}</th></tr></thead>
-                  <tbody>
-                    {Object.values(s.portfolio.positions).map((p) => (
-                      <tr key={p.symbol}>
-                        <td>{p.symbol}</td>
-                        <td className="mono">{amount(p.amount)}</td>
-                        <td className="mono">{money(p.avg_price)}</td>
-                        <td className="mono">{money(p.amount * (s.last_prices[p.symbol] ?? p.avg_price), { digits: 2 })}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+              {(s.market !== 'perp' || Object.keys(s.portfolio.positions).length > 0) && (
+                <>
+                  <h2>{t('bot.positions')}</h2>
+                  {Object.keys(s.portfolio.positions).length === 0 ? <p className="muted">—</p> : (
+                    <table className="table">
+                      <thead><tr><th>{t('common.symbol')}</th><th>{t('common.amount')}</th><th>{t('bot.avgPrice')}</th><th>{t('bot.value')}</th></tr></thead>
+                      <tbody>
+                        {Object.values(s.portfolio.positions).map((p) => (
+                          <tr key={p.symbol}>
+                            <td>{p.symbol}</td>
+                            <td className="mono">{amount(p.amount)}</td>
+                            <td className="mono">{money(p.avg_price)}</td>
+                            <td className="mono">{money(p.amount * (s.last_prices[p.symbol] ?? p.avg_price), { digits: 2 })}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  )}
+                </>
+              )}
+
+              {(s.market === 'perp' || Object.keys(s.perp_positions || {}).length > 0) && (
+                <>
+                  <h2>{t('bot.perpPositions')}</h2>
+                  {Object.keys(s.perp_positions || {}).length === 0 ? <p className="muted">—</p> : (
+                    <div className="table-scroll">
+                      <table className="table">
+                        <thead>
+                          <tr><th>{t('common.symbol')}</th><th>{t('common.side')}</th><th>{t('bot.size')}</th><th>{t('bot.entry')}</th><th>{t('bot.markPrice')}</th><th>{t('bot.upnl')}</th><th>{t('bot.liqPrice')}</th><th>{t('bot.fundingPaid')}</th></tr>
+                        </thead>
+                        <tbody>
+                          {Object.values(s.perp_positions).map((p) => (
+                            <tr key={p.symbol}>
+                              <td>{p.symbol} <span className="muted mono">{p.leverage}x</span></td>
+                              <td><span className={`badge badge--${p.side}`}>{t(`common.${p.side}`)}</span></td>
+                              <td className="mono">{amount(p.size)}</td>
+                              <td className="mono">{money(p.entry_price)}</td>
+                              <td className="mono">{money(p.mark_price)}</td>
+                              <td className={`mono ${p.unrealized_pnl >= 0 ? 'up' : 'down'}`}>{money(p.unrealized_pnl, { digits: 2 })} <span className="muted">({percent(p.roe, 1)})</span></td>
+                              <td className="mono">{money(p.liquidation_price)}</td>
+                              <td className="mono muted">{money(p.funding_paid, { digits: 2 })}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </>
               )}
 
               <h2>{t('bot.decisions')}</h2>
@@ -205,17 +267,24 @@ export default function Bot() {
               <div className="table-scroll">
                 <table className="table">
                   <thead>
-                    <tr><th>{t('common.time')}</th><th>{t('common.side')}</th><th>{t('common.symbol')}</th><th>{t('common.amount')}</th><th>{t('common.price')}</th><th>{t('bot.value')}</th><th>{t('common.reason')}</th></tr>
+                    <tr><th>{t('common.time')}</th><th>{t('common.side')}</th><th>{t('common.symbol')}</th><th>{t('common.amount')}</th><th>{t('common.price')}</th><th>{t('bot.value')}</th><th>{t('bot.pnl')}</th><th>{t('common.reason')}</th></tr>
                   </thead>
                   <tbody>
                     {[...s.portfolio.trades].reverse().map((tr) => (
                       <tr key={tr.id}>
                         <td>{dateTime(tr.time)}</td>
-                        <td><span className={`badge badge--${tr.side}`}>{t(`common.${tr.side}`)}</span></td>
-                        <td>{tr.symbol}</td>
+                        <td>
+                          {tr.position_side ? (
+                            <span className={`badge badge--${tr.position_side}`}>{t(`common.${tr.position_side}`)} · {t(`bot.action.${tr.action}`)}</span>
+                          ) : (
+                            <span className={`badge badge--${tr.side}`}>{t(`common.${tr.side}`)}</span>
+                          )}
+                        </td>
+                        <td>{tr.symbol}{tr.leverage ? <span className="muted mono"> {tr.leverage}x</span> : null}</td>
                         <td className="mono">{amount(tr.amount)}</td>
                         <td className="mono">{money(tr.price)}</td>
                         <td className="mono">{money(tr.value, { digits: 2 })}</td>
+                        <td className={`mono ${tr.pnl === null || tr.pnl === undefined ? 'muted' : tr.pnl >= 0 ? 'up' : 'down'}`}>{tr.pnl === null || tr.pnl === undefined ? '—' : money(tr.pnl, { digits: 2 })}</td>
                         <td className="muted">{tr.reason}</td>
                       </tr>
                     ))}
