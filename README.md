@@ -1,5 +1,7 @@
 # MonsterBroker
 
+![MonsterBroker · Free learn about crypto](frontend/public/images/brand/banner-wide.png)
+
 Bot de trading cripto, panel web3 y radar de noticias. Nace del prototipo
 estático de 2021 (`alvrichh/Front-end/PROYECTO/MonsterBroker.html`) y
 reutiliza la base técnica del portfolio
