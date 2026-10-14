@@ -38,6 +38,9 @@ O todo junto con Docker: `docker compose up --build`.
 | --- | --- | --- |
 | Precios y velas (Binance público) | `GET /api/market/tickers`, `/ohlcv`, `/indicators` | listo |
 | Bot de trading en papel | `GET /api/bot/status`, `POST /api/bot/tick`, `/trades` | listo, estrategias `sma_cross` y `rsi_reversion` |
+| Perpetuos en papel (largos y cortos) | `PUT /api/bot/config {"market":"perp","leverage":3}` | listo: margen aislado, funding, liquidación |
+| Futuros (mark, funding, OI, liquidaciones en vivo) | `GET /api/futures/*` + página `/futures` | listo (Binance USDT-M público) |
+| Gráficas de velas, mercado global, top 20, DeFi | `GET /api/market/*`, `/api/defi/*` | listo (CoinGecko, alternative.me, DefiLlama) |
 | Revisión de señales con Claude | automática si hay `ANTHROPIC_API_KEY` | listo |
 | Radar de noticias cripto | `GET /api/news/latest`, `/archive?tag=&q=` + Action diaria | listo |
 | Saldos on-chain | `GET /api/wallet/balance?address=&chain=` | requiere `WEB3_RPC_URL` |
