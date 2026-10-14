@@ -19,9 +19,10 @@ import ResetPassword from './pages/ResetPassword.jsx';
 import Verify from './pages/Verify.jsx';
 import Wallet from './pages/Wallet.jsx';
 
-// The home page and the account pages are public; the app itself needs a
-// confirmed account. /admin needs the admin role on top.
-const protect = (page, admin = false) => <RequireAuth admin={admin}>{page}</RequireAuth>;
+// Every section is public so visitors can see what the app does without an
+// account; driving the bot asks them to sign in from inside the Bot page.
+// Only /admin is gated (admin role).
+const adminOnly = (page) => <RequireAuth admin>{page}</RequireAuth>;
 
 export default function App() {
   return (
@@ -36,13 +37,13 @@ export default function App() {
             <Route path="/verify" element={<Verify />} />
             <Route path="/forgot" element={<ForgotPassword />} />
             <Route path="/reset" element={<ResetPassword />} />
-            <Route path="/dashboard" element={protect(<Dashboard />)} />
-            <Route path="/futures" element={protect(<Futures />)} />
-            <Route path="/bot" element={protect(<Bot />)} />
-            <Route path="/news" element={protect(<News />)} />
-            <Route path="/wallet" element={protect(<Wallet />)} />
-            <Route path="/defi" element={protect(<Defi />)} />
-            <Route path="/admin" element={protect(<Admin />, true)} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/futures" element={<Futures />} />
+            <Route path="/bot" element={<Bot />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/wallet" element={<Wallet />} />
+            <Route path="/defi" element={<Defi />} />
+            <Route path="/admin" element={adminOnly(<Admin />)} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
