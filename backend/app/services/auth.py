@@ -3,17 +3,20 @@ one-shot links (email verification, password reset)."""
 
 from __future__ import annotations
 
+import secrets
 from datetime import UTC, datetime, timedelta
 from uuid import uuid4
 
 import bcrypt
 import jwt
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel
 from sqlalchemy import func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.db.models import ROLE_ADMIN, ROLE_USER, User
+from app.db.models import PROVIDER_PASSWORD, PROVIDER_WALLET, ROLE_ADMIN, ROLE_USER, User
 from app.utils.helpers import utc_now
+
+WALLET_EMAIL_SUFFIX = "@wallet.monsterbroker"  # wallet-only accounts have no real email
 
 PURPOSE_ACCESS = "access"
 PURPOSE_VERIFY = "verify"
@@ -37,9 +40,11 @@ def _iso(value: datetime | None) -> str | None:
 
 class UserOut(BaseModel):
     id: str
-    email: EmailStr
+    email: str  # wallet-only accounts carry a placeholder, hence not EmailStr
     name: str
     role: str
+    provider: str = PROVIDER_PASSWORD
+    wallet_address: str | None = None
     is_active: bool
     is_verified: bool
     created_at: str
@@ -48,9 +53,9 @@ class UserOut(BaseModel):
     @classmethod
     def from_user(cls, user: User) -> UserOut:
         return cls(
-            id=user.id, email=user.email, name=user.name, role=user.role, is_active=user.is_active,
-            is_verified=user.is_verified, created_at=_iso(user.created_at) or "",
-            last_login_at=_iso(user.last_login_at),
+            id=user.id, email=user.email, name=user.name, role=user.role, provider=user.provider,
+            wallet_address=user.wallet_address, is_active=user.is_active, is_verified=user.is_verified,
+            created_at=_iso(user.created_at) or "", last_login_at=_iso(user.last_login_at),
         )
 
 
@@ -95,6 +100,57 @@ class AuthService:
             raise AuthError("Esta cuenta está desactivada.", "inactive", 403)
         user.last_login_at = utc_now()
         await session.commit()
+        return user
+
+    async def upsert_social(self, session: AsyncSession, provider: str, email: str, name: str,
+                            email_verified: bool) -> User:
+        """Sign in (or sign up) with a provider-verified email. An existing
+        password account with the same email is linked, not duplicated."""
+        email = email.strip().lower()
+        user = await self.by_email(session, email)
+        if user is None:
+            # Column defaults only apply on flush, so state the flags we check below.
+            user = User(
+                id=uuid4().hex[:12], email=email, name=name.strip() or email.split("@")[0],
+                password_hash=self.hash_password(secrets.token_urlsafe(32)), provider=provider,
+                role=ROLE_ADMIN if email in self._admin_emails else ROLE_USER, is_active=True, is_verified=False,
+            )
+            session.add(user)
+        if not user.is_active:
+            raise AuthError("Esta cuenta está desactivada.", "inactive", 403)
+        if email_verified and not user.is_verified:
+            user.is_verified, user.verified_at = True, utc_now()
+        user.last_login_at = utc_now()
+        await session.commit()
+        await session.refresh(user)
+        return user
+
+    async def upsert_wallet(self, session: AsyncSession, address: str) -> User:
+        """Sign in (or sign up) with an Ethereum address proven by signature."""
+        user = await session.scalar(select(User).where(User.wallet_address == address))
+        if user is None:
+            user = User(
+                id=uuid4().hex[:12], email=f"{address.lower()}{WALLET_EMAIL_SUFFIX}",
+                name=f"{address[:6]}…{address[-4:]}", password_hash=self.hash_password(secrets.token_urlsafe(32)),
+                provider=PROVIDER_WALLET, wallet_address=address, is_active=True, is_verified=True,
+                verified_at=utc_now(),
+            )
+            session.add(user)
+        if not user.is_active:
+            raise AuthError("Esta cuenta está desactivada.", "inactive", 403)
+        user.last_login_at = utc_now()
+        await session.commit()
+        await session.refresh(user)
+        return user
+
+    async def link_wallet(self, session: AsyncSession, user: User, address: str) -> User:
+        """Attach a wallet to the signed-in account (for rewards)."""
+        taken = await session.scalar(select(User).where(User.wallet_address == address, User.id != user.id))
+        if taken:
+            raise AuthError("Esa wallet ya está vinculada a otra cuenta.", "wallet_taken", 409)
+        user.wallet_address = address
+        await session.commit()
+        await session.refresh(user)
         return user
 
     async def mark_verified(self, session: AsyncSession, user: User) -> None:
