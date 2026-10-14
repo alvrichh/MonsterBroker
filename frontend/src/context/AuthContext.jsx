@@ -9,6 +9,9 @@ export function AuthProvider({ children }) {
   const [ready, setReady] = useState(!hasToken());
   const [providers, setProviders] = useState(null); // { providers: [...], wallet, chain_id }
   const providersRequest = useRef(null);
+  // Bumped by any "sign in to see this" button; the header's bubble opens on it.
+  const [signInRequest, setSignInRequest] = useState(0);
+  const requestSignIn = useCallback(() => setSignInRequest((n) => n + 1), []);
 
   // A saved token: ask the API who it belongs to, drop it if it expired.
   useEffect(() => {
@@ -90,12 +93,12 @@ export function AuthProvider({ children }) {
 
   const value = useMemo(
     () => ({
-      user, ready, isAdmin: user?.role === 'admin', providers,
+      user, ready, isAdmin: user?.role === 'admin', providers, signInRequest,
       login, register, verify, resetPassword, resendVerification, forgotPassword, logout,
-      loadProviders, acceptToken, loginWithWallet, linkWallet,
+      loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn,
     }),
-    [user, ready, providers, login, register, verify, resetPassword, resendVerification, forgotPassword, logout,
-      loadProviders, acceptToken, loginWithWallet, linkWallet],
+    [user, ready, providers, signInRequest, login, register, verify, resetPassword, resendVerification,
+      forgotPassword, logout, loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn],
   );
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
