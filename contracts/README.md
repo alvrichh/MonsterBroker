@@ -1,45 +1,46 @@
-# Contratos de MonsterBroker
+# MonsterBroker contracts
 
-Foundry + OpenZeppelin 5. Dos contratos, pensados para Base (Sepolia primero):
+Foundry + OpenZeppelin 5. Two contracts, built for Base (Sepolia first):
 
-- `src/MonsterToken.sol` — **MonsterCoin (MBK)**, ERC-20 con `cap` fijo, `ERC20Permit`
-  y `MINTER_ROLE` (solo el backend acuña recompensas de aprendizaje). Nadie lo vende.
-- `src/MonsterBadge.sol` — **Monster Badges**, ERC-721 *soulbound*: insignias por logros,
-  una de cada tipo por wallet, intransferibles, el dueño puede quemarla.
+- `src/MonsterToken.sol` — **MonsterCoin (MBK)**, an ERC-20 with a fixed `cap`,
+  `ERC20Permit` and a `MINTER_ROLE` (only the backend mints learning rewards).
+  Nobody sells it.
+- `src/MonsterBadge.sol` — **Monster Badges**, *soulbound* ERC-721: badges for
+  achievements, one of each kind per wallet, non-transferable, the owner may burn it.
 
-Por qué y cómo encaja en la app: [`docs/WEB3.md`](../docs/WEB3.md).
+Why, and how it fits the app: [`docs/WEB3.md`](../docs/WEB3.md).
 
-## Desarrollo
+## Development
 
 ```bash
-# Foundry: https://getfoundry.sh (en Windows, desde Git Bash)
+# Foundry: https://getfoundry.sh (on Windows, from Git Bash)
 cd contracts
-forge install            # trae lib/openzeppelin-contracts y lib/forge-std (submódulos)
+forge install            # pulls lib/openzeppelin-contracts and lib/forge-std (submodules)
 forge build
 forge test -vv
 ```
 
-## Despliegue en Base Sepolia
+## Deploying to Base Sepolia
 
-1. Crea una wallet para desplegar y pide ETH de testnet en los faucets de Base:
+1. Create a wallet for deploying and get testnet ETH from the Base faucets:
    https://docs.base.org/base-chain/tools/network-faucets
-2. Variables (en `contracts/.env`, nunca commiteado):
+2. Variables (in `contracts/.env`, never committed):
 
    ```bash
    BASE_SEPOLIA_RPC_URL=https://sepolia.base.org
-   PRIVATE_KEY=0x...            # la wallet con ETH de testnet
-   MINTER=0x...                 # wallet del backend (la que firmará las recompensas)
-   BASESCAN_API_KEY=...         # opcional, para verificar el código
+   PRIVATE_KEY=0x...            # the wallet holding testnet ETH
+   MINTER=0x...                 # the backend wallet (the one that will sign rewards)
+   BASESCAN_API_KEY=...         # optional, to verify the source
    ```
 
-3. Despliega y verifica:
+3. Deploy and verify:
 
    ```bash
    source .env
    forge script script/Deploy.s.sol --rpc-url base_sepolia --private-key $PRIVATE_KEY --broadcast --verify -vvvv
    ```
 
-4. Copia las direcciones que imprime a `.env` del backend: `TOKEN_ADDRESS`,
+4. Copy the addresses it prints into the backend `.env`: `TOKEN_ADDRESS`,
    `BADGE_ADDRESS`, `CHAIN_ID=84532`, `WEB3_RPC_URL=https://sepolia.base.org`.
 
-Mainnet (`--rpc-url base`, chain 8453) solo tras la revisión legal descrita en `docs/WEB3.md`.
+Mainnet (`--rpc-url base`, chain 8453) only after the legal review described in `docs/WEB3.md`.
