@@ -1,12 +1,17 @@
 import { useEffect, useState } from 'react';
+import BotVsHodl from '../components/BotVsHodl.jsx';
 import Notice from '../components/Notice.jsx';
+import RangeField from '../components/RangeField.jsx';
 import StatCard from '../components/StatCard.jsx';
 import { PlayIcon, RefreshIcon } from '../components/icons.jsx';
+import Loading from '../components/Loading.jsx';
 import { TIMEFRAMES } from '../data/coins.js';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
 import { amount, dateTime, money, percent } from '../lib/format.js';
+
+const asPercent = (fraction) => `${Math.round(Number(fraction) * 100)} %`;
 
 export default function Bot() {
   const { t } = useI18n();
@@ -76,7 +81,7 @@ export default function Bot() {
       </header>
 
       {status.error && <Notice tone="error" onRetry={status.refresh} retryLabel={t('common.retry')}>{status.error.message}</Notice>}
-      {!s && !status.error && <p className="muted">{t('common.loading')}</p>}
+      {!s && !status.error && <Loading />}
 
       {s && (
         <>
@@ -87,6 +92,8 @@ export default function Bot() {
             <StatCard label={t('bot.ticks')} value={s.ticks} hint={`${t('bot.lastTick')}: ${s.last_tick ? dateTime(s.last_tick) : t('bot.never')}`} />
             <StatCard label={t('bot.mode')} value={t('bot.paper')} hint={s.llm_review_available ? 'Claude ✓' : 'Claude —'} />
           </div>
+
+          <BotVsHodl status={s} />
 
           <div className="actions">
             <button type="button" className="btn btn--primary" onClick={tick} disabled={busy}>
@@ -120,14 +127,28 @@ export default function Bot() {
                         {TIMEFRAMES.map((tf) => <option key={tf} value={tf}>{tf}</option>)}
                       </select>
                     </label>
-                    <label className="field">
-                      <span>{t('bot.fraction')} · {percent(form.trade_fraction * 100, 0).replace('+', '')}</span>
-                      <input type="range" min="0.05" max="1" step="0.05" value={form.trade_fraction} onChange={(e) => setForm({ ...form, trade_fraction: e.target.value })} />
-                    </label>
-                    <label className="field">
-                      <span>{t('bot.minConfidence')} · {percent(form.min_confidence * 100, 0).replace('+', '')}</span>
-                      <input type="range" min="0" max="1" step="0.05" value={form.min_confidence} onChange={(e) => setForm({ ...form, min_confidence: e.target.value })} />
-                    </label>
+                  </div>
+                  <div className="range-group">
+                    <RangeField
+                      label={t('bot.fraction')}
+                      hint={t('bot.fractionHint')}
+                      min={0.05}
+                      max={1}
+                      step={0.05}
+                      value={form.trade_fraction}
+                      format={asPercent}
+                      onChange={(v) => setForm({ ...form, trade_fraction: v })}
+                    />
+                    <RangeField
+                      label={t('bot.minConfidence')}
+                      hint={t('bot.minConfidenceHint')}
+                      min={0}
+                      max={1}
+                      step={0.05}
+                      value={form.min_confidence}
+                      format={asPercent}
+                      onChange={(v) => setForm({ ...form, min_confidence: v })}
+                    />
                   </div>
                   <label className="check">
                     <input type="checkbox" checked={form.use_llm_review} onChange={(e) => setForm({ ...form, use_llm_review: e.target.checked })} />
