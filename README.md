@@ -44,7 +44,8 @@ O todo junto con Docker: `docker compose up --build`.
 | Revisión de señales con Claude | automática si hay `ANTHROPIC_API_KEY` | listo |
 | Radar de noticias cripto | `GET /api/news/latest`, `/archive?tag=&q=` + Action diaria | listo |
 | Saldos on-chain | `GET /api/wallet/balance?address=&chain=` | requiere `WEB3_RPC_URL` |
-| Auth (registro / login / me) | `POST /api/auth/register`, `/login`, `GET /me` | listo (JSON + JWT) |
+| Cuentas: registro con verificación por correo, login JWT, reset de contraseña | `POST /api/auth/register`, `/verify`, `/login`, `/forgot-password`, `/reset-password` | listo (SQLite/Postgres) |
+| Panel de administración (usuarios, roles, activar/verificar/borrar) | `GET /api/admin/users`, `/stats` + página `/admin` | listo (rol `admin`) |
 | Trading real | — | **no conectado a propósito** (`PAPER_TRADING=true`) |
 
 ## Estructura
@@ -73,6 +74,30 @@ frontend/
 docs/news/                informes diarios del radar
 .github/workflows/        ci.yml · daily-news.yml
 ```
+
+## Cuentas, base de datos y correo
+
+- **Base de datos**: SQLAlchemy async. Sin configurar nada usa SQLite en
+  `backend/data/monsterbroker.db`. Para producción pon un Postgres gratuito
+  en `DATABASE_URL` (Neon no pausa el proyecto; Supabase lo pausa tras 7 días
+  sin uso): `postgresql+asyncpg://user:pass@host/db`. Las tablas se crean al
+  arrancar.
+- **Registro**: el usuario recibe un correo con un enlace de confirmación
+  (caduca en 24 h) y no puede entrar hasta confirmarlo. Con
+  `REQUIRE_EMAIL_VERIFICATION=false` entra directamente.
+- **Correo**: `EMAIL_BACKEND=console` (por defecto) imprime el enlace en el
+  log del backend y, en `DEBUG`, lo devuelve en la respuesta de registro para
+  que la pantalla lo muestre. `resend` usa la API de Resend (gratis 100/día;
+  hasta verificar tu dominio solo entrega a tu propio correo desde
+  `onboarding@resend.dev`). `smtp` sirve para Brevo (300/día) o cualquier
+  relay. Un remitente `noreply@tudominio` exige verificar el dominio
+  (SPF/DKIM) en el proveedor.
+- **Admin**: quien se registre con un email de `ADMIN_EMAILS` es admin.
+  También: `cd backend && python -m app.cli promote tu@correo.com`
+  (`list`, `demote`, `verify`).
+- **Acceso**: la home es pública; Mercado, Futuros, Bot, Noticias, Wallet y
+  DeFi piden cuenta confirmada; `/admin` pide rol admin. En la API, `/bot` y
+  `/wallet` exigen token; los datos de mercado siguen siendo públicos.
 
 ## Tests
 
