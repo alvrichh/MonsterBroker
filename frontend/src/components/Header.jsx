@@ -16,6 +16,7 @@ const LINKS = [
   { to: '/news', key: 'nav.news' },
   { to: '/wallet', key: 'nav.wallet' },
   { to: '/defi', key: 'nav.defi' },
+  { to: '/token', key: 'nav.token' },
 ];
 
 const FOLD_AFTER = 120; // px scrolled before the curve may fold

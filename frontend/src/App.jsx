@@ -17,6 +17,7 @@ import News from './pages/News.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Register from './pages/Register.jsx';
 import ResetPassword from './pages/ResetPassword.jsx';
+import Token from './pages/Token.jsx';
 import Verify from './pages/Verify.jsx';
 import Wallet from './pages/Wallet.jsx';
 
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="/news" element={<News />} />
             <Route path="/wallet" element={<Wallet />} />
             <Route path="/defi" element={<Defi />} />
+            <Route path="/token" element={<Token />} />
             <Route path="/admin" element={adminOnly(<Admin />)} />
             <Route path="*" element={<NotFound />} />
           </Routes>
