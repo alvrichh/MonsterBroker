@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 
-from app.agent.state import AgentConfig, Decision, Portfolio, Trade
+from app.agent.state import AgentConfig, Benchmark, Decision, Portfolio, Trade
 
 
 class StatusOut(BaseModel):
@@ -13,6 +13,7 @@ class StatusOut(BaseModel):
     ticks: int
     llm_review_available: bool
     recent_decisions: list[Decision]
+    benchmark: Benchmark | None = None
 
 
 class ConfigIn(BaseModel):
