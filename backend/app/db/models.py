@@ -15,6 +15,9 @@ ROLE_ADMIN = "admin"
 PROVIDER_PASSWORD = "password"
 PROVIDER_WALLET = "wallet"
 
+PLAN_FREE = "free"
+PLAN_PRO = "pro"
+
 
 class User(Base):
     __tablename__ = "users"
@@ -27,6 +30,10 @@ class User(Base):
     # How the account was created: password | google | github | microsoft | wallet
     provider: Mapped[str] = mapped_column(String(16), default=PROVIDER_PASSWORD)
     wallet_address: Mapped[str | None] = mapped_column(String(42), unique=True, index=True, nullable=True)
+    # Membership: free | pro. plan_until None = no expiry; plan_source = admin | quests | stripe
+    plan: Mapped[str] = mapped_column(String(16), default=PLAN_FREE)
+    plan_until: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    plan_source: Mapped[str | None] = mapped_column(String(16), nullable=True)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
     is_verified: Mapped[bool] = mapped_column(Boolean, default=False)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
@@ -45,6 +52,20 @@ class UserEvent(Base):
     user_id: Mapped[str] = mapped_column(String(16), ForeignKey("users.id", ondelete="CASCADE"), index=True)
     event: Mapped[str] = mapped_column(String(32))
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
+
+
+class Certificate(Base):
+    """A course certificate. The id is the public verification code."""
+
+    __tablename__ = "certificates"
+    __table_args__ = (UniqueConstraint("user_id", "course", name="uq_certificate"),)
+
+    id: Mapped[str] = mapped_column(String(16), primary_key=True)
+    user_id: Mapped[str] = mapped_column(String(16), ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    course: Mapped[str] = mapped_column(String(32))
+    holder: Mapped[str] = mapped_column(String(80))  # the name printed on it
+    issued_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
+    nft_tx: Mapped[str | None] = mapped_column(String(66), nullable=True)  # once minted on-chain
 
 
 class QuestClaim(Base):
