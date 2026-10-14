@@ -1,0 +1,17 @@
+[project]
+name = "monsterbroker-backend"
+version = "0.1.0"
+description = "MonsterBroker API: paper trading agent, crypto news radar, on-chain balances"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["data", "logs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
