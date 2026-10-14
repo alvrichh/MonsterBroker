@@ -274,11 +274,158 @@
   }
 }
 
+/* Levels: medals ---------------------------------------------------------- */
+
+.medal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  vertical-align: middle;
+
+  i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--medal-light), var(--medal-dark) 70%);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--medal-light) 35%, transparent), 0 2px 6px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.medal--lg {
+  flex-direction: column;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+
+  i {
+    width: 64px;
+    height: 64px;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--medal-light) 30%, transparent), 0 6px 18px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.medal--bronze { --medal-light: #e09a5a; --medal-dark: #8a4b1f; }
+.medal--silver { --medal-light: #eef2f6; --medal-dark: #8e9aa6; }
+.medal--gold { --medal-light: #ffcf6e; --medal-dark: #e0661a; }
+.medal--platinum { --medal-light: #e8f6ff; --medal-dark: #6aa6dc; }
+
+.nav__level {
+  display: inline-flex;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.level-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+
+  > h2,
+  > h3 {
+    margin-bottom: 0;
+  }
+}
+
+.level-card__me {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.level-card__progress {
+  flex: 1;
+  display: grid;
+  gap: 6px;
+
+  strong {
+    font-size: 1.3rem;
+    color: var(--accent);
+  }
+}
+
+.level-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--rule);
+  overflow: hidden;
+
+  span {
+    display: block;
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    transition: width 0.4s var(--ease-out);
+  }
+}
+
+.ladder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.ladder__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--rule);
+  text-align: center;
+
+  &.is-current {
+    border-color: var(--accent);
+    background: var(--accent-wash);
+  }
+}
+
+.level-rules {
+  display: grid;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+
+  strong {
+    color: var(--accent);
+    margin-right: 6px;
+  }
+}
+
+.level-card__hint {
+  font-size: 0.85rem;
+
+  a {
+    color: var(--accent);
+  }
+}
+
+.cert__pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 760px) {
   .cert,
   .cert.cert--done,
   .cert.cert--verify {
     grid-template-columns: 1fr;
+  }
+
+  .ladder {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .level-card__me {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .learn-tabs {
