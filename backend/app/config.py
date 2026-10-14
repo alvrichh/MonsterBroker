@@ -53,13 +53,36 @@ class Settings(BaseSettings):
     news_auto_refresh: bool = False
     news_refresh_minutes: int = 60
 
-    # Auth
-    jwt_secret: str = "change-me"
+    # Auth. ADMIN_EMAILS: whoever registers with one of these becomes admin.
+    # JWT_SECRET must be at least 32 random bytes (HS256); the default only works for local play.
+    jwt_secret: str = "change-me-generate-32-random-bytes-for-prod"
     jwt_expire_minutes: int = 60 * 24
+    verification_token_hours: int = 24
+    reset_token_minutes: int = 30
+    require_email_verification: bool = True
+    admin_emails: list[str] = []
+    frontend_url: str = "http://localhost:5173"  # where the email links point
+
+    # Database: empty = SQLite under data/. Postgres: postgresql+asyncpg://user:pass@host/db
+    database_url: str = ""
+
+    # Email: console | resend | smtp
+    email_backend: str = "console"
+    email_from: str = "MonsterBroker <onboarding@resend.dev>"
+    resend_api_key: str = ""
+    smtp_host: str = ""
+    smtp_port: int = 587
+    smtp_user: str = ""
+    smtp_password: str = ""
+    smtp_tls: bool = True
 
     data_dir: Path = BACKEND_DIR / "data"
     logs_dir: Path = BACKEND_DIR / "logs"
     docs_dir: Path = REPO_DIR / "docs"
+
+    @property
+    def db_url(self) -> str:
+        return self.database_url or f"sqlite+aiosqlite:///{(self.data_dir / 'monsterbroker.db').as_posix()}"
 
     @property
     def llm_enabled(self) -> bool:
