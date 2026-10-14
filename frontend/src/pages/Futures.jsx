@@ -124,7 +124,7 @@ export default function Futures() {
             <h2 className="section__title--small">{t('futures.oiHistory')}</h2>
             <span className="mono muted">{oiHover ? `${usd(oiHover.value)} · ${dateTime(oiHover.date * 1000)}` : ''}</span>
           </header>
-          <AreaChart points={oiPoints} onHover={setOiHover} timeVisible />
+          <AreaChart points={oiPoints} onHover={setOiHover} formatter={(v) => usd(v, 2)} timeVisible />
         </section>
         <section className="card card--chart">
           <h2 className="section__title--small">{t('futures.lsHistory')}</h2>
