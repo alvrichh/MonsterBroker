@@ -85,10 +85,52 @@
   margin-bottom: 16px;
 
   /* the config form stacks its fields; the save button keeps its own size */
-  form > .btn {
+  .form__fieldset > .btn {
     align-self: flex-start;
     padding-inline: 28px;
   }
+}
+
+/* The form's fields live in a fieldset so visitors get them all locked in one
+   go; it keeps the form's column layout and drops the browser's frame. */
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  &:disabled {
+    opacity: 0.6;
+
+    * {
+      cursor: not-allowed !important;
+    }
+  }
+}
+
+/* Spectator mode: visitors watch the Monster, signing in lets them drive it */
+.spectator {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 16px 0;
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: linear-gradient(135deg, var(--accent-wash), transparent 70%), var(--bg-glass);
+
+  p {
+    flex: 1;
+    min-width: 220px;
+    color: var(--ink-soft);
+  }
+}
+
+.spectator__actions {
+  display: flex;
+  gap: 8px;
 }
 
 .decisions {
