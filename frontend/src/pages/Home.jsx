@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Wordmark } from '../components/Brand.jsx';
 import CoinIcon from '../components/CoinIcon.jsx';
 import TickerTape from '../components/TickerTape.jsx';
 import { ArrowIcon, BotIcon, NewsIcon, WalletIcon } from '../components/icons.jsx';
@@ -25,7 +26,7 @@ export default function Home() {
         <div className="hero__bg" aria-hidden="true" />
         <div className="wrap hero__inner">
           <p className="kicker">{t('home.kicker')}</p>
-          <img className="hero__wordmark" src="/images/brand/wordmark.png" alt="MonsterBroker" width="873" height="186" />
+          <Wordmark className="hero__wordmark" />
           <h1 className="hero__title">{t('home.tagline')}</h1>
           <p className="hero__lead">{t('home.lead')}</p>
           <div className="hero__actions">
