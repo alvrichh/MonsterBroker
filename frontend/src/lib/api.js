@@ -110,6 +110,11 @@ export const api = {
     resendVerification: (email) => request('/auth/resend-verification', { method: 'POST', body: { email } }),
     forgotPassword: (email) => request('/auth/forgot-password', { method: 'POST', body: { email } }),
     resetPassword: (token, password) => request('/auth/reset-password', { method: 'POST', body: { token, password } }),
+    // One-click ways in: configured OAuth providers, and Sign-In with Ethereum.
+    providers: () => request('/auth/oauth/providers'),
+    walletNonce: (address) => request('/auth/wallet/nonce', { method: 'POST', body: { address } }),
+    walletVerify: (message, signature) => request('/auth/wallet/verify', { method: 'POST', body: { message, signature } }),
+    walletLink: (message, signature) => request('/auth/wallet/link', { method: 'POST', body: { message, signature } }),
   },
 
   admin: {
