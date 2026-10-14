@@ -6,7 +6,7 @@ import { ago, money } from '../lib/format.js';
 import CoinIcon from './CoinIcon.jsx';
 import { ArrowIcon } from './icons.jsx';
 
-// "The beast says…": the bot's latest real move on the home page, so there's
+// "The Monster says…": the bot's latest real move on the home page, so there's
 // visibly something alive behind the copy. Prefers the last executed trade
 // over the last hold. Hidden when the API is down.
 export default function BotPulse() {
