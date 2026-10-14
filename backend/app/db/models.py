@@ -54,6 +54,23 @@ class UserEvent(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
 
 
+REVIEW_PENDING, REVIEW_APPROVED, REVIEW_HIDDEN = "pending", "approved", "hidden"
+
+
+class Review(Base):
+    """One opinion per member, shown on the home page once an admin approves it."""
+
+    __tablename__ = "reviews"
+
+    id: Mapped[str] = mapped_column(String(16), primary_key=True)
+    user_id: Mapped[str] = mapped_column(String(16), ForeignKey("users.id", ondelete="CASCADE"), unique=True)
+    rating: Mapped[int] = mapped_column(Integer)  # 1..5
+    text: Mapped[str] = mapped_column(String(280))
+    status: Mapped[str] = mapped_column(String(16), default=REVIEW_PENDING)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utc_now)
+
+
 class Certificate(Base):
     """A course certificate. The id is the public verification code."""
 
