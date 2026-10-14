@@ -5,6 +5,7 @@ import RequireAuth from './components/RequireAuth.jsx';
 import { AuthProvider } from './context/AuthContext.jsx';
 import { I18nProvider } from './i18n/I18nContext.jsx';
 import Admin from './pages/Admin.jsx';
+import AuthCallback from './pages/AuthCallback.jsx';
 import Bot from './pages/Bot.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import Defi from './pages/Defi.jsx';
@@ -37,6 +38,7 @@ export default function App() {
             <Route path="/verify" element={<Verify />} />
             <Route path="/forgot" element={<ForgotPassword />} />
             <Route path="/reset" element={<ResetPassword />} />
+            <Route path="/auth/callback" element={<AuthCallback />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/futures" element={<Futures />} />
             <Route path="/bot" element={<Bot />} />
