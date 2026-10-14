@@ -4,6 +4,7 @@ import { Wordmark } from '../components/Brand.jsx';
 import CoinIcon from '../components/CoinIcon.jsx';
 import FlashPrice from '../components/FlashPrice.jsx';
 import HeroChart from '../components/HeroChart.jsx';
+import Reviews from '../components/Reviews.jsx';
 import Sparkline from '../components/Sparkline.jsx';
 import TickerTape from '../components/TickerTape.jsx';
 import { ArrowIcon, BotIcon, NewsIcon, WalletIcon } from '../components/icons.jsx';
@@ -119,6 +120,8 @@ export default function Home() {
           </dl>
         </div>
       </section>
+
+      <Reviews />
     </>
   );
 }
