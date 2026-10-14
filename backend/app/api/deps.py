@@ -19,6 +19,7 @@ from app.services.auth import AuthService, User
 from app.services.coingecko import CoinGeckoService, get_coingecko
 from app.services.defillama import DefiLlamaService, get_defillama
 from app.services.exchange import MarketDataService, get_market_service
+from app.services.futures import BinanceFuturesService, get_futures
 from app.services.sentiment import SentimentService, get_sentiment
 
 SettingsDep = Annotated[Settings, Depends(get_settings)]
@@ -95,6 +96,7 @@ MarketDep = Annotated[MarketDataService, Depends(get_market)]
 GeckoDep = Annotated[CoinGeckoService, Depends(get_coingecko)]
 SentimentDep = Annotated[SentimentService, Depends(get_sentiment)]
 DefiDep = Annotated[DefiLlamaService, Depends(get_defillama)]
+FuturesDep = Annotated[BinanceFuturesService, Depends(get_futures)]
 NewsDep = Annotated[NewsCollector, Depends(get_news)]
 WalletDep = Annotated[WalletService, Depends(get_wallet)]
 AuthDep = Annotated[AuthService, Depends(get_auth)]
