@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import NewsCard from '../components/NewsCard.jsx';
 import Notice from '../components/Notice.jsx';
+import SignInGate from '../components/SignInGate.jsx';
 import { RefreshIcon } from '../components/icons.jsx';
 import Loading from '../components/Loading.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
@@ -10,8 +12,11 @@ import { shortDate } from '../lib/format.js';
 
 const PAGE = 24;
 
+// Visitors get the digest and the latest page; searching, filtering by tag
+// and paging through the archive ask for an account.
 export default function News() {
   const { t } = useI18n();
+  const { user } = useAuth();
   const [tag, setTag] = useState('');
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
@@ -26,7 +31,7 @@ export default function News() {
   useEffect(() => setLimit(PAGE), [tag, debounced]);
 
   const latest = usePolling(() => api.news.latest(), 0);
-  const tags = usePolling(() => api.news.tags(), 0);
+  const tags = usePolling(() => (user ? api.news.tags() : Promise.resolve(null)), 0, [user?.id]);
   const archive = usePolling(() => api.news.archive({ tag, q: debounced, limit }), 0, [tag, debounced, limit]);
 
   const refresh = async () => {
@@ -68,21 +73,27 @@ export default function News() {
         </section>
       )}
 
-      <div className="toolbar">
-        <input className="input toolbar__search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder={t('news.search')} aria-label={t('news.search')} />
-        <span className="muted">{t('news.count', { shown: items.length, total })}</span>
-      </div>
+      {user ? (
+        <>
+          <div className="toolbar">
+            <input className="input toolbar__search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder={t('news.search')} aria-label={t('news.search')} />
+            <span className="muted">{t('news.count', { shown: items.length, total })}</span>
+          </div>
 
-      <ul className="chips" aria-label="Tags">
-        <li><button type="button" className={`chip ${tag === '' ? 'is-active' : ''}`} onClick={() => setTag('')}>{t('news.all')}</button></li>
-        {Object.entries(tags.data?.tags || {}).map(([name, count]) => (
-          <li key={name}>
-            <button type="button" className={`chip ${tag === name ? 'is-active' : ''}`} onClick={() => setTag(tag === name ? '' : name)}>
-              {name} <span>{count}</span>
-            </button>
-          </li>
-        ))}
-      </ul>
+          <ul className="chips" aria-label="Tags">
+            <li><button type="button" className={`chip ${tag === '' ? 'is-active' : ''}`} onClick={() => setTag('')}>{t('news.all')}</button></li>
+            {Object.entries(tags.data?.tags || {}).map(([name, count]) => (
+              <li key={name}>
+                <button type="button" className={`chip ${tag === name ? 'is-active' : ''}`} onClick={() => setTag(tag === name ? '' : name)}>
+                  {name} <span>{count}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : (
+        <SignInGate compact text={t('gate.news', { total })} />
+      )}
 
       {archive.loading && !archive.data && <Loading />}
       {archive.data && items.length === 0 && <Notice tone="info">{t('news.empty')}</Notice>}
@@ -91,7 +102,7 @@ export default function News() {
         {items.map((item) => <NewsCard key={item.url} item={item} onTag={setTag} />)}
       </div>
 
-      {items.length < total && (
+      {user && items.length < total && (
         <div className="actions actions--center">
           <button type="button" className="btn btn--ghost" onClick={() => setLimit(limit + PAGE)}>{t('news.more')}</button>
         </div>
