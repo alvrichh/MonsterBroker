@@ -17,13 +17,13 @@ def _auth(client, email="learner@test.com"):
 
 def test_catalogue_is_public_and_progress_needs_a_session(client):
     public = client.get(COURSES).json()
-    assert [c["id"] for c in public] == ["monster-starter", "futures-101"]
+    assert [c["id"] for c in public] == ["monster-starter", "futures-101", "perps-101"]
     assert public[0]["requires"] == ["bot_tick"] and public[0]["done"] == [] and public[0]["completed"] is False
 
     headers, user_id = _auth(client)
     _record(user_id, "bot_tick")
     mine = client.get(COURSES, headers=headers).json()
-    starter, futures = mine
+    starter, futures, _perps = mine
     assert starter["completed"] is True and starter["done"] == ["bot_tick"] and starter["certificate"] is None
     assert futures["completed"] is False
 

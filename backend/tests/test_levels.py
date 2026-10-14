@@ -18,6 +18,21 @@ def test_public_ladder(client):
     data = client.get("/api/levels").json()
     assert [lv["id"] for lv in data["levels"]] == ["bronze", "silver", "gold", "platinum"]
     assert data["points"]["certificate"] == 25
+    assert data["events"] == ["bot_tick", "glossary_read", "bot_config", "perp_mode", "wallet_lookup"]
+
+
+def test_bot_settings_earn_events(client, auth_headers):
+    client.put("/api/bot/config", json={"strategy": "rsi_reversion"}, headers=auth_headers)
+    me = client.get("/api/levels/me", headers=auth_headers).json()
+    assert me["events_done"] == ["bot_config"] and me["points"] == 10
+
+    client.put("/api/bot/config", json={"market": "perp", "leverage": 3}, headers=auth_headers)
+    me = client.get("/api/levels/me", headers=auth_headers).json()
+    assert me["events_done"] == ["bot_config", "perp_mode"] and me["points"] == 20  # bot_config counts once
+
+    courses = client.get("/api/certificates/courses", headers=auth_headers).json()
+    perps = next(c for c in courses if c["id"] == "perps-101")
+    assert perps["done"] == ["perp_mode"] and perps["completed"] is False  # still needs a tick
 
 
 def test_points_climb_with_activity(client, admin_headers):
