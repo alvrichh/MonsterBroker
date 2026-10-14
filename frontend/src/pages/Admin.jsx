@@ -27,6 +27,20 @@ export default function Admin() {
 
   const stats = usePolling(() => api.admin.stats(), 0);
   const users = usePolling(() => api.admin.users({ q: debounced, page, size: PAGE_SIZE }), 0, [debounced, page]);
+  const reviews = usePolling(() => api.admin.reviews(), 0);
+
+  const moderate = async (id, status) => {
+    setBusyId(id);
+    setError(null);
+    try {
+      await api.admin.updateReview(id, status);
+      await reviews.refresh();
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusyId(null);
+    }
+  };
 
   const act = async (id, action) => {
     setBusyId(id);
@@ -135,6 +149,26 @@ export default function Admin() {
           )}
         </section>
       )}
+
+      <section className="card admin-reviews">
+        <h2>{t('admin.reviews')}</h2>
+        {reviews.data && reviews.data.length === 0 && <p className="muted">{t('admin.noReviews')}</p>}
+        <ul className="admin-reviews__list">
+          {(reviews.data ?? []).map((r) => (
+            <li key={r.id} className={`admin-review admin-review--${r.status}`}>
+              <div>
+                <strong>{r.name}</strong> <span className="mono muted">{'★'.repeat(r.rating)}</span>{' '}
+                <span className={`badge ${r.status === 'approved' ? 'badge--up' : r.status === 'hidden' ? 'badge--down' : 'badge--hold'}`}>{t(`reviews.status.${r.status}`)}</span>
+                <p>{r.text}</p>
+              </div>
+              <div className="users-table__actions">
+                {r.status !== 'approved' && <button type="button" className="btn btn--ghost btn--sm" disabled={busyId === r.id} onClick={() => moderate(r.id, 'approved')}>{t('admin.approve')}</button>}
+                {r.status !== 'hidden' && <button type="button" className="btn btn--ghost btn--sm btn--danger" disabled={busyId === r.id} onClick={() => moderate(r.id, 'hidden')}>{t('admin.hide')}</button>}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }
