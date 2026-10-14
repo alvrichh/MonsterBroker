@@ -1,5 +1,6 @@
+import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
-import { storage } from '../lib/storage.js';
+import { api } from '../lib/api.js';
 
 // "Free learn about crypto": the terms on the futures page, explained in
 // one paragraph each. Keys live in i18n as futures.gl.<term>.t / .d.
@@ -7,9 +8,10 @@ const TERMS = ['mark', 'index', 'funding', 'oi', 'basis', 'liquidation', 'longsh
 
 export default function Glossary() {
   const { t } = useI18n();
-  // Opening it completes the "glossary" quest on the Token page (client-attested).
+  const { user } = useAuth();
+  // Opening it completes the "glossary" quest on the Token page.
   const onToggle = (event) => {
-    if (event.currentTarget.open) storage.set('quest.glossary', '1');
+    if (event.currentTarget.open && user) api.token.event('glossary_read').catch(() => null);
   };
   return (
     <details className="card glossary" onToggle={onToggle}>

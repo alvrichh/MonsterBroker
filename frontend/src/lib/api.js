@@ -107,6 +107,7 @@ export const api = {
     info: () => request('/token/info'),
     me: () => request('/token/me'),
     claim: (quest) => request('/token/claim', { method: 'POST', body: { quest } }),
+    event: (event) => request('/token/events', { method: 'POST', body: { event } }),
   },
 
   auth: {
