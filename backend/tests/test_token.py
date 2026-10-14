@@ -1,6 +1,8 @@
-"""Token info, badge metadata and the learn-to-earn claims, with and
-without a minter. No chain is touched: the contracts are not configured
-and the minter is a fake."""
+"""Token info, badge metadata, user events and the learn-to-earn claims,
+with and without a minter. No chain is touched: the contracts are not
+configured and the minter is a fake."""
+
+import asyncio
 
 from tests.conftest import register_and_verify, wallet_sign_in
 
@@ -26,11 +28,26 @@ def _quest(me: dict, quest_id: str) -> dict:
     return next(q for q in me["quests"] if q["id"] == quest_id)
 
 
+def _record(user_id: str, event: str) -> None:
+    """What the bot tick route does, without hitting Binance."""
+    from app.api import deps
+    from app.config import get_settings
+    from app.db.database import session_factory
+
+    async def run():
+        async with session_factory()() as session:
+            await deps.get_quests(get_settings()).record_event(session, user_id, event)
+
+    asyncio.run(run())
+
+
 def test_info_without_contracts(client):
     data = client.get("/api/token/info").json()
     assert data["configured"] is False and data["chain_id"] == 84532 and data["chain_name"] == "Base Sepolia"
     assert data["symbol"] == "MBK" and data["cap"] is None and data["minter_address"] is None
-    assert [q["id"] for q in data["quests"]] == ["welcome", "first_tick", "glossary"]
+    assert [(q["id"], q["event"]) for q in data["quests"]] == [
+        ("welcome", None), ("first_tick", "bot_tick"), ("glossary", "glossary_read"),
+    ]
     assert data["explorer"] == "https://sepolia.basescan.org"
 
 
@@ -51,6 +68,25 @@ def test_claim_needs_a_session_and_a_wallet(client):
     assert me["wallet_address"] is None and _quest(me, "welcome")["eligible"] is False
 
 
+def test_client_events_unlock_quests(client):
+    token, _ = wallet_sign_in(client)
+    headers = {"Authorization": f"Bearer {token}"}
+    assert _quest(client.get("/api/token/me", headers=headers).json(), "glossary")["eligible"] is False
+
+    reported = client.post("/api/token/events", json={"event": "glossary_read"}, headers=headers)
+    assert reported.status_code == 200 and reported.json()["events"] == ["glossary_read"]
+    reported = client.post("/api/token/events", json={"event": "glossary_read"}, headers=headers)  # idempotent
+    assert reported.json()["events"] == ["glossary_read"]
+
+    # Only what the client can legitimately see: the bot tick is recorded server-side.
+    forged = client.post("/api/token/events", json={"event": "bot_tick"}, headers=headers)
+    assert forged.status_code == 400 and forged.json()["detail"]["code"] == "not_client_event"
+
+    me = client.get("/api/token/me", headers=headers).json()
+    assert me["events"] == ["glossary_read"]
+    assert _quest(me, "glossary")["eligible"] is True and _quest(me, "first_tick")["eligible"] is False
+
+
 def test_claims_wait_without_a_minter(client):
     token, address = wallet_sign_in(client)
     headers = {"Authorization": f"Bearer {token}"}
@@ -67,7 +103,6 @@ def test_claims_wait_without_a_minter(client):
     assert me["balance_mbk"] is None  # contracts not deployed: nothing to read
     assert _quest(me, "welcome")["claim"]["status"] == "pending"
     assert _quest(me, "first_tick")["eligible"] is False and _quest(me, "first_tick")["claim"] is None
-    assert _quest(me, "glossary")["eligible"] is True
 
     early = client.post("/api/token/claim", json={"quest": "first_tick"}, headers=headers)
     assert early.status_code == 400 and early.json()["detail"]["code"] == "not_eligible"
@@ -79,13 +114,12 @@ def test_claims_mint_with_a_minter(client, settings_env):
 
     fake = FakeMinter()
     deps.get_quests(settings_env).minter = fake
-    agent = deps.get_agent(settings_env)
-    state = agent.state()
-    state.ticks = 1  # the Monster has run once
-    agent.memory.save(state)
 
     token, address = wallet_sign_in(client)
     headers = {"Authorization": f"Bearer {token}"}
+    user_id = client.get("/api/auth/me", headers=headers).json()["id"]
+    _record(user_id, "bot_tick")
+
     created = client.post("/api/token/claim", json={"quest": "first_tick"}, headers=headers)
     assert created.status_code == 201, created.text
 
@@ -100,8 +134,6 @@ def test_claims_mint_with_a_minter(client, settings_env):
 
 
 def test_failed_claim_retries_only_what_is_missing(client, settings_env):
-    import asyncio
-
     from app.api import deps
     from app.db.models import QuestClaim
 
