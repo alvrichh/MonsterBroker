@@ -1,13 +1,24 @@
 /* --------------------------------------------------------------------------
-   Footer
+   Footer: navy band opened by the header's curve turned 180°, so its tail
+   rises on the right and mirrors the header's.
+   (Navy tokens are shared with the header, see _header.scss.)
    -------------------------------------------------------------------------- */
 
 .footer {
-  border-top: 1px solid var(--rule);
-  background: var(--bg-glass);
-  padding: 32px 0;
   font-size: 0.88rem;
   color: var(--muted);
+}
+
+.footer__curve {
+  transform: rotate(180deg);
+  margin-top: calc(-0.6 * clamp(28px, 5vw, 72px)); /* tuck the empty side into the page's bottom padding */
+  margin-bottom: -1px; /* hide the seam with the band */
+  filter: drop-shadow(0 6px 6px rgba(0, 0, 0, 0.22)); /* rotated, so it falls upward */
+}
+
+.footer__body {
+  background: var(--navy-band);
+  padding: 24px 0 36px;
 }
 
 .footer__inner {
@@ -20,7 +31,7 @@
 
 .footer__wordmark {
   width: 200px;
-  opacity: 0.7;
+  opacity: 0.85;
   margin-bottom: 8px;
 }
 
