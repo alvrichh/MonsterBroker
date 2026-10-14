@@ -182,6 +182,43 @@ button {
   color: var(--down);
 }
 
+/* FlashPrice: a quick green/red pulse when a live price ticks */
+.flash {
+  display: inline-block;
+  padding: 0 4px;
+  margin: 0 -4px;
+  border-radius: 4px;
+}
+
+.flash--up {
+  animation: flash-up 0.9s ease-out;
+}
+
+.flash--down {
+  animation: flash-down 0.9s ease-out;
+}
+
+@keyframes flash-up {
+  from {
+    color: var(--up);
+    background: var(--up-wash);
+  }
+}
+
+@keyframes flash-down {
+  from {
+    color: var(--down);
+    background: var(--down-wash);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flash--up,
+  .flash--down {
+    animation: none;
+  }
+}
+
 .kicker {
   font-family: var(--font-mono);
   font-size: 0.75rem;
