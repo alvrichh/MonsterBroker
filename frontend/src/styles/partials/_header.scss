@@ -2,14 +2,50 @@
    Header
    -------------------------------------------------------------------------- */
 
+/* Header and footer stay navy in both themes, so inside them the text tokens
+   are pinned to their light-on-dark values. */
+.header,
+.footer {
+  --navy: #0f3a50;
+  --navy-edge: #0a2433;
+  --navy-band: linear-gradient(90deg, var(--navy-edge), var(--navy) 12%, var(--navy) 90%, var(--navy-edge));
+  --ink: #f0ede6;
+  --ink-soft: #cbd6dd;
+  --muted: #8ea2ad;
+  --rule: rgba(255, 255, 255, 0.1);
+  --rule-strong: rgba(255, 255, 255, 0.2);
+
+  color: var(--ink);
+}
+
+/* The swoosh itself (Curve.jsx): drawn with an orange rim. */
+.curve {
+  display: block;
+  width: 100%;
+  height: clamp(28px, 5vw, 72px);
+  pointer-events: none;
+}
+
+.curve__line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 5px;
+}
+
+/* The bar ends in the curve (higher on the right, dropping toward the left).
+   The curve is an in-flow SVG so content starts below it and scrolls under
+   its open side. */
 .header {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--bg-glass);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--rule);
+  /* navy only behind the bar; the curve SVG paints the rest */
+  background: var(--navy-band) top / 100% var(--header-h) no-repeat;
+  pointer-events: none; /* the transparent part of the curve must not block clicks */
+
+  > * {
+    pointer-events: auto;
+  }
 }
 
 .header__inner {
@@ -17,6 +53,89 @@
   align-items: center;
   gap: 24px;
   height: var(--header-h);
+}
+
+.header .header__curve {
+  margin-top: -1px; /* hide the seam with the bar */
+  pointer-events: none;
+  filter: drop-shadow(0 6px 6px rgba(0, 0, 0, 0.28));
+}
+
+/* Folded (while scrolling down): the swoosh flattens into a straight
+   orange rule under the bar. The header keeps its height so the page never
+   jumps; the flattened area is transparent and click-through.
+
+   Where CSS can animate a path's `d` (Chromium, Firefox), the curve itself
+   morphs into the rule: one continuous motion, nothing swapped. The folded
+   paths keep the same commands as the ones in Curve.jsx so they interpolate. */
+$fold-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+@supports (d: path("M0 0")) {
+  .header {
+    .curve__fill {
+      d: path("M0 0H1440V8C1080 4 540 20 0 76Z");
+      transition: d 0.5s $fold-ease;
+    }
+
+    .curve__line {
+      d: path("M0 76C540 20 1080 4 1440 8");
+      transition: d 0.5s $fold-ease;
+    }
+  }
+
+  .header.is-folded {
+    .curve__fill {
+      d: path("M0 0H1440V3C1080 3 540 3 0 3Z");
+    }
+
+    .curve__line {
+      d: path("M0 3C540 3 1080 3 1440 3");
+    }
+  }
+}
+
+/* Elsewhere (Safari): the curve folds up and a straight rule fades in, both
+   at once so there's never a gap without a line. */
+@supports not (d: path("M0 0")) {
+  .header .header__curve {
+    transform-origin: top;
+    will-change: transform;
+    transition: transform 0.4s $fold-ease, opacity 0.3s ease;
+  }
+
+  .header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(var(--header-h) - 3px);
+    height: 3px;
+    background: var(--accent);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .header.is-folded {
+    .header__curve {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header .header__curve,
+  .header .curve__fill,
+  .header .curve__line,
+  .header::after {
+    transition: none !important;
+  }
 }
 
 .brand {
@@ -32,16 +151,10 @@
   }
 }
 
+/* The wordmark's own lettering (orange M and B), cropped from wordmark-light.png */
 .brand__name {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: -0.02em;
-
-  em {
-    font-style: normal;
-    color: var(--accent);
-  }
+  height: 20px;
+  width: auto;
 }
 
 .nav {
