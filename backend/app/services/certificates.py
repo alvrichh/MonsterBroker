@@ -34,6 +34,8 @@ COURSES: dict[str, Course] = {
                "Estrategias técnicas, órdenes simuladas y lectura de velas reales", ("bot_tick",)),
         Course("futures-101", "Futuros 101",
                "Precio mark, funding, open interest, basis y liquidaciones", ("glossary_read",)),
+        Course("perps-101", "Perpetuos 101",
+               "Largos y cortos con apalancamiento, margen aislado, funding y liquidación", ("perp_mode", "bot_tick")),
     )
 }
 
