@@ -2,7 +2,10 @@
 // proxies it in dev); VITE_API_URL for a deployed backend elsewhere.
 import { storage } from './storage.js';
 
-const BASE = import.meta.env.VITE_API_URL || '/api';
+// VITE_API_URL is the full base ("https://api.example.com/api"); VITE_API_HOST is
+// just a host, what Render's Blueprint hands over from the API service.
+const BASE = import.meta.env.VITE_API_URL
+  || (import.meta.env.VITE_API_HOST ? `https://${import.meta.env.VITE_API_HOST}/api` : '/api');
 let token = storage.get('token');
 let unauthorizedHandler = null;
 
