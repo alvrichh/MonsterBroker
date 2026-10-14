@@ -4,11 +4,13 @@ import { storage } from './storage.js';
 
 const BASE = import.meta.env.VITE_API_URL || '/api';
 let token = storage.get('token');
+let unauthorizedHandler = null;
 
 export class ApiError extends Error {
-  constructor(message, status) {
+  constructor(message, status, code = null) {
     super(message);
     this.status = status;
+    this.code = code;
   }
 }
 
@@ -20,6 +22,11 @@ export function setToken(value) {
 
 export const hasToken = () => Boolean(token);
 
+// Called when a request made with a token comes back 401: the session is gone.
+export function onUnauthorized(handler) {
+  unauthorizedHandler = handler;
+}
+
 async function request(path, { method = 'GET', body, params } = {}) {
   const url = new URL(BASE + path, window.location.origin);
   if (params) {
@@ -29,13 +36,20 @@ async function request(path, { method = 'GET', body, params } = {}) {
   }
   const headers = { Accept: 'application/json' };
   if (body) headers['Content-Type'] = 'application/json';
+  const sentWithToken = Boolean(token);
   if (token) headers.Authorization = `Bearer ${token}`;
 
   const response = await fetch(url, { method, headers, body: body ? JSON.stringify(body) : undefined });
+  if (response.status === 204) return null;
   const data = await response.json().catch(() => null);
   if (!response.ok) {
-    const detail = typeof data?.detail === 'string' ? data.detail : response.statusText;
-    throw new ApiError(detail || `HTTP ${response.status}`, response.status);
+    if (response.status === 401 && sentWithToken) {
+      setToken(null);
+      unauthorizedHandler?.();
+    }
+    const detail = data?.detail;
+    const message = typeof detail === 'string' ? detail : detail?.message || response.statusText || `HTTP ${response.status}`;
+    throw new ApiError(message, response.status, typeof detail === 'object' ? detail?.code ?? null : null);
   }
   return data;
 }
@@ -92,5 +106,16 @@ export const api = {
     register: (body) => request('/auth/register', { method: 'POST', body }),
     login: (body) => request('/auth/login', { method: 'POST', body }),
     me: () => request('/auth/me'),
+    verify: (token) => request('/auth/verify', { method: 'POST', body: { token } }),
+    resendVerification: (email) => request('/auth/resend-verification', { method: 'POST', body: { email } }),
+    forgotPassword: (email) => request('/auth/forgot-password', { method: 'POST', body: { email } }),
+    resetPassword: (token, password) => request('/auth/reset-password', { method: 'POST', body: { token, password } }),
+  },
+
+  admin: {
+    users: (params) => request('/admin/users', { params }),
+    updateUser: (id, body) => request(`/admin/users/${id}`, { method: 'PATCH', body }),
+    deleteUser: (id) => request(`/admin/users/${id}`, { method: 'DELETE' }),
+    stats: () => request('/admin/stats'),
   },
 };
