@@ -1,11 +1,14 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { api, hasToken, onUnauthorized, setToken } from '../lib/api.js';
+import { connectWallet, signMessage } from '../lib/wallet.js';
 
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [ready, setReady] = useState(!hasToken());
+  const [providers, setProviders] = useState(null); // { providers: [...], wallet, chain_id }
+  const providersRequest = useRef(null);
 
   // A saved token: ask the API who it belongs to, drop it if it expired.
   useEffect(() => {
@@ -38,9 +41,61 @@ export function AuthProvider({ children }) {
     setUser(null);
   }, []);
 
+  // Which one-click providers the backend has credentials for. Fetched once,
+  // the first time a sign-in menu opens.
+  const loadProviders = useCallback(() => {
+    providersRequest.current ??= api.auth.providers()
+      .then((result) => {
+        setProviders(result);
+        return result;
+      })
+      .catch(() => {
+        providersRequest.current = null;
+        return null;
+      });
+    return providersRequest.current;
+  }, []);
+
+  // OAuth lands on /auth/callback with a bare token: take it, then find out who it is.
+  const acceptToken = useCallback((token) => {
+    setToken(token);
+    return api.auth.me()
+      .then((me) => {
+        setUser(me);
+        return me;
+      })
+      .catch((error) => {
+        setToken(null);
+        throw error;
+      });
+  }, []);
+
+  // Sign-In with Ethereum: the API writes a challenge, the wallet signs it.
+  const challenge = useCallback(async () => {
+    const address = await connectWallet();
+    const { message } = await api.auth.walletNonce(address);
+    const signature = await signMessage(address, message);
+    return { message, signature };
+  }, []);
+  const loginWithWallet = useCallback(async () => {
+    const { message, signature } = await challenge();
+    return accept(await api.auth.walletVerify(message, signature));
+  }, [accept, challenge]);
+  const linkWallet = useCallback(async () => {
+    const { message, signature } = await challenge();
+    const me = await api.auth.walletLink(message, signature);
+    setUser(me);
+    return me;
+  }, [challenge]);
+
   const value = useMemo(
-    () => ({ user, ready, isAdmin: user?.role === 'admin', login, register, verify, resetPassword, resendVerification, forgotPassword, logout }),
-    [user, ready, login, register, verify, resetPassword, resendVerification, forgotPassword, logout],
+    () => ({
+      user, ready, isAdmin: user?.role === 'admin', providers,
+      login, register, verify, resetPassword, resendVerification, forgotPassword, logout,
+      loadProviders, acceptToken, loginWithWallet, linkWallet,
+    }),
+    [user, ready, providers, login, register, verify, resetPassword, resendVerification, forgotPassword, logout,
+      loadProviders, acceptToken, loginWithWallet, linkWallet],
   );
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
