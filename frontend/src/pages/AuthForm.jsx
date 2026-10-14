@@ -1,9 +1,13 @@
 import { useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { Mark } from '../components/Brand.jsx';
 import Notice from '../components/Notice.jsx';
+import SignInOptions from '../components/SignInOptions.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
+
+// What the OAuth callback reports when a provider round trip goes wrong.
+const PROVIDER_ERRORS = { inactive: 'signin.error.inactive' };
 
 // Login and Register share everything but the name field and the action.
 // Registering ends in a "check your inbox" panel until the email is confirmed.
@@ -12,8 +16,10 @@ export default function AuthForm({ mode }) {
   const { login, register, resendVerification } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
+  const [params] = useSearchParams();
+  const providerError = params.get('error');
   const [form, setForm] = useState({ email: '', password: '', name: '' });
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(providerError ? t(PROVIDER_ERRORS[providerError] ?? 'signin.error.oauth') : null);
   const [unverified, setUnverified] = useState(false);
   const [sent, setSent] = useState(null); // { email, devLink }
   const [resent, setResent] = useState(false);
@@ -81,6 +87,9 @@ export default function AuthForm({ mode }) {
         <Mark className="auth__logo" />
         <h1>{t(`auth.${mode}.title`)}</h1>
         <p className="muted">{location.state?.reason === 'required' && !isRegister ? t('auth.required') : t(`auth.${mode}.lead`)}</p>
+
+        <SignInOptions email={false} />
+        <div className="signin__divider"><span>{t('signin.orEmail')}</span></div>
 
         {isRegister && (
           <label className="field">
