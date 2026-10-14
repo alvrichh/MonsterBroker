@@ -7,6 +7,7 @@ from collections.abc import AsyncIterator
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
+from sqlalchemy import inspect, text
 from sqlalchemy.ext.asyncio import AsyncEngine, AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.orm import DeclarativeBase
 
@@ -65,9 +66,32 @@ def session_factory() -> async_sessionmaker[AsyncSession]:
     return _sessions
 
 
+def _sync_schema(conn) -> None:
+    """create_all for new tables, then add any column (and its indexes) that a
+    newer model declares but an existing table lacks. Enough while the schema
+    only grows; a destructive change needs a real migration."""
+    Base.metadata.create_all(conn)
+    inspector = inspect(conn)
+    for table in Base.metadata.sorted_tables:
+        existing = {c["name"] for c in inspector.get_columns(table.name)}
+        for column in table.columns:
+            if column.name in existing:
+                continue
+            ddl = f"ALTER TABLE {table.name} ADD COLUMN {column.name} {column.type.compile(conn.dialect)}"
+            if not column.nullable:
+                default = column.default.arg if column.default is not None else None
+                if default is None or callable(default):
+                    raise RuntimeError(f"{table.name}.{column.name}: a NOT NULL column needs a literal default")
+                literal = f"'{default}'" if isinstance(default, str) else str(default)
+                ddl += f" NOT NULL DEFAULT {literal}"
+            conn.execute(text(ddl))
+        for index in table.indexes:
+            index.create(conn, checkfirst=True)
+
+
 async def init_db() -> None:
-    """Create missing tables. Over a direct (unpooled) connection when the
-    provider gives one: PgBouncer's transaction mode and DDL don't mix well."""
+    """Create or extend the schema. Over a direct (unpooled) connection when
+    the provider gives one: PgBouncer's transaction mode and DDL don't mix."""
     from . import models  # noqa: F401  (registers the tables on Base)
 
     settings = get_settings()
@@ -76,12 +100,12 @@ async def init_db() -> None:
         ddl_engine = create_async_engine(url, connect_args=connect_args)
         try:
             async with ddl_engine.begin() as conn:
-                await conn.run_sync(Base.metadata.create_all)
+                await conn.run_sync(_sync_schema)
         finally:
             await ddl_engine.dispose()
         return
     async with get_engine().begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+        await conn.run_sync(_sync_schema)
 
 
 async def dispose_db() -> None:
