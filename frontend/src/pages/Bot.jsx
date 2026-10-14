@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import BotVsHodl from '../components/BotVsHodl.jsx';
 import Notice from '../components/Notice.jsx';
 import RangeField from '../components/RangeField.jsx';
@@ -7,6 +8,7 @@ import { PlayIcon, RefreshIcon } from '../components/icons.jsx';
 import Loading from '../components/Loading.jsx';
 import { TIMEFRAMES } from '../data/coins.js';
 import { usePolling } from '../hooks/usePolling.js';
+import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
 import { amount, dateTime, money, percent } from '../lib/format.js';
@@ -15,6 +17,9 @@ const asPercent = (fraction) => `${Math.round(Number(fraction) * 100)} %`;
 
 export default function Bot() {
   const { t } = useI18n();
+  // visitors watch; only signed-in users can tick, configure or reset the shared bot
+  const { user } = useAuth();
+  const canDrive = Boolean(user);
   const status = usePolling(() => api.bot.status(), 0);
   const strategies = usePolling(() => api.bot.strategies(), 0);
   const [form, setForm] = useState(null);
@@ -96,12 +101,23 @@ export default function Bot() {
 
           <BotVsHodl status={s} />
 
-          <div className="actions">
-            <button type="button" className="btn btn--primary" onClick={tick} disabled={busy}>
-              <PlayIcon /> {busy ? t('bot.running') : t('bot.run')}
-            </button>
-            <button type="button" className="btn btn--ghost" onClick={reset} disabled={busy}><RefreshIcon /> {t('bot.reset')}</button>
-          </div>
+          {canDrive ? (
+            <div className="actions">
+              <button type="button" className="btn btn--primary" onClick={tick} disabled={busy}>
+                <PlayIcon /> {busy ? t('bot.running') : t('bot.run')}
+              </button>
+              <button type="button" className="btn btn--ghost" onClick={reset} disabled={busy}><RefreshIcon /> {t('bot.reset')}</button>
+            </div>
+          ) : (
+            <div className="spectator card">
+              <span className="pulse__dot" aria-hidden="true" />
+              <p>{t('bot.spectator')}</p>
+              <div className="spectator__actions">
+                <Link to="/login" state={{ from: '/bot' }} className="btn btn--primary btn--sm">{t('nav.login')}</Link>
+                <Link to="/register" state={{ from: '/bot' }} className="btn btn--ghost btn--sm">{t('nav.register')}</Link>
+              </div>
+            </div>
+          )}
           <Notice tone="error">{error}</Notice>
           <Notice tone="ok">{message}</Notice>
 
@@ -109,7 +125,8 @@ export default function Bot() {
             <form className="card form" onSubmit={save}>
               <h2>{t('bot.config')}</h2>
               {form && (
-                <>
+                // visitors see the settings, locked
+                <fieldset className="form__fieldset" disabled={!canDrive}>
                   <label className="field">
                     <span>{t('bot.strategy')}</span>
                     <select className="input" value={form.strategy} onChange={(e) => setForm({ ...form, strategy: e.target.value })}>
@@ -184,8 +201,8 @@ export default function Bot() {
                     <span>{t('bot.llm')}</span>
                   </label>
                   {!s.llm_review_available && <small className="muted">{t('bot.llmOff')}</small>}
-                  <button type="submit" className="btn btn--primary btn--sm" disabled={busy}>{t('bot.save')}</button>
-                </>
+                  {canDrive && <button type="submit" className="btn btn--primary btn--sm" disabled={busy}>{t('bot.save')}</button>}
+                </fieldset>
               )}
             </form>
 
