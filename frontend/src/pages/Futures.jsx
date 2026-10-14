@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import AreaChart from '../components/AreaChart.jsx';
 import CandleChart from '../components/CandleChart.jsx';
+import CoinIcon from '../components/CoinIcon.jsx';
 import Countdown from '../components/Countdown.jsx';
 import Glossary from '../components/Glossary.jsx';
 import HistogramChart from '../components/HistogramChart.jsx';
@@ -160,7 +161,7 @@ export default function Futures() {
             <tbody>
               {(top.data || []).map((r) => (
                 <tr key={r.symbol} className={r.symbol === symbol ? 'is-selected' : ''}>
-                  <td><button type="button" className="coin" onClick={() => setSymbol(r.symbol)}><span className="coin__name">{r.base}</span><span className="coin__symbol muted">PERP</span></button></td>
+                  <td><button type="button" className="coin" onClick={() => setSymbol(r.symbol)}><CoinIcon symbol={r.base} size={22} /><span className="coin__name">{r.base}</span><span className="coin__symbol muted">PERP</span></button></td>
                   <td className="num mono">{money(r.mark_price ?? r.last_price)}</td>
                   <td className="num"><span className={`badge ${r.change_24h >= 0 ? 'badge--up' : 'badge--down'}`}>{percent(r.change_24h)}</span></td>
                   <td className={`num mono ${(r.funding_rate ?? 0) >= 0 ? 'up' : 'down'}`}>{fundingPct(r.funding_rate)}</td>
@@ -191,7 +192,7 @@ export default function Futures() {
             <tbody>
               {(quarterly.data || []).map((q) => (
                 <tr key={q.symbol}>
-                  <td><span className="coin__name">{q.symbol}</span> <span className="coin__symbol muted">{q.contract_type.replace('_', ' ').toLowerCase()}</span></td>
+                  <td><span className="coin"><CoinIcon symbol={q.symbol.replace(/USDT.*$/, '')} size={22} /><span className="coin__name">{q.symbol}</span></span> <span className="coin__symbol muted">{q.contract_type.replace('_', ' ').toLowerCase()}</span></td>
                   <td>{q.delivery_date} <span className="muted">· {Math.round(q.days_to_delivery)} {t('futures.days')}</span></td>
                   <td className="num mono">{money(q.mark_price)}</td>
                   <td className="num mono muted">{money(q.index_price)}</td>
