@@ -6,6 +6,7 @@ import { useTheme } from '../lib/preferences.js';
 import { Mark } from './Brand.jsx';
 import Curve from './Curve.jsx';
 import { CloseIcon, MenuIcon, MoonIcon, SunIcon } from './icons.jsx';
+import LevelBadge from './LevelBadge.jsx';
 import SignInMenu from './SignInMenu.jsx';
 
 const LINKS = [
@@ -53,7 +54,7 @@ function useFoldOnScroll() {
 
 export default function Header() {
   const { t, lang, setLang } = useI18n();
-  const { user, logout, signInRequest } = useAuth();
+  const { user, logout, signInRequest, level } = useAuth();
   const [theme, toggleTheme] = useTheme();
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -99,6 +100,7 @@ export default function Header() {
             {user ? (
               <>
                 <span className="nav__user">
+                  {level && <Link to="/pro" className="nav__level"><LevelBadge level={level.level} name={false} /></Link>}
                   {t('auth.hello', { name: user.name })}
                   {user.is_pro && <> <Link to="/pro" className="pro-pill">PRO</Link></>}
                 </span>

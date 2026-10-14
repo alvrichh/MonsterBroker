@@ -24,7 +24,7 @@ function questState(quest, user) {
 
 export default function Token() {
   const { t } = useI18n();
-  const { user, linkWallet, refreshUser } = useAuth();
+  const { user, linkWallet, refreshUser, refreshLevel } = useAuth();
   const info = usePolling(() => api.token.info(), 60_000);
   const me = usePolling(() => (user ? api.token.me() : Promise.resolve(null)), 0, [user?.id, user?.wallet_address]);
   const [busy, setBusy] = useState(null); // 'link' | quest id
@@ -45,6 +45,7 @@ export default function Token() {
         setMessage(done);
       }
       me.refresh();
+      refreshLevel();
     } catch (err) {
       setError(err.code === 4001 ? t('signin.walletRejected') : err.message);
     } finally {
