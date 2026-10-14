@@ -11,6 +11,7 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.models import REVIEW_APPROVED, Certificate, QuestClaim, Review, User, UserEvent
+from app.services.quests import EVENTS
 
 
 @dataclass(frozen=True, slots=True)
@@ -56,6 +57,7 @@ class LevelOut(BaseModel):
 class LadderOut(BaseModel):
     levels: list[LevelOut]
     points: dict[str, int]
+    events: list[str]  # the things that count as an event, for the UI's checklist
 
 
 class ScoreOut(BaseModel):
@@ -66,10 +68,12 @@ class ScoreOut(BaseModel):
     progress: float  # 0..1 towards the next level (1 at the top)
     counts: dict[str, int]
     breakdown: dict[str, int]
+    events_done: list[str]
 
 
 def ladder() -> LadderOut:
-    return LadderOut(levels=[LevelOut(id=lv.id, min_points=lv.min_points) for lv in LEVELS], points=POINTS)
+    return LadderOut(levels=[LevelOut(id=lv.id, min_points=lv.min_points) for lv in LEVELS], points=POINTS,
+                     events=list(EVENTS))
 
 
 async def score(session: AsyncSession, user: User) -> ScoreOut:
@@ -79,8 +83,9 @@ async def score(session: AsyncSession, user: User) -> ScoreOut:
     review = await session.scalar(
         select(func.count()).select_from(Review).where(Review.user_id == user.id, Review.status == REVIEW_APPROVED)
     )
+    events_done = sorted(await session.scalars(select(UserEvent.event).where(UserEvent.user_id == user.id)))
     counts = {
-        "event": await count(UserEvent), "claim": await count(QuestClaim), "certificate": await count(Certificate),
+        "event": len(events_done), "claim": await count(QuestClaim), "certificate": await count(Certificate),
         "review": 1 if review else 0, "wallet": 1 if user.wallet_address else 0,
     }
     breakdown = {key: counts[key] * POINTS[key] for key in POINTS}
@@ -94,4 +99,4 @@ async def score(session: AsyncSession, user: User) -> ScoreOut:
         progress = 1.0
     return ScoreOut(points=points, level=level.id, next_level=following.id if following else None,
                     next_at=following.min_points if following else None, progress=round(min(progress, 1.0), 3),
-                    counts=counts, breakdown=breakdown)
+                    counts=counts, breakdown=breakdown, events_done=events_done)
