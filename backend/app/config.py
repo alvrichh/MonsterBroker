@@ -38,6 +38,9 @@ class Settings(BaseSettings):
     # cloud hosts (Render, AWS). Futures have no such mirror.
     binance_spot_url: str = "https://data-api.binance.vision/api/v3"
     binance_futures_url: str = "https://fapi.binance.com"
+    # Futures data: auto = Binance, falling back to Bybit while Binance refuses this host.
+    futures_provider: str = "auto"  # auto | binance | bybit
+    bybit_url: str = "https://api.bybit.com"
     paper_trading: bool = True
     paper_starting_balance: float = 10_000.0
     default_symbols: list[str] = ["BTC/USDT", "ETH/USDT", "LTC/USDT", "SOL/USDT"]
