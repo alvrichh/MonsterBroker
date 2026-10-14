@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import LearnTabs from '../components/LearnTabs.jsx';
+import LevelCard from '../components/LevelCard.jsx';
 import SignInGate from '../components/SignInGate.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useI18n } from '../i18n/I18nContext.jsx';
@@ -37,6 +38,8 @@ export default function Pro() {
         <p>{t('pro.lead')}</p>
       </header>
       <LearnTabs />
+
+      <LevelCard />
 
       <section className="card pro-status">
         <h2>{t('pro.yourPlan')}</h2>
