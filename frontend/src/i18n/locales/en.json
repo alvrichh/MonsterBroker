@@ -544,6 +544,12 @@
   "futures.provider": "Data: {name}",
   "futures.providerHint": "Binance refuses the server the API runs on, so perpetuals data comes from Bybit. Live liquidations still come from Binance (straight from your browser).",
 
+  "wake.title": "Waking up the Monster…",
+  "wake.text": "The app is hosted for free and the API sleeps when nobody uses it. It takes 1 to 3 minutes to answer ({seconds} s). No need to reload: it picks up by itself.",
+  "wake.done": "Awake!",
+  "wake.doneText": "Data is loading now. Thanks for your patience.",
+  "footer.hosting": "Hosted for free on Render: after a while without visits, the API takes 1 to 3 minutes to wake up the first time.",
+
   "footer.made": "Made with love (and lots of coffee) by Álvaro Rodríguez Molina. Learning project, open source.",
   "footer.disclaimer": "Nothing here is financial advice. The bot plays with simulated money; with yours, you call the shots.",
   "notfound.title": "This page got rug-pulled.",

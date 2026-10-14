@@ -544,6 +544,12 @@
   "futures.provider": "Datos: {name}",
   "futures.providerHint": "Binance no atiende al servidor donde corre la API, así que los datos de perpetuos vienen de Bybit. Las liquidaciones en vivo siguen siendo de Binance (van directas desde tu navegador).",
 
+  "wake.title": "Despertando al Monstruo…",
+  "wake.text": "La app está alojada gratis y la API se duerme cuando nadie la usa. Tarda entre 1 y 3 minutos en responder ({seconds} s). No hace falta recargar: se pone en marcha sola.",
+  "wake.done": "¡Ya está despierta!",
+  "wake.doneText": "Los datos se cargan ahora. Gracias por la paciencia.",
+  "footer.hosting": "Alojado gratis en Render: si lleva un rato sin visitas, la API tarda entre 1 y 3 minutos en despertar la primera vez.",
+
   "footer.made": "Hecho con cariño (y mucho café) por Álvaro Rodríguez Molina. Proyecto de aprendizaje, código abierto.",
   "footer.disclaimer": "Nada de esto es asesoramiento financiero. El bot juega con dinero simulado; con el tuyo decides tú.",
   "notfound.title": "Esta página ha hecho un rug pull.",
