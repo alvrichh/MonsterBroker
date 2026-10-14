@@ -70,6 +70,21 @@ def register_and_verify(client: TestClient, email: str = "user@test.com", passwo
     return verified.json()["access_token"]
 
 
+def wallet_sign_in(client: TestClient, key=None) -> tuple[str, str]:
+    """Sign in with a fresh (or given) Ethereum key through SIWE.
+    Returns (access token, checksummed address)."""
+    from eth_account import Account
+    from eth_account.messages import encode_defunct
+
+    key = key or Account.create()
+    message = client.post("/api/auth/wallet/nonce", json={"address": key.address}).json()["message"]
+    signature = Account.sign_message(encode_defunct(text=message), private_key=key.key).signature.hex()
+    signature = signature if signature.startswith("0x") else f"0x{signature}"
+    response = client.post("/api/auth/wallet/verify", json={"message": message, "signature": signature})
+    assert response.status_code == 200, response.text
+    return response.json()["access_token"], key.address
+
+
 @pytest.fixture
 def auth_headers(client):
     return {"Authorization": f"Bearer {register_and_verify(client)}"}
