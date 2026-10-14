@@ -536,6 +536,11 @@
 
   "level.headerTitle": "Nivel {level} · {points} puntos. Mira cómo subir.",
 
+  "level.events": "Cosas que suman",
+  "cert.event.bot_config": "Tocar la configuración del Monstruo",
+  "cert.event.perp_mode": "Pasar el Monstruo a perpetuos",
+  "cert.event.wallet_lookup": "Consultar el saldo de una wallet",
+
   "footer.made": "Hecho con cariño (y mucho café) por Álvaro Rodríguez Molina. Proyecto de aprendizaje, código abierto.",
   "footer.disclaimer": "Nada de esto es asesoramiento financiero. El bot juega con dinero simulado; con el tuyo decides tú.",
   "notfound.title": "Esta página ha hecho un rug pull.",
