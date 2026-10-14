@@ -71,7 +71,9 @@
   "bot.symbols": "Pairs (comma-separated)",
   "bot.timeframe": "Timeframe",
   "bot.fraction": "Share of cash per buy",
+  "bot.fractionHint": "How much of your cash the beast puts into each buy.",
   "bot.minConfidence": "Minimum confidence",
+  "bot.minConfidenceHint": "Below this, a signal is logged but not executed. 0% = yes to everything.",
   "bot.llm": "Ask Claude for a second opinion",
   "bot.llmOff": "No ANTHROPIC_API_KEY on the backend: signals go through raw, nobody's checking.",
   "bot.save": "Save",
@@ -166,7 +168,7 @@
   "chart.volume": "Volume",
   "chart.live": "Live",
   "chart.offline": "Live feed dropped",
-  "chart.loading": "Loading candles…",
+  "chart.loading": "Lighting the candles…",
   "chart.open": "Open",
   "chart.high": "High",
   "chart.low": "Low",
@@ -245,6 +247,26 @@
 
   "footer.made": "Made with love (and lots of coffee) by Álvaro Rodríguez Molina. Learning project, open source.",
   "footer.disclaimer": "Nothing here is financial advice. The bot plays with simulated money; with yours, you call the shots.",
-  "notfound.title": "Nothing here. Never was.",
-  "notfound.back": "Back to home"
+  "notfound.title": "This page got rug-pulled.",
+  "notfound.back": "Back to home",
+
+  "home.coins.spark": "Last 7 days (4h candles)",
+  "notfound.lead": "Something used to live here… then it vanished with the liquidity. Relax, the rest of the site is still standing.",
+  "notfound.market": "See the market",
+  "loading.0": "Waking the beast…",
+  "loading.1": "Reading candles…",
+  "loading.2": "Asking Binance…",
+  "loading.3": "Warming up the engines…",
+  "loading.4": "Counting satoshis…",
+  "loading.5": "Hang on, this thing flies…",
+  "pulse.kicker": "The beast says…",
+  "pulse.empty": "Not a peep yet. Run a tick and make it talk.",
+  "vs.title": "The beast vs HODL",
+  "vs.waiting": "Run the first tick and the clock starts: the bot against buying BTC and sitting on it.",
+  "vs.since": "since {when}",
+  "vs.bot": "The beast",
+  "vs.hodl": "Buy {coin} and hold",
+  "vs.win": "The beast is beating your HODL cousin. 😎",
+  "vs.lose": "HODL is ahead for now. The beast is taking notes.",
+  "vs.tie": "Dead heat. Nobody's buying dinner."
 }
