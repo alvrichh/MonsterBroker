@@ -1,0 +1,214 @@
+/* --------------------------------------------------------------------------
+   Home: hero, ticker tape, features, coins, partners
+   -------------------------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(56px, 10vw, 120px) 0 clamp(40px, 6vw, 72px);
+  text-align: center;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background: url("/images/brand/hero-bg.jpg") center / cover no-repeat;
+  opacity: 0.18;
+  mask-image: linear-gradient(to bottom, black 20%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent);
+  pointer-events: none;
+
+  :root[data-theme="light"] & {
+    opacity: 0.1;
+  }
+}
+
+.hero__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.hero__wordmark {
+  width: min(560px, 90%);
+  filter: drop-shadow(0 8px 30px rgba(230, 10, 102, 0.35));
+
+  :root[data-theme="light"] & {
+    filter: drop-shadow(0 6px 20px rgba(14, 45, 58, 0.25));
+  }
+}
+
+.hero__title {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  max-width: 22ch;
+}
+
+.hero__lead {
+  color: var(--ink-soft);
+  max-width: 64ch;
+  font-size: 1.05rem;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.hero__status {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+/* Ticker tape ------------------------------------------------------------ */
+
+.tape {
+  overflow: hidden;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg-glass);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.tape__track {
+  display: flex;
+  width: max-content;
+  animation: tape 40s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.tape__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  border-right: 1px solid var(--rule);
+}
+
+@keyframes tape {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tape__track {
+    animation: none;
+  }
+}
+
+/* Features --------------------------------------------------------------- */
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.feature {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s ease, border-color 0.25s ease;
+
+  p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-glow);
+    color: inherit;
+  }
+}
+
+.feature__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--accent-wash);
+  color: var(--accent);
+}
+
+.feature__more {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: var(--muted);
+  transition: color 0.2s ease, transform 0.2s var(--ease-out);
+
+  .feature:hover & {
+    color: var(--accent);
+    transform: translateX(3px);
+  }
+}
+
+/* Coins ------------------------------------------------------------------ */
+
+.coins {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.coins__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+
+  strong {
+    font-family: var(--font-display);
+    margin-top: 4px;
+  }
+}
+
+/* Partners --------------------------------------------------------------- */
+
+.section--partners {
+  text-align: center;
+}
+
+.partners {
+  display: flex;
+  gap: clamp(16px, 4vw, 40px);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    height: 36px;
+    width: auto;
+    opacity: 0.55;
+    filter: grayscale(1);
+    transition: opacity 0.2s ease, filter 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+      filter: none;
+    }
+  }
+}
