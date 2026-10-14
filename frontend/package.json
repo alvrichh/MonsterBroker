@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "description": "MonsterBroker web: trading bot panel, crypto news radar and wallet. React + Vite + SCSS.",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
