@@ -26,6 +26,18 @@ export function compact(value) {
   return new Intl.NumberFormat('es-ES', { notation: 'compact', maximumFractionDigits: 1 }).format(value);
 }
 
+// Big dollar figures: $2.81T, $91.2B, $4.5M. English-style suffixes read the
+// same in both languages on a trading screen.
+const SUFFIXES = [[1e12, 'T'], [1e9, 'B'], [1e6, 'M'], [1e3, 'K']];
+export function usd(value, digits = 2) {
+  if (value === null || value === undefined || Number.isNaN(value)) return '—';
+  const abs = Math.abs(value);
+  for (const [limit, suffix] of SUFFIXES) {
+    if (abs >= limit) return `$${(value / limit).toFixed(digits)}${suffix}`;
+  }
+  return `$${money(value)}`;
+}
+
 export function amount(value) {
   if (value === null || value === undefined) return '—';
   return value >= 1 ? value.toFixed(4) : value.toPrecision(4);
