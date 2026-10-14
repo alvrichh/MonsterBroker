@@ -47,6 +47,14 @@ export const api = {
     tickers: (symbols) => request('/market/tickers', { params: { symbols: symbols?.join(',') } }),
     ohlcv: (symbol, timeframe = '1h', limit = 60) => request('/market/ohlcv', { params: { symbol, timeframe, limit } }),
     indicators: (symbol, timeframe = '1h') => request('/market/indicators', { params: { symbol, timeframe } }),
+    overview: () => request('/market/overview'),
+    top: (limit = 20) => request('/market/top', { params: { limit } }),
+  },
+
+  defi: {
+    chains: (limit = 12) => request('/defi/chains', { params: { limit } }),
+    protocols: (limit = 15) => request('/defi/protocols', { params: { limit } }),
+    tvlHistory: (days = 180) => request('/defi/tvl-history', { params: { days } }),
   },
 
   bot: {
