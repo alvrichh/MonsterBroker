@@ -102,6 +102,13 @@ export const api = {
     balance: (address, chain) => request('/wallet/balance', { params: { address, chain } }),
   },
 
+  // MonsterCoin, badges and the learn-to-earn quests.
+  token: {
+    info: () => request('/token/info'),
+    me: () => request('/token/me'),
+    claim: (quest) => request('/token/claim', { method: 'POST', body: { quest } }),
+  },
+
   auth: {
     register: (body) => request('/auth/register', { method: 'POST', body }),
     login: (body) => request('/auth/login', { method: 'POST', body }),
