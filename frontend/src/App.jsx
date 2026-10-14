@@ -5,6 +5,7 @@ import { AuthProvider } from './context/AuthContext.jsx';
 import { I18nProvider } from './i18n/I18nContext.jsx';
 import Bot from './pages/Bot.jsx';
 import Dashboard from './pages/Dashboard.jsx';
+import Defi from './pages/Defi.jsx';
 import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
 import News from './pages/News.jsx';
@@ -21,6 +22,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/defi" element={<Defi />} />
             <Route path="/bot" element={<Bot />} />
             <Route path="/news" element={<News />} />
             <Route path="/wallet" element={<Wallet />} />
