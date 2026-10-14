@@ -41,6 +41,11 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     anthropic_model: str = "claude-opus-5-5"
 
+    # Public data APIs. All work without a key; a free key raises the limits.
+    coingecko_api_key: str = ""  # Demo plan: 100 calls/min
+    coinmarketcap_api_key: str = ""  # Basic plan: 15k credits/month (not wired yet)
+    etherscan_api_key: str = ""  # Free: 3 calls/s, 50+ chains (not wired yet)
+
     # Web3: any JSON-RPC endpoint. Empty disables the wallet routes.
     web3_rpc_url: str = ""
 
