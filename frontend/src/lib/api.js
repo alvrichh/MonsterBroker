@@ -110,6 +110,15 @@ export const api = {
     event: (event) => request('/token/events', { method: 'POST', body: { event } }),
   },
 
+  // Courses and the certificates they issue. The SVG is a plain URL (img src / download).
+  certificates: {
+    courses: () => request('/certificates/courses'),
+    mine: () => request('/certificates/mine'),
+    issue: (course, name) => request(`/certificates/${course}/issue`, { method: 'POST', body: { name } }),
+    verify: (code) => request(`/certificates/${encodeURIComponent(code)}`),
+    svgUrl: (code, lang = 'es') => `${BASE}/certificates/${encodeURIComponent(code)}.svg?lang=${lang}`,
+  },
+
   auth: {
     register: (body) => request('/auth/register', { method: 'POST', body }),
     login: (body) => request('/auth/login', { method: 'POST', body }),

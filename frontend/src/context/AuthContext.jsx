@@ -59,6 +59,12 @@ export function AuthProvider({ children }) {
     return providersRequest.current;
   }, []);
 
+  // After something that changes the account server-side (a plan granted, a wallet linked).
+  const refreshUser = useCallback(() => api.auth.me().then((me) => {
+    setUser(me);
+    return me;
+  }), []);
+
   // OAuth lands on /auth/callback with a bare token: take it, then find out who it is.
   const acceptToken = useCallback((token) => {
     setToken(token);
@@ -95,10 +101,10 @@ export function AuthProvider({ children }) {
     () => ({
       user, ready, isAdmin: user?.role === 'admin', providers, signInRequest,
       login, register, verify, resetPassword, resendVerification, forgotPassword, logout,
-      loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn,
+      loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn, refreshUser,
     }),
     [user, ready, providers, signInRequest, login, register, verify, resetPassword, resendVerification,
-      forgotPassword, logout, loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn],
+      forgotPassword, logout, loadProviders, acceptToken, loginWithWallet, linkWallet, requestSignIn, refreshUser],
   );
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
