@@ -1,12 +1,17 @@
 # MonsterBroker contracts
 
-Foundry + OpenZeppelin 5. Two contracts, built for Base (Sepolia first):
+Foundry + OpenZeppelin 5. Three contracts, built for Base (Sepolia first):
 
 - `src/MonsterToken.sol` — **MonsterCoin (MBK)**, an ERC-20 with a fixed `cap`,
   `ERC20Permit` and a `MINTER_ROLE` (only the backend mints learning rewards).
   Nobody sells it.
 - `src/MonsterBadge.sol` — **Monster Badges**, *soulbound* ERC-721: badges for
   achievements, one of each kind per wallet, non-transferable, the owner may burn it.
+- `src/MonsterCertificate.sol` — **Monster Certificates**, transferable ERC-721
+  course certificates with a price in ETH (`buy`), free grants by the owner
+  (`grant`), one per course per wallet, EIP-2981 resale royalties and
+  `withdraw` to a treasury. The first real-income path (unique NFTs sit outside
+  MiCA; see `docs/WEB3.md`).
 
 Why, and how it fits the app: [`docs/WEB3.md`](../docs/WEB3.md).
 
@@ -30,6 +35,8 @@ forge test -vv
    BASE_SEPOLIA_RPC_URL=https://sepolia.base.org
    PRIVATE_KEY=0x...            # the wallet holding testnet ETH
    MINTER=0x...                 # the backend wallet (the one that will sign rewards)
+   TREASURY=0x...               # optional: where certificate royalties go (default: ADMIN)
+   ROYALTY_BPS=500              # optional: resale royalty, 500 = 5%
    BASESCAN_API_KEY=...         # optional, to verify the source
    ```
 
