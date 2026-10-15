@@ -3,7 +3,26 @@
 // icons from @web3icons/core 4.0.40 (MIT). <CoinIcon> tries the file for any
 // ticker and falls back to letters when there's none. Aliases cover tickers
 // that changed or that Binance prefixes.
-export const COIN_ICON_ALIASES = {};
+//
+// The futures lists also carry TradFi perps. Metals, oil and gas have their
+// own drawn icons (xau, xag, xpt, xpd, cl, ng); stocks and ETFs share a
+// generic one, no company logos.
+const EQUITIES = [
+  'AAPL', 'AMD', 'AMZN', 'AVGO', 'BABA', 'COIN', 'CRCL', 'GOOGL', 'HOOD', 'INTC', 'KORU', 'MSFT', 'MSTR', 'MU',
+  'NFLX', 'NVDA', 'ORCL', 'PLTR', 'QQQ', 'SKHYNIX', 'SNDK', 'SOXL', 'SPCX', 'SPY', 'TSLA', 'TSM',
+];
+
+export const COIN_ICON_ALIASES = {
+  ...Object.fromEntries(EQUITIES.map((ticker) => [ticker, 'stock'])),
+  BRENT: 'cl',
+  BZ: 'cl',
+  UKOIL: 'cl',
+  USOIL: 'cl',
+  WTI: 'cl',
+  NATGAS: 'ng',
+  GOLD: 'xau',
+  SILVER: 'xag',
+};
 
 // Brand colours for the home coin cards' glow and top rule.
 export const COIN_COLORS = {
