@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import BotPulse from '../components/BotPulse.jsx';
 import { Wordmark } from '../components/Brand.jsx';
@@ -35,6 +36,15 @@ export default function Home() {
     600_000,
   );
   const closesBySymbol = Object.fromEntries(weeks.data || []);
+  // A sleeping API fails these on the first visit; don't wait the full ten
+  // minutes to draw the lines once it wakes.
+  const missingSpark = HOME_SYMBOLS.some((s) => !closesBySymbol[s]?.length);
+  const { loading: weeksLoading, refresh: refreshWeeks } = weeks;
+  useEffect(() => {
+    if (weeksLoading || !missingSpark) return undefined;
+    const id = setTimeout(refreshWeeks, 15_000);
+    return () => clearTimeout(id);
+  }, [weeksLoading, missingSpark, weeks.data, refreshWeeks]);
 
   return (
     <>
