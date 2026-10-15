@@ -26,7 +26,7 @@ from app.services.certificates import CertificateService
 from app.services.coingecko import CoinGeckoService, get_coingecko
 from app.services.defillama import DefiLlamaService, get_defillama
 from app.services.email import EmailService
-from app.services.exchange import MarketDataService, get_market_service
+from app.services.exchange import ResilientMarket, get_market_service
 from app.services.futures import ResilientFutures, get_futures
 from app.services.oauth import build_oauth
 from app.services.quests import QuestService
@@ -37,7 +37,7 @@ SettingsDep = Annotated[Settings, Depends(get_settings)]
 DbSession = Annotated[AsyncSession, Depends(get_session)]
 
 
-def get_market() -> MarketDataService:
+def get_market() -> ResilientMarket:
     return get_market_service()
 
 
@@ -188,7 +188,7 @@ def require_admin(user: Annotated[User, Depends(get_current_user)]) -> User:
 
 
 AgentDep = Annotated[TradingAgent, Depends(get_agent)]
-MarketDep = Annotated[MarketDataService, Depends(get_market)]
+MarketDep = Annotated[ResilientMarket, Depends(get_market)]
 GeckoDep = Annotated[CoinGeckoService, Depends(get_coingecko)]
 SentimentDep = Annotated[SentimentService, Depends(get_sentiment)]
 DefiDep = Annotated[DefiLlamaService, Depends(get_defillama)]

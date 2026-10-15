@@ -6,6 +6,7 @@ Only reads: tickers, candles, last price. Orders never go through here.
 from __future__ import annotations
 
 import asyncio
+import time
 from dataclasses import dataclass
 
 import httpx
@@ -44,6 +45,8 @@ class Candle:
 
 
 class MarketDataService:
+    provider = "binance"
+
     def __init__(self, base_url: str = BINANCE_API, timeout: float = 10.0) -> None:
         self._client = httpx.AsyncClient(base_url=base_url, timeout=timeout)
 
@@ -98,13 +101,76 @@ class MarketDataService:
         return float(data["price"])
 
 
-_service: MarketDataService | None = None
+BLOCKED_MARKERS = ("HTTP 418", "HTTP 451", "HTTP 403")  # Binance refusing this host, not a bad request
 
 
-def get_market_service() -> MarketDataService:
+class ResilientMarket:
+    """Binance first; when it refuses this host (cloud addresses get a 418
+    ban or a 451 geo-block, even on the data-api mirror) the fallback
+    exchange answers for a while, then Binance gets retried. Same surface as
+    MarketDataService."""
+
+    def __init__(self, primary: MarketDataService, fallback: MarketDataService | None,
+                 cooldown: float = 600.0) -> None:
+        self.primary, self.fallback, self.cooldown = primary, fallback, cooldown
+        self._blocked_until = 0.0
+
+    @property
+    def blocked(self) -> bool:
+        return time.monotonic() < self._blocked_until
+
+    @property
+    def provider(self) -> str:
+        return self.fallback.provider if (self.blocked and self.fallback) else self.primary.provider
+
+    async def _call(self, name: str, *args, **kwargs):
+        if not (self.blocked and self.fallback):
+            try:
+                return await getattr(self.primary, name)(*args, **kwargs)
+            except MarketDataError as error:
+                if self.fallback is None or not any(marker in str(error) for marker in BLOCKED_MARKERS):
+                    raise
+                self._blocked_until = time.monotonic() + self.cooldown
+                log.warning("%s refused us (%s); using %s for %.0f s", self.primary.provider, error,
+                            self.fallback.provider, self.cooldown)
+        return await getattr(self.fallback, name)(*args, **kwargs)
+
+    async def ticker(self, symbol: str) -> Ticker:
+        return await self._call("ticker", symbol)
+
+    async def tickers(self, symbols: list[str]) -> list[Ticker]:
+        # One ticker at a time through the switch: the primary's own tickers()
+        # swallows per-symbol errors, so a ban would never be seen.
+        results = await asyncio.gather(*(self.ticker(s) for s in symbols), return_exceptions=True)
+        tickers: list[Ticker] = []
+        for symbol, result in zip(symbols, results, strict=True):
+            if isinstance(result, Ticker):
+                tickers.append(result)
+            else:
+                log.warning("ticker %s failed: %s", symbol, result)
+        return tickers
+
+    async def ohlcv(self, symbol: str, timeframe: str = "1h", limit: int = 100) -> list[Candle]:
+        return await self._call("ohlcv", symbol, timeframe, limit)
+
+    async def price(self, symbol: str) -> float:
+        return await self._call("price", symbol)
+
+    async def close(self) -> None:
+        await self.primary.close()
+        if self.fallback:
+            await self.fallback.close()
+
+
+_service: ResilientMarket | None = None
+
+
+def get_market_service() -> ResilientMarket:
     global _service
     if _service is None:
         from app.config import get_settings
+        from app.services.exchange_bybit import BybitSpotService
 
-        _service = MarketDataService(get_settings().binance_spot_url)
+        settings = get_settings()
+        _service = ResilientMarket(MarketDataService(settings.binance_spot_url), BybitSpotService(settings.bybit_url))
     return _service

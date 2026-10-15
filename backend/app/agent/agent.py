@@ -17,7 +17,7 @@ from typing import Protocol
 
 from pydantic import BaseModel, Field
 
-from app.services.exchange import Candle, MarketDataError, MarketDataService
+from app.services.exchange import Candle, MarketDataError, MarketDataService, ResilientMarket
 from app.services.futures import BinanceFuturesService
 from app.services.http import UpstreamError
 from app.strategies import get_strategy
@@ -55,7 +55,7 @@ class TickResult(BaseModel):
 
 
 class TradingAgent:
-    def __init__(self, market: MarketDataService, memory: Memory, executor: Executor,
+    def __init__(self, market: MarketDataService | ResilientMarket, memory: Memory, executor: Executor,
                  reviewer: Reviewer | None = None, futures: BinanceFuturesService | None = None,
                  perp_executor: PerpExecutor | None = None) -> None:
         self.market = market
