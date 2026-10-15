@@ -14,6 +14,7 @@ import { useLiveTickers } from '../hooks/useLiveTickers.js';
 import { usePolling } from '../hooks/usePolling.js';
 import { useI18n } from '../i18n/I18nContext.jsx';
 import { api } from '../lib/api.js';
+import { spotCloses } from '../lib/binance.js';
 import { baseOf, percent } from '../lib/format.js';
 
 const FEATURES = [
@@ -30,14 +31,17 @@ export default function Home() {
   const { t } = useI18n();
   const health = usePolling(() => api.health(), 60_000);
   const tickers = useLiveTickers(TAPE_SYMBOLS);
-  // 42 four-hour candles = the last 7 days, one sparkline per coin card
+  // 42 four-hour candles = the last 7 days, one sparkline per coin card.
+  // Straight from Binance like the prices, so a sleeping API doesn't blank
+  // them; our API only as the fallback.
   const weeks = usePolling(
-    () => Promise.all(HOME_SYMBOLS.map((s) => api.market.ohlcv(s, '4h', 42).then((r) => [s, r.candles.map((c) => c.close)]).catch(() => [s, []]))),
+    () => Promise.all(HOME_SYMBOLS.map((s) => spotCloses(s, '4h', 42)
+      .catch(() => api.market.ohlcv(s, '4h', 42).then((r) => r.candles.map((c) => c.close)))
+      .then((closes) => [s, closes], () => [s, []]))),
     600_000,
   );
   const closesBySymbol = Object.fromEntries(weeks.data || []);
-  // A sleeping API fails these on the first visit; don't wait the full ten
-  // minutes to draw the lines once it wakes.
+  // If both sources failed, don't wait the full ten minutes to try again.
   const missingSpark = HOME_SYMBOLS.some((s) => !closesBySymbol[s]?.length);
   const { loading: weeksLoading, refresh: refreshWeeks } = weeks;
   useEffect(() => {
