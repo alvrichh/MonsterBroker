@@ -4,13 +4,13 @@ import httpx
 from fastapi import APIRouter
 
 from app import __version__
-from app.api.deps import FuturesDep, SettingsDep
+from app.api.deps import FuturesDep, MarketDep, SettingsDep
 
 router = APIRouter()
 
 
 @router.get("/health")
-def health(settings: SettingsDep, futures: FuturesDep) -> dict[str, object]:
+def health(settings: SettingsDep, futures: FuturesDep, market: MarketDep) -> dict[str, object]:
     return {
         "status": "ok",
         "version": __version__,
@@ -18,6 +18,7 @@ def health(settings: SettingsDep, futures: FuturesDep) -> dict[str, object]:
         "paper_trading": settings.paper_trading,
         "llm_enabled": settings.llm_enabled,
         "web3_enabled": settings.web3_enabled,
+        "market_provider": market.provider,
         "futures_provider": futures.provider,
     }
 
