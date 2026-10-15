@@ -31,6 +31,11 @@
     display: inline-grid;
   }
 
+  /* The nav leaves the flow (fixed panel), so the tools push themselves right. */
+  .header__tools {
+    margin-left: auto;
+  }
+
   .nav {
     position: fixed;
     top: var(--header-h);
