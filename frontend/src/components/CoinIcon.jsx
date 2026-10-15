@@ -34,8 +34,9 @@ export default function CoinIcon({ symbol, size = 36 }) {
     );
   }
   return (
-    <span className="coin-icon coin-icon--text" style={{ width: size, height: size }} aria-hidden="true">
-      {base.slice(0, 3)}
+    // Two letters at most, sized to the disc so they never spill out of it.
+    <span className="coin-icon coin-icon--text" style={{ width: size, height: size, fontSize: size * 0.36 }} aria-hidden="true">
+      {base.slice(0, 2)}
     </span>
   );
 }
