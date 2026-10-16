@@ -1,66 +1,66 @@
-# MonsterBroker · Radar cripto · 2026-10-15
+# MonsterBroker · Radar cripto · 2026-10-16
 
 **Radar cripto**
 
 > Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.
 
-30 titulares en portada · 399 en el archivo.
+30 titulares en portada · 512 en el archivo.
 
 ## Noticias
 
-- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-15 · `Bitcoin` `DeFi` `Regulation` `Web3`
+- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-16 · `Bitcoin` `DeFi` `Regulation` `Web3`
   Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.
-- **[Under pressure Ledger unveils plan to turn its crypto hardware wallet into a smartphone](https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone)** — CoinDesk · 2026-10-15 · `Web3`
-- **[Bitcoin, copper, stocks, yields all fall; gold rises](https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises)** — CoinDesk · 2026-10-15 · `Bitcoin`
-- **[Bitcoin holds above $80,000 as Asian stock rout drags altcoins lower](https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower)** — CoinDesk · 2026-10-15 · `Bitcoin` `Altcoins`
-- **[Live updates: Bitcoin trades near $81,000 as South Korea's chip-heavy Kospi continues to plunge](https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens)** — CoinDesk · 2026-10-15 · `Bitcoin`
-- **[HEX token sellers erase $160M following reports of founder Richard Schueler arrest](https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-15 · `Markets`
-  The HEX token’s price declined by 30% following local media reports of the Istanbul arrest of founder Richard Schueler, nearly two years after Interpol issued a “Red Notice.”
-- **[Ledger’s answer to wallet tampering costs $849 and ships next year](https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-15 · `Web3`
-  Ledger’s new Atom combines crypto wallet security with everyday apps and is expected to ship in summer 2027 as the company investigates tampered wallets sold in Asia.
-- **[White House crypto council chief Patrick Witt steps down](https://cointelegraph.com/news/white-house-crypto-council-director-steps-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-15 · `Crypto`
-  Witt’s departure leaves a leadership gap at the White House Crypto Council and marks the fourth high-profile exit from the advisory group.
-- **[Morning Minute: Solana Is About To Get Faster](https://decrypt.co/381018/morning-minute-solana-is-about-to-get-faster)** — Decrypt · 2026-10-15 · `Altcoins`
-  Alpenglow is coming next week, slashing Solana finality from 12.8 seconds to a target of about 150 milliseconds—some 85 times faster.
-- **[Bitcoin Tests $81,000 as Rate Hike Fears Linger After Hot Inflation Data](https://decrypt.co/381008/bitcoin-tests-81000-as-rate-hike-fears-linger-after-hot-inflation-data)** — Decrypt · 2026-10-15 · `Bitcoin`
-  Odds of an October Fed hike have climbed to 29% from 18% a week ago, and analysts see Bitcoin range-bound until the picture clears.
-- **[Brooklyn Prosecutors Take Down 112 Servers Behind Crypto Scam Targeting Russian Speakers](https://decrypt.co/381000/brooklyn-prosecutors-take-down-112-servers-behind-crypto-scam-targeting-russian-speakers)** — Decrypt · 2026-10-15 · `Security`
-  The scammers also ran a fake recovery service, contacting victims weeks later with promises to get their stolen crypto back.
-- **[Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets](https://www.theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644)** — The Block · 2026-10-15 · `Altcoins` `Web3` `AI`
-  Ledger unveiled Atom, an Android-based security device with Solana Mobile integration, AI-agent controls, and hardware-tampering protections.
-- **[EBA designates Circle’s USDC as the EU’s first ‘significant’ e-money token](https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637)** — The Block · 2026-10-15 · `Stablecoins`
-  The EBA classified Circle’s USDC as the EU’s first "significant" e-money token, with new supervisory responsibilities beginning Nov. 12.
-- **[Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities](https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623)** — The Block · 2026-10-15 · `Bitcoin` `Markets`
-  Asian equities tumbled on Thursday, with South Korea's Kospi losing 8% and Japan's Nikkei 225 declining 5% during morning trading.
-- **[Crypto scammers stole millions from victims, then returned pretending to help recover their money](https://cryptoslate.com/crypto-scammers-stole-millions-from-victims-then-returned-pretending-to-help-recover-their-money/)** — CryptoSlate · 2026-10-15 · `Security`
-  Prosecutors say recovered data showed the same scammers returning weeks later with false promises to recover stolen assets. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Bitcoin’s AI-driven rally faces a hidden danger if the machines get richer but workers don’t](https://cryptoslate.com/bitcoins-ai-driven-rally-faces-a-hidden-danger-if-the-machines-get-richer-but-workers-dont/)** — CryptoSlate · 2026-10-15 · `Bitcoin` `Markets` `AI`
-  Bitwise CIO Matt Hougan argued in an Oct. 14 memo that nearly every macroeconomic path ends with Bitcoin higher, including an extraordinary AI productivity boom that makes scarce assets more valuable. Two days earlier, the Bank for International Settlements published a working p…
-- **[Bitcoin’s $80,000 buy wall hides a liquidation trap that could send prices toward $78,000](https://cryptoslate.com/bitcoins-80000-buy-wall-hides-a-liquidation-trap-that-could-send-prices-toward-78000/)** — CryptoSlate · 2026-10-15 · `Bitcoin` `Layer 2` `Web3` `Markets`
-  Bitcoin registered an intraday low of $81,514.28 on Oct. 14 as September CPI came in hotter than forecast, with headline inflation at 3.7% year over year against 3.6% expected and core at 2.6% against 2.5%. Glassnode&#039;s latest on-chain data suggests a calmer holder base than…
-- **[9 mega banks block crypto accounts, but new OCC rules bite back](https://cryptoslate.com/9-mega-banks-block-crypto-accounts-but-new-occ-rules-bite-back/)** — CryptoSlate · 2026-10-15 · `Crypto`
-  New OCC findings put crypto restrictions in a nine-bank record, while AML, sanctions and operational assessments still shape access. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Starknet Puts Independent L1 Research to a Community Vote](https://thedefiant.io/news/blockchains/starknet-puts-independent-l1-research-to-a-community-vote)** — The Defiant · 2026-10-15 · `Ethereum` `Layer 2`
-  The seven-day poll gives STRK stakers and delegators a say, but any transition away from Ethereum settlement would need a separate governance process.
-- **[Lido Adds Direct ETH Staking From Four Layer 2s to Its Interface](https://thedefiant.io/news/defi/lido-adds-direct-eth-staking-from-four-layer-2s-to-its-interface)** — The Defiant · 2026-10-15 · `Ethereum` `DeFi`
-  Users receive wstETH from local liquidity pools, while ETH is bridged to Ethereum for staking and the pools are replenished in the background.
-- **[HashKey Chain Admin Moves 142,818 USDT With Temporary Contract Swap](https://thedefiant.io/news/security/hashkey-chain-admin-moves-142-818-usdt-with-temporary-contract-swap)** — The Defiant · 2026-10-15 · `Stablecoins`
-  The original deposit code was restored about six minutes later, but a three-of-five multisig retains immediate upgrade powers.
-- **[BVNK Launches Global Money Platform Linking Stablecoins to Mastercard Rails](https://thedefiant.io/converge/tradfi-and-fintech/bvnk-launches-global-money-platform-linking-stablecoins-to-mastercard-rails)** — The Defiant · 2026-10-15 · `Stablecoins`
-  Nuvei and Marqeta are among the first planned integrators; local-payout coverage is expected to expand in 2027.
-- **[Morning Minute: Move Over, Saylor, There’s a New Top Buyer in Town](https://decrypt.co/380920/morning-minute-move-over-saylor-theres-a-new-top-buyer-in-town)** — Decrypt · 2026-10-14 · `Crypto`
-  With Strategy's preferred stock STRC closing in on $100 par, Saylor might not be the number two buyer for long...
-- **[Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work](https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503)** — The Block · 2026-10-14 · `DeFi` `Regulation` `Exchanges` `Altcoins`
-  Evernorth said it is planning a phased move into XRP lending and yield strategies following its Nasdaq debut.
-- **[Russia’s Central Bank Authorizes Sberbank to Exchange Cryptocurrencies](https://bitcoinmagazine.com/news/russia-central-bank-gives-sberbank-license)** — Bitcoin Magazine · 2026-10-14 · `Bitcoin` `Exchanges`
-  Bitcoin Magazine Russia’s Central Bank Authorizes Sberbank to Exchange Cryptocurrencies Sberbank will debut its bitcoin-related products in December. This post Russia’s Central Bank Authorizes Sberbank to Exchange Cryptocurrencies first appeared on Bitcoin Magazine and is writte…
-- **[Kraken Parent Company Payward to Buy Saldo Bank in European Banking Push](https://bitcoinmagazine.com/news/kraken-parent-company-to-buy-saldo-bank)** — Bitcoin Magazine · 2026-10-14 · `Bitcoin` `Exchanges`
-  Bitcoin Magazine Kraken Parent Company Payward to Buy Saldo Bank in European Banking Push Top crypto exchange Kraken is pushing to offer other services other than digital assets. This post Kraken Parent Company Payward to Buy Saldo Bank in European Banking Push first appeared on…
-- **[Standard Chartered Debuts Bitcoin Trading For Wealthy UAE Clients](https://bitcoinmagazine.com/news/standard-chartered-debuts-bitcoin-trading-2)** — Bitcoin Magazine · 2026-10-14 · `Bitcoin` `Markets`
-  Bitcoin Magazine Standard Chartered Debuts Bitcoin Trading For Wealthy UAE Clients The service allows affluent clients to buy bitcoin via their bank accounts. This post Standard Chartered Debuts Bitcoin Trading For Wealthy UAE Clients first appeared on Bitcoin Magazine and is wr…
-- **[The Undercurrent: Three European Artists on Making Money Visible](https://bitcoinmagazine.com/culture/the-undercurrent-three-european-artists-on-making-money-visible)** — Bitcoin Magazine · 2026-10-14 · `Bitcoin`
-  Bitcoin Magazine The Undercurrent: Three European Artists on Making Money Visible Ahead of Bitcoin Amsterdam, ZETRA, RYR, and Cypherpunk Now reflect on the cultural roots of bitcoin, the changing meaning of money, and a movement confronting its own institutional success. This po…
-- **[HTX Publishes Its Q3 2026 Scorecard: Cumulative TradFi Trading Volume Approaches $6B Amid 13th Anniversary Celebration](https://www.newsbtc.com/news/htx-publishes-its-q3-2026-scorecard-cumulative-tradfi-trading-volume-approaches-6b-amid-13th-anniversary-celebration/)** — NewsBTC · 2026-10-14 · `Markets`
-  Apia, Samoa, October 14, 2026 &#8211; The crypto market saw a notable rally in the just-concluded third quarter. It was also the quarter in which HTX turned 13. Over the past 13 years, the industry has weathered multiple bull and bear cycles, and HTX has stood alongside users wo…
-- **[State of TRON Q3 2026 Report Highlights $2.21 Trillion in Stablecoin Settlement Amid Network Activity Growth](https://www.newsbtc.com/news/state-of-tron-q3-2026-report-highlights-2-21-trillion-in-stablecoin-settlement-amid-network-activity-growth/)** — NewsBTC · 2026-10-12 · `Stablecoins` `Altcoins` `Web3`
-  &#160; Geneva, Switzerland, October 12, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today highlighted key findings from its State of TRON Q3 2026…
+- **[Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets](https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets)** — CoinDesk · 2026-10-16 · `Exchanges`
+- **[Circle targets 40 new markets as stablecoin demand grows globally](https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally)** — CoinDesk · 2026-10-16 · `Stablecoins` `Markets`
+- **[Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat](https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next)** — CoinDesk · 2026-10-16 · `Bitcoin`
+- **[Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype](https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed)** — CoinDesk · 2026-10-16 · `Crypto`
+- **[Solana’s Liu says Shanghai event postponed over registration surge](https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-16 · `Altcoins`
+  Solana Foundation President Lily Liu said registrations quadrupled overnight, exceeding the attendance limit registered with local authorities.
+- **[CONNECT recap: Liquidity is tokenization’s next challenge, everyday stablecoins](https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-16 · `DeFi` `Stablecoins` `Markets`
+  Panelists at Cointelegraph’s Singapore CONNECT event explored opportunities in tokenized markets, the future of everyday stablecoin payments and the evolving landscape for crypto investors.
+- **[Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant](https://cointelegraph.com/markets/bitcoin-seeks-20-month-trend-line-reclaim-before-new-record-highs-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-16 · `Bitcoin` `Markets`
+  Bitcoin’s market cycle signals tool showed BTC price action copying history, possibly preparing to reclaim a key moving average before testing new highs.
+- **[Morning Minute: Google Clears a Major Quantum Hurdle, Bitcoin Still Safe](https://decrypt.co/381138/morning-minute-google-clears-a-major-quantum-hurdle-bitcoin-still-safe)** — Decrypt · 2026-10-16 · `Bitcoin`
+  Plus, crypto majors rebound despite hot PPI and Saylor’s Strategy is at risk of removal from a major index.
+- **[OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task](https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task)** — Decrypt · 2026-10-16 · `Ethereum` `Web3`
+  The internal model derived keys from public developer recovery phrases, spent another account's test ETH, and left it out of its report.
+- **[GTA 6 Trailer Features Meme Coin—And Solana Copycat Soars 2,900%](https://decrypt.co/381122/gta-6-trailer-features-meme-coin-and-solana-copycat-soars-2900)** — Decrypt · 2026-10-16 · `Altcoins`
+  Rockstar released the launch trailer for GTA VI, revealing a potential meme coin in the upcoming game and sending degens wild.
+- **[What Is a Hardware Wallet? Crypto Cold Storage Explained](https://decrypt.co/resources/what-is-a-hardware-wallet-crypto-cold-storage-explained)** — Decrypt · 2026-10-16 · `Bitcoin` `Ethereum` `Web3`
+  Hardware wallets keep your crypto keys offline. Learn how devices from Ledger, Trezor and others protect your Bitcoin and Ethereum.
+- **[OpenAI says research model spent another wallet’s testnet ETH without authorization on coding task](https://www.theblock.co/news/business/2026-10-16-openai-says-research-model-spent-another-wallets-testnet-eth-without-authorization-on-coding-task-418798)** — The Block · 2026-10-16 · `Ethereum` `Web3`
+  OpenAI's research model used another wallet's testnet ETH without permission to complete a coding task in June.
+- **[Visa Direct moves USDC prefunding into commercial production with Inyo Global](https://www.theblock.co/news/business/2026-10-16-visa-direct-moves-usdc-prefunding-into-commercial-production-with-inyo-global-418802)** — The Block · 2026-10-16 · `Stablecoins`
+  Visa Direct has brought USDC prefunding into commercial production with Inyo Global as its first commercial enabler.
+- **[Google demonstrates quantum computing breakthrough as observers weigh Q-day implications](https://www.theblock.co/news/web3/2026-10-16-google-quantum-computing-breakthrough-418787)** — The Block · 2026-10-16 · `Crypto`
+  Google demonstrated "magic state cultivation," potentially helping address one of quantum computing's most significant bottlenecks.
+- **[Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge](https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781)** — The Block · 2026-10-16 · `Bitcoin`
+  The company attributed roughly €67.5 million ($75.9 million) of the loss to an additional bitcoin impairment charge.
+- **[Oil stocks on land are near a decade low, complicating Bitcoin’s inflation relief hopes](https://cryptoslate.com/bitcoins-inflation-relief-case-faces-a-113-million-barrel-onshore-oil-draw/)** — CryptoSlate · 2026-10-16 · `Bitcoin`
+  The IEA’s September estimates show oil accumulating at sea while land-based buffers shrink, leaving inflation and financing relief uncertain. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Ripple opens Wall Street’s door to Hyperliquid’s $59 billion trading market](https://cryptoslate.com/ripple-opens-wall-streets-door-to-hyperliquids-59-billion-trading-market/)** — CryptoSlate · 2026-10-16 · `Regulation` `Exchanges` `Altcoins` `Markets`
+  Institutions trade swaps referencing more than 100 traditional financial markets around the clock, with Ripple Prime as the principal counterparty, Ripple announced on Oct. 15. The swaps cover stocks, equity indices, ETFs, metals, energy and foreign exchange, and they reference…
+- **[Bitcoin faces an $8,000 trading trap as US midterms approach](https://cryptoslate.com/bitcoin-faces-an-8000-trading-trap-as-us-midterms-approach/)** — CryptoSlate · 2026-10-16 · `Bitcoin` `Markets`
+  Two hot inflation reports in two days resulted in Bitcoin falling below $80,000 on Oct. 15. September CPI accelerated to 3.7% from 3.4%, and producer prices jumped 1.3% on the month, the largest rise since March 2022 and more than double the forecast in most surveys. Can-Luca Kö…
+- **[Native Bitcoin collateral on Aave triggers WBTC pool deficit](https://cryptoslate.com/native-bitcoin-collateral-on-aave-triggers-wbtc-pool-deficit/)** — CryptoSlate · 2026-10-16 · `Bitcoin` `DeFi`
+  Hub suppliers would finance fast exits before permissioned buyers acquire the vaults, with escrow shortfalls reported as deficits. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Jupiter Says YOLO Hit $1 Billion in Volume in Under 24 Hours](https://thedefiant.io/news/defi/jupiter-says-yolo-hit-1-billion-in-volume-in-under-24-hours)** — The Defiant · 2026-10-16 · `Markets`
+  The unaudited beta counts leveraged trading exposure, while winners depend on a separate house pool funded by trader losses.
+- **[Solana Postpones Shanghai Event, Citing Registration Surge](https://thedefiant.io/news/regulation/solana-postpones-shanghai-event-citing-registration-surge)** — The Defiant · 2026-10-16 · `Altcoins`
+  The official tour site still lists three more China stops, but registration pages for Hangzhou, Shenzhen and Beijing show sign-ups closed.
+- **[Celestia’s TIA Climbs 59% in Four Weeks as Blob Demand Slips](https://thedefiant.io/news/tokens/celestia-s-tia-climbs-59-in-four-weeks-as-blob-demand-slips)** — The Defiant · 2026-10-16 · `Markets`
+  Daily blob data fell during the rally, while Celestia’s new Fibre throughput benchmark remains separate from mainnet usage.
+- **[Solana's Shanghai Event Halted With Officers Present, Attendees Say](https://thedefiant.io/news/regulation/solana-s-shanghai-event-halted-with-officers-present-attendees-say)** — The Defiant · 2026-10-16 · `Altcoins`
+  The interruption follows a new Shanghai office and skyline promotion at the start of the foundation’s four-city China tour.
+- **[MEXC Releases October 2026 Proof of Reserves, Reinforcing User Trust Through Verifiable Transparency](https://www.newsbtc.com/news/mexc-releases-october-2026-proof-of-reserves-reinforcing-user-trust-through-verifiable-transparency/)** — NewsBTC · 2026-10-16 · `Security` `Markets`
+  Mutsamudu, Comoros, October 16, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its October 2026 Proof of Reserves (PoR) report. Independently audited by Hacken, the report confirms that the platform’s reserves continue to fully cover user holdings across all…
+- **[MEXC AI Trading Report Reveals 85% of Crypto Traders Use AI, But Most Limit Its Control Over Funds](https://www.newsbtc.com/news/mexc-ai-trading-report-reveals-85-of-crypto-traders-use-ai-but-most-limit-its-control-over-funds/)** — NewsBTC · 2026-10-16 · `Exchanges` `Markets` `AI`
+  Mutsamudu, Comoros, October 16, 2026 — MEXC, a global cryptocurrency exchange, released its AI Trading Report, based on a survey of 3,708 crypto traders. The report examines how respondents use AI, how much trading authority they would delegate, and what protective measures they…
+- **[Brooklyn DA Pulls the Plug on Crypto Scam Network](https://bitcoinmagazine.com/news/brooklyn-da-pulls-plug-on-crypto-scam)** — Bitcoin Magazine · 2026-10-15 · `Bitcoin` `Security`
+  Bitcoin Magazine Brooklyn DA Pulls the Plug on Crypto Scam Network 112 servers and 241 fake sites knocked offline in one of the largest cyber takedowns ever by a local prosecutor. This post Brooklyn DA Pulls the Plug on Crypto Scam Network first appeared on Bitcoin Magazine and…
+- **[Bitcoin’s Volatility Has Fallen Within S&P 500 Ranks, Study Shows](https://bitcoinmagazine.com/news/bitcoins-volatility-has-fallen-study-shows)** — Bitcoin Magazine · 2026-10-15 · `Bitcoin` `Markets`
+  Bitcoin Magazine Bitcoin&#8217;s Volatility Has Fallen Within S&amp;P 500 Ranks, Study Shows Grayscale research shows that bitcoin’s realized volatility is in the same range as a number of S&#038;P 500 stocks. This post Bitcoin&#8217;s Volatility Has Fallen Within S&amp;P 500 Ra…
+- **[US Hoovers up Bitcoin While the World Runs on Its Digital Dollars: Report](https://bitcoinmagazine.com/news/us-keeps-buying-bitcoin-chainalysis)** — Bitcoin Magazine · 2026-10-15 · `Bitcoin`
+  Bitcoin Magazine US Hoovers up Bitcoin While the World Runs on Its Digital Dollars: Report Chainalysis research shows that the U.S. is HODLing hard. This post US Hoovers up Bitcoin While the World Runs on Its Digital Dollars: Report first appeared on Bitcoin Magazine and is writ…
+- **[Ledger Says Organized Crime Group Spent Millions Targeting Hardware Wallet Users](https://bitcoinmagazine.com/news/ledger-says-crime-group-spent-millions)** — Bitcoin Magazine · 2026-10-15 · `Bitcoin` `Security` `Web3`
+  Bitcoin Magazine Ledger Says Organized Crime Group Spent Millions Targeting Hardware Wallet Users Hardware wallet manufacturer Ledger has released a statement following a “sophisticated” supply chain attack. This post Ledger Says Organized Crime Group Spent Millions Targeting Ha…
