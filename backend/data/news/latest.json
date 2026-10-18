@@ -1,8 +1,100 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
+    {
+      "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+      "source": "CoinDesk",
+      "date": "2026-10-18",
+      "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/286577a8289b83ce1529d6d1d4853747c94ebd18-1444x796.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
+      "source": "CoinDesk",
+      "date": "2026-10-18",
+      "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/0738e13835f743ba2e3a2f26f7579b27661d1eac-4608x2592.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Stablecoins",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Cysic crypto bridge halted after unauthorized mint of 10M CYS",
+      "source": "Cointelegraph",
+      "date": "2026-10-18",
+      "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Cysic said the incident was limited to bridge message processing and minting and did not affect the mainnet or other operational systems.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M579P8BRBQSA398D6CZ7DFCZ/hi-company-halts-bridge-after-reported-exploit.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Chinese suspect in $75M international crime network arrested in Bangkok",
+      "source": "Cointelegraph",
+      "date": "2026-10-18",
+      "url": "https://cointelegraph.com/news/chinese-suspect-in-75m-international-crime-network-arrested-in-bangkok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Police alleged the suspect was involved in cryptocurrency and foreign-currency exchanges for criminal groups across more than 133 accounts.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M574HWMKKS1RW0G387NCF974/hi-comparing-money-laundering-with-cryptocurrencies-and-fiat-police.jpg",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Tether backs AIsa as strategic investor, completing seed extension round",
+      "source": "Cointelegraph",
+      "date": "2026-10-18",
+      "url": "https://cointelegraph.com/news/tether-backs-aisa-as-strategic-investor-completing-seed-extension-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The round brings AIsa’s total funding to more than $9 million.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M56TW7NK49R9HTEZKPD8PEYY/hi-j-tether-investments-1.jpg",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "The crypto privacy rule Trump’s Treasury proposed, and Trump’s Treasury buried",
+      "source": "CryptoSlate",
+      "date": "2026-10-18",
+      "url": "https://cryptoslate.com/the-crypto-privacy-rule-trumps-treasury-proposed-and-trumps-treasury-buried/",
+      "summary": "On Dec. 18, 2020, with Christmas a week away and Donald Trump preparing to leave the White House, Steven Mnuchin&#039;s Treasury Department announced a plan that would require crypto exchanges and other financial institutions to collect more information about transactions involv…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/trump-regulatory-chess-move.webp",
+      "tags": [
+        "Regulation",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Cysic Halts Bridge After Unauthorized Mint of 10 Million CYS",
+      "source": "The Defiant",
+      "date": "2026-10-18",
+      "url": "https://thedefiant.io/news/hacks/cysic-halts-bridge-after-unauthorized-mint-of-10-million-cys",
+      "summary": "About 2.8 million CYS remain frozen at the recipient address, while onchain records show some tokens were sold before the blacklist took effect.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5e05ec60609a9fd3965b297d9dbecdf53b8a0277-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "Ethereum ETFs Lose $320 Million In A Week As Bitcoin Outflows Slow",
+      "source": "NewsBTC",
+      "date": "2026-10-18",
+      "url": "https://www.newsbtc.com/crypto-news/ethereum-etfs-320-million-weekly-outflows-bitcoin/",
+      "summary": "TL;DR: US spot Ethereum ETFs lost $320.1 million in the week ending October 16, more than the $228.4 million withdrawn from Bitcoin funds. BlackRock&#8217;s ETHA accounted for nearly all of the Ether redemptions. Ethereum investment funds have ended another difficult week on the…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_02_bitcoin_etf_flows_featured.png?fit=750%2C422",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Regulation"
+      ]
+    },
     {
       "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
       "source": "CoinDesk",
@@ -35,28 +127,6 @@
       "tags": [
         "Stablecoins",
         "Markets"
-      ]
-    },
-    {
-      "title": "Lagarde says euro-area economy is resilient, digital euro imminent",
-      "source": "Cointelegraph",
-      "date": "2026-10-17",
-      "url": "https://cointelegraph.com/news/lagarde-says-euro-area-economy-is-resilient-digital-euro-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "“The digital euro will further stimulate innovation and competition in retail payments,” according to the ECB president.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M54ENNHY19CENP5ZV5HX428Z/christine-lagarde-eu.jpg",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Bitget to discontinue services for some users in one-off exercise",
-      "source": "Cointelegraph",
-      "date": "2026-10-17",
-      "url": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Bitget says user funds are safe and exchange will continue to operate during the change.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5499P2SZPHXNNS2X8W74AV7/hi-how-are-governments-implementing-the-bitget-guidelines.jpg",
-      "tags": [
-        "Exchanges"
       ]
     },
     {
@@ -95,17 +165,6 @@
       ]
     },
     {
-      "title": "Visa and Mastercard adopt USDC payouts across 200 countries",
-      "source": "CryptoSlate",
-      "date": "2026-10-17",
-      "url": "https://cryptoslate.com/visa-and-mastercard-adopt-usdc-payouts-across-200-countries/",
-      "summary": "Visa&#039;s Inyo rollout and Mastercard&#039;s BVNK platform give businesses stablecoin funding routes, subject to eligibility and rollout limits. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/visa-mastercard-stablecoin-payments-standard.jpg",
-      "tags": [
-        "Stablecoins"
-      ]
-    },
-    {
       "title": "Strive Prices $630 Million SATS Preferred Offering at $90",
       "source": "The Defiant",
       "date": "2026-10-17",
@@ -140,17 +199,6 @@
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/b755097b1db865bf73e1f8fb9cbef1334507aa85-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
       "tags": [
         "Bitcoin"
-      ]
-    },
-    {
-      "title": "DTCC Outlines 25-Security Tokenization Rollout on Canton and Besu",
-      "source": "The Defiant",
-      "date": "2026-10-17",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/dtcc-outlines-25-security-tokenization-rollout-on-canton-and-besu",
-      "summary": "Tokens will be backed 1:1 by securities held at DTC, with Stellar and Circle’s Arc anticipated in 2027.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5acae036d194df59ad62aa4af0066cf3335c6d4c-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Stablecoins"
       ]
     },
     {
@@ -192,86 +240,70 @@
       ]
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "date": "2026-10-16",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "title": "Crypto Super PAC Fairshake Pours Millions More Into Defeating Sherrod Brown",
+      "source": "Decrypt",
+      "date": "2026-10-17",
+      "url": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown",
+      "summary": "An FEC filing shows the Fairshake affiliate Defend American Jobs disclosed roughly $7 million more in ads against the Ohio Democrat, pushing its total past $46 million—days after the PAC expanded its map to 32 House races.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-04-gID_7.png",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Crypto Firms Launch Quantum Alliance as 6 Million Bitcoin Sit Exposed",
+      "source": "Decrypt",
+      "date": "2026-10-17",
+      "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed",
+      "summary": "The nine-member group, modeled on the Internet Engineering Task Force, aims to set open standards for testing quantum-resistance claims as forecasts place the first practical attack in the late 2020s.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
       "tags": [
         "Bitcoin",
+        "Security"
+      ]
+    },
+    {
+      "title": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps",
+      "source": "Decrypt",
+      "date": "2026-10-17",
+      "url": "https://decrypt.co/381202/chinese-startup-stepfun-phone-ai-agent",
+      "summary": "StepFun's STEPX Neo opened for pre-orders in China on Oct. 13 at 3,999 yuan, with an AI agent built into the operating system instead of bolted on as an app.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "TokenMaxxing: How to Get the Most Out of Your AI Models",
+      "source": "Decrypt",
+      "date": "2026-10-17",
+      "url": "https://decrypt.co/381213/tokenmaxxing-how-get-most-out-your-ai-models",
+      "summary": "AI companies charge by the token, and most people burn them on jobs a cheap model could do. Here's how to spend less and get better results, from your first prompt to your first agent.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
+      "source": "The Block",
+      "date": "2026-10-17",
+      "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+      "summary": "Applied Optoelectronics told the WSJ it objected because it was unsure how tokenization would affect its stock price, liquidity and volatility.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/05/20250514_Tokenization-1200x675-1.jpg",
+      "tags": [
         "DeFi",
-        "Regulation",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
-      "source": "CoinDesk",
-      "date": "2026-10-16",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/5eb949cb8690308601e659d6b54220c66401200e-1280x853.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
-      "source": "CoinDesk",
-      "date": "2026-10-16",
-      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/0a95ca21c7d01a59993d2008992716cbc1158482-1920x1080.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Stablecoins",
         "Markets"
       ]
     },
     {
-      "title": "Morning Minute: Google Clears a Major Quantum Hurdle, Bitcoin Still Safe",
-      "source": "Decrypt",
-      "date": "2026-10-16",
-      "url": "https://decrypt.co/381138/morning-minute-google-clears-a-major-quantum-hurdle-bitcoin-still-safe",
-      "summary": "Plus, crypto majors rebound despite hot PPI and Saylor’s Strategy is at risk of removal from a major index.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg",
+      "title": "Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets",
+      "source": "The Block",
+      "date": "2026-10-17",
+      "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+      "summary": "Police reportedly seized $7.15 million in cash, six cold wallets, seven firearms and 1,400 rounds of ammunition in searches of 15 addresses.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/04/20250424_Law_News.jpg",
       "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
-      "source": "Decrypt",
-      "date": "2026-10-16",
-      "url": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
-      "summary": "The internal model derived keys from public developer recovery phrases, spent another account's test ETH, and left it out of its report.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-06-gID_7.jpg",
-      "tags": [
-        "Ethereum",
-        "Web3"
-      ]
-    },
-    {
-      "title": "GTA 6 Trailer Features Meme Coin—And Solana Copycat Soars 2,900%",
-      "source": "Decrypt",
-      "date": "2026-10-16",
-      "url": "https://decrypt.co/381122/gta-6-trailer-features-meme-coin-and-solana-copycat-soars-2900",
-      "summary": "Rockstar released the launch trailer for GTA VI, revealing a potential meme coin in the upcoming game and sending degens wild.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/grand-theft-auto-vi-gta-vi-gta-6-decrypt-style-gID_7.jpg",
-      "tags": [
-        "Altcoins"
-      ]
-    },
-    {
-      "title": "What Is a Hardware Wallet? Crypto Cold Storage Explained",
-      "source": "Decrypt",
-      "date": "2026-10-16",
-      "url": "https://decrypt.co/resources/what-is-a-hardware-wallet-crypto-cold-storage-explained",
-      "summary": "Hardware wallets keep your crypto keys offline. Learn how devices from Ledger, Trezor and others protect your Bitcoin and Ethereum.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2019/03/wallets_litepaper-gID_5-pID_5.png",
-      "tags": [
-        "Bitcoin",
-        "Ethereum",
         "Web3"
       ]
     },
@@ -296,40 +328,6 @@
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/Screenshot-2026-10-16-at-11.44.15.png",
       "tags": [
         "Stablecoins"
-      ]
-    },
-    {
-      "title": "Google demonstrates quantum computing breakthrough as observers weigh Q-day implications",
-      "source": "The Block",
-      "date": "2026-10-16",
-      "url": "https://www.theblock.co/news/web3/2026-10-16-google-quantum-computing-breakthrough-418787",
-      "summary": "Google demonstrated \"magic state cultivation,\" potentially helping address one of quantum computing's most significant bottlenecks.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/Screenshot-2026-10-16-at-11.10.08.png",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge",
-      "source": "The Block",
-      "date": "2026-10-16",
-      "url": "https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781",
-      "summary": "The company attributed roughly €67.5 million ($75.9 million) of the loss to an additional bitcoin impairment charge.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/Screenshot-2026-10-16-at-10.19.07.png",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "MEXC Releases October 2026 Proof of Reserves, Reinforcing User Trust Through Verifiable Transparency",
-      "source": "NewsBTC",
-      "date": "2026-10-16",
-      "url": "https://www.newsbtc.com/news/mexc-releases-october-2026-proof-of-reserves-reinforcing-user-trust-through-verifiable-transparency/",
-      "summary": "Mutsamudu, Comoros, October 16, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its October 2026 Proof of Reserves (PoR) report. Independently audited by Hacken, the report confirms that the platform’s reserves continue to fully cover user holdings across all…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/10/photo_2026-10-16_09-39-13.jpg?fit=715%2C536",
-      "tags": [
-        "Security",
-        "Markets"
       ]
     },
     {
