@@ -1,19 +1,41 @@
-# MonsterBroker · Radar cripto · 2026-10-23
+# MonsterBroker · Radar cripto · 2026-10-24
 
 **Radar cripto**
 
 > Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.
 
-30 titulares en portada · 1196 en el archivo.
+30 titulares en portada · 1270 en el archivo.
 
 ## Noticias
 
+- **[Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet](https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet)** — CoinDesk · 2026-10-24 · `Altcoins` `Web3`
+- **[Senator probes Tether’s reported $6 million payments to ex-White House crypto adviser’s firm](https://cryptoslate.com/senator-probes-tethers-reported-6-million-payments-to-ex-white-house-crypto-advisers-firm/)** — CryptoSlate · 2026-10-24 · `Stablecoins` `Regulation`
+  Tether faces US Senate scrutiny over multimillion-dollar payments to a consulting firm co-owned by a former White House crypto adviser. On Oct. 22, Senator Richard Blumenthal, the ranking Democrat on the Senate Permanent Subcommittee on Investigations, demanded records on the st…
+- **[Ethereum staking yield is losing to cash rates, so why are investors still lining up?](https://cryptoslate.com/ethereum-staking-yield-is-losing-to-cash-rates-so-why-are-investors-still-lining-up/)** — CryptoSlate · 2026-10-24 · `Ethereum` `DeFi` `Markets`
+  Put €10,000 into Ethereum staking at a 2.2% annual return and, if ETH&#039;s price stays unchanged, you&#039;ll earn about €220 over a year. That&#039;s just €7 more than the same amount would earn at the average rate on new euro household deposits with maturities up to one year…
+- **[JST Buyback & Burn Upgrade: GasFree Revenue and $20.34M Surplus Injected as JUST’s Ecosystem Trio Solidifies JST Token Value](https://cryptoslate.com/jst-buyback-burn-upgrade-gasfree-revenue-and-20-34m-surplus-injected-as-justs-ecosystem-trio-solidifies-jst-token-value/)** — CryptoSlate · 2026-10-24 · `Regulation`
+  Summary: The upgraded JST Buyback and Burn program features the following highlights: $50M Treasury Reserve Cushion: Establishes a safety buffer for sustainable ecosystem operations. Expanded Funding Sources: Integrates GasFree revenue alongside JustLend and USDD to cover 100% o…
+- **[New York demands $1.3B from NovaTech and 11,000 victims face delay](https://cryptoslate.com/new-york-demands-1-3b-from-novatech-and-11000-victims-face-delay/)** — CryptoSlate · 2026-10-24 · `Crypto`
+  The October 22 motion follows a 2025 liability ruling, while separate promoter obligations include Ciceron’s installments through 2029. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[UNI Slides 29% in Four Weeks as Uniswap Liquidity Holds Steady](https://thedefiant.io/news/tokens/uni-slides-29-in-four-weeks-as-uniswap-liquidity-holds-steady)** — The Defiant · 2026-10-24 · `Bitcoin` `Ethereum` `DeFi`
+  The token has underperformed bitcoin and ether, while Uniswap still holds about $4 billion in liquidity.
+- **[Arthur Hayes Says He Sold Maelstrom’s Directional Book](https://thedefiant.io/news/markets/arthur-hayes-says-he-sold-maelstrom-s-directional-book)** — The Defiant · 2026-10-24 · `Bitcoin` `Ethereum` `Web3`
+  Hayes-linked wallets transferred 8,000 ETH and six other tokens, contrasting with his Oct. 15 declaration that he was long Bitcoin and Ether.
+- **[Kraken Scraps Monero Withdrawal Questionnaires, Keeps XMR Listed](https://thedefiant.io/news/cefi/kraken-scraps-monero-withdrawal-questionnaires-keeps-xmr-listed)** — The Defiant · 2026-10-24 · `Exchanges`
+  Source-of-funds checks remain, but co-CEO Arjun Sethi says asking what clients will do with withdrawn coins is unacceptable.
+- **[Bloomberg Adds Basel Crypto Exposure Classification For Banks And Asset Managers](https://www.newsbtc.com/crypto-regulation/bloomberg-basel-crypto-exposure-classification-analytics/)** — NewsBTC · 2026-10-24 · `Crypto`
+  Bloomberg has expanded its crypto analytics to classify bank exposure under Basel standards, including indirect holdings hidden inside funds, derivatives and corporate securities.
+- **[Bybit Wins Dubai VARA Approval For Spot Crypto Exchange Services](https://www.newsbtc.com/crypto-regulation/bybit-dubai-vara-spot-exchange-licence-approval/)** — NewsBTC · 2026-10-24 · `Exchanges`
+  Bybit says its Dubai entity has secured a VARA virtual-asset service provider licence covering spot exchange activity; derivatives permission remains a future objective.
+- **[BTCC Reports $387 Billion In Futures Trading As TradFi-Linked Contracts Grow](https://www.newsbtc.com/crypto-news/btcc-387-billion-futures-volume-tradfi-linked-contracts/)** — NewsBTC · 2026-10-24 · `Exchanges` `Markets`
+  Crypto exchange BTCC says quarterly futures volume reached $387 billion and its TradFi-linked trading category increased to $16.3 billion, based on company-reported data.
+- **[Bitdeer Reports 1,355 Bitcoin Mined In September While Building AI Capacity](https://www.newsbtc.com/bitcoin-news/bitdeer-september-2026-1355-bitcoin-mining-ai/)** — NewsBTC · 2026-10-24 · `Bitcoin` `AI`
+  Bitdeer says its September Bitcoin production reached 1,355 BTC, highlighting the miner’s expanding hash rate alongside separate data-center and AI-service plans.
 - **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-23 · `Bitcoin` `DeFi` `Regulation` `Web3`
   Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.
 - **[Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro](https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s)** — CoinDesk · 2026-10-23 · `Bitcoin` `Markets`
-- **[Live updates: Bitcoin holds above $81,000 as markets calm, oil continues to gain](https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs)** — CoinDesk · 2026-10-23 · `Bitcoin` `Markets`
+- **[Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high](https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs)** — CoinDesk · 2026-10-23 · `Bitcoin`
 - **[Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%](https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13)** — CoinDesk · 2026-10-23 · `Bitcoin` `Altcoins`
-- **[Bitcoin appears to have decoupled from midterm cycle bottom history](https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern)** — CoinDesk · 2026-10-23 · `Bitcoin`
 - **[Was crypto self-custody ever designed for beginners?](https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-23 · `Web3`
   Recent hardware wallet security incidents have renewed debate over whether self-custody is suitable for beginners, as multisig and seedless designs carry their own risks.
 - **[Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash](https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-23 · `Ethereum` `Altcoins` `Security`
@@ -34,33 +56,11 @@
   South Korea is currently developing the Digital Asset Basic Act, which seeks to establish a comprehensive framework for crypto.
 - **[HSBC rolls out its first HKD stablecoin RedCoin to retail users](https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018)** — The Block · 2026-10-23 · `Stablecoins` `Web3`
   PayMe users will be able to activate a stablecoin wallet in-app in the coming days for peer-to-peer and peer-to-merchant payments.
-- **[Coinbase Ireland’s cash safeguards fell €5 million short before 2024 fix](https://cryptoslate.com/coinbase-irelands-cash-safeguards-fell-e5-million-short-before-2024-fix/)** — CryptoSlate · 2026-10-23 · `Regulation` `Exchanges`
-  The regulator found no evidence of actual consumer harm, while an accepted €3.25 million penalty still needs High Court confirmation. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Fake election polls expose a Kalshi loophole that could leave traders paying for fraud](https://cryptoslate.com/kalshi-election-betting-rules-expose-a-data-integrity-question-after-fake-poll-scandal/)** — CryptoSlate · 2026-10-23 · `Regulation`
-  Polling firm Wedgewood admitted on Oct. 20 that it fabricated most of its election surveys, and VoteHub, one of the aggregators that carried its results, is also the data source for recurring Kalshi contracts. Kalshi&#039;s September 2025 regulatory filing names VoteHub as the s…
-- **[Bitcoin’s usual lifeline is failing as a bond market warning puts $80,000 at risk](https://cryptoslate.com/bitcoins-usual-lifeline-is-failing-as-a-bond-market-warning-puts-80000-at-risk/)** — CryptoSlate · 2026-10-23 · `Bitcoin` `DeFi` `Regulation` `Markets`
-  Bitcoin briefly lost the $81,000 footing on Oct. 22, while the Nasdaq lost more than 2%, spot gold dropped about 2.7% to $4,025, and silver sank about 5.8% to near $54.63. The 10-year Treasury yield fell from 5.146% to below 5%, marking its biggest one-day drop in more than two…
-- **[Memecoin investor Murad confirms $81 million roundtrip on gains, says he’s eyeing billions](https://cryptoslate.com/memecoin-investor-murad-confirms-81-million-roundtrip-on-gains-says-hes-eyeing-billions/)** — CryptoSlate · 2026-10-23 · `Exchanges` `Web3`
-  The resurfaced TOKEN2049 exchange captures his belief that the wallets will eventually reach billions despite the reported paper drawdown. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
 - **[Socket Finds 16 Fake Rabby and OKX Wallet Extensions on Firefox](https://thedefiant.io/news/security/socket-finds-16-fake-rabby-and-okx-wallet-extensions-on-firefox)** — The Defiant · 2026-10-23 · `Exchanges` `Web3`
   Mozilla had unpublished the add-ons by Oct. 5, the security firm says. Removing them does not secure wallets whose recovery phrases were exposed.
-- **[Base Active Addresses Jump Another 50% as Transactions and Fees Fall](https://thedefiant.io/news/blockchains/base-active-addresses-jump-another-50-as-transactions-and-fees-fall)** — The Defiant · 2026-10-23 · `Layer 2` `Markets`
-  Transactions fell 8.7% and dollar-denominated user fees dropped 20% on Oct. 22 as a GMGN trading competition continued.
-- **[CoinDCX Acknowledges Wallet-Sweeping Losses After Denying New Breach](https://thedefiant.io/news/hacks/coindcx-acknowledges-wallet-sweeping-losses-after-denying-new-breach)** — The Defiant · 2026-10-23 · `Exchanges` `Security` `Web3`
-  The exchange says affected deposits were credited, but has not disclosed the size of its losses.
-- **[Swell Pauses swETH and rswETH Deposits and Withdrawals](https://thedefiant.io/news/hacks/swell-pauses-sweth-and-rsweth-deposits-and-withdrawals)** — The Defiant · 2026-10-23 · `Ethereum` `Web3`
-  The protocol says it must correct NAV before reopening, while onchain controls now block withdrawal requests and ETH claims.
-- **[Chainlink And LG CNS Target South Korean Banks With Digital Asset Infrastructure Deal](https://www.newsbtc.com/crypto-news/chainlink-lg-cns-south-korea-institutional-digital-assets/)** — NewsBTC · 2026-10-23 · `Crypto`
-  Chainlink and LG CNS are partnering on oracle and cross-chain infrastructure aimed at South Korea’s financial institutions; the announcement is a partnership, not a completed nationwide deployment.
-- **[Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe](https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/)** — NewsBTC · 2026-10-23 · `Crypto`
-  Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia October 23, 2026 — Pa…
-- **[HSBC Brings Hong Kong Dollar Stablecoin To PayMe As Retail Rollout Begins](https://www.newsbtc.com/crypto-news/hsbc-redcoin-hong-kong-dollar-stablecoin-payme-retail/)** — NewsBTC · 2026-10-23 · `Stablecoins` `Web3`
-  HSBC has launched its Hong Kong dollar-backed RedCoin for payments through PayMe, with wallet activation set to expand to millions of users over the coming days.
-- **[HTX Research Publishes Crypto Market Outlook Ahead of the 2026 U.S. Midterm Elections](https://www.newsbtc.com/news/htx-research-publishes-crypto-market-outlook-ahead-of-the-2026-u-s-midterm-elections/)** — NewsBTC · 2026-10-23 · `Markets`
-  HTX Research, the dedicated research arm of HTX, has published a new report titled Crypto Market Outlook Before and After the 2026 U.S. Midterm Elections. The report finds that while the midterm elections may reshape policy expectations for the next two years, short-term crypto…
-- **[SoFi Launches Tokenized Deposit That Earns 4.4% and Converts to a Stablecoin](https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin)** — Decrypt · 2026-10-22 · `DeFi` `Stablecoins`
-  Each SOFIE token represents $1 on deposit at SoFi Bank, earning 4.40% APY with FDIC insurance—a yield-and-protection combination ordinary stablecoins lack.
-- **[The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return](https://bitcoinmagazine.com/culture/the-sleeper-has-awakened-pepenardos-sleeping-knights-return)** — Bitcoin Magazine · 2026-10-22 · `Bitcoin` `NFT & Gaming` `Markets`
-  Bitcoin Magazine The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return Hand-altered magazine covers, one-of-one trading cards, and the evolving culture of bitcoin collectibles. This post The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return first appeared on Bitc…
-- **[Circle Shareholder Sues Trump, Alleging Unconstitutional Profits From $2B UAE Crypto Deals](https://bitcoinmagazine.com/news/trump-sued-for-alleged-crypto-corruption)** — Bitcoin Magazine · 2026-10-22 · `Bitcoin` `Stablecoins`
-  Bitcoin Magazine Circle Shareholder Sues Trump, Alleging Unconstitutional Profits From $2B UAE Crypto Deals A shareholder of stablecoin giant Circle has alleged the president corruptly cashed in on crypto deals. This post Circle Shareholder Sues Trump, Alleging Unconstitutional…
+- **[Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel](https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel)** — Decrypt · 2026-10-23 · `Crypto`
+  Days before Israel’s election, Netanyahu said he has asked for a blockchain plan in case banks are hit with sanctions, and told Israelis to prepare for a rainy day after Trump.
+- **[NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme](https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech)** — Bitcoin Magazine · 2026-10-23 · `Bitcoin` `Regulation`
+  Bitcoin Magazine NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme Two successive crypto frauds took investors for more than $1.1 billion. Now New York's attorney general is asking a court to make the operators pay it back—with interest. This post…
+- **[Blockstream Launches Institutional Consulting Services, Opens Lugano Office](https://bitcoinmagazine.com/news/blockstream-launches-institutional-service)** — Bitcoin Magazine · 2026-10-23 · `Bitcoin` `Layer 2`
+  Bitcoin Magazine Blockstream Launches Institutional Consulting Services, Opens Lugano Office Blockstream will offer its engineering expertise to banks and asset managers from a new Swiss base. This post Blockstream Launches Institutional Consulting Services, Opens Lugano Office…

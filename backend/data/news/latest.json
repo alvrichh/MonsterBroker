@@ -1,8 +1,150 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
+    {
+      "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
+      "source": "CoinDesk",
+      "date": "2026-10-24",
+      "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/38b95887c36694f1eb6785def8e9fef7464fc126-7680x4320.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Altcoins",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Senator probes Tether’s reported $6 million payments to ex-White House crypto adviser’s firm",
+      "source": "CryptoSlate",
+      "date": "2026-10-24",
+      "url": "https://cryptoslate.com/senator-probes-tethers-reported-6-million-payments-to-ex-white-house-crypto-advisers-firm/",
+      "summary": "Tether faces US Senate scrutiny over multimillion-dollar payments to a consulting firm co-owned by a former White House crypto adviser. On Oct. 22, Senator Richard Blumenthal, the ranking Democrat on the Senate Permanent Subcommittee on Investigations, demanded records on the st…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/tether-payment-papertrail.webp",
+      "tags": [
+        "Stablecoins",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Ethereum staking yield is losing to cash rates, so why are investors still lining up?",
+      "source": "CryptoSlate",
+      "date": "2026-10-24",
+      "url": "https://cryptoslate.com/ethereum-staking-yield-is-losing-to-cash-rates-so-why-are-investors-still-lining-up/",
+      "summary": "Put €10,000 into Ethereum staking at a 2.2% annual return and, if ETH&#039;s price stays unchanged, you&#039;ll earn about €220 over a year. That&#039;s just €7 more than the same amount would earn at the average rate on new euro household deposits with maturities up to one year…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/ethereum-european-banking-balance.webp",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Markets"
+      ]
+    },
+    {
+      "title": "JST Buyback & Burn Upgrade: GasFree Revenue and $20.34M Surplus Injected as JUST’s Ecosystem Trio Solidifies JST Token Value",
+      "source": "CryptoSlate",
+      "date": "2026-10-24",
+      "url": "https://cryptoslate.com/jst-buyback-burn-upgrade-gasfree-revenue-and-20-34m-surplus-injected-as-justs-ecosystem-trio-solidifies-jst-token-value/",
+      "summary": "Summary: The upgraded JST Buyback and Burn program features the following highlights: $50M Treasury Reserve Cushion: Establishes a safety buffer for sustainable ecosystem operations. Expanded Funding Sources: Integrates GasFree revenue alongside JustLend and USDD to cover 100% o…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/jst-buyback-burn-upgrade-gasfree-revenue-surplus.jpg",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "New York demands $1.3B from NovaTech and 11,000 victims face delay",
+      "source": "CryptoSlate",
+      "date": "2026-10-24",
+      "url": "https://cryptoslate.com/new-york-demands-1-3b-from-novatech-and-11000-victims-face-delay/",
+      "summary": "The October 22 motion follows a 2025 liability ruling, while separate promoter obligations include Ciceron’s installments through 2029. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/novatech-legal-pressure.webp",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "UNI Slides 29% in Four Weeks as Uniswap Liquidity Holds Steady",
+      "source": "The Defiant",
+      "date": "2026-10-24",
+      "url": "https://thedefiant.io/news/tokens/uni-slides-29-in-four-weeks-as-uniswap-liquidity-holds-steady",
+      "summary": "The token has underperformed bitcoin and ether, while Uniswap still holds about $4 billion in liquidity.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8a3928ade0a73a57d67916702050e31db15d029f-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Arthur Hayes Says He Sold Maelstrom’s Directional Book",
+      "source": "The Defiant",
+      "date": "2026-10-24",
+      "url": "https://thedefiant.io/news/markets/arthur-hayes-says-he-sold-maelstrom-s-directional-book",
+      "summary": "Hayes-linked wallets transferred 8,000 ETH and six other tokens, contrasting with his Oct. 15 declaration that he was long Bitcoin and Ether.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bee369d6917bec675eb088f96e947f3720916db5-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Kraken Scraps Monero Withdrawal Questionnaires, Keeps XMR Listed",
+      "source": "The Defiant",
+      "date": "2026-10-24",
+      "url": "https://thedefiant.io/news/cefi/kraken-scraps-monero-withdrawal-questionnaires-keeps-xmr-listed",
+      "summary": "Source-of-funds checks remain, but co-CEO Arjun Sethi says asking what clients will do with withdrawn coins is unacceptable.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f473a3a973d1f5683cb3884ceba7068794bbbfa6-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Bloomberg Adds Basel Crypto Exposure Classification For Banks And Asset Managers",
+      "source": "NewsBTC",
+      "date": "2026-10-24",
+      "url": "https://www.newsbtc.com/crypto-regulation/bloomberg-basel-crypto-exposure-classification-analytics/",
+      "summary": "Bloomberg has expanded its crypto analytics to classify bank exposure under Basel standards, including indirect holdings hidden inside funds, derivatives and corporate securities.",
+      "image": "",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Bybit Wins Dubai VARA Approval For Spot Crypto Exchange Services",
+      "source": "NewsBTC",
+      "date": "2026-10-24",
+      "url": "https://www.newsbtc.com/crypto-regulation/bybit-dubai-vara-spot-exchange-licence-approval/",
+      "summary": "Bybit says its Dubai entity has secured a VARA virtual-asset service provider licence covering spot exchange activity; derivatives permission remains a future objective.",
+      "image": "",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "BTCC Reports $387 Billion In Futures Trading As TradFi-Linked Contracts Grow",
+      "source": "NewsBTC",
+      "date": "2026-10-24",
+      "url": "https://www.newsbtc.com/crypto-news/btcc-387-billion-futures-volume-tradfi-linked-contracts/",
+      "summary": "Crypto exchange BTCC says quarterly futures volume reached $387 billion and its TradFi-linked trading category increased to $16.3 billion, based on company-reported data.",
+      "image": "",
+      "tags": [
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitdeer Reports 1,355 Bitcoin Mined In September While Building AI Capacity",
+      "source": "NewsBTC",
+      "date": "2026-10-24",
+      "url": "https://www.newsbtc.com/bitcoin-news/bitdeer-september-2026-1355-bitcoin-mining-ai/",
+      "summary": "Bitdeer says its September Bitcoin production reached 1,355 BTC, highlighting the miner’s expanding hash rate alongside separate data-center and AI-service plans.",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-67.jpg",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
@@ -30,15 +172,14 @@
       ]
     },
     {
-      "title": "Live updates: Bitcoin holds above $81,000 as markets calm, oil continues to gain",
+      "title": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
       "source": "CoinDesk",
       "date": "2026-10-23",
       "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
       "summary": "",
       "image": "",
       "tags": [
-        "Bitcoin",
-        "Markets"
+        "Bitcoin"
       ]
     },
     {
@@ -51,17 +192,6 @@
       "tags": [
         "Bitcoin",
         "Altcoins"
-      ]
-    },
-    {
-      "title": "Bitcoin appears to have decoupled from midterm cycle bottom history",
-      "source": "CoinDesk",
-      "date": "2026-10-23",
-      "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/0f47f825a80313923cd91c652922315576bff7a2-1920x1223.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin"
       ]
     },
     {
@@ -183,183 +313,50 @@
       ]
     },
     {
-      "title": "Coinbase Ireland’s cash safeguards fell €5 million short before 2024 fix",
-      "source": "CryptoSlate",
-      "date": "2026-10-23",
-      "url": "https://cryptoslate.com/coinbase-irelands-cash-safeguards-fell-e5-million-short-before-2024-fix/",
-      "summary": "The regulator found no evidence of actual consumer harm, while an accepted €3.25 million penalty still needs High Court confirmation. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/coinbase-ireland-cash-safeguards.webp",
-      "tags": [
-        "Regulation",
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Fake election polls expose a Kalshi loophole that could leave traders paying for fraud",
-      "source": "CryptoSlate",
-      "date": "2026-10-23",
-      "url": "https://cryptoslate.com/kalshi-election-betting-rules-expose-a-data-integrity-question-after-fake-poll-scandal/",
-      "summary": "Polling firm Wedgewood admitted on Oct. 20 that it fabricated most of its election surveys, and VoteHub, one of the aggregators that carried its results, is also the data source for recurring Kalshi contracts. Kalshi&#039;s September 2025 regulatory filing names VoteHub as the s…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/kalshi-polling-shredder.webp",
-      "tags": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Bitcoin’s usual lifeline is failing as a bond market warning puts $80,000 at risk",
-      "source": "CryptoSlate",
-      "date": "2026-10-23",
-      "url": "https://cryptoslate.com/bitcoins-usual-lifeline-is-failing-as-a-bond-market-warning-puts-80000-at-risk/",
-      "summary": "Bitcoin briefly lost the $81,000 footing on Oct. 22, while the Nasdaq lost more than 2%, spot gold dropped about 2.7% to $4,025, and silver sank about 5.8% to near $54.63. The 10-year Treasury yield fell from 5.146% to below 5%, marking its biggest one-day drop in more than two…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/investor-market-pressure.webp",
-      "tags": [
-        "Bitcoin",
-        "DeFi",
-        "Regulation",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Memecoin investor Murad confirms $81 million roundtrip on gains, says he’s eyeing billions",
-      "source": "CryptoSlate",
-      "date": "2026-10-23",
-      "url": "https://cryptoslate.com/memecoin-investor-murad-confirms-81-million-roundtrip-on-gains-says-hes-eyeing-billions/",
-      "summary": "The resurfaced TOKEN2049 exchange captures his belief that the wallets will eventually reach billions despite the reported paper drawdown. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/murad-contemplating-paper-gains.webp",
-      "tags": [
-        "Exchanges",
-        "Web3"
-      ]
-    },
-    {
       "title": "Socket Finds 16 Fake Rabby and OKX Wallet Extensions on Firefox",
       "source": "The Defiant",
       "date": "2026-10-23",
       "url": "https://thedefiant.io/news/security/socket-finds-16-fake-rabby-and-okx-wallet-extensions-on-firefox",
       "summary": "Mozilla had unpublished the add-ons by Oct. 5, the security firm says. Removing them does not secure wallets whose recovery phrases were exposed.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/eaf13f96d862f45582c54beed1e745f5428ee49c-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
       "tags": [
         "Exchanges",
         "Web3"
       ]
     },
     {
-      "title": "Base Active Addresses Jump Another 50% as Transactions and Fees Fall",
-      "source": "The Defiant",
-      "date": "2026-10-23",
-      "url": "https://thedefiant.io/news/blockchains/base-active-addresses-jump-another-50-as-transactions-and-fees-fall",
-      "summary": "Transactions fell 8.7% and dollar-denominated user fees dropped 20% on Oct. 22 as a GMGN trading competition continued.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Layer 2",
-        "Markets"
-      ]
-    },
-    {
-      "title": "CoinDCX Acknowledges Wallet-Sweeping Losses After Denying New Breach",
-      "source": "The Defiant",
-      "date": "2026-10-23",
-      "url": "https://thedefiant.io/news/hacks/coindcx-acknowledges-wallet-sweeping-losses-after-denying-new-breach",
-      "summary": "The exchange says affected deposits were credited, but has not disclosed the size of its losses.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Exchanges",
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals",
-      "source": "The Defiant",
-      "date": "2026-10-23",
-      "url": "https://thedefiant.io/news/hacks/swell-pauses-sweth-and-rsweth-deposits-and-withdrawals",
-      "summary": "The protocol says it must correct NAV before reopening, while onchain controls now block withdrawal requests and ETH claims.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Ethereum",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Chainlink And LG CNS Target South Korean Banks With Digital Asset Infrastructure Deal",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "url": "https://www.newsbtc.com/crypto-news/chainlink-lg-cns-south-korea-institutional-digital-assets/",
-      "summary": "Chainlink and LG CNS are partnering on oracle and cross-chain infrastructure aimed at South Korea’s financial institutions; the announcement is a partnership, not a completed nationwide deployment.",
-      "image": "",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "url": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
-      "summary": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia October 23, 2026 — Pa…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/10/710b8519a1dc4e788e2b20a82798e222-750x422.jpg",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "HSBC Brings Hong Kong Dollar Stablecoin To PayMe As Retail Rollout Begins",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "url": "https://www.newsbtc.com/crypto-news/hsbc-redcoin-hong-kong-dollar-stablecoin-payme-retail/",
-      "summary": "HSBC has launched its Hong Kong dollar-backed RedCoin for payments through PayMe, with wallet activation set to expand to millions of users over the coming days.",
-      "image": "",
-      "tags": [
-        "Stablecoins",
-        "Web3"
-      ]
-    },
-    {
-      "title": "HTX Research Publishes Crypto Market Outlook Ahead of the 2026 U.S. Midterm Elections",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "url": "https://www.newsbtc.com/news/htx-research-publishes-crypto-market-outlook-ahead-of-the-2026-u-s-midterm-elections/",
-      "summary": "HTX Research, the dedicated research arm of HTX, has published a new report titled Crypto Market Outlook Before and After the 2026 U.S. Midterm Elections. The report finds that while the midterm elections may reshape policy expectations for the next two years, short-term crypto…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/10/8f84d82599c94ca7bdb59ba1c685471c-750x424.jpg",
-      "tags": [
-        "Markets"
-      ]
-    },
-    {
-      "title": "SoFi Launches Tokenized Deposit That Earns 4.4% and Converts to a Stablecoin",
+      "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
       "source": "Decrypt",
-      "date": "2026-10-22",
-      "url": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
-      "summary": "Each SOFIE token represents $1 on deposit at SoFi Bank, earning 4.40% APY with FDIC insurance—a yield-and-protection combination ordinary stablecoins lack.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
+      "date": "2026-10-23",
+      "url": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel",
+      "summary": "Days before Israel’s election, Netanyahu said he has asked for a blockchain plan in case banks are hit with sanctions, and told Israelis to prepare for a rainy day after Trump.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Israel-Flag-DecryptStyle-gID_7.jpg",
       "tags": [
-        "DeFi",
-        "Stablecoins"
+        "Crypto"
       ]
     },
     {
-      "title": "The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return",
+      "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
       "source": "Bitcoin Magazine",
-      "date": "2026-10-22",
-      "url": "https://bitcoinmagazine.com/culture/the-sleeper-has-awakened-pepenardos-sleeping-knights-return",
-      "summary": "Bitcoin Magazine The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return Hand-altered magazine covers, one-of-one trading cards, and the evolving culture of bitcoin collectibles. This post The Sleeper Has Awakened: Pepenardo’s Sleeping Knights Return first appeared on Bitc…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/The-Sleeper-Has-Awakened-Pepenardos-Sleeping-Knights-Return.png",
+      "date": "2026-10-23",
+      "url": "https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech",
+      "summary": "Bitcoin Magazine NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme Two successive crypto frauds took investors for more than $1.1 billion. Now New York's attorney general is asking a court to make the operators pay it back—with interest. This post…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Pics-24.jpg",
       "tags": [
         "Bitcoin",
-        "NFT & Gaming",
-        "Markets"
+        "Regulation"
       ]
     },
     {
-      "title": "Circle Shareholder Sues Trump, Alleging Unconstitutional Profits From $2B UAE Crypto Deals",
+      "title": "Blockstream Launches Institutional Consulting Services, Opens Lugano Office",
       "source": "Bitcoin Magazine",
-      "date": "2026-10-22",
-      "url": "https://bitcoinmagazine.com/news/trump-sued-for-alleged-crypto-corruption",
-      "summary": "Bitcoin Magazine Circle Shareholder Sues Trump, Alleging Unconstitutional Profits From $2B UAE Crypto Deals A shareholder of stablecoin giant Circle has alleged the president corruptly cashed in on crypto deals. This post Circle Shareholder Sues Trump, Alleging Unconstitutional…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Pics-22.jpg",
+      "date": "2026-10-23",
+      "url": "https://bitcoinmagazine.com/news/blockstream-launches-institutional-service",
+      "summary": "Bitcoin Magazine Blockstream Launches Institutional Consulting Services, Opens Lugano Office Blockstream will offer its engineering expertise to banks and asset managers from a new Swiss base. This post Blockstream Launches Institutional Consulting Services, Opens Lugano Office…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Blockstream-Launches-Institutional-Consulting-Services-Opens-Lugano-Office.jpg",
       "tags": [
         "Bitcoin",
-        "Stablecoins"
+        "Layer 2"
       ]
     }
   ]
