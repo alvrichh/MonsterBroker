@@ -1,66 +1,66 @@
-# MonsterBroker · Radar cripto · 2026-10-25
+# MonsterBroker · Radar cripto · 2026-10-26
 
 **Radar cripto**
 
 > Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.
 
-30 titulares en portada · 1316 en el archivo.
+30 titulares en portada · 1394 en el archivo.
 
 ## Noticias
 
-- **[Netanyahu floats use of blockchain as solution to potential financial sanctions](https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-25 · `Crypto`
-  Ahead of elections, Prime Minister Benjamin Netanyahu said Israel could turn to blockchain and crypto to skirt potential international sanctions, to the dismay of opponents and the country’s central banker.
-- **[A 20-month Polkadot wallet breach reveals the dark side of faster crypto withdrawals](https://cryptoslate.com/a-20-month-polkadot-wallet-breach-reveals-the-dark-side-of-faster-crypto-withdrawals/)** — CryptoSlate · 2026-10-25 · `Altcoins` `Security` `Web3`
-  Polkadot’s earlier reduction in nominator exit times leaves less time to coordinate help before exposed funds become withdrawable. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Kraken wants to be your bank, but who will protect your money?](https://cryptoslate.com/kraken-wants-to-be-your-bank-but-who-would-protect-your-money/)** — CryptoSlate · 2026-10-25 · `Bitcoin` `Regulation` `Exchanges`
-  Kraken&#039;s parent company wants a place in your finances long before you buy Bitcoin and long after you sell it. On Oct. 14, Payward agreed to acquire Saldo Finance Oy, the Finnish owner of Lithuania&#039;s Saldo Bank, in a deal expected to close in 2027 if regulators approve…
-- **[Dogecoin Foundation and House of Doge End Exclusive Brand Deal](https://thedefiant.io/news/tokens/dogecoin-foundation-and-house-of-doge-end-exclusive-brand-deal)** — The Defiant · 2026-10-25 · `Exchanges` `Altcoins`
-  House of Doge keeps limited investment-product rights, while a separate deal would exchange Such App assets for $4 million in Dogecoin Labs stock.
-- **[Tether Wins Mining Industry Support For Its Open Automation Toolkit](https://www.newsbtc.com/bitcoin-news/tether-mdk-mining-industry-support-open-automation/)** — NewsBTC · 2026-10-25 · `Bitcoin` `Stablecoins`
-  Tether is trying to make Bitcoin mining equipment easier to operate as one system. Its October 24 announcement brings 15 industry participants behind an open software framework, shifting the focus from buying more machines to making existing infrastructure work together.
-- **[Electrum Fixes Bitcoin Wallet Flaw That Could Turn A Fee Bump Into Theft](https://www.newsbtc.com/bitcoin-news/electrum-483-bitcoin-wallet-fee-bump-security-fix/)** — NewsBTC · 2026-10-25 · `Bitcoin` `Web3`
-  Electrum disclosed a wallet flaw on October 24 that could turn a Bitcoin fee adjustment into an unintended payment. Its advisory explains how an apparently routine approval became dangerous.
-- **[Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations](https://www.newsbtc.com/bitcoin-news/bitcoin-fed-week-us-inflation-expectations-october-2026/)** — NewsBTC · 2026-10-25 · `Bitcoin`
-  Michigan's final October survey shows rising inflation expectations ahead of the Fed's next meeting, adding a complication for Bitcoin's macro outlook.
-- **[Bitcoin ETF Week Stays Positive After Nearly $774 Million In Late Outflows](https://www.newsbtc.com/bitcoin-news/bitcoin-ethereum-etf-flows-october-23-weekly-preliminary/)** — NewsBTC · 2026-10-25 · `Bitcoin` `Ethereum` `Regulation`
-  Preliminary ETF data shows Bitcoin funds retaining a weekly gain after late withdrawals, while Ether funds remain negative. Friday's figures are incomplete.
-- **[Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet](https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet)** — CoinDesk · 2026-10-24 · `Altcoins` `Web3`
-- **[Senator probes Tether’s reported $6 million payments to ex-White House crypto adviser’s firm](https://cryptoslate.com/senator-probes-tethers-reported-6-million-payments-to-ex-white-house-crypto-advisers-firm/)** — CryptoSlate · 2026-10-24 · `Stablecoins` `Regulation`
-  Tether faces US Senate scrutiny over multimillion-dollar payments to a consulting firm co-owned by a former White House crypto adviser. On Oct. 22, Senator Richard Blumenthal, the ranking Democrat on the Senate Permanent Subcommittee on Investigations, demanded records on the st…
-- **[Ethereum staking yield is losing to cash rates, so why are investors still lining up?](https://cryptoslate.com/ethereum-staking-yield-is-losing-to-cash-rates-so-why-are-investors-still-lining-up/)** — CryptoSlate · 2026-10-24 · `Ethereum` `DeFi` `Markets`
-  Put €10,000 into Ethereum staking at a 2.2% annual return and, if ETH&#039;s price stays unchanged, you&#039;ll earn about €220 over a year. That&#039;s just €7 more than the same amount would earn at the average rate on new euro household deposits with maturities up to one year…
-- **[UNI Slides 29% in Four Weeks as Uniswap Liquidity Holds Steady](https://thedefiant.io/news/tokens/uni-slides-29-in-four-weeks-as-uniswap-liquidity-holds-steady)** — The Defiant · 2026-10-24 · `Bitcoin` `Ethereum` `DeFi`
-  The token has underperformed bitcoin and ether, while Uniswap still holds about $4 billion in liquidity.
-- **[Arthur Hayes Says He Sold Maelstrom’s Directional Book](https://thedefiant.io/news/markets/arthur-hayes-says-he-sold-maelstrom-s-directional-book)** — The Defiant · 2026-10-24 · `Bitcoin` `Ethereum` `Web3`
-  Hayes-linked wallets transferred 8,000 ETH and six other tokens, contrasting with his Oct. 15 declaration that he was long Bitcoin and Ether.
-- **[Kraken Scraps Monero Withdrawal Questionnaires, Keeps XMR Listed](https://thedefiant.io/news/cefi/kraken-scraps-monero-withdrawal-questionnaires-keeps-xmr-listed)** — The Defiant · 2026-10-24 · `Exchanges`
-  Source-of-funds checks remain, but co-CEO Arjun Sethi says asking what clients will do with withdrawn coins is unacceptable.
-- **[Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends](https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends)** — CoinDesk · 2026-10-24 · `Bitcoin`
-- **[Block's new voice AI sounds eerily human, sparking awe and scam fears](https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears)** — CoinDesk · 2026-10-24 · `Security` `AI`
-- **[Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations](https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations)** — CoinDesk · 2026-10-24 · `Bitcoin`
-- **[Google Quietly Updates Privacy Policy to Let Gmail and Photos Data Feed Ads](https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads)** — Decrypt · 2026-10-24 · `AI`
-  A policy change effective Oct. 16 carves out an exception to Google’s long-standing pledge—letting connected Gmail, Drive, and Photos data personalize ads through its Personal Intelligence AI features.
-- **[Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot](https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude)** — Decrypt · 2026-10-24 · `AI`
-  Sweden's Government Offices will block ChatGPT and Claude on staff computers from Monday, steering civil servants to Microsoft Copilot as the only AI that passed its security review.
-- **[Game Publishers Have Pushed to Cut Discs Since 2007, Infinity Ward Veteran Says](https://decrypt.co/381674/game-publishers-have-pushed-to-cut-discs-since-2007-infinity-ward-veteran-says)** — Decrypt · 2026-10-24 · `Crypto`
-  Robert Bowling, who spent six years working on Call of Duty, told Decrypt that Activision suggested cutting discs nearly two decades ago.
-- **[Hong Kong’s Biggest Bank Puts a Stablecoin in 3 Million Wallets](https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets)** — Decrypt · 2026-10-24 · `Stablecoins` `Web3`
-  HSBC switched on its Hong Kong dollar stablecoin inside PayMe on Friday, testing whether a bank-issued token can become everyday money.
-- **[Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000](https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608)** — The Block · 2026-10-24 · `Bitcoin` `Regulation`
-  Spot bitcoin ETFs lost $773 million on Thursday and Friday after three days of net inflows, per SoSoValue data.
-- **[Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’](https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606)** — The Block · 2026-10-24 · `Crypto`
-  The judge's 60-page ruling concluded Argentine President Javier Milei's post promoting the LIBRA token did not, by itself, establish fraud.
-- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-23 · `Bitcoin` `DeFi` `Regulation` `Web3`
+- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-26 · `Bitcoin` `DeFi` `Regulation` `Web3`
   Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.
-- **[Was crypto self-custody ever designed for beginners?](https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-23 · `Web3`
-  Recent hardware wallet security incidents have renewed debate over whether self-custody is suitable for beginners, as multisig and seedless designs carry their own risks.
-- **[Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash](https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-23 · `Ethereum` `Altcoins` `Security`
-  The attacker moved $744,000 in ETH and BNB to Tornado Cash after exploiting Cysic’s bridge to mint 10 million tokens on BNB Smart Chain.
-- **[Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day’s inflows](https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483)** — The Block · 2026-10-23 · `Bitcoin` `Regulation`
-  BlackRock's IBIT led Thursday's net outflows with $254.1 million, while four other funds also witnessed withdrawals.
-- **[New York seeks over $1.3 billion from NovaTech founders after couple fled the US](https://www.theblock.co/news/regulation/2026-10-23-new-york-seeks-over-1-3-billion-from-novatech-founders-after-couple-fled-the-us-424453)** — The Block · 2026-10-23 · `Crypto`
-  New York wants $1.3 billion from NovaTech's founders, whose platform took in $1.16 billion and traded a fraction of it.
-- **[NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme](https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech)** — Bitcoin Magazine · 2026-10-23 · `Bitcoin` `Regulation`
-  Bitcoin Magazine NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme Two successive crypto frauds took investors for more than $1.1 billion. Now New York's attorney general is asking a court to make the operators pay it back—with interest. This post…
-- **[Blockstream Launches Institutional Consulting Services, Opens Lugano Office](https://bitcoinmagazine.com/news/blockstream-launches-institutional-service)** — Bitcoin Magazine · 2026-10-23 · `Bitcoin` `Layer 2`
-  Bitcoin Magazine Blockstream Launches Institutional Consulting Services, Opens Lugano Office Blockstream will offer its engineering expertise to banks and asset managers from a new Swiss base. This post Blockstream Launches Institutional Consulting Services, Opens Lugano Office…
+- **[AI giant Anthropic files for blockbuster IPO](https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo)** — CoinDesk · 2026-10-26 · `AI`
+- **[A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000](https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000)** — CoinDesk · 2026-10-26 · `Bitcoin`
+- **[Bitcoin holds near $80,000 as oil retreats and the Fed decision looms](https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms)** — CoinDesk · 2026-10-26 · `Bitcoin`
+- **[Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO](https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink)** — CoinDesk · 2026-10-26 · `Bitcoin`
+- **[Strategy skips Bitcoin purchases, spends $205M on STRC buybacks](https://cointelegraph.com/news/strategy-skips-btc-buy-205-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-26 · `Bitcoin`
+  Strategy made no Bitcoin purchases or sales last week, as its STRC preferred stock buybacks reduced its USD Cash balance by 46% to $242.4 million.
+- **[HOOD’s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein](https://cointelegraph.com/news/prediction-markets-17b-robinhood-exceed-crypto-revenue-2028-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-26 · `Markets`
+  Bernstein analysts raised Robinhood’s revenue estimates through 2026 and 2028, while maintaining their HOOD price target unchanged at $160.
+- **[Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger](https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-26 · `Altcoins`
+  The move marks Aviva’s second fund to list tokenized shares, part of a broader collaboration to bring more tokenized funds to the XRP Ledger.
+- **[Anthropic Makes IPO Filing Public, Plans Nasdaq Listing Under ‘ANT’](https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant)** — Decrypt · 2026-10-26 · `Exchanges`
+  The S-1 shows revenue up from $1.2 billion a year earlier, and a share structure that leaves a trust and the co-founders in control.
+- **[Strategy Pauses Bitcoin Buying, Spends $205M Buying Back STRC](https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc)** — Decrypt · 2026-10-26 · `Bitcoin` `Regulation`
+  The Bitcoin treasury firm's USD Cash balance fell to $242.4 million after its biggest weekly STRC buyback in more than a month.
+- **[Bitcoin Dips Below $80,000 Ahead of Fed Decision, Midterms](https://decrypt.co/381802/bitcoin-dips-below-80000-ahead-of-fed-decision-midterms)** — Decrypt · 2026-10-26 · `Bitcoin` `Regulation` `AI`
+  Analysts point to a sell-off in AI stocks and ETF outflows, with HashKey's Tim Sun flagging $75,000 as the next key support level.
+- **[Bitcoin’s Bear Market Is Over, Galaxy Research Says: 'Now Is an Attractive Time to Buy'](https://decrypt.co/381786/bitcoin-bear-market-is-over-galaxy-research-says)** — Decrypt · 2026-10-26 · `Bitcoin` `Markets`
+  Galaxy Research says Bitcoin’s bear market ended in June, pointing to a reclaimed 50-week moving average, fading selling pressure, and a strengthening debasement case.
+- **[Strategy pauses bitcoin buys, repurchases $205 million of STRC preferred shares](https://www.theblock.co/news/business/2026-10-26-strategy-pauses-bitcoin-buys-repurchases-205-million-of-strc-preferred-shares-431699)** — The Block · 2026-10-26 · `Bitcoin`
+  Strategy's bitcoin holdings account for roughly 4% of the total supply cap, with $3.9 billion in paper gains.
+- **[Strive closes in on second-largest corporate bitcoin treasury with $511 million purchase](https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-511-million-purchase-431729)** — The Block · 2026-10-26 · `Bitcoin` `Regulation`
+  Strive's latest bitcoin purchase puts it within 1,000 BTC of second-place Metaplanet as it unveils a new $1 billion preferred stock offering program.
+- **[Galaxy says bitcoin bear market is over; now is the time to buy and hold](https://www.theblock.co/news/markets/2026-10-26-galaxy-says-bitcoin-bear-market-is-over-now-is-the-time-to-buy-and-hold-431720)** — The Block · 2026-10-26 · `Bitcoin` `Markets`
+  Galaxy said bitcoin’s bear market ended in June as fading long-term holder selling signals an attractive buying opportunity.
+- **[Aviva Investors, Ripple launch tokenized share class of $29 billion sterling fund on XRP Ledger](https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712)** — The Block · 2026-10-26 · `DeFi` `Altcoins`
+  Aviva Investors has launched a tokenized share class of its Sterling Liquidity Fund on the Ripple-backed XRP Ledger.
+- **[Leon Wankum: The Insane Math Behind Bitcoin Demonetizing Real Estate](https://bitcoinmagazine.com/videos/leon-wankum-the-insane-math-behind-bitcoin-demonetizing-real-estate)** — Bitcoin Magazine · 2026-10-26 · `Bitcoin`
+  &#9654; Bitcoin Magazine Leon Wankum: The Insane Math Behind Bitcoin Demonetizing Real Estate Leon Wankum argues real estate's $300T+ monetary premium is migrating to Bitcoin, projecting a $1M target and explaining why it's smarter to rent and buy BTC. This post Leon Wankum: The…
+- **[Blockstream Executive Peter Bain: Institutional Clients Say Bitcoin “Poised for a Big Bull Run”](https://bitcoinmagazine.com/videos/blockstream-executive-peter-bain-institutional-clients-say-bitcoin-poised-for-a-big-bull-run)** — Bitcoin Magazine · 2026-10-26 · `Bitcoin` `Markets`
+  &#9654; Bitcoin Magazine Blockstream Executive Peter Bain: Institutional Clients Say Bitcoin &#8220;Poised for a Big Bull Run&#8221; Blockstream CMO Peter Bain explains why holding $81K signals strength, the push into Swiss institutional banking, and the latest Liquid Network re…
+- **[The Bitcoin vs. Nasdaq Signal Has Flipped Bullish](https://bitcoinmagazine.com/videos/the-bitcoin-vs-nasdaq-signal-has-flipped-bullish)** — Bitcoin Magazine · 2026-10-26 · `Bitcoin` `Markets`
+  &#9654; Bitcoin Magazine The Bitcoin vs. Nasdaq Signal Has Flipped Bullish As tech drops, Bitcoin holds. Sean Hagan examines the BTC/Nasdaq ratio reclaiming its 200-day MA, historical 84% median gains, and his $100K line in the sand. This post The Bitcoin vs. Nasdaq Signal Has F…
+- **[PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic”](https://bitcoinmagazine.com/videos/php-hack-how-bitcoin-will-respond-to-the-cyber-pandemic)** — Bitcoin Magazine · 2026-10-26 · `Bitcoin` `Security` `AI`
+  &#9654; Bitcoin Magazine PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic” As global sites go offline over PHP flaws, Bitcoin Magazine's Shinobi explains memory bugs, AI-driven hacking speeds, and whether Bitcoin faces any exposure. This post PHP Hack: How Bitcoin Will…
+- **[BTCPay’s API key fix is merged, but its latest release still predates the patch](https://cryptoslate.com/a-btcpay-api-key-limited-to-one-bitcoin-store-could-exceed-its-permissions/)** — CryptoSlate · 2026-10-26 · `Crypto`
+  The October 19 merge restricts broad store-scoped grants, while the latest listed release still predates the change. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Bitcoin hacking challenge finally falls as researcher proves critical PHP flaw is exploitable](https://cryptoslate.com/bitcoin-hacking-challenge-finally-falls-as-researcher-proves-critical-php-flaw-is-exploitable/)** — CryptoSlate · 2026-10-26 · `Bitcoin` `Security` `Web3`
+  The operator accepted the PHP challenge solve despite a wallet mistake, while the harder question remains who turns discoveries into deployed fixes. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Bitcoin’s next Fed test comes with a hidden problem in America’s inflation data](https://cryptoslate.com/bitcoins-next-fed-test-comes-with-a-hidden-problem-in-americas-inflation-data/)** — CryptoSlate · 2026-10-26 · `Bitcoin`
+  September’s 66.3% commodities-and-services quote collection rate shows survey coverage while leaving the direction of any inflation bias unresolved. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Cardano moves closer to 15x scaling breakthrough as developers merge key Leios code](https://cryptoslate.com/cardano-moves-closer-to-15x-scaling-breakthrough-as-developers-merge-key-leios-code/)** — CryptoSlate · 2026-10-26 · `Altcoins`
+  IOG’s Leios roadmap targets initial gains of three to five times today’s capacity, with later increases subject to new votes and mainnet evidence. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Nexus Mutual vs. Firelight: Who Files Claims and Gets Paid](https://thedefiant.io/news/defi/nexus-mutual-vs-firelight-who-files-claims-and-gets-paid)** — The Defiant · 2026-10-26 · `Exchanges`
+  Kraken’s Firelight arrangement caps cover at $100,000 per depositor address per period, while direct Nexus buyers choose their amount and must file their own claims.
+- **[Anthropic Files for IPO With $16.3 Billion in First-Half Revenue](https://thedefiant.io/converge/tradfi-and-fintech/anthropic-files-for-ipo-with-16-3-billion-in-first-half-revenue)** — The Defiant · 2026-10-26 · `Markets`
+  Pre-IPO derivatives imply roughly $1.9 trillion in value, but the offering has no price range or share count yet.
+- **[Researcher Cracks 'Steal My Bitcoin' Challenge With PHP Exploit](https://thedefiant.io/news/security/researcher-cracks-steal-my-bitcoin-challenge-with-php-exploit)** — The Defiant · 2026-10-26 · `Bitcoin` `Security` `Web3`
+  A 0.02511679 BTC prize was at stake, but the operator had to transfer it after discovering the server held the wrong wallet key.
+- **[S&P Global Closes OpenZeppelin Acquisition](https://thedefiant.io/converge/tradfi-and-fintech/s-p-global-closes-openzeppelin-acquisition)** — The Defiant · 2026-10-26 · `Crypto`
+  OpenZeppelin will remain a separate business unit led by founder Demian Brener, who will report to the president of S&amp;P Global Ratings.
+- **[LND Tests A Guardrail Against Extreme External Bitcoin Fee Estimates](https://www.newsbtc.com/bitcoin-news/lnd-0215-release-candidate-external-bitcoin-fee-estimate-cap/)** — NewsBTC · 2026-10-26 · `Bitcoin` `Web3`
+  LND's October 22 release candidate brings attention to a quiet source of wallet risk: outside fee estimates that software treats too generously. The 0.21.5 development notes describe a ceiling for values received through an external fee API, alongside fixes to other node operati…
+- **[Reflect Makes Branded Token Issuance Easier While Leaving The Collateral In Charge](https://www.newsbtc.com/news/defi/reflect-create-solana-branded-tokens-collateral-yield/)** — NewsBTC · 2026-10-26 · `DeFi` `Altcoins` `Markets`
+  Reflect's Create launch, promoted by Solana on October 22, offers a fast route to issuing a branded yield-bearing token. The interface can simplify issuance, but the economics still come from the collateral behind the token and the way its interest is shared.
