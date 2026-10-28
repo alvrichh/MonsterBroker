@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -18,344 +18,345 @@
       ]
     },
     {
-      "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+      "title": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks",
       "source": "CoinDesk",
-      "date": "2026-10-27",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
+      "date": "2026-10-28",
+      "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/caff288a8b43cf1d97d81ebe16d87f4bdde60b22-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
-        "Altcoins"
-      ]
-    },
-    {
-      "title": "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital",
-      "source": "CoinDesk",
-      "date": "2026-10-27",
-      "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
-      "summary": "",
-      "image": "",
-      "tags": [
-        "Bitcoin",
-        "AI"
-      ]
-    },
-    {
-      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
-      "source": "CoinDesk",
-      "date": "2026-10-27",
-      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/7715ded7e8360cebbd0bf320d9d4ce43618af10d-1920x1280.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Stablecoins"
-      ]
-    },
-    {
-      "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
-      "source": "CoinDesk",
-      "date": "2026-10-27",
-      "url": "https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/3d9786ace14e73654f21a94a72d9d19a3f66730e-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
-      "source": "Cointelegraph",
-      "date": "2026-10-27",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "A decline in the share of Bitcoin’s realized cap held by coins unmoved for 18 months or longer points to the ‘early stages’ of a bull market, analysis says.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5YMN410HHB04XQCTHZ2P4NF/crypto-bitcoin-storage.jpg",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Zcash co-founder calls to stop funding ‘over $125M’ grants program",
-      "source": "Cointelegraph",
-      "date": "2026-10-27",
-      "url": "https://cointelegraph.com/news/zcash-co-founder-ending-zcg-funding-125m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Sean Bowe says ZCG has enough money to keep funding projects and wants its share of new ZEC redirected to a reserve for the network.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5YAV7RDWSCT55YSE6J17RKG/hi-update-overview-of-software-wallets-the-easy-way-to-store-crypto-zcash-1.jpg",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/017c04b0a6f702fccd76ffd5aa923321e5b66146-2048x1152.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Crypto"
       ]
     },
     {
-      "title": "Bloom bot hackers loot $953K faster than you can microwave popcorn",
-      "source": "Cointelegraph",
-      "date": "2026-10-27",
-      "url": "https://cointelegraph.com/news/bloom-bot-hackers-953k-faster-popcorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Bloom pledged to reimburse nine traders after $953,000 was drained from 48 wallets, saying no private keys were accessed or compromised.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5Y4YQQX7S38EGJV0MZQV4M3/b-as-seen-on-tv.jpg",
+      "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan",
+      "source": "CoinDesk",
+      "date": "2026-10-28",
+      "url": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e73f268e229858cf3a57675d0f3f6ee3ae61a1ab-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Why This Team of Ninjas Is Tripling Down on Mining Bitcoin",
-      "source": "Decrypt",
-      "date": "2026-10-27",
-      "url": "https://decrypt.co/381906/why-this-team-of-ninjas-is-tripling-down-on-mining-bitcoin",
-      "summary": "NIP Group says Bitcoin mining has “earned its place” as the esports giant swaps 247 million shares for more machines.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-miners-decrypt-style-01-gID_7.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Ripple Wins Final OCC Approval for Trust Bank Behind $2.6B RLUSD Stablecoin",
-      "source": "Decrypt",
-      "date": "2026-10-27",
-      "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin",
-      "summary": "The federally supervised bank will manage RLUSD's reserves and offer custody, as banking groups fight crypto charters in court.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png",
-      "tags": [
-        "Stablecoins",
-        "Regulation",
-        "Altcoins"
-      ]
-    },
-    {
-      "title": "Zcash co-founder proposes ending grants subsidy, citing $125 million treasury",
-      "source": "The Block",
-      "date": "2026-10-27",
-      "url": "https://www.theblock.co/news/ecosystems/2026-10-27-zcash-co-founder-proposes-ending-grants-subsidy-citing-125-million-treasury-431847",
-      "summary": "Zcash co-founder Sean Bowe proposed ending automatic grants funding, citing a treasury valuation of more than $125 million.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/12/20251202_ZCash_News_2.jpg",
-      "tags": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower",
-      "source": "The Block",
-      "date": "2026-10-27",
-      "url": "https://www.theblock.co/news/markets/2026-10-27-ark-invest-buys-5-2-million-of-circle-shares-sells-15-9-million-of-its-own-bitcoin-etf-as-btc-grinds-lower-431838",
-      "summary": "Ark Invest rebalanced its fund weightings, adding Circle shares and trimming its Bitcoin ETF holdings as BTC fell below $80,000.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/Screenshot-2026-10-27-at-10.20.12.png",
-      "tags": [
-        "Bitcoin",
-        "Stablecoins",
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Circle faces up to 20% revenue risk from AI agents, Mizuho says",
-      "source": "The Block",
-      "date": "2026-10-27",
-      "url": "https://www.theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826",
-      "summary": "Mizuho cited 10-20% medium-term reserve revenue downside risk as AI agents steer USDC holders toward higher-yielding fiat alternatives.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/circle_usdc_header_1920x1080.png",
-      "tags": [
-        "Stablecoins",
-        "AI"
-      ]
-    },
-    {
-      "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
-      "source": "The Block",
-      "date": "2026-10-27",
-      "url": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
-      "summary": "StoneX has raised its price target for bitcoin treasury company Strive to $43 from $32 and reiterated its Buy rating on the stock.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/strive_bitcoin_1920x1080.png",
-      "tags": [
-        "Bitcoin",
-        "Regulation",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Now Accepting Bitcoin: 425 Los Angeles Bitcoin Merchants featuring Café de Leche",
-      "source": "Bitcoin Magazine",
-      "date": "2026-10-27",
-      "url": "https://bitcoinmagazine.com/news/los-angeles-bitcoin-425",
-      "summary": "Bitcoin Magazine Now Accepting Bitcoin: 425 Los Angeles Bitcoin Merchants featuring Café de Leche Los Angeles Bitcoin: where to spend bitcoin at 425 cafés, restaurants, and shops across Los Angeles and nearby cities, with a categorized directory. This post Now Accepting Bitcoin:…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Cafe-de-Leche-cup-and-storefront-1-1.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Cold Storage Goes South: bitcoin++ Announces Antarctica Edition",
-      "source": "Bitcoin Magazine",
-      "date": "2026-10-27",
-      "url": "https://bitcoinmagazine.com/news/cold-storage-bitcoin-antarctica",
-      "summary": "Bitcoin Magazine Cold Storage Goes South: bitcoin++ Announces Antarctica Edition bitcoin++ is planning its first cold-storage edition on a 13-day expedition to the Antarctic Peninsula. This post Cold Storage Goes South: bitcoin++ Announces Antarctica Edition first appeared on Bi…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/bitcoin-Announces-Antarctica-Edition.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Bitcoin moves over $5 billion in value but miners collect just $185,000 in transaction fees",
-      "source": "CryptoSlate",
-      "date": "2026-10-27",
-      "url": "https://cryptoslate.com/bitcoin-moves-over-5-billion-in-value-but-miners-collect-just-185000-in-transaction-fees/",
-      "summary": "Glassnode’s October 26 snapshot shows higher estimated settlement value alongside lower fees and active addresses. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/bitcoin-freight-fee-disconnect.webp",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Coinbase sets 3-day MiCA deadline for USDT, PayPal and Trump-linked stablecoins",
-      "source": "CryptoSlate",
-      "date": "2026-10-27",
-      "url": "https://cryptoslate.com/coinbase-sets-3-day-mica-deadline-for-usdt-paypal-and-trump-linked-stablecoins/",
-      "summary": "Affected retail balances will convert at market rates, with USDC used where suitable and late deposits excluded. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/coinbase-stablecoin-conversion-pressure.webp",
-      "tags": [
-        "Stablecoins",
-        "Regulation",
         "Exchanges",
         "Markets"
       ]
     },
     {
-      "title": "CoinDCX’s $16 million loss revives uncomfortable memories of FTX and Celsius",
-      "source": "CryptoSlate",
-      "date": "2026-10-27",
-      "url": "https://cryptoslate.com/coindcxs-16-million-loss-revives-uncomfortable-memories-of-ftx-and-celsius/",
-      "summary": "CoinDCX confirmed a loss of roughly $16 million USDT three days after its CEO, Sumit Gupta, disputed reports of a new wallet breach, calling them a false alarm. It had acknowledged unspecified operational losses from a failed sweeping process on the afternoon of Oct. 22, so the…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/coindcx-wallet-warning.webp",
-      "tags": [
-        "Stablecoins",
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Public wallet logs expose founder histories, and Zcash group demands fix",
-      "source": "CryptoSlate",
-      "date": "2026-10-27",
-      "url": "https://cryptoslate.com/atkinss-zcash-crypto-privacy-vision-faces-a-test-what-must-founders-reveal/",
-      "summary": "A Zcash policy group wants the SEC’s proposed fundraising regime to protect unrelated wallet activity without concealing material holdings or conflicts. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/zcash-wallet-disclosure-debate.webp",
-      "tags": [
-        "Regulation",
-        "Web3"
-      ]
-    },
-    {
-      "title": "SoFi Reports $161.6 Million in Q3 Crypto Revenue, $1.6 Million Net",
-      "source": "The Defiant",
-      "date": "2026-10-27",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/sofi-reports-161-6-million-in-q3-crypto-revenue-1-6-million-net",
-      "summary": "Net crypto transaction revenue rose 38% from Q2 but represented just 0.3% of the bank operator's financial-services segment revenue.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bc79135de66e33f9a587dbb2c3c72866d25e5c0d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "title": "Dissent and more: 3 things to watch for at the Fed meeting",
+      "source": "CoinDesk",
+      "date": "2026-10-28",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/28/dissent-and-more-3-things-to-watch-for-at-the-fed-meeting",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/ef11a5cc0617168c1ce14a276d6d7d85c7a882ad-8087x4549.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Crypto"
       ]
     },
     {
-      "title": "AI Agents Approved Their Own Spending Increases on Circle Agent Wallets",
-      "source": "The Defiant",
-      "date": "2026-10-27",
-      "url": "https://thedefiant.io/news/security/ai-models-raised-own-crypto-spending-caps-cornell-i-hitl",
-      "summary": "Researchers gave frontier models a capped Circle agent wallet and access to the inbox that receives its one-time codes. Most of them approved their own spending increase",
-      "image": "",
+      "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
+      "source": "CoinDesk",
+      "date": "2026-10-28",
+      "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/2a667dab9f682bd3aa233073699de5739f5046ec-1920x1280.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Stablecoins",
-        "Web3",
+        "Altcoins",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Cybersecurity’s Black October: How to protect yourself",
+      "source": "Cointelegraph",
+      "date": "2026-10-28",
+      "url": "https://cointelegraph.com/magazine/cybersecuritys-black-october-how-to-protect-yourself?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Each day brings news of another AI-powered attack, or a newly discovered vulnerability. Here’s what’s happening and how ordinary people can protect themselves online.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5W2T7CFH7Z6NC9XTVMGFV98/magazine-magazine-meet-the-do-good-hackers-brute-forcing.jpg",
+      "tags": [
+        "Security",
         "AI"
       ]
     },
     {
-      "title": "SlowMist Finds Data-Stealing and Address-Swapping Code in Udesk Scripts",
-      "source": "The Defiant",
-      "date": "2026-10-27",
-      "url": "https://thedefiant.io/news/security/slowmist-finds-data-stealing-and-address-swapping-code-in-udesk-scripts",
-      "summary": "The payload can alter both displayed and copied crypto deposit addresses, while its data collection extends beyond three site-specific targeting rules.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f76b45dd28b9bcf3eae09aebf092cc3104e755a0-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "title": "DTCC unit launches tokenization services",
+      "source": "Cointelegraph",
+      "date": "2026-10-28",
+      "url": "https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The post-trade market infrastructure provider said the tokenization services will create a “practical path” for tokenized securities adoption.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M618TPPRNWQ7KVCWZJB3GR5V/hi-project-explained-a-global-initiative-for-asset-tokenization-1.jpg",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Settlement concerns prompt Euronext to halt CoinShares’ Zcash ETP ahead of debut",
+      "source": "Cointelegraph",
+      "date": "2026-10-28",
+      "url": "https://cointelegraph.com/news/euronext-suspends-coinshares-zcash-etp-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "A Euronext spokesperson told Cointelegraph the suspension was due to “operational settlement requirements” and remains in effect until settlement operations are supported by the CSD.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M612J6GCD9PZJ4FW24NTDCMQ/hi-what-is-insider-trading-meaning-examples-and-penalties.jpg",
       "tags": [
         "Crypto"
       ]
     },
     {
-      "title": "Marinade Waives Bond Charges for Agave Slot-Skipping Bug",
-      "source": "The Defiant",
-      "date": "2026-10-27",
-      "url": "https://thedefiant.io/news/infrastructure/marinade-waives-bond-charges-for-agave-slot-skipping-bug",
-      "summary": "The exemption covers first-window slots in PSR and SAM calculations, while a repair is included in an Agave 4.4 release candidate.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f903c7ca409625dd5182365ffb7ca7c2b512a685-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "title": "House Oversight Chair Comer Probes Delaware Plan for AI-Run Companies",
+      "source": "Decrypt",
+      "date": "2026-10-28",
+      "url": "https://decrypt.co/382035/house-oversight-chair-comer-probes-delaware-plan-for-ai-run-companies",
+      "summary": "James Comer warned the proposed \"AIC\" could shield AI firms from liability, and asked Delaware's governor for documents by November 9.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-17-gID_7.png",
       "tags": [
-        "Crypto"
+        "AI"
       ]
     },
     {
-      "title": "Microsoft’s Magnetar Research Could Matter to Blockchain Proof Costs",
-      "source": "NewsBTC",
-      "date": "2026-10-27",
-      "url": "https://www.newsbtc.com/technology/microsoft-s-magnetar-research-could-matter-to-blockchain-proof-costs/",
-      "summary": "Microsoft Research says its Magnetar system makes proofs of ordinary program execution faster while relying on standard hash-based cryptography.",
-      "image": "",
+      "title": "Goldman, BlackRock Alumni Raise $4 Million to Put Farm and Apartment Loans Onchain",
+      "source": "Decrypt",
+      "date": "2026-10-28",
+      "url": "https://decrypt.co/382007/goldman-blackrock-alumni-raise-4-million-loans-onchain",
+      "summary": "Birch Hill, founded by Goldman Sachs and BlackRock alumni, raised $4 million in a seed round led by Multicoin Capital to build a regulated path for bringing U.S. loans onchain.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-wall-street-gID_7.png",
       "tags": [
-        "Crypto"
+        "Regulation",
+        "Web3"
       ]
     },
     {
-      "title": "Ripple and Meritz Focus on the Custody Layer of Korea’s Tokenisation Plans",
-      "source": "NewsBTC",
-      "date": "2026-10-27",
-      "url": "https://www.newsbtc.com/xrp-news/ripple-and-meritz-focus-on-the-custody-layer-of-korea-s-tokenisation-plans/",
-      "summary": "Meritz Securities and Ripple will explore custody and tokenisation within current Korean securities regulations before considering broader expansion.",
-      "image": "",
+      "title": "Moody's Rates Ripple's $2.6B RLUSD Stablecoin A2, a Day After OCC Bank Approval",
+      "source": "Decrypt",
+      "date": "2026-10-28",
+      "url": "https://decrypt.co/382030/moodys-rates-ripples-2-6b-rlusd-stablecoin-a2-a-day-after-occ-bank-approval",
+      "summary": "The ratings agency cited RLUSD's Treasury-heavy reserves, but noted that holders have no direct ownership interest in them for now.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ripple-logo-2-gID_7.png",
       "tags": [
+        "Stablecoins",
         "Regulation",
         "Altcoins"
       ]
     },
     {
-      "title": "Standard Chartered’s Live RLUSD Custody Sets Up a Separate Collateral Test",
-      "source": "NewsBTC",
-      "date": "2026-10-27",
-      "url": "https://www.newsbtc.com/xrp-news/standard-chartered-s-live-rlusd-custody-sets-up-a-separate-collateral-test/",
-      "summary": "Standard Chartered now supports eligible institutional RLUSD custody through its DIFC branch; a separate LMAX collateral arrangement is planned.",
-      "image": "",
+      "title": "Morning Minute: Robinhood Misses, But Crypto Beats and Robinhood Chain Soars",
+      "source": "Decrypt",
+      "date": "2026-10-28",
+      "url": "https://decrypt.co/382029/morning-minute-robinhood-misses-but-crypto-beats-and-robinhood-chain-soars",
+      "summary": "Vlad Tenev delivered the messaging that Robinhood Chain enthusiasts wanted to hear—and the market responded.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
       "tags": [
-        "Crypto"
+        "Markets"
       ]
     },
     {
-      "title": "Solana’s Delivery-Versus-Payment Tool Tries to Remove Settlement’s Weakest Link",
+      "title": "Ripple expects $900 million annualized product revenue run rate as institutional business expands",
+      "source": "The Block",
+      "date": "2026-10-28",
+      "url": "https://www.theblock.co/news/business/2026-10-28-ripple-900-million-revenue-run-rate-rlusd-431920",
+      "summary": "Ripple expects a $900M annualized product revenue run rate by end of 2026, as RLUSD reaches $2.5B and payments near $150B in lifetime volume.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/01/20260108_Ripple_News.jpg",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Moody’s assigns investment-grade ratings to Ripple’s RLUSD stablecoin",
+      "source": "The Block",
+      "date": "2026-10-28",
+      "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
+      "summary": "Moody's Ratings assigned the RLUSD A2 long-term and P-1 short-term ratings, citing credit quality and market value of its reserve assets.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/ripple-usd-rlusd-stablecoin.png",
+      "tags": [
+        "Stablecoins",
+        "Altcoins",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Datavault AI stock plummets 50% after firm says it cannot withdraw bitcoin tied to $150 million deal",
+      "source": "The Block",
+      "date": "2026-10-28",
+      "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
+      "summary": "The issue centers on a deal with Scilex, under which Scilex agreed to buy shares of Datavault AI for $150 million, payable in bitcoin.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/1920×1080@2x-scaled.png",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Brazilian Banking Giant Itaú Formalizes Crypto Role as Brazil Closes Its Licensing Window",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-28",
+      "url": "https://bitcoinmagazine.com/news/brazilian-banking-giant-itau-crypto",
+      "summary": "Bitcoin Magazine Brazilian Banking Giant Itaú Formalizes Crypto Role as Brazil Closes Its Licensing Window Itaú has formally registered with Brazil’s central bank to intermediate and custody crypto assets under the new licensing rules. This post Brazilian Banking Giant Itaú Form…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Brazilian-Banking-Giant-Itau-Formalizes-Bitcoin-and-Crypto-Role-as-Brazil-Closes-Its-Licensing-Window.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Luxor Announces $16M Funding Round to Scale AI Compute, Derivatives",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-28",
+      "url": "https://bitcoinmagazine.com/videos/luxor-announces-16m-funding-round-to-scale-ai-compute-derivatives",
+      "summary": "&#9654; Bitcoin Magazine Luxor Announces $16M Funding Round to Scale AI Compute, Derivatives Luxor raises $16M to scale AI GPU compute. Ethan Vera and CMT Digital's Sam Hallene explain why Bitcoin mining expertise translates so well to the AI boom. This post Luxor Announces $16M…",
+      "image": "https://img.youtube.com/vi/Hhkhel6-ut0/hqdefault.jpg",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Galaxy Asset Management: “Now Is The Time” to Buy Bitcoin",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-28",
+      "url": "https://bitcoinmagazine.com/videos/galaxy-asset-management-now-is-the-time-to-buy-bitcoin",
+      "summary": "&#9654; Bitcoin Magazine Galaxy Asset Management: &#8220;Now Is The Time&#8221; to Buy Bitcoin \"The bottom is in,\" says Galaxy's Alex Thorn, explaining why reclaiming the 50-week moving average historically limits Bitcoin downside to just 8.4%. This post Galaxy Asset Management:…",
+      "image": "https://img.youtube.com/vi/JTdYC1cC_hc/hqdefault.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Samara Asset Group CEO: Bitcoin Treasury Companies a “Disservice to Shareholders”",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-28",
+      "url": "https://bitcoinmagazine.com/videos/samara-asset-group-ceo-bitcoin-treasury-companies-a-disservice-to-shareholders",
+      "summary": "&#9654; Bitcoin Magazine Samara Asset Group CEO: Bitcoin Treasury Companies a “Disservice to Shareholders” Patrick Lowry argues 'digital gold' was flawed marketing, explaining why the market rejects pure treasury plays and how Samara deploys BTC as working capital. This post Sam…",
+      "image": "https://img.youtube.com/vi/Rdwz6uXm7xc/hqdefault.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Kraken to cancel orders across 176 crypto markets in sweeping trading overhaul",
+      "source": "CryptoSlate",
+      "date": "2026-10-28",
+      "url": "https://cryptoslate.com/kraken-to-cancel-orders-across-176-crypto-markets-in-sweeping-trading-overhaul/",
+      "summary": "Existing orders will not transfer to synthetic replacements, where limit orders will carry taker fees. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/kraken-synthetic-market-gateway.webp",
+      "tags": [
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Robinhood now makes more money from predicting the future than trading crypto",
+      "source": "CryptoSlate",
+      "date": "2026-10-28",
+      "url": "https://cryptoslate.com/robinhood-now-makes-more-money-from-predicting-the-future-than-trading-crypto/",
+      "summary": "The year-over-year crypto decline contrasted with $173 million in event-contract revenue and record company revenue of $1.42 billion. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/robinhood-market-event-contrast.webp",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "SUN.io Completes 52nd Buyback and Burn: Total SUN Burned Surpasses 685M as SunSwap Accelerates Ecosystem Integrations",
+      "source": "CryptoSlate",
+      "date": "2026-10-28",
+      "url": "https://cryptoslate.com/sun-io-completes-52nd-buyback-and-burn-total-sun-burned-surpasses-685m-as-sunswap-accelerates-ecosystem-integrations/",
+      "summary": "SUN.io, the core DeFi liquidity infrastructure on the TRON network, has successfully executed its 52nd SUN token buyback and burn on October 27, removing more than 7.23 million SUN from circulation. This round marks the platform&#039;s 52nd consecutive burn, bringing the cumulat…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/sun-52nd-buyback-burn-685-million-tokens.jpg",
+      "tags": [
+        "DeFi",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Bitcoin beats the S&P 500 on most trading days but still loses the month",
+      "source": "CryptoSlate",
+      "date": "2026-10-28",
+      "url": "https://cryptoslate.com/bitcoin-beats-the-sp-500-on-most-trading-days-but-still-loses-the-month/",
+      "summary": "Bitcoin&#039;s relative win rate against the S&amp;P 500 recovered above 50% in recent sessions, up from about one session in five in June, its weakest stretch in roughly six years, according to Glassnode. Coinbase Institutional&#039;s Oct. 23 report found BlackRock&#039;s IBIT…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/bitcoin-liquidity-bridge-collapse.webp",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Tokenized Stock and ETF Roster: Ondo, DTCC and OKXICE",
+      "source": "The Defiant",
+      "date": "2026-10-28",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/tokenized-stock-and-etf-roster-ondo-dtcc-and-okxice",
+      "summary": "Ondo reports 15 tokens live on Robinhood Chain. This dated reference separates that roster from DTCC’s institutional tokenization scope and OKXICE’s proposed listings and disclosed objections.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a934873066c1481a019b97bb3f383a68685ac65d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Phantom Widens US Rollout of Kalshi Prediction Markets",
+      "source": "The Defiant",
+      "date": "2026-10-28",
+      "url": "https://thedefiant.io/news/defi/phantom-widens-us-rollout-of-kalshi-prediction-markets",
+      "summary": "Trading runs through verified Kalshi accounts, while the wallet’s regional guide excludes Michigan, Nevada and Washington.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/95030f0819b6a83f5ae62b90cfc9db61fe12f217-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Web3",
+        "Markets"
+      ]
+    },
+    {
+      "title": "How Aave’s Variable Borrow Rate Changes an Existing USDT Loan",
+      "source": "The Defiant",
+      "date": "2026-10-28",
+      "url": "https://thedefiant.io/news/defi/how-aave-s-variable-borrow-rate-changes-an-existing-usdt-loan",
+      "summary": "Aave’s Ethereum USDT curve now raises borrowing costs sooner as liquidity tightens. Existing debt keeps its accrued interest; a new rate changes how the balance grows from then on.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/70e62a30546b200c78c3f52ad1f8782923fb7e78-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Coinbase Lists Ripple’s RLUSD With Transfers on Three Networks",
+      "source": "The Defiant",
+      "date": "2026-10-28",
+      "url": "https://thedefiant.io/converge/defi/coinbase-lists-ripple-s-rlusd-with-transfers-on-three-networks",
+      "summary": "Customers in supported regions can convert US dollars into RLUSD one-for-one. Access spans the retail app, Coinbase Exchange and Prime.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/56243a7cf6c2db60825df2df3e0ce98b2b23d403-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Confidential ZEC trading goes live on Shield",
       "source": "NewsBTC",
-      "date": "2026-10-27",
-      "url": "https://www.newsbtc.com/news/solana/solana-s-delivery-versus-payment-tool-tries-to-remove-settlement-s-weakest/",
-      "summary": "Solana DvP offers an open-source route to atomic securities settlement, with JPMorgan providing input on institutional requirements.",
+      "date": "2026-10-28",
+      "url": "https://www.newsbtc.com/news/confidential-zec-trading-goes-live-on-shield/",
+      "summary": "Traders can now buy, sell, and provide liquidity for ZEC while keeping their identity, portfolio, and trading strategies confidential. Shield has launched the first confidential onchain trading pair for ZEC, allowing users to manage their Zcash alongside other assets in its non-…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/10/a25e36202a874e18908adb35a8172903-750x437.jpg",
+      "tags": [
+        "DeFi",
+        "Web3",
+        "Markets"
+      ]
+    },
+    {
+      "title": "C2FO and Ripple Bring Instant-Pay Settlement Plans to XRP Ledger",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "url": "https://www.newsbtc.com/news/c2fo-and-ripple-bring-instant-pay-settlement-plans-to-xrp-ledger/",
+      "summary": "C2FO and Ripple say their Instant Pay initiative will use the XRP Ledger and RLUSD to settle financing associated with approved supplier invoices.",
       "image": "",
       "tags": [
         "Altcoins"
       ]
     },
     {
-      "title": "Anthropic Makes IPO Filing Public, Plans Nasdaq Listing Under ‘ANT’",
-      "source": "Decrypt",
-      "date": "2026-10-26",
-      "url": "https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant",
-      "summary": "The S-1 shows revenue up from $1.2 billion a year earlier, and a share structure that leaves a trust and the co-founders in control.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-anthropic-dario-amodei-gID_7.png",
+      "title": "BNY Adds XRP and RLUSD Custody Support as Ripple Partnership Expands",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "url": "https://www.newsbtc.com/news/bny-adds-xrp-and-rlusd-custody-support-as-ripple-partnership-expands/",
+      "summary": "BNY and Ripple are extending an established reserve-custody relationship into wider digital-asset servicing and possible tokenized trade-finance applications.",
+      "image": "",
       "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Strategy Pauses Bitcoin Buying, Spends $205M Buying Back STRC",
-      "source": "Decrypt",
-      "date": "2026-10-26",
-      "url": "https://decrypt.co/381811/strategy-pauses-bitcoin-buying-spends-205m-buying-back-strc",
-      "summary": "The Bitcoin treasury firm's USD Cash balance fell to $242.4 million after its biggest weekly STRC buyback in more than a month.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
-      "tags": [
-        "Bitcoin",
-        "Regulation"
+        "Altcoins"
       ]
     }
   ]
