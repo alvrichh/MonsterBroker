@@ -1,8 +1,223 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
+    {
+      "title": "18 years in, what has Bitcoin truly done?",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/7f2bd7d2be275c4eafe3f7b90a98949475cb6ec6-5799x3866.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/4e9b4fc10f323d6782a7f938b1c23617a36d9d2b-1825x1369.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6e0794b53fab4b04d9e3fdbc0f3d1a70cdf36125-1920x1283.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/d9828d5a1dcf4e1f9551968a3a6c2c75a4fc3166-3657x2057.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+      "source": "Cointelegraph",
+      "date": "2026-10-31",
+      "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Chainalysis has engaged world-class third-party experts to support a review of its security and strengthen its defenses.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M68V2D1TX4051JHJ9QKN8R4P/hi-how-to-utilize-ai-agents-in-decentralized-finance-defi-platforms-chainalysis.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Binance $6.3B record hack sparks pre-election political clashes",
+      "source": "Cointelegraph",
+      "date": "2026-10-31",
+      "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Some political and administration figures tried to make hay of the biggest-ever crypto heist.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M50GBDK9V1K1J9DSAGNBWX7S/us-binance.jpg",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Why AI Models Cheat: Reward Hacking, Explained",
+      "source": "Decrypt",
+      "date": "2026-10-31",
+      "url": "https://decrypt.co/382274/why-ai-models-cheat-reward-hacking-explained",
+      "summary": "From boat-racing bots to OpenAI models inside Hugging Face, here's how AI reward hacking works and why it matters.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png",
+      "tags": [
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title": "MSTR Q3 2026 Earnings Call: Analyst Q&A",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-31",
+      "url": "https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa",
+      "summary": "&#9654; Bitcoin Magazine MSTR Q3 2026 Earnings Call: Analyst Q&amp;A Strategy's MSTR Q3 earnings Q&#038;A: Michael Saylor and Phong Le answer analysts on digital credit, Stretch (STRC) at par, preferreds, and Bitcoin's financialization. This post MSTR Q3 2026 Earnings Call: Anal…",
+      "image": "https://img.youtube.com/vi/vq26buK3qxg/hqdefault.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-31",
+      "url": "https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run",
+      "summary": "&#9654; Bitcoin Magazine Mike Flaum: MSTR Performance &#8220;Massively&#8221; to the Upside During Next BTC Bull Run Log Scale CEO Mike Flaum discusses Strategy's Stretch, daily dividends, BTC preferreds vs. Treasuries for retirees, and separating volatility from true risk. This…",
+      "image": "https://img.youtube.com/vi/TlgK_T1UgFU/hqdefault.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "What to Know About the $6.3 Billion Binance Hack",
+      "source": "Bitcoin Magazine",
+      "date": "2026-10-31",
+      "url": "https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack",
+      "summary": "&#9654; Bitcoin Magazine What to Know About the $6.3 Billion Binance Hack Binance suffers a record $6.3B hack with $3.3B unrecovered. BMTV breaks down what happened, Binance's response, and why every day is now zero day for crypto. This post What to Know About the $6.3 Billion B…",
+      "image": "https://img.youtube.com/vi/tx_G1ScRVWQ/hqdefault.jpg",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Prediction markets bring Robinhood $173 million as crypto revenue slumps",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/prediction-markets-robinhood-crypto-revenue/",
+      "summary": "Robinhood&#039;s quarterly event revenue, Coinbase&#039;s annualized milestone and Gemini&#039;s smaller Q2 business show how uneven the diversification remains. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/prediction-market-revenue-stacks.webp",
+      "tags": [
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Why Ripple’s $16 trillion payment volume isn’t boosting XRP",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/ripple-is-winning-everywhere-so-why-isnt-xrp/",
+      "summary": "Buying XRP doesn’t give you shares in Ripple, although the company’s growing list of new ventures and financial partners makes it easy to assume their fortunes should move together. Ripple can earn a lot of money from those relationships without passing a dollar to token holders…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/xrp-institutional-demand-gap.webp",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Westpac limits crypto exchange deposits driven by fraud rules",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/westpac-limits-crypto-exchange-deposits-driven-by-fraud-rules/",
+      "summary": "From December 1, 2026, the bank may combine payments to identified exchanges across relevant accounts and methods under one monthly limit. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/westpac-crypto-deposit-limit-standard-image-v2.jpg",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Aave reopens frozen markets but blocks new collateral loans",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/aave-reopens-frozen-markets-but-blocks-new-collateral-loans/",
+      "summary": "LlamaRisk reports the main emergency batches executed, while available liquidity and collateral rules still determine practical access. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/aave-emergency-cap-cuts-standard-image.jpg",
+      "tags": [
+        "DeFi",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Kalshi vs. Polymarket: Who Decides Winners and When Funds Can Leave",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/cefi/kalshi-vs-polymarket-who-decides-winners-and-when-funds-can-leave",
+      "summary": "Exchange review, oracle challenges and deposit holds create different paths from a winning position to money outside the platform.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Origin Restores OGN Liquidity After Pulling Funds During Binance Incident",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/defi/origin-restores-ogn-liquidity-after-pulling-funds-during-binance-incident",
+      "summary": "Origin says the attacker sold OGN at an average 79% discount. Ethereum records show liquidity returning to its Curve pool after a withdrawal of 46.74 million OGN.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/6bd3475415f61507cbe8fcc95e5d672e6d368aff-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "CertiK Puts 2026 Crypto Losses at Record $9.2 Billion",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/security/certik-puts-2026-crypto-losses-at-record-9-2-billion",
+      "summary": "Its live dashboard records $3.03 billion frozen or returned in October, reducing the month's adjusted losses to $3.47 billion.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9dbf8c96d5b5965b7d4d04b2da8deffce6c9af7d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Lido Revenue Jumps to $605,000 on Execution-Reward Windfall",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/defi/lido-revenue-jumps-to-605-000-on-execution-reward-windfall",
+      "summary": "The DAO received 269.69 stETH in staking fees, but its next daily reward report delivered a much smaller treasury payment.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/65b88baaf9c7dfb1da1df60a2329dc32a9e52292-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Regulation",
+        "Web3"
+      ]
+    },
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
@@ -18,57 +233,6 @@
       ]
     },
     {
-      "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-      "source": "CoinDesk",
-      "date": "2026-10-30",
-      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/ae7fcd0c1309c1bc14c7c5de27277b340baf7d12-1920x1079.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Here's how big bitcoin traders responded after the Binance hack hit",
-      "source": "CoinDesk",
-      "date": "2026-10-30",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/10a17f9ee8cafcb8de431c8eca60c18cd342814c-1440x810.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
-      "source": "CoinDesk",
-      "date": "2026-10-30",
-      "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c21fed99fa765785749736d4a3023e5aed2b83af-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Ethereum",
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-      "source": "CoinDesk",
-      "date": "2026-10-30",
-      "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/626f394b90a6e05df4c0c35773ffc98792fbce44-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
-        "Ethereum",
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
       "title": "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?",
       "source": "Cointelegraph",
       "date": "2026-10-30",
@@ -77,30 +241,6 @@
       "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63WZ15V7ZF12NWAD2K229V7/hi-magazine-unexpected-crypto-millionaires.png",
       "tags": [
         "Bitcoin"
-      ]
-    },
-    {
-      "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
-      "source": "Cointelegraph",
-      "date": "2026-10-30",
-      "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Follow live updates as Binance says $6.3 billion in assets have been stolen in a major hack. Around $3 billion in stolen funds have been frozen.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65VKEHPWZPADDH0AZM1CR3Q/trying-to-open-monitor-1.jpg",
-      "tags": [
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Binance working with FBI to recover assets following $6.3B hack",
-      "source": "Cointelegraph",
-      "date": "2026-10-30",
-      "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Binance is working with law enforcement to recover $3 billion that is frozen, after setting aside more than $6.3 billion from the company’s funds to cover the shortfall.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66DY7634YFAY00EZKKKTQV0/hi-crypto-crime-investigation-regulation-police-cybercrime-criminal-detective-token.jpg",
-      "tags": [
-        "Exchanges",
-        "Security"
       ]
     },
     {
@@ -138,17 +278,6 @@
       "tags": [
         "Exchanges",
         "Security"
-      ]
-    },
-    {
-      "title": "Trezor Warns CryptoBilis Buyers After Report of Hardware Implant in Safe 5",
-      "source": "Decrypt",
-      "date": "2026-10-30",
-      "url": "https://decrypt.co/382216/trezor-warns-cryptobilis-buyers-after-report-of-hardware-implant-in-safe-5",
-      "summary": "The hardware wallet manufacturer has yet to examine the device, but is treating the report as credible and told buyers to move their funds.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/10/trezor-safe-5-decrypt-style-gID_7.jpg",
-      "tags": [
-        "Web3"
       ]
     },
     {
@@ -211,137 +340,6 @@
         "Bitcoin",
         "Regulation",
         "Markets"
-      ]
-    },
-    {
-      "title": "Doomberg: US Treasury Sanctions are “Wildly Bullish” for Bitcoin & Gold",
-      "source": "Bitcoin Magazine",
-      "date": "2026-10-30",
-      "url": "https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold",
-      "summary": "&#9654; Bitcoin Magazine Doomberg: US Treasury Sanctions are &#8220;Wildly Bullish&#8221; for Bitcoin &amp; Gold U.S. pressure to hold Treasuries forces central banks to sell what they can, says Doomberg, setting up a wildly bullish long-term case for gold and Bitcoin. This post…",
-      "image": "https://img.youtube.com/vi/WIE3b9y7jSI/hqdefault.jpg",
-      "tags": [
-        "Bitcoin",
-        "Regulation",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Alex Thorn: 50-Week Signal Says Bitcoin’s Bottom is In",
-      "source": "Bitcoin Magazine",
-      "date": "2026-10-30",
-      "url": "https://bitcoinmagazine.com/videos/alex-thorn-50-week-signal-says-bitcoins-bottom-is-in",
-      "summary": "&#9654; Bitcoin Magazine Alex Thorn: 50-Week Signal Says Bitcoin&#8217;s Bottom is In Galaxy's Alex Thorn calls the Bitcoin bottom, pointing to the 50-week moving average reclaim, resilience at $80K, and why being long is now contrarian. This post Alex Thorn: 50-Week Signal Says…",
-      "image": "https://img.youtube.com/vi/pxkmrktEnZE/hqdefault.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Alexandre Laizet on The French Debt Crisis: “Europe is in Need of Bitcoin”",
-      "source": "Bitcoin Magazine",
-      "date": "2026-10-30",
-      "url": "https://bitcoinmagazine.com/videos/alexandre-laizet-on-the-french-debt-crisis-europe-is-in-need-of-bitcoin",
-      "summary": "&#9654; Bitcoin Magazine Alexandre Laizet on The French Debt Crisis: &#8220;Europe is in Need of Bitcoin&#8221; France hits 120% debt-to-GDP. Capital B's Alexandre Laizet explains why misspent debt and currency debasement make the case for a Bitcoin treasury strategy. This post…",
-      "image": "https://img.youtube.com/vi/GszSdU8KPC8/hqdefault.jpg",
-      "tags": [
-        "Bitcoin",
-        "Regulation"
-      ]
-    },
-    {
-      "title": "A $10 sports bet helped trigger 13 felony charges against Kalshi in Utah",
-      "source": "CryptoSlate",
-      "date": "2026-10-30",
-      "url": "https://cryptoslate.com/a-10-sports-bet-helped-trigger-13-felony-charges-against-kalshi-in-utah/",
-      "summary": "An agent alleges he confirmed Utah before trading and paying a fee, while the CFTC contests state authority. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/kalshi-utah-access-lock.webp",
-      "tags": [
-        "Regulation",
-        "Markets",
-        "AI"
-      ]
-    },
-    {
-      "title": "Bitcoin mining difficulty hits 148 trillion as revenues fall to three-month lows",
-      "source": "CryptoSlate",
-      "date": "2026-10-30",
-      "url": "https://cryptoslate.com/bitcoin-mining-difficulty-hits-148-trillion-as-revenues-fall-to-three-month-lows/",
-      "summary": "At October 30’s hashprice, a 25 J/TH rig covers power costing about 5.45 cents/kWh after an assumed 2% pool fee. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/bitcoin-difficulty-chain-pressure.webp",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Binance uncovers more breach points in $6 billion hack",
-      "source": "CryptoSlate",
-      "date": "2026-10-30",
-      "url": "https://cryptoslate.com/binance-breach-points-6-billion-hack/",
-      "summary": "Binance said investigators uncovered additional breach points in the approximately $6 billion hack after initially suspecting a compromised employee laptop. The exchange has not disclosed what those additional breach points were. In an earlier Oct. 30 security update, the exchan…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/binance-hack-north-korea.webp",
-      "tags": [
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Polymarket suffers second multimillion-dollar security breach in just four months",
-      "source": "CryptoSlate",
-      "date": "2026-10-30",
-      "url": "https://cryptoslate.com/polymarket-suffers-second-multimillion-dollar-security-breach-in-just-four-months/",
-      "summary": "June&#039;s reported theft and October&#039;s recovered code reveal recurring exposure inside the trading interface, while broader security changes remain unclear. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Cataly…",
-      "image": "",
-      "tags": [
-        "Security",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Uniswap, a16z and DEF Seek DeFi Exemptions From Illinois Crypto Tax Rules",
-      "source": "The Defiant",
-      "date": "2026-10-30",
-      "url": "https://thedefiant.io/news/regulation/uniswap-a16z-and-def-seek-defi-exemptions-from-illinois-crypto-tax-rules",
-      "summary": "The groups want wallet withdrawals and bridging excluded from a levy calculated on asset value, and a private-key recordkeeping requirement removed.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8c661e26ac681933734756be9b963779ab87b31c-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "DeFi",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Tydro Unfreezes Markets but Leaves New Borrowing Blocked",
-      "source": "The Defiant",
-      "date": "2026-10-30",
-      "url": "https://thedefiant.io/news/defi/tydro-unfreezes-markets-but-leaves-new-borrowing-blocked",
-      "summary": "Repayments, withdrawals and liquidations remained available during the precautionary freeze. Tydro's dashboard displays $62.36 million in outstanding borrows.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/70c1a14ca0e444d9c828e4aa21897d3c83824ddd-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Markets"
-      ]
-    },
-    {
-      "title": "Why a Crypto-Arbitrage Spread Is Not Net Profit",
-      "source": "The Defiant",
-      "date": "2026-10-30",
-      "url": "https://thedefiant.io/news/defi/why-a-crypto-arbitrage-spread-is-not-net-profit",
-      "summary": "A matched one-ETH example shows how fees shrink a quoted gap—and why prefunding moves transfer risk to rebalancing rather than removing it.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/471004b5eb02f94452d74791592f7a2c182a6ee0-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Ethereum"
-      ]
-    },
-    {
-      "title": "Scroll Details Permissioned AI Network Plan and Ethereum Token Migration",
-      "source": "The Defiant",
-      "date": "2026-10-30",
-      "url": "https://thedefiant.io/news/blockchains/scroll-details-permissioned-ai-network-plan-and-ethereum-token-migration",
-      "summary": "The broader transition targets Q2 2027, while users will need separate plans for DeFi positions and other assets.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ac10ed080125ba0b35e647d12cde125ea7cc166f-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Ethereum",
-        "DeFi",
-        "AI"
       ]
     },
     {
