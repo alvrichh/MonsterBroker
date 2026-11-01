@@ -1,7 +1,424 @@
 {
-  "updated": "2026-10-31",
-  "count": 2020,
+  "updated": "2026-11-01",
+  "count": 2087,
   "items": [
+    {
+      "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
+      "source": "CoinDesk",
+      "date": "2026-11-01",
+      "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/05440cff730df8c2428dc320fd12876ec9f59011-4912x3161.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
+      "source": "CoinDesk",
+      "date": "2026-11-01",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/980e14fb5deca3308b0b3810ae7be99f3786d34c-3900x2600.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+      "source": "CoinDesk",
+      "date": "2026-11-01",
+      "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/181172871eb545726569b01a45cfc5c8c4ec911f-5472x3078.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+      "source": "CoinDesk",
+      "date": "2026-11-01",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e19ac69728db0aaf4a7c50f5de21b8156dfeb30f-3600x2631.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "DeFi",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "DeepSeek developing AI agent requiring less human input: Report",
+      "source": "Cointelegraph",
+      "date": "2026-11-01",
+      "url": "https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The proposal comes amid intense competition among AI developers, including US companies Anthropic and OpenAI, the SCMP said.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6BNBCY09X57GCM10X7FBK0P/make-ai-great1-1.jpg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Binance says phase one of withdrawals opens after $6.3B hack",
+      "source": "Cointelegraph",
+      "date": "2026-11-01",
+      "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The crypto exchange said it has begun phased withdrawals after the record hack the FBI has blamed on North Korea.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6B7GCDKCRNR2Z23KSY172H6/hi-binance-unchained.jpg",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "FBI blames North Korea for record $6.3B Binance hack",
+      "source": "Cointelegraph",
+      "date": "2026-11-01",
+      "url": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US agency seeks private-sector help to block further money-laundering of stolen digital assets.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6B0XQQ2RWMNW96K4XFZN2DN/kimjong-unnorth-korea.jpg",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "How to Run an AI Model Locally—And Why You Might Want To",
+      "source": "Decrypt",
+      "date": "2026-11-01",
+      "url": "https://decrypt.co/382295/how-to-run-ai-model-locally-why-you-might-want",
+      "summary": "Free tools like Ollama and LM Studio can run open-weight AI models on your laptop, offline, and without a subscription. Here's how to get started.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-07-gID_7.png",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Zero-token withdrawals let a hacker drain 97 million CORE from Bitcoin staking platform b14g",
+      "source": "CryptoSlate",
+      "date": "2026-11-01",
+      "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/",
+      "summary": "Bitcoin staking platform b14g suffered a $1.47 million exploit on Oct. 31, losing approximately 97 million CORE tokens. The attacker drained 91 staking positions in a single transaction by submitting withdrawal requests for zero CORE, according to an investigation by blockchain…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/b14g-zero-withdrawal-579689.webp",
+      "tags": [
+        "Bitcoin",
+        "DeFi",
+        "Security"
+      ]
+    },
+    {
+      "title": "FBI blames North Korea for $6 billion Binance hack, urges THORChain to block stolen funds",
+      "source": "CryptoSlate",
+      "date": "2026-11-01",
+      "url": "https://cryptoslate.com/fbi-blames-north-korea-for-6-billion-binance-hack-urges-thorchain-to-block-stolen-funds/",
+      "summary": "The US Federal Bureau of Investigation (FBI) has blamed North Korea&#039;s TraderTraitor operation for stealing more than $6 billion from Binance. In an Oct. 31 security alert, the agency attributed the Oct. 29 attack to North Korean cyber actors, providing official US governmen…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/fbi-binance-north-korea-579660.webp",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "AI wants Bitcoin miners’ power, but the contracts reveal who really gets paid",
+      "source": "CryptoSlate",
+      "date": "2026-11-01",
+      "url": "https://cryptoslate.com/ai-wants-bitcoin-miners-power-but-the-contracts-reveal-who-really-gets-paid/",
+      "summary": "Bitcoin miners spent years securing cheap electricity, building substations, and negotiating the grid connections needed to power their operations. Now AI companies want those connections so badly they&#039;re willing to make aging mines valuable real estate. The ASICs that mine…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/bitcoin-mining-gpu-conversion.webp",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Solana’s reward records leave stakers with a gap in validator fee data",
+      "source": "CryptoSlate",
+      "date": "2026-11-01",
+      "url": "https://cryptoslate.com/solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data/",
+      "summary": "Agave leaves the applied-rate field empty, so verifying a staking fee requires historical validator state and delegation evidence. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/solana-validator-reward-audit.webp",
+      "tags": [
+        "DeFi",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Bitcoin’s recovery faces rising derivatives exposure and $643 million in ETF outflows",
+      "source": "CryptoSlate",
+      "date": "2026-11-01",
+      "url": "https://cryptoslate.com/bitcoins-recovery-faces-rising-derivatives-exposure-and-643-million-in-etf-outflows/",
+      "summary": "Higher selected derivatives exposure and ETF redemptions leave the recovery facing a demand test before November 6 payrolls. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/bitcoin-hidden-leverage.webp",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "OKXICE Stock-Token Objections Reach 50, Including Nvidia",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/okxice-stock-token-objections-reach-50-including-nvidia",
+      "summary": "Disclosed objections cover 44 of the venue’s original 63 proposed stock symbols, leaving 19 without a disclosed opt-out.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d12939d13b950b9df781a8ee8ebd6397f411eaaf-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Swell Lifts swETH and rswETH Withdrawal Pauses After Rate Reset",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/hacks/swell-lifts-sweth-and-rsweth-withdrawal-pauses-after-rate-reset",
+      "summary": "Swell promises compensation within a week for deposits made at inflated rates, but both tokens’ direct-deposit controls still show a pause.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a25ccebf9c352bee0b379adcae429d38032f0394-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "DeFi Fees, Revenue and Holder Payouts: How the Money Flows",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/defi/defi-fees-revenue-and-holder-payouts-how-the-money-flows",
+      "summary": "Buybacks and burns can count as holder revenue without putting cash in a wallet. A worked example separates those flows from treasury income and staking payouts.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/6ca352e01f86387ef42d18b1be66b8bd1523f340-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Regulation",
+        "Web3"
+      ]
+    },
+    {
+      "title": "How Pendle Principal Tokens Turn a Discount Into a Maturity Return",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/defi/how-pendle-principal-tokens-turn-a-discount-into-a-maturity-return",
+      "summary": "An early sale replaces the maturity payoff with a market price. A worked example separates annualized yield, redemption units and costs.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5553fd6427796601c97cbdf663aab1a392ad650f-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Markets"
+      ]
+    },
+    {
+      "title": "How Staking Rewards Change Token Holdings and Supply Share",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/defi/how-staking-rewards-change-token-holdings-and-supply-share",
+      "summary": "In a hypothetical year, a 9% net token reward produces a 3.81% gain in supply share when total supply grows 5%. Dollar returns depend on price.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7644e5ab4f575f7a94cc61a0f6bd26529883c2a1-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Markets"
+      ]
+    },
+    {
+      "title": "What Happens When a Uniswap v3 Position Goes Out of Range?",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/defi/what-happens-when-a-uniswap-v3-position-goes-out-of-range",
+      "summary": "An ETH/USDC worked example tracks token balances, fees and the holding benchmark—and shows why opening a new range does not reset cumulative returns.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/2500b2dfb3ca962c5ad29444bec058cf6cb3c81e-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "What Are Perpetual Funding Rates? A Worked SEI Example",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/markets/what-are-perpetual-funding-rates-a-worked-sei-example",
+      "summary": "In a hypothetical SEI ledger, a $30 funding transfer equals 0.75% of one trader’s starting collateral and 0.375% of the other’s.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/86ef9c5593439ea9a7d42ddce17edcf2f1ad2d8a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "How to Read Kraken’s Proof of Reserves—and Its Limits",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/cefi/how-to-read-kraken-s-proof-of-reserves-and-its-limits",
+      "summary": "Kraken’s June 2026 snapshot separates customer-balance inclusion from wallet control. Neither alone guarantees solvency or withdrawal access.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges",
+        "Web3"
+      ]
+    },
+    {
+      "title": "How Circle Makes Money From USDC—and Why Reserve Income Is Not Profit",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/cefi/how-circle-makes-money-from-usdc-and-why-reserve-income-is-not-profit",
+      "summary": "Circle’s second-quarter accounts trace $701.315 million in revenue and reserve income to $48.214 million in net income, after distribution costs, operating expenses and taxes.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e3efcdc8098fc2289697f12e9fb35b6aa33f44d2-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "What Zero LTV Means for an Existing Aave Loan",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/defi/what-zero-ltv-means-for-an-existing-aave-loan",
+      "summary": "A hypothetical $10,000 collateral position loses $1,500 of borrowing headroom without changing its 1.33 health factor.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9956cd7921dc7612b2e769671f7fe9c0d801e5ab-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Uphold RLUSD Earn vs. Ethena Pay Earn+: Lending and Leverage Compared",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/defi/uphold-rlusd-earn-vs-ethena-pay-earn-lending-and-leverage-compared",
+      "summary": "An equal-$10,000 illustration shows how rising borrowing costs can turn a leveraged stablecoin strategy negative without a depeg.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d16cceb24afa89dc5b0335406afa4ac8f7e36813-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "USDT vs. USDC: What Backs Them and How Dollar Redemptions Work",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/tokens/usdt-vs-usdc-what-backs-them-and-how-dollar-redemptions-work",
+      "summary": "Tether publishes a $100,000 minimum for direct redemption. Circle Mint serves institutions, while a separate European policy provides a retail route subject to checks.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/fb98d799f60f8eb84fae8f025a5a39a07cf3a789-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Binance Begins Reopening Withdrawals With Bitcoin After $6.3 Billion Hack",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/hacks/binance-begins-reopening-withdrawals-with-bitcoin-after-6-3-billion-hack",
+      "summary": "The exchange says it has replenished about 95% of the impacted amount, with less-liquid tokens accounting for the remaining 5%.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9b3ee045d1d61acba4826cc35b57a6ff913a5511-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Attacker Drains About $437,000 in Collateral From Premia Vaults",
+      "source": "The Defiant",
+      "date": "2026-11-01",
+      "url": "https://thedefiant.io/news/hacks/attacker-drains-about-437-000-in-collateral-from-premia-vaults",
+      "summary": "The attack moved vault collateral into option pools before withdrawing it as liquidity, according to Blockaid.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/34c742305af067cb62d4c18abb8fcf903ae7feb0-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Security"
+      ]
+    },
+    {
+      "title": "Circle Details CCTP Path for Non-USDC Tokens Across Supported Chains",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains/",
+      "summary": "Circle published technical guidance for issuer-controlled ERC-20 transfers using CCTP infrastructure beyond USDC. Its Arc demonstration is a testnet",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2018/06/Circle-Bank-Vault.jpg?resize=460,345",
+      "tags": [
+        "Ethereum",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Curve Launches First Native Non-EVM StableSwap Deployment on Stellar",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/curve-launches-first-native-non-evm-stableswap-deployment-on-stellar/",
+      "summary": "Curve launched native StableSwap functionality on Stellar mainnet, adding permissionless pools and swaps for compatible assets. The separately discussed",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2022/10/altcoins1-460x259.jpeg",
+      "tags": [
+        "Ethereum",
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Ondo Brings Seven Tokenized Investment Portfolios to Solana",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/ondo-brings-seven-tokenized-investment-portfolios-to-solana/",
+      "summary": "Ondo launched seven investment-portfolio tokens on Solana for eligible non-US investors. Its reported $45 million in earlier portfolio TVL refers to",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/06/Solana-from-iStock-8.jpg",
+      "tags": [
+        "DeFi",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Aave Expands Stock-Backed USDC Loans on Base for Eligible Investors",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors/",
+      "summary": "The case study listed seven stocks accepted as collateral at the time and said the market supports continuous borrowing and repayment. Geographic",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2023/06/98ba7670-30c1-4740-9194-379e4813359b-cover-460x276.png",
+      "tags": [
+        "DeFi",
+        "Stablecoins",
+        "Layer 2",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Polygon Adds Agent Payment Limits to Open Money Stack",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/polygon-adds-agent-payment-limits-to-open-money-stack/",
+      "summary": "Polygon described use cases such as software agents buying API calls, compute capacity or digital services without seeking a fresh human signature",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2025/05/MATIC-from-Adobe-Stock.jpg",
+      "tags": [
+        "Layer 2",
+        "AI"
+      ]
+    },
+    {
+      "title": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region/",
+      "summary": "The United Arab Emirates was reported to have grown 32% to about $104.8 billion, while Türkiye remained larger at around $144.5 billion. The",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/09/Newsbtc-Image.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Further Asset Management Taps Chainlink ACE for Abu Dhabi Compliance Platform",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform/",
+      "summary": "The company described jurisdiction-specific rules that can be encoded into workflows so institutions can assess requirements before a tokenized asset",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-51.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Chainlink Launches CustodySync With Anchorage to Link Custody and DeFi Loans",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "url": "https://www.newsbtc.com/news/chainlink-launches-custodysync-with-anchorage-to-link-custody-and-defi-loans/",
+      "summary": "Chainlink describes a workflow spanning collateral deposit, borrowing, repayment and liquidation. Keeping assets in custody does not automatically",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/05/Chainlink-from-Pngtree.jpg",
+      "tags": [
+        "DeFi",
+        "Markets"
+      ]
+    },
     {
       "title": "18 years in, what has Bitcoin truly done?",
       "source": "CoinDesk",
@@ -67,7 +484,7 @@
       "source": "Cointelegraph",
       "date": "2026-10-31",
       "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Chainalysis has engaged world-class third-party experts to support a review of its security and strengthen its defenses.",
+      "summary": "The company said some non-sensitive customer data was exposed, including user IDs, names and email addresses.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M68V2D1TX4051JHJ9QKN8R4P/hi-how-to-utilize-ai-agents-in-decentralized-finance-defi-platforms-chainalysis.jpg",
       "tags": [
         "Crypto"
@@ -198,7 +615,7 @@
       "date": "2026-10-31",
       "url": "https://thedefiant.io/news/cefi/kalshi-vs-polymarket-who-decides-winners-and-when-funds-can-leave",
       "summary": "Exchange review, oracle challenges and deposit holds create different paths from a winning position to money outside the platform.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/c417bf18ac3d733f094d613a05106eb67d8e9bd4-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
       "tags": [
         "Exchanges"
       ]
@@ -284,7 +701,7 @@
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -293,6 +710,392 @@
         "DeFi",
         "Regulation",
         "Web3"
+      ]
+    },
+    {
+      "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/84ac697d4a037b40fb5a2eacfccf74ab7333bd55-5799x3866.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/1458f4eec0e8154eaa9b11e97609c2c89c405642-1200x675.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/8fd95443e3e2c921397c19baef34ed692d264598-6000x3375.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Institutions embrace crypto staking despite shrinking yields",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/31de6783e0b1c787ed8e9685805ddb7830b2aeff-1440x1080.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/cf10fe72dc45107c49ea689a4c5e174e19f59191-2488x1400.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+      "source": "CoinDesk",
+      "date": "2026-10-31",
+      "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/54bd04de039305784bf732dce245207bcc75ba21-7008x3942.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+      "source": "Cointelegraph",
+      "date": "2026-10-31",
+      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Less-liquid tokens make up the remaining shortfall as Binance continues buying replacement assets through market and over-the-counter trades.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M699FRTD1VV81MBCZE1W7405/binance-robot-hands.png",
+      "tags": [
+        "Exchanges",
+        "Security",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+      "source": "Cointelegraph",
+      "date": "2026-10-31",
+      "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Strive CEO Matt Cole says the Binance hack has not changed his long-term case for Bitcoin, but cautions it is too early to call a market bottom.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6784E305ZRSTBDYV0WKG4RR/hi-true-or-false-91-of-surveys-about-bitcoin-and-crypto-are-totally-wrong.png",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin turns 18: Has the original rebel grown up?",
+      "source": "Cointelegraph",
+      "date": "2026-10-31",
+      "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "In typical Bitcoin style, the number one cryptocurrency turns 18 today, amid AI-driven security threats, quantum fears and the biggest exchange hack in crypto history.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66D6NEJQ63776RRBN8K6ZNJ/magazine-crypto-idealism.png",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title": "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping",
+      "source": "Cointelegraph",
+      "date": "2026-10-31",
+      "url": "https://cointelegraph.com/news/texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Home invasions became the most common form of crypto wrench attacks worldwide during the first half of 2026, rising to 20 incidents from one.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M692SNKAR10X68EF1R0WFNT5/hi-break-these-singapore-crypto-rulesand-face-200k-fines-or-jail.jpg",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+      "source": "Decrypt",
+      "date": "2026-10-31",
+      "url": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+      "summary": "Attackers tied to North Korea drained roughly $6.4 billion from the world’s largest crypto exchange. Here’s what we know about how it happened, who’s behind it, and what comes next.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
+      "source": "The Block",
+      "date": "2026-10-31",
+      "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+      "summary": "All 12 hijacked domains are registered through Name.com, according to registry records accessed by The Block, suggesting a compromise.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2022/02/20220207-Hacking-Generic.jpg",
+      "tags": [
+        "DeFi",
+        "Security"
+      ]
+    },
+    {
+      "title": "Chainalysis says hacker using ‘offensive agentic techniques’ accessed its customers’ names and emails",
+      "source": "The Block",
+      "date": "2026-10-31",
+      "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244",
+      "summary": "The firm has also been tracking Binance’s separate multibillion-dollar hack, and said the attackers are using a Tron protocol to dodge stablecoin freezes.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/Chainalysis-Data-Wave-Network_clean.png",
+      "tags": [
+        "Stablecoins",
+        "Exchanges",
+        "Altcoins",
+        "Security"
+      ]
+    },
+    {
+      "title": "Jupiter Lend’s withdrawal liquidity rebounds from near zero to 29 million USDC",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/jupiter-lend-usdc-withdrawal-liquidity-rebounds/",
+      "summary": "An October 31 API reading shows partial recovery, with available USDC at about 7% of reported total assets. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/jupiter-usdc-crossing.jpg",
+      "tags": [
+        "DeFi",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Banks are owed $349B by private credit funds that may not be collecting cash from borrowers",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/banks-are-owed-349b-by-private-credit-funds-that-may-not-be-collecting-cash-from-borrowers/",
+      "summary": "Private credit funds can count interest as income even when the borrower hasn&#039;t sent them any cash, because some loan contracts let businesses add interest to what they owe. That gives a company more time to pay, but it doesn&#039;t extend the same courtesy to the fund, whi…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/private-credit-cash-truck-2.webp",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Chainalysis breach exposed customer names, emails and company roles",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/chainalysis-breach-customer-names-emails-roles/",
+      "summary": "The company urges vigilance for unexpected authentication prompts as it determines which customer records were accessed. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/chainalysis-data-alert.webp",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title": "Saylor calls new Bitcoin bull market, but Strategy’s own numbers reveal a costly problem",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/saylor-calls-new-bitcoin-bull-market-but-strategys-own-numbers-reveal-a-costly-problem/",
+      "summary": "Strategy posted a record $20.9 billion in third-quarter operating income as Michael Saylor declared a new Bitcoin bull market. The company&#039;s Oct. 29 financial results showed net income of $19.5 billion, compared with roughly $2.8 billion a year earlier. The record operating…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/strategy-record-profit-strc-standard-image.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin ETFs lose $643 million in a day, wiping out the week’s inflows",
+      "source": "CryptoSlate",
+      "date": "2026-10-31",
+      "url": "https://cryptoslate.com/bitcoin-etfs-643-million-outflows-weekly-reversal/",
+      "summary": "Five funds recorded withdrawals on October 30, with no inflows elsewhere to cushion the reversal. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/10/bitcoin-etf-market-spill.webp",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "FBI Attributes $6 Billion-Plus Binance Hack to North Korea",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/hacks/fbi-attributes-6-billion-plus-binance-hack-to-north-korea",
+      "summary": "The bureau named TraderTraitor and sought blocks on the laundering trail, while Binance kept Nov. 1 as its withdrawal restart target.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/cd9198f143a324231ae0b80e12c682b485dcb155-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Jupiter Lend USDC Withdrawal Liquidity Rebounds to 27.9 Million",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/defi/jupiter-lend-usdc-withdrawal-liquidity-rebounds-to-27-9-million",
+      "summary": "An Oct. 31 API snapshot showed 6.3% of the vault's 441 million USDC in deposit claims immediately withdrawable.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/feecbcef6b1d689f548ae7b5f78f2628aeef02cf-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Morpho Borrow Rates Hit Roughly 40% as PT Market Liquidity Dries Up",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/defi/morpho-borrow-rates-hit-roughly-40-as-pt-market-liquidity-dries-up",
+      "summary": "Available liquidity in one reUSD-backed market vanished in two hours; rates across four tracked markets eased to roughly 9%–13% by Oct. 31.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/98c22f61d027b23602d91d6400f1abb8583a6a8f-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Threshold Says tBTC Is Fully Backed as Bridge Pause Continues",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/security/threshold-says-tbtc-is-fully-backed-as-bridge-pause-continues",
+      "summary": "Aave’s Ethereum Core tBTC reserve remains frozen, while Gauntlet says roughly 640,000 USDC remains supplied to a tBTC-backed Morpho market.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9c5391743b2291e2103665edb4f6e7e0e96662b7-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Stablecoins",
+        "Markets"
+      ]
+    },
+    {
+      "title": "THORChain Swaps Remain Paused on 12 Chains After Reported Refund Error",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/defi/thorchain-swaps-remain-paused-on-12-chains-after-reported-refund-error",
+      "summary": "Outbound signing is enabled on most affected chains, allowing payments to proceed even while new swaps remain blocked.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ce507c578eaa7ec46b2a1a57cac4908bb1397286-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Intersect Urges Cardano Operators to Patch Critical Linux Flaw",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/security/intersect-urges-cardano-operators-to-patch-critical-linux-flaw",
+      "summary": "Ubuntu fixes were still in progress in its Oct. 30 tracker update, while AlmaLinux had patched kernels available for testing.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7befa2834f2857c84d15bf35dfacaaa5eb2d8f14-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Tydro Restores $75 Million USDC Borrow Cap After Freeze",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/defi/tydro-restores-75-million-usdc-borrow-cap-after-freeze",
+      "summary": "The reserve has about $24.5 million of room below the cap, but its $18.6 million in available liquidity sets a lower ceiling on immediate new lending.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/54726b5303b816a62e55a9b20fb49657f6ea8562-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "b14g Says 97 Million CORE Drained, Pauses Contracts",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/hacks/b14g-says-97-million-core-drained-pauses-contracts",
+      "summary": "The Bitcoin staking protocol says exchanges froze about 9 million CORE and that staked BTC was unaffected.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ab7bca9c3616684171b9d7e2ba2d09acce4acba4-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "DeFi",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Binance Confirms 7,499 BTC SAFU Transfer After Hack",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/hacks/binance-confirms-7-499-btc-safu-transfer-after-hack",
+      "summary": "The exchange says it has replenished 90% of the amount lost and pledges to rebuild its emergency fund to about $1 billion.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/12b4c8ddf9bb4ef8beb77cf0ef09fbc8eac20a1e-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Origami Says DNS Is Restored but Vaults Remain Paused",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/security/origami-says-dns-is-restored-but-vaults-remain-paused",
+      "summary": "The protocol says vault funds were unaffected; a contract readout shows deposits and withdrawals paused for its hOHM vault.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/49e94e34271b8415e01587a3e258135cd8f38cda-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "Binance Says 90% of Stolen Assets Replenished, Targets Nov. 1 Restart",
+      "source": "The Defiant",
+      "date": "2026-10-31",
+      "url": "https://thedefiant.io/news/hacks/binance-says-90-of-stolen-assets-replenished-targets-nov-1-restart",
+      "summary": "Its new reserves page reports full backing for major tokens, while the complete cryptographic proof is expected by Nov. 3.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a2ee30c9af2255bd5b9b5d683e9ad21f6c040ea3-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Tether-Backed FASE Foundation Targets Scams and Stablecoin Aid",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "url": "https://www.newsbtc.com/news/tether-backed-fase-foundation-targets-scams-and-stablecoin-aid/",
+      "summary": "Named founding stakeholders include Anchorage Digital, Bybit, Chainalysis, Payward, Opera and the Solana Foundation; the United Nations Office on",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/05/shutterstock_2139614619.jpg",
+      "tags": [
+        "Stablecoins",
+        "Exchanges",
+        "Altcoins",
+        "Security"
+      ]
+    },
+    {
+      "title": "Uniswap Adds Developer Analytics as Swap API Usage Crosses $2B",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "url": "https://www.newsbtc.com/news/uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b/",
+      "summary": "Users of the developer dashboard can examine requests by endpoint, error counts, settled swaps, network-level activity and average trade size. A",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/05/HIM11EiWAAAvcjT.jpeg",
+      "tags": [
+        "DeFi"
       ]
     },
     {
