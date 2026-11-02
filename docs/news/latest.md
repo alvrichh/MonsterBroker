@@ -1,66 +1,66 @@
-# MonsterBroker · Radar cripto · 2026-11-01
+# MonsterBroker · Radar cripto · 2026-11-02
 
 **Radar cripto**
 
 > Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.
 
-30 titulares en portada · 2087 en el archivo.
+30 titulares en portada · 2212 en el archivo.
 
 ## Noticias
 
-- **[Crypto PACs made big Republican push in final weeks before November 3 election](https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election)** — CoinDesk · 2026-11-01 · `Crypto`
-- **[Sherrod Brown's Ohio edge threatens a rough go for crypto next year](https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year)** — CoinDesk · 2026-11-01 · `Crypto`
-- **[Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack](https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack)** — CoinDesk · 2026-11-01 · `Bitcoin` `Exchanges` `Security`
-- **[FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses](https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses)** — CoinDesk · 2026-11-01 · `Bitcoin` `Ethereum` `DeFi` `Exchanges`
-- **[DeepSeek developing AI agent requiring less human input: Report](https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-01 · `AI`
-  The proposal comes amid intense competition among AI developers, including US companies Anthropic and OpenAI, the SCMP said.
-- **[Binance says phase one of withdrawals opens after $6.3B hack](https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-01 · `Exchanges` `Security`
-  The crypto exchange said it has begun phased withdrawals after the record hack the FBI has blamed on North Korea.
-- **[FBI blames North Korea for record $6.3B Binance hack](https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-01 · `Exchanges` `Security`
-  US agency seeks private-sector help to block further money-laundering of stolen digital assets.
-- **[How to Run an AI Model Locally—And Why You Might Want To](https://decrypt.co/382295/how-to-run-ai-model-locally-why-you-might-want)** — Decrypt · 2026-11-01 · `AI`
-  Free tools like Ollama and LM Studio can run open-weight AI models on your laptop, offline, and without a subscription. Here's how to get started.
-- **[Zero-token withdrawals let a hacker drain 97 million CORE from Bitcoin staking platform b14g](https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/)** — CryptoSlate · 2026-11-01 · `Bitcoin` `DeFi` `Security`
-  Bitcoin staking platform b14g suffered a $1.47 million exploit on Oct. 31, losing approximately 97 million CORE tokens. The attacker drained 91 staking positions in a single transaction by submitting withdrawal requests for zero CORE, according to an investigation by blockchain…
-- **[FBI blames North Korea for $6 billion Binance hack, urges THORChain to block stolen funds](https://cryptoslate.com/fbi-blames-north-korea-for-6-billion-binance-hack-urges-thorchain-to-block-stolen-funds/)** — CryptoSlate · 2026-11-01 · `Exchanges` `Security`
-  The US Federal Bureau of Investigation (FBI) has blamed North Korea&#039;s TraderTraitor operation for stealing more than $6 billion from Binance. In an Oct. 31 security alert, the agency attributed the Oct. 29 attack to North Korean cyber actors, providing official US governmen…
-- **[AI wants Bitcoin miners’ power, but the contracts reveal who really gets paid](https://cryptoslate.com/ai-wants-bitcoin-miners-power-but-the-contracts-reveal-who-really-gets-paid/)** — CryptoSlate · 2026-11-01 · `Bitcoin` `AI`
-  Bitcoin miners spent years securing cheap electricity, building substations, and negotiating the grid connections needed to power their operations. Now AI companies want those connections so badly they&#039;re willing to make aging mines valuable real estate. The ASICs that mine…
-- **[Solana’s reward records leave stakers with a gap in validator fee data](https://cryptoslate.com/solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data/)** — CryptoSlate · 2026-11-01 · `DeFi` `Altcoins`
-  Agave leaves the applied-rate field empty, so verifying a staking fee requires historical validator state and delegation evidence. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[OKXICE Stock-Token Objections Reach 50, Including Nvidia](https://thedefiant.io/converge/tradfi-and-fintech/okxice-stock-token-objections-reach-50-including-nvidia)** — The Defiant · 2026-11-01 · `Crypto`
-  Disclosed objections cover 44 of the venue’s original 63 proposed stock symbols, leaving 19 without a disclosed opt-out.
-- **[Swell Lifts swETH and rswETH Withdrawal Pauses After Rate Reset](https://thedefiant.io/news/hacks/swell-lifts-sweth-and-rsweth-withdrawal-pauses-after-rate-reset)** — The Defiant · 2026-11-01 · `Crypto`
-  Swell promises compensation within a week for deposits made at inflated rates, but both tokens’ direct-deposit controls still show a pause.
-- **[DeFi Fees, Revenue and Holder Payouts: How the Money Flows](https://thedefiant.io/news/defi/defi-fees-revenue-and-holder-payouts-how-the-money-flows)** — The Defiant · 2026-11-01 · `DeFi` `Regulation` `Web3`
-  Buybacks and burns can count as holder revenue without putting cash in a wallet. A worked example separates those flows from treasury income and staking payouts.
-- **[How Pendle Principal Tokens Turn a Discount Into a Maturity Return](https://thedefiant.io/news/defi/how-pendle-principal-tokens-turn-a-discount-into-a-maturity-return)** — The Defiant · 2026-11-01 · `DeFi` `Markets`
-  An early sale replaces the maturity payoff with a market price. A worked example separates annualized yield, redemption units and costs.
-- **[Circle Details CCTP Path for Non-USDC Tokens Across Supported Chains](https://www.newsbtc.com/news/circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains/)** — NewsBTC · 2026-11-01 · `Ethereum` `Stablecoins`
-  Circle published technical guidance for issuer-controlled ERC-20 transfers using CCTP infrastructure beyond USDC. Its Arc demonstration is a testnet
-- **[Curve Launches First Native Non-EVM StableSwap Deployment on Stellar](https://www.newsbtc.com/news/curve-launches-first-native-non-evm-stableswap-deployment-on-stellar/)** — NewsBTC · 2026-11-01 · `Ethereum` `DeFi`
-  Curve launched native StableSwap functionality on Stellar mainnet, adding permissionless pools and swaps for compatible assets. The separately discussed
-- **[Ondo Brings Seven Tokenized Investment Portfolios to Solana](https://www.newsbtc.com/news/ondo-brings-seven-tokenized-investment-portfolios-to-solana/)** — NewsBTC · 2026-11-01 · `DeFi` `Altcoins`
-  Ondo launched seven investment-portfolio tokens on Solana for eligible non-US investors. Its reported $45 million in earlier portfolio TVL refers to
-- **[Aave Expands Stock-Backed USDC Loans on Base for Eligible Investors](https://www.newsbtc.com/news/aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors/)** — NewsBTC · 2026-11-01 · `DeFi` `Stablecoins` `Layer 2` `Markets`
-  The case study listed seven stocks accepted as collateral at the time and said the market supports continuous borrowing and repayment. Geographic
-- **[Blockchain investigator Chainalysis hit by cybersecurity incident](https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-10-31 · `Crypto`
-  The company said some non-sensitive customer data was exposed, including user IDs, names and email addresses.
-- **[Why AI Models Cheat: Reward Hacking, Explained](https://decrypt.co/382274/why-ai-models-cheat-reward-hacking-explained)** — Decrypt · 2026-10-31 · `Security` `AI`
-  From boat-racing bots to OpenAI models inside Hugging Face, here's how AI reward hacking works and why it matters.
-- **[MSTR Q3 2026 Earnings Call: Analyst Q&A](https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa)** — Bitcoin Magazine · 2026-10-31 · `Bitcoin`
-  &#9654; Bitcoin Magazine MSTR Q3 2026 Earnings Call: Analyst Q&amp;A Strategy's MSTR Q3 earnings Q&#038;A: Michael Saylor and Phong Le answer analysts on digital credit, Stretch (STRC) at par, preferreds, and Bitcoin's financialization. This post MSTR Q3 2026 Earnings Call: Anal…
-- **[Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run](https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run)** — Bitcoin Magazine · 2026-10-31 · `Bitcoin` `Markets`
-  &#9654; Bitcoin Magazine Mike Flaum: MSTR Performance &#8220;Massively&#8221; to the Upside During Next BTC Bull Run Log Scale CEO Mike Flaum discusses Strategy's Stretch, daily dividends, BTC preferreds vs. Treasuries for retirees, and separating volatility from true risk. This…
-- **[What to Know About the $6.3 Billion Binance Hack](https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack)** — Bitcoin Magazine · 2026-10-31 · `Bitcoin` `Exchanges` `Security`
-  &#9654; Bitcoin Magazine What to Know About the $6.3 Billion Binance Hack Binance suffers a record $6.3B hack with $3.3B unrecovered. BMTV breaks down what happened, Binance's response, and why every day is now zero day for crypto. This post What to Know About the $6.3 Billion B…
-- **[Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History](https://decrypt.co/382306/binance-hack-everything-you-need-to-know)** — Decrypt · 2026-10-31 · `Exchanges` `Security`
-  Attackers tied to North Korea drained roughly $6.4 billion from the world’s largest crypto exchange. Here’s what we know about how it happened, who’s behind it, and what comes next.
-- **[Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000](https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251)** — The Block · 2026-10-31 · `DeFi` `Security`
-  All 12 hijacked domains are registered through Name.com, according to registry records accessed by The Block, suggesting a compromise.
-- **[Chainalysis says hacker using ‘offensive agentic techniques’ accessed its customers’ names and emails](https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244)** — The Block · 2026-10-31 · `Stablecoins` `Exchanges` `Altcoins` `Security`
-  The firm has also been tracking Binance’s separate multibillion-dollar hack, and said the attackers are using a Tron protocol to dodge stablecoin freezes.
-- **[Israel Extradites Alleged Nomad Bridge Exploiter to US Over $2.8M Theft: Report](https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report)** — Decrypt · 2026-10-30 · `Regulation` `Security`
-  Israel's Supreme Court ruled that exploiting a coding flaw can count as computer intrusion, even when the software allowed the transaction.
-- **[Binance says it has $6.34 billion ready to cover hack losses](https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208)** — The Block · 2026-10-30 · `Exchanges` `Security`
-  Binance has allocated $6.34 billion to cover hack losses, while industry partners have frozen another $3 billion in affected assets.
+- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-02 · `Bitcoin` `DeFi` `Regulation` `Web3`
+  Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.
+- **[NYSE taps Wall Street giant Broadridge to bring shareholder voting to tokenized stocks](https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails)** — CoinDesk · 2026-11-02 · `Crypto`
+- **[Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains](https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains)** — CoinDesk · 2026-11-02 · `Bitcoin` `Security`
+- **[Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans](https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans)** — CoinDesk · 2026-11-02 · `Exchanges`
+- **[Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO](https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo)** — CoinDesk · 2026-11-02 · `Crypto`
+- **[Strategy spends triple its weekly Bitcoin outlay on STRC buybacks](https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-02 · `Bitcoin`
+  Strategy spent $208.2 million buying back STRC preferred shares and $65.5 million on Bitcoin, while allocating $98.5 million to its USD Cash balance.
+- **[AI agent disputes head to ‘Internet Court’ — and a jury of AI agents](https://cointelegraph.com/magazine/ai-agent-disputes-sent-to-internet-court-and-a-jury-of-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-02 · `Regulation` `AI`
+  Who better to judge a dispute between AI agents than a jury of different AI models? That’s the idea behind GenLayer, which is already issuing thousands of judgements each day.
+- **[Binance taps half its SAFU Bitcoin holdings, releases reserve proof](https://cointelegraph.com/news/binance-safu-btc-balance-halves-recovery-unclear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-02 · `Bitcoin` `Exchanges` `Security` `Web3`
+  Binance’s SAFU Bitcoin wallet now holds about 7,500 BTC after a 7,499 BTC transfer linked to the hack, with no timeline for restoring the $1 billion fund.
+- **[Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack](https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack)** — Decrypt · 2026-11-02 · `Bitcoin` `Stablecoins` `Exchanges` `Security`
+  Brazil's largest crypto exchange paused deposits and withdrawals after a security incident. Tether froze more than 4.5 million USDT tied to the attack.
+- **[Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish](https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish)** — Decrypt · 2026-11-02 · `Ethereum` `Exchanges` `Security` `Markets`
+  The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal.
+- **[How T7X Is Building the Infrastructure for a New Era of Capital Markets](https://decrypt.co/382147/how-t7x-is-building-the-infrastructure-for-a-new-era-of-capital-markets)** — Decrypt · 2026-11-02 · `Web3` `Markets`
+  T7X records ownership directly on-chain instead of wrapping assets held elsewhere, keeping token and asset under one legal framework.
+- **[Morning Minute: Binance Hack Leads to Mass Outflows While FBI Opens Probe](https://decrypt.co/382332/morning-minute-the-binance-hack-leads-to-mass-outflows-while-fbi-opens-probe)** — Decrypt · 2026-11-02 · `Exchanges` `Security`
+  Uptober was far from it, with the Binance hack punctuating a red month. Will November be better? Or will the Binance hack hang over crypto?
+- **[Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy](https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312)** — The Block · 2026-11-02 · `Bitcoin`
+  Strive bought another 124 BTC, bringing it closer to becoming the second-largest public company holder of bitcoin after Strategy.
+- **[Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction](https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307)** — The Block · 2026-11-02 · `Ethereum` `Exchanges` `Security` `Markets`
+  Bitmine added 8,573 ETH last week, lifting holdings to 6.06 million ETH, as Tom Lee flagged muted market response to Binance's hack.
+- **[‘We found room for even more orange’: Michael Saylor’s Strategy scoops up another 811 bitcoin for $65.5 million](https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275)** — The Block · 2026-11-02 · `Bitcoin`
+  The latest bitcoin acquisition disclosure comes after Strategy reported $19.5 billion in third quarter net income on Thursday.
+- **[Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack](https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270)** — The Block · 2026-11-02 · `Bitcoin` `Regulation` `Exchanges` `Security`
+  US spot bitcoin ETFs shed $643 million on Friday, marking their largest single-day outflow since June 25, following Thursday's Binance's hack.
+- **[Brazil’s Mercado Bitcoin Freezes Deposits and Withdrawals Due to Ongoing Security Incident, Losses Estimated Near $40 Million](https://bitcoinmagazine.com/news/brazils-mercado-bitcoin-freezes-40-million)** — Bitcoin Magazine · 2026-11-02 · `Bitcoin` `Exchanges`
+  Bitcoin Magazine Brazil’s Mercado Bitcoin Freezes Deposits and Withdrawals Due to Ongoing Security Incident, Losses Estimated Near $40 Million Brazil’s largest crypto exchange Mercado Bitcoin says customers suffered no losses, but it has not said how much was taken or when it wi…
+- **[Binance Reopens Withdrawals as Hack Recovery Enters Second Week](https://bitcoinmagazine.com/news/binance-reopens-withdrawals-hack)** — Bitcoin Magazine · 2026-11-02 · `Bitcoin` `Exchanges` `Security`
+  Bitcoin Magazine Binance Reopens Withdrawals as Hack Recovery Enters Second Week Binance has reopened withdrawals after its $6.3 billion North Korea hack, covered 95% of losses, and has reserves for the remaining 5%, with post-mortem reviews to stay open. This post Binance Reope…
+- **[Bitwise’s André Dragosch: Bitcoin’s “Fair Value” of $197,000](https://bitcoinmagazine.com/videos/bitwises-andre-dragosch-bitcoins-fair-value-of-197000)** — Bitcoin Magazine · 2026-11-02 · `Bitcoin` `DeFi`
+  &#9654; Bitcoin Magazine Bitwise’s André Dragosch: Bitcoin’s “Fair Value” of $197,000 André Dragosch details Bitcoin as a liquidity canary, its $197K model fair value, Fed policy shifts, recession risks, and capital rotation from precious metals. This post Bitwise’s André Dragos…
+- **[Adam Back: Pension Funds Are Bitcoin’s “Third Wave” of Adoption](https://bitcoinmagazine.com/videos/adam-back-pension-funds-are-bitcoins-third-wave-of-adoption)** — Bitcoin Magazine · 2026-11-02 · `Bitcoin`
+  &#9654; Bitcoin Magazine Adam Back: Pension Funds Are Bitcoin&#8217;s &#8220;Third Wave&#8221; of Adoption Adam Back explains why Bitcoin’s third wave—pensions, managed funds, and model portfolios—is still to come, and how Swiss banks are already preparing. This post Adam Back:…
+- **[ETH vaults lagged staking while dollar strategies beat Treasuries, Glassnode finds](https://cryptoslate.com/eth-vaults-trailed-staking-as-glassnodes-wider-sample-grew-in-september/)** — CryptoSlate · 2026-11-02 · `Ethereum` `DeFi`
+  Glassnode’s latest review puts September ETH vaults behind staking and USD curators ahead of Treasuries, despite growth in its tracked balance. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Core Lightning nodes can keep crashing after an upgrade until a stored trigger is removed](https://cryptoslate.com/core-lightning-nodes-can-keep-crashing-after-an-upgrade-because-the-trigger-stays-on-disk/)** — CryptoSlate · 2026-11-02 · `Crypto`
+  The flaw was patched in April, but a malicious announcement already saved on an affected node needs separate removal. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Ethereum added 361,000 ETH to active stake while its total staking balance shrank](https://cryptoslate.com/ethereums-active-staking-share-rose-while-october-withdrawals-outpaced-deposits/)** — CryptoSlate · 2026-11-02 · `Ethereum` `DeFi`
+  CryptoKeyhole’s October 1–30 series imply more ETH counted as active stake while the wider consensus balance shrank. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Akash’s Solana plan would end current staking rewards while allowing new AKT issuance](https://cryptoslate.com/akashs-solana-plan-would-end-current-staking-rewards-while-allowing-new-akt-issuance/)** — CryptoSlate · 2026-11-02 · `DeFi` `Regulation` `Altcoins`
+  The proposal separates the end of old-chain rewards from future provider and treasury incentives, whose emission amounts remain unresolved. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[NYSE Taps Broadridge for Onchain Shareholder Voting](https://thedefiant.io/converge/tradfi-and-fintech/nyse-taps-broadridge-for-onchain-shareholder-voting)** — The Defiant · 2026-11-02 · `Regulation` `Web3` `Markets`
+  Token holders would use wallets, broker interfaces or ProxyVote, while the planned trading venue still awaits regulatory approval.
+- **[SBI Plans $100 Million Investment in US Digital Bank Erebor](https://thedefiant.io/converge/cefi/sbi-plans-100-million-investment-in-us-digital-bank-erebor)** — The Defiant · 2026-11-02 · `Crypto`
+  Erebor held more than $7 billion in deposits in September, SBI says, and supports blockchain settlement outside banking hours.
+- **[Arkham Says Mercado Bitcoin Attacker Holds $46 Million](https://thedefiant.io/news/hacks/arkham-says-mercado-bitcoin-attacker-holds-46-million)** — The Defiant · 2026-11-02 · `Bitcoin` `Security`
+  The tracker groups 36 addresses. Mercado Bitcoin says customers suffered no losses but has not disclosed a total loss.
+- **[Relay Reports Route Disruptions in Bid to Block Binance-Hack Funds](https://thedefiant.io/news/hacks/relay-reports-route-disruptions-in-bid-to-block-binance-hack-funds)** — The Defiant · 2026-11-02 · `Exchanges` `Security`
+  The bridge says no user action is needed and is working with Binance and law enforcement to screen hacker-linked addresses.
+- **[Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps](https://www.newsbtc.com/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps/)** — NewsBTC · 2026-11-02 · `DeFi` `Web3`
+  Built by a team with experience scaling a leading DeFi lending protocol, Onlend aims to make it easier for fintechs, asset managers, curators, and asset issuers to build and operate their own lending products. Onlend has publicly unveiled its decentralised infrastructure platfor…
+- **[Anchorpoint Plans Native HKDAP on Solana as Hong Kong Dollar Access Expands](https://www.newsbtc.com/news/anchorpoint-plans-native-hkdap-on-solana-as-hong-kong-dollar-access-expands/)** — NewsBTC · 2026-11-02 · `Ethereum` `Stablecoins` `Altcoins`
+  Anchorpoint and Solana Foundation are exploring native HKDAP issuance, while the stablecoin remains in an institutional beta on Ethereum.
