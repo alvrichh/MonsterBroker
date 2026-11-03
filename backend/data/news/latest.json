@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -18,356 +18,356 @@
       ]
     },
     {
-      "title": "NYSE taps Wall Street giant Broadridge to bring shareholder voting to tokenized stocks",
+      "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
       "source": "CoinDesk",
-      "date": "2026-11-02",
-      "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
+      "date": "2026-11-03",
+      "url": "https://www.coindesk.com/business/2026/11/03/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/4ecf3710530446ca0c655b9a97f0935a1cd0e079-6941x4627.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6271d80faf16396381f0761104fc87b5a575ea59-7946x5300.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-      "source": "CoinDesk",
-      "date": "2026-11-02",
-      "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/a010b6e8d5d9fab88360e6939414f5b12c6bf695-1920x1272.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
         "Security"
       ]
     },
     {
-      "title": "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans",
+      "title": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
       "source": "CoinDesk",
-      "date": "2026-11-02",
-      "url": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
+      "date": "2026-11-03",
+      "url": "https://www.coindesk.com/business/2026/11/03/cz-warns-of-more-ai-driven-hacks-following-binance-s-historic-usd6-4-billion-heist",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/5edaabfa8b7541835109ec0ac755c451f9b8f2c4-2760x1518.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/227221ea05fcd70f3194aec592d2b3879ef21fe0-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
-      "source": "CoinDesk",
-      "date": "2026-11-02",
-      "url": "https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e1c6b75a8b74bc87b66e15947b85122a0ef80c34-960x640.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
-      "source": "Cointelegraph",
-      "date": "2026-11-02",
-      "url": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Strategy spent $208.2 million buying back STRC preferred shares and $65.5 million on Bitcoin, while allocating $98.5 million to its USD Cash balance.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6E7B8B7FY6FQZ83QZRCGQHD/hi-who-is-michael-j-saylor-us-flag-1.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "AI agent disputes head to ‘Internet Court’ — and a jury of AI agents",
-      "source": "Cointelegraph",
-      "date": "2026-11-02",
-      "url": "https://cointelegraph.com/magazine/ai-agent-disputes-sent-to-internet-court-and-a-jury-of-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Who better to judge a dispute between AI agents than a jury of different AI models? That’s the idea behind GenLayer, which is already issuing thousands of judgements each day.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6CSPCM53Q6HYKY23BM33KT6/robot-courtroom-scene.png",
-      "tags": [
-        "Regulation",
+        "Exchanges",
+        "Security",
         "AI"
       ]
     },
     {
-      "title": "Binance taps half its SAFU Bitcoin holdings, releases reserve proof",
+      "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
+      "source": "CoinDesk",
+      "date": "2026-11-03",
+      "url": "https://www.coindesk.com/business/2026/11/03/lo-tech-raises-usd12-million-to-expand-crypto-trading-into-u-s-and-asia",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/b2b575e5fb400b044ebb5d3c2d88d2a80846eafb-1920x1080.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
+      "source": "CoinDesk",
+      "date": "2026-11-03",
+      "url": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/d192b08272461dcbb7c45518a92e5a3725b11ce1-742x562.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "What’s at stake for crypto as the US votes in the 2026 midterms?",
       "source": "Cointelegraph",
-      "date": "2026-11-02",
-      "url": "https://cointelegraph.com/news/binance-safu-btc-balance-halves-recovery-unclear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Binance’s SAFU Bitcoin wallet now holds about 7,500 BTC after a 7,499 BTC transfer linked to the hack, with no timeline for restoring the $1 billion fund.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6E1KKJ1JWX0XVFV8YM0PG3Q/hi-binance-announces-mining-pool-and-chain-white-paper-slammed-for-centralization-in-both-cases.jpg",
+      "date": "2026-11-03",
+      "url": "https://cointelegraph.com/news/us-midterms-2026-stake-crypto-election-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Crypto groups spent about $176 million ahead of the US midterms, with control of Congress and the future of crypto legislation at stake.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GJSJ59W2DHF2WQ7ED3NHF6/news-city-town-billboard-1-elections.jpg",
       "tags": [
-        "Bitcoin",
-        "Exchanges",
-        "Security",
-        "Web3"
+        "Regulation"
       ]
     },
     {
-      "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack",
-      "source": "Decrypt",
-      "date": "2026-11-02",
-      "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
-      "summary": "Brazil's largest crypto exchange paused deposits and withdrawals after a security incident. Tether froze more than 4.5 million USDT tied to the attack.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/hacker3-gID_7.png",
+      "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+      "source": "Cointelegraph",
+      "date": "2026-11-03",
+      "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GN6W7C4H29GR4MQT2Q1EN2/moscow-btc-eth-tether.png",
       "tags": [
         "Bitcoin",
+        "Ethereum",
         "Stablecoins",
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
-      "source": "Decrypt",
-      "date": "2026-11-02",
-      "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
-      "summary": "The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg",
-      "tags": [
-        "Ethereum",
-        "Exchanges",
-        "Security",
-        "Markets"
-      ]
-    },
-    {
-      "title": "How T7X Is Building the Infrastructure for a New Era of Capital Markets",
-      "source": "Decrypt",
-      "date": "2026-11-02",
-      "url": "https://decrypt.co/382147/how-t7x-is-building-the-infrastructure-for-a-new-era-of-capital-markets",
-      "summary": "T7X records ownership directly on-chain instead of wrapping assets held elsewhere, keeping token and asset under one legal framework.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-      "tags": [
-        "Web3",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Morning Minute: Binance Hack Leads to Mass Outflows While FBI Opens Probe",
-      "source": "Decrypt",
-      "date": "2026-11-02",
-      "url": "https://decrypt.co/382332/morning-minute-the-binance-hack-leads-to-mass-outflows-while-fbi-opens-probe",
-      "summary": "Uptober was far from it, with the Binance hack punctuating a red month. Will November be better? Or will the Binance hack hang over crypto?",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/bitcoin-down-decrypt-style-gID_7.png",
-      "tags": [
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy",
-      "source": "The Block",
-      "date": "2026-11-02",
-      "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
-      "summary": "Strive bought another 124 BTC, bringing it closer to becoming the second-largest public company holder of bitcoin after Strategy.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-02-at-14.12.33.png",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction",
-      "source": "The Block",
-      "date": "2026-11-02",
-      "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
-      "summary": "Bitmine added 8,573 ETH last week, lifting holdings to 6.06 million ETH, as Tom Lee flagged muted market response to Binance's hack.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/Screenshot-2026-10-16-at-12.27.53.png",
-      "tags": [
-        "Ethereum",
-        "Exchanges",
-        "Security",
-        "Markets"
-      ]
-    },
-    {
-      "title": "‘We found room for even more orange’: Michael Saylor’s Strategy scoops up another 811 bitcoin for $65.5 million",
-      "source": "The Block",
-      "date": "2026-11-02",
-      "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275",
-      "summary": "The latest bitcoin acquisition disclosure comes after Strategy reported $19.5 billion in third quarter net income on Thursday.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-02-at-11.29.14.png",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
-      "source": "The Block",
-      "date": "2026-11-02",
-      "url": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
-      "summary": "US spot bitcoin ETFs shed $643 million on Friday, marking their largest single-day outflow since June 25, following Thursday's Binance's hack.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/bitcoin_binance_1920x1080.png",
-      "tags": [
-        "Bitcoin",
-        "Regulation",
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Brazil’s Mercado Bitcoin Freezes Deposits and Withdrawals Due to Ongoing Security Incident, Losses Estimated Near $40 Million",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-02",
-      "url": "https://bitcoinmagazine.com/news/brazils-mercado-bitcoin-freezes-40-million",
-      "summary": "Bitcoin Magazine Brazil’s Mercado Bitcoin Freezes Deposits and Withdrawals Due to Ongoing Security Incident, Losses Estimated Near $40 Million Brazil’s largest crypto exchange Mercado Bitcoin says customers suffered no losses, but it has not said how much was taken or when it wi…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Brazils-Mercado-Bitcoin-Freezes-Deposits-and-Withdrawals-Due-to-Ongoing-Security-Incident.jpg",
-      "tags": [
-        "Bitcoin",
         "Exchanges"
       ]
     },
     {
-      "title": "Binance Reopens Withdrawals as Hack Recovery Enters Second Week",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-02",
-      "url": "https://bitcoinmagazine.com/news/binance-reopens-withdrawals-hack",
-      "summary": "Bitcoin Magazine Binance Reopens Withdrawals as Hack Recovery Enters Second Week Binance has reopened withdrawals after its $6.3 billion North Korea hack, covered 95% of losses, and has reserves for the remaining 5%, with post-mortem reviews to stay open. This post Binance Reope…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Binance-Reopens-Withdrawals-as-Hack-Recovery-Enters-Second-Week-.jpg",
+      "title": "NEAR token sinks 7% as proposal to cut annual token issuance passes",
+      "source": "Cointelegraph",
+      "date": "2026-11-03",
+      "url": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The proposed issuance cut would prevent 11.8 million NEAR from entering circulation over two years, worth about $45 million at today’s price.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GM8J70K9VDYM0YWR60M7DC/hi-can-near-reach-its-all-time-hight-and-what-is-behind-the-recent-price-jump.jpg",
       "tags": [
-        "Bitcoin",
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Bitwise’s André Dragosch: Bitcoin’s “Fair Value” of $197,000",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-02",
-      "url": "https://bitcoinmagazine.com/videos/bitwises-andre-dragosch-bitcoins-fair-value-of-197000",
-      "summary": "&#9654; Bitcoin Magazine Bitwise’s André Dragosch: Bitcoin’s “Fair Value” of $197,000 André Dragosch details Bitcoin as a liquidity canary, its $197K model fair value, Fed policy shifts, recession risks, and capital rotation from precious metals. This post Bitwise’s André Dragos…",
-      "image": "https://img.youtube.com/vi/rCByOV2seAg/hqdefault.jpg",
-      "tags": [
-        "Bitcoin",
-        "DeFi"
-      ]
-    },
-    {
-      "title": "Adam Back: Pension Funds Are Bitcoin’s “Third Wave” of Adoption",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-02",
-      "url": "https://bitcoinmagazine.com/videos/adam-back-pension-funds-are-bitcoins-third-wave-of-adoption",
-      "summary": "&#9654; Bitcoin Magazine Adam Back: Pension Funds Are Bitcoin&#8217;s &#8220;Third Wave&#8221; of Adoption Adam Back explains why Bitcoin’s third wave—pensions, managed funds, and model portfolios—is still to come, and how Swiss banks are already preparing. This post Adam Back:…",
-      "image": "https://img.youtube.com/vi/7-coDE0Hf4c/hqdefault.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "ETH vaults lagged staking while dollar strategies beat Treasuries, Glassnode finds",
-      "source": "CryptoSlate",
-      "date": "2026-11-02",
-      "url": "https://cryptoslate.com/eth-vaults-trailed-staking-as-glassnodes-wider-sample-grew-in-september/",
-      "summary": "Glassnode’s latest review puts September ETH vaults behind staking and USD curators ahead of Treasuries, despite growth in its tracked balance. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/eth-vault-benchmark.webp",
-      "tags": [
-        "Ethereum",
-        "DeFi"
-      ]
-    },
-    {
-      "title": "Core Lightning nodes can keep crashing after an upgrade until a stored trigger is removed",
-      "source": "CryptoSlate",
-      "date": "2026-11-02",
-      "url": "https://cryptoslate.com/core-lightning-nodes-can-keep-crashing-after-an-upgrade-because-the-trigger-stays-on-disk/",
-      "summary": "The flaw was patched in April, but a malicious announcement already saved on an affected node needs separate removal. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/lightning-poisoned-archive.webp",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Ethereum added 361,000 ETH to active stake while its total staking balance shrank",
-      "source": "CryptoSlate",
-      "date": "2026-11-02",
-      "url": "https://cryptoslate.com/ethereums-active-staking-share-rose-while-october-withdrawals-outpaced-deposits/",
-      "summary": "CryptoKeyhole’s October 1–30 series imply more ETH counted as active stake while the wider consensus balance shrank. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/ethereum-staking-lift.webp",
-      "tags": [
-        "Ethereum",
-        "DeFi"
-      ]
-    },
-    {
-      "title": "Akash’s Solana plan would end current staking rewards while allowing new AKT issuance",
-      "source": "CryptoSlate",
-      "date": "2026-11-02",
-      "url": "https://cryptoslate.com/akashs-solana-plan-would-end-current-staking-rewards-while-allowing-new-akt-issuance/",
-      "summary": "The proposal separates the end of old-chain rewards from future provider and treasury incentives, whose emission amounts remain unresolved. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/akash-coupon-logos.webp",
-      "tags": [
-        "DeFi",
-        "Regulation",
-        "Altcoins"
-      ]
-    },
-    {
-      "title": "NYSE Taps Broadridge for Onchain Shareholder Voting",
-      "source": "The Defiant",
-      "date": "2026-11-02",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/nyse-taps-broadridge-for-onchain-shareholder-voting",
-      "summary": "Token holders would use wallets, broker interfaces or ProxyVote, while the planned trading venue still awaits regulatory approval.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f5fbc38725e4ba7b2d8b5261eba52496965c2540-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Regulation",
-        "Web3",
         "Markets"
       ]
     },
     {
-      "title": "SBI Plans $100 Million Investment in US Digital Bank Erebor",
-      "source": "The Defiant",
-      "date": "2026-11-02",
-      "url": "https://thedefiant.io/converge/cefi/sbi-plans-100-million-investment-in-us-digital-bank-erebor",
-      "summary": "Erebor held more than $7 billion in deposits in September, SBI says, and supports blockchain settlement outside banking hours.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a2ae8874572d9b8bcef133feeae4f3436416c6cd-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
+      "source": "Decrypt",
+      "date": "2026-11-03",
+      "url": "https://decrypt.co/382387/ethereum-privacy-network-aztec-security-speed-upgrade",
+      "summary": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ethereum-decrypt-style-05-gID_7.png",
       "tags": [
-        "Crypto"
+        "Ethereum",
+        "AI"
       ]
     },
     {
-      "title": "Arkham Says Mercado Bitcoin Attacker Holds $46 Million",
-      "source": "The Defiant",
-      "date": "2026-11-02",
-      "url": "https://thedefiant.io/news/hacks/arkham-says-mercado-bitcoin-attacker-holds-46-million",
-      "summary": "The tracker groups 36 addresses. Mercado Bitcoin says customers suffered no losses but has not disclosed a total loss.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a10470e501481bb72998b9a0ec505ce4985fc684-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "title": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
+      "source": "Decrypt",
+      "date": "2026-11-03",
+      "url": "https://decrypt.co/382410/morning-minute-tom-lee-calls-the-binance-hack-bullish-for-ethereum",
+      "summary": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg",
       "tags": [
         "Bitcoin",
-        "Security"
+        "Ethereum",
+        "Regulation",
+        "Exchanges"
       ]
     },
     {
-      "title": "Relay Reports Route Disruptions in Bid to Block Binance-Hack Funds",
-      "source": "The Defiant",
-      "date": "2026-11-02",
-      "url": "https://thedefiant.io/news/hacks/relay-reports-route-disruptions-in-bid-to-block-binance-hack-funds",
-      "summary": "The bridge says no user action is needed and is working with Binance and law enforcement to screen hacker-linked addresses.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8a8397808e8d60a357c45702a8e7a2796672345d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "title": "Binance Misses Monthly Luna Classic Burn for First Time Since 2023",
+      "source": "Decrypt",
+      "date": "2026-11-03",
+      "url": "https://decrypt.co/382401/binance-misses-monthly-luna-classic-burn-for-first-time-since-2023",
+      "summary": "LUNC holders are waiting for Binance’s November burn, but it hasn’t arrived as the exchange recovers from a record $6.3 billion hack.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/10/binance-decrypt-style-02-gID_7.jpg",
       "tags": [
         "Exchanges",
         "Security"
       ]
     },
     {
-      "title": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "url": "https://www.newsbtc.com/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps/",
-      "summary": "Built by a team with experience scaling a leading DeFi lending protocol, Onlend aims to make it easier for fintechs, asset managers, curators, and asset issuers to build and operate their own lending products. Onlend has publicly unveiled its decentralised infrastructure platfor…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/063fb84e28be47b18910c444be9acac7.png-750x422.jpeg",
+      "title": "Liquid Network Restores Full Bitcoin Backing Two Months After $320M Exploit",
+      "source": "Decrypt",
+      "date": "2026-11-03",
+      "url": "https://decrypt.co/382397/liquid-network-restores-full-bitcoin-backing-two-months-after-320m-exploit",
+      "summary": "Blockstream CEO Adam Back said the sidechain's defenses have been hardened, and warned developers not to trust AI-suggested fixes blindly.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Blockstream-CEO-Adam-Back-gID_7.png",
       "tags": [
+        "Bitcoin",
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title": "Ethereum Layer 2 Aztec gets Tierra V6 upgrade to support faster private apps",
+      "source": "The Block",
+      "date": "2026-11-03",
+      "url": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
+      "summary": "Aztec Foundation has rolled out Tierra V6, saying it fixes earlier security issues and doubles the speed of private transaction proof generation.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/09/aztec-ml.png",
+      "tags": [
+        "Ethereum",
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "Liquid Network restores full bitcoin backing following $320 million exploit",
+      "source": "The Block",
+      "date": "2026-11-03",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+      "summary": "Liquid Network said its bitcoin reserves are back to full backing after September's exploit, with Blockstream providing the funds.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-03-at-10.31.29.png",
+      "tags": [
+        "Bitcoin",
+        "Security"
+      ]
+    },
+    {
+      "title": "NEAR governance approves proposal to cut token issuance ceiling to 1.6%",
+      "source": "The Block",
+      "date": "2026-11-03",
+      "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+      "summary": "NEAR's House of Stake passed HSP-029, which lowers the network's maximum annual issuance rate from 2.5% to 1.6% over 24 months.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/10/20220126_Near_Protocol_News.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Consensys launches cross-ledger settlement and routing stack for institutional networks",
+      "source": "The Block",
+      "date": "2026-11-03",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+      "summary": "Consensys launched a technology stack enabling banks to route and settle transactions across independent ledgers without moving assets.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-03-at-11.26.43.png",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "CFTC Opens U.S. Stock Market to Equity Perpetual Futures",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-03",
+      "url": "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
+      "summary": "Bitcoin Magazine CFTC Opens U.S. Stock Market to Equity Perpetual Futures The CFTC has cleared perpetual futures on individual stocks to trade on dual-registered U.S. exchanges for the first time. This post CFTC Opens U.S. Stock Market to Equity Perpetual Futures first appeared…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/CFTC-Opens-U.S.-Stock-Market-to-Equity-Perpetual-Futures-1.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "New Jersey Drops Coinbase Staking Order After Three Years",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-03",
+      "url": "https://bitcoinmagazine.com/news/new-jersey-drops-coinbase-staking-order",
+      "summary": "Bitcoin Magazine New Jersey Drops Coinbase Staking Order After Three Years New Jersey’s securities regulator has rescinded its 2023 cease-and-desist order and $5 million penalty against Coinbase’s staking service. This post New Jersey Drops Coinbase Staking Order After Three Yea…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/New-Jersey-Drops-Coinbase-Staking-Order-After-Three-Years.jpg",
+      "tags": [
+        "Bitcoin",
         "DeFi",
+        "Regulation",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Bitcoin Price Trades Near $77,500 as Midterm Voting Begins",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-03",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-77500-midterm",
+      "summary": "Bitcoin Magazine Bitcoin Price Trades Near $77,500 as Midterm Voting Begins Bitcoin price trades near $77,500 as midterm voting begins, pressured by a record $6.3 billion Binance hack, ETF outflows, a Fed leaning toward a December hike and oil above $100 on Iran tensions. This p…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Bitcoin-Price-Trades-Near-77500-as-Midterm-Voting-Begins.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Stronger US factory activity complicates Bitcoin’s hopes for lower rates",
+      "source": "CryptoSlate",
+      "date": "2026-11-03",
+      "url": "https://cryptoslate.com/stronger-us-factory-activity-complicates-bitcoins-hopes-for-lower-rates/",
+      "summary": "ISM’s production index reached 59.0 as factory price increases became less widespread, leaving growth and funding signals in tension. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-factory-growth-rates-brake.webp",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Aave borrowers faced up to 36% APR while a freeze blocked fresh collateral",
+      "source": "CryptoSlate",
+      "date": "2026-11-03",
+      "url": "https://cryptoslate.com/borrowers-faced-36-interest-rates-as-aave-froze-deposits-during-binance-hack/",
+      "summary": "Borrowers in Aave&#039;s frozen reserves kept paying interest while the restrictions prevented fresh deposits, including the extra collateral they might normally supply to protect a loan. Suppliers were still able to request their money back, provided enough tokens were availabl…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/aave-deposit-freeze-pressure.webp",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Bitcoin’s year-end liquidity hopes face a projected $150 billion Treasury cash rebuild",
+      "source": "CryptoSlate",
+      "date": "2026-11-03",
+      "url": "https://cryptoslate.com/bitcoins-year-end-liquidity-hopes-face-a-projected-150-billion-treasury-cash-rebuild/",
+      "summary": "Any year-end reserve relief depends on actual cash flows and funding costs, with a larger first-quarter Treasury cash rebuild already assumed. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/treasury-bitcoin-temporary-liquidity-sluice.webp",
+      "tags": [
+        "Bitcoin",
+        "DeFi",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Tether freezes $1.5 billion in 30 minutes after Binance hack, but $729 million escapes",
+      "source": "CryptoSlate",
+      "date": "2026-11-03",
+      "url": "https://cryptoslate.com/tether-freezes-1-5-billion-in-30-minutes-after-binance-hack-but-729-million-escapes/",
+      "summary": "Tether describes immobilized USDT, while US precedents show separate decisions governing custody, ownership and return. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/tether-frozen-release-hatch.webp",
+      "tags": [
+        "Stablecoins",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Binance Details Months-Long Campaign Behind $6.34 Billion Hack",
+      "source": "The Defiant",
+      "date": "2026-11-03",
+      "url": "https://thedefiant.io/news/hacks/binance-details-months-long-campaign-behind-6-34-billion-hack",
+      "summary": "The exchange says 98% of impacted tokens have been replenished; its report explains why pausing withdrawals did not stop every outflow.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/20c07155aa650b7f7723af46895ed1219b53ace1-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Crypto Recovery Services: What to Check Before Paying",
+      "source": "The Defiant",
+      "date": "2026-11-03",
+      "url": "https://thedefiant.io/news/security/crypto-recovery-services-what-to-check-before-paying",
+      "summary": "Tracing stolen crypto is different from getting it back. US consumers should verify a provider’s identity, written deliverables, fees and access to sensitive data.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/1ee2ec7a76fadfedf78488a55019715918d2c8cd-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Security",
         "Web3"
       ]
     },
     {
-      "title": "Anchorpoint Plans Native HKDAP on Solana as Hong Kong Dollar Access Expands",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "url": "https://www.newsbtc.com/news/anchorpoint-plans-native-hkdap-on-solana-as-hong-kong-dollar-access-expands/",
-      "summary": "Anchorpoint and Solana Foundation are exploring native HKDAP issuance, while the stablecoin remains in an institutional beta on Ethereum.",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/06/Solana-from-iStock-8.jpg",
+      "title": "Aztec Launches Tierra Upgrade With Faster Ethereum Messaging",
+      "source": "The Defiant",
+      "date": "2026-11-03",
+      "url": "https://thedefiant.io/news/blockchains/aztec-launches-tierra-upgrade-with-faster-ethereum-messaging",
+      "summary": "The new rollup requires contract recompilation and new addresses, while V5 gets roughly 30 days of funded migration support.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/b33f82c267139d0c5b6147c0f7a6764d342865a0-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
       "tags": [
         "Ethereum",
-        "Stablecoins",
-        "Altcoins"
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "Kraken Restricts Accounts Amid Suspected $133 Million-Plus EU Theft",
+      "source": "The Defiant",
+      "date": "2026-11-03",
+      "url": "https://thedefiant.io/news/hacks/kraken-restricts-accounts-amid-suspected-133-million-plus-eu-theft",
+      "summary": "The exchange says its own systems and customer accounts were not compromised and that it is working with law enforcement on recovery.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a6dd20cc88d4cfe97e56316096f25b07214d6322-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "url": "https://www.newsbtc.com/news/mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience/",
+      "summary": "Mutsamudu, Comoros, November 3, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced an upgrade to Futures Earn. This product helps retail traders use their capital more efficiently by allowing eligible futures account balances to earn interest while users continue t…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/photo_2026-11-03_07-52-13-715x536.jpg",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "url": "https://www.newsbtc.com/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin/",
+      "summary": "ZeroBeta’s integration with Lynq lets institutions pledge tokenized assets while interest continues to accrue, putting collateral control at the centre of the workflow.",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2018/06/Circle-Bank-Vault.jpg?resize=460,345",
+      "tags": [
+        "DeFi",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "url": "https://www.newsbtc.com/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys/",
+      "summary": "Tria’s new agentic trading feature separates withdrawal authority from trading access, while its documentation makes clear that connected trades use real markets.",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845-307x460.jpeg",
+      "tags": [
+        "Markets",
+        "AI"
       ]
     }
   ]
