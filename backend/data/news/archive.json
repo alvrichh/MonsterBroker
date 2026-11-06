@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-05",
-  "count": 2583,
+  "updated": "2026-11-06",
+  "count": 2717,
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -14,6 +14,803 @@
         "DeFi",
         "Regulation",
         "Web3"
+      ]
+    },
+    {
+      "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/bff54bee9f087950dfc85d403528a02d341fae1b-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/615db4afe2529073df0df4401c7d8761456dc6b2-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/f38628eaca68701e192ec5a8aa9adc7fa7535fa4-3464x2309.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Live updates: Bitcoin slips further after blowout October jobs numbers",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
+      "summary": "",
+      "image": "",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/40b8025678ccf192b34e57a2b679bef61cbd19c8-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/af5533562893e00a029eaace0996b96eacade301-1905x1072.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/42d4c9ccc3b896065fd01389069573b1eb1ed6cb-5229x3486.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/87e4902bfb4d36401e2e19cdf71ed52e9f9e20c6-3265x1837.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6359a9ff83ee7ba7465c0ff2289cb8ae23e7ac43-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/2bd4417e83546ed86774ac8307c343cb1c9e17c0-3495x1966.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+      "source": "CoinDesk",
+      "date": "2026-11-06",
+      "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/dbaaf4ee09d542d601779598bea948f38611ee01-1184x678.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "What Democrats’ US midterm sweep means for the CLARITY Act",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The CLARITY Act faces a new test as Democrats control Congress, raising questions over consumer protections, ethics and what the crypto industry may have to concede.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R79GK8R2493NTQFW6VGRDS/magazine-republicans-vs-democrats-and-crypto-as-a-point-of-contention.jpg",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Nigeria has banned algorithmic stablecoins and introduced reserve requirements for issuers as it expands central bank oversight of crypto payment services.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RFZC8EDJXT26642DWHC0EV/hi-the-crypto-act-explained-nigeria-1.jpg",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/ethereum-devs-fork-glamsterdam-hoodi-smart-contract-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Ethereum developers are investigating concerns tied to eight smart contract invariants tied to Glamsterdam’s EIP-8037 and EIP-8038.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RG4RXBGZ2VPEVAFNJC6VA3/hi-takeaways-5-years-after-the-dao-crisis-and-ethereum-hardfork-1.jpg",
+      "tags": [
+        "Ethereum"
+      ]
+    },
+    {
+      "title": "Solana’s Shanghai event halted over unauthorized promotion: Report",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/solana-shanghai-event-halted-unauthorized-promotion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Solana’s promotional campaigns through domestic entities allegedly violated China’s crypto-related restrictions, an unidentified PBOC official told China’s Financial News.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RC2EEQZ9TEP1YJMEKS9NF7/hi-solana-changes-the-crypto-world-already.jpg",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The cybersecurity company flagged similar multi-stage intrusion patterns behind other high-profile crypto heists, including the $388 million Bitget hack.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R6HFGR0ZQXJ31EX11P2NV5/hi-how-zachxbt-traced-a-31m-bitcoin-donation-to-a-flagged-wallet.jpg",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Bitcoin consolidated as fears over US AI regulation spread to Asia, causing South Korea to announce measures to calm stock-market volatility.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4T82Y5Q89Y3M191FB9H1S1C/article-covers-262292-ex-treasury-chief-warns-us-treasurys-crash-calls-emergency-debt-plan-1280x853.webp",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Markets",
+        "AI"
+      ]
+    },
+    {
+      "title": "Greece approves 10% tax on crypto gains starting in 2027",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/greece-approves-10-tax-crypto-gains-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Greece has approved a 10% tax on cryptocurrency gains starting in 2027, with an exemption for investors whose annual net gains do not exceed 500 euros.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R5Q2DQ5AGNG7X8S492C0S3/hi-how-to-use-the-greeks-in-options-trading.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "GOPAX halts crypto trading, withdrawals to move all assets to cold storage",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "South Korea’s GOPAX suspended trading, deposits and standard withdrawals after a hacking threat, with manual withdrawals available through support.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R5FQT9G760GWMQ4WKS1P1T/storage-crypto-tokens.png",
+      "tags": [
+        "Security",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Binance’s $6.3B hack leaves questions over hot wallet safeguards",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/binances-hack-questions-hot-wallet-risk-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Experts say blockchain records show repeated wallet drains but cannot establish Binance’s internal signing controls or transaction limits.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6NZZB32AAV4WA4BCAVB6M4R/hi-how-to-migrate-crypto-from-an-exchange-to-ledger-1.jpg",
+      "tags": [
+        "Exchanges",
+        "Security",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/zcash-nu7-upgrade-15m-sprout-funds-unspendable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Zcash’s NU7 upgrade has rendered about $15 million in legacy Sprout funds unspendable, although a future network upgrade could potentially restore access.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QZ8PA38PE2N6K2QE0N13TT/hi-top-5-biggest-mining-farms-zcash-2.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Hyperliquid Strategies seeks futures registration for perps",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/nasdaq-hyperliquid-strategies-futures-broker-license-onchain-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The HYPE treasury company spent $785 million on tokens during the quarter and wants to bring Hyperliquid-based perpetual futures to the US.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6QXFT81EJZ5FY6966J6NXJE/hiblockchain-powered-prediction-platforms-hyperliquid-2.jpg",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-lose-post-election-gains-erased?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US spot Bitcoin and Ether ETFs shed a combined $530 million Thursday as Bitcoin fell below $76,000 and US stocks tumbled.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3KK0Y54WJHFMWNR7WW9P8FT/hi-crypto-trading-basics-a-beginners-guide-to-cryptocurrency-order-types1-4.jpg",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Chainalysis says breach exposed password hashes and live tokens",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/chainalysis-cyberattack-password-hashes-live-tokens-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Chainalysis disclosed password hashes and live tokens were exposed after initially reporting only non-sensitive customer data was accessed.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2005NQRX5E6SV5DN6KN3Z8T/hi-how-great-big-companies-use-blockchain3.jpg",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title": "Crypto exchanges tout cold storage ratios after Binance attack",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/binance-hack-puts-crypto-exchanges-cold-wallet-ratio-under-spotlight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Coinbase says it keeps more than 99% of customer assets offline, while Gate reports 88.26% of its total assets are kept in cold storage.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6QCQ9E3FBH5XSMVA720JM6M/cold-storage.jpg",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+      "source": "Cointelegraph",
+      "date": "2026-11-06",
+      "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The former Bitcoin mining heavyweight plans to become a pure-play data center provider in 2027, with mining now accounting for just 7.5% of quarterly revenue.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6Q3CQMWTQJT7XAQTHW92TAX/bitcoin-5.jpg",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
+      "source": "Decrypt",
+      "date": "2026-11-06",
+      "url": "https://decrypt.co/382711/3-1b-in-stolen-binance-crypto-has-yet-to-be-laundered-elliptic",
+      "summary": "The attackers have used more than 20,000 wallets on 16 blockchains so far, but the bulk of the stolen ETH and Bitcoin hasn't moved.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/north-korea-lazarus-group-dprk-hacker-decrypt-style-02-gID_7.jpg",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Tesla to Wind Down Cybertruck Production as Elon Musk Pivots to Robotaxis and AI",
+      "source": "Decrypt",
+      "date": "2026-11-06",
+      "url": "https://decrypt.co/382703/tesla-to-wind-down-cybertruck-production-as-elon-musk-pivots-to-robotaxis-and-ai",
+      "summary": "The Tesla CEO said the Texas plant will make room for the Cybercab, as sales of the stainless-steel pickup run far below capacity.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/tesla-cybertruck-decrypt-style-gID_7.jpg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
+      "source": "Decrypt",
+      "date": "2026-11-06",
+      "url": "https://decrypt.co/382700/morning-minute-bitcoin-erases-election-rally-as-ai-stocks-crater",
+      "summary": "Thursday marked a massive reversal and historic selloff for AI stocks, and crypto was not immune. What held up the strongest?",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "AI"
+      ]
+    },
+    {
+      "title": "Former FBI Agent Pleads Guilty to Stealing $2.5M in Crypto From 35 Investigations",
+      "source": "Decrypt",
+      "date": "2026-11-06",
+      "url": "https://decrypt.co/382695/former-fbi-agent-pleads-guilty-to-stealing-2-5m-in-crypto-from-35-investigations",
+      "summary": "Patrick Yaroch drained wallets using credentials the FBI had collected, then asked ChatGPT for advice on starting a new life in Europe.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png",
+      "tags": [
+        "Security",
+        "Web3",
+        "AI"
+      ]
+    },
+    {
+      "title": "Zcash's NU7 Upgrade Goes Live, Recycling 60% of Fees to Fund Future Block Rewards",
+      "source": "Decrypt",
+      "date": "2026-11-06",
+      "url": "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards",
+      "summary": "The Network Sustainability Mechanism will reissue removed ZEC from 2031 within the 21 million cap, as the community debates its dev fund.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-decrypt-style-03-gID_7.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "TeraWulf’s bitcoin mining revenue falls 69% as HPC leasing surges amid Anthropic buildout",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
+      "summary": "TeraWulf reported $63 million in artificial intelligence-related quarterly HPC lease revenue, up 774% year over year.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-06-at-12.44.27.png",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Hypercall to launch first Anthropic-linked pre-IPO options market",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/markets/2026-11-06-hypercall-anthropic-linked-pre-ipo-options-market-435453",
+      "summary": "Trading is expected to begin Monday, with calls, puts and more complex strategies available in select non-US jurisdictions.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2021/07/20210712_Finance_Crypto_Move.jpg",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Crypto ETFs see over half a billion dollars in outflows amid post-midterm market slide",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873",
+      "summary": "U.S. spot crypto ETFs slumped back to net outflows on Thursday, with more than $540 million in withdrawals across major products.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-06-at-11.04.48.png",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Nigeria’s central bank introduces stablecoin licensing rules, bans algorithmic versions",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
+      "summary": "Nigeria's central bank issued new virtual asset regulations requiring stablecoin issuers and other service providers to obtain local licenses.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-06-at-14.13.09.png",
+      "tags": [
+        "Stablecoins",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Kalshi hit with injunction over sports contracts on California tribal lands",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
+      "summary": "A federal judge has granted the preliminary injunction to bar Kalshi from offering sports contracts on the lands of two California tribes.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/kalshi_editorial_1920x1080.png",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Zcash’s major network upgrade NU7 goes live on mainnet, cutting block time by threefold",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
+      "summary": "NU7 also activates the Network Sustainability Mechanism, which removes 60% of each block's transaction fees from circulation.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/zcash-3.png",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "IREN’s bitcoin mining revenue drops 58% as firm plans full exit by year-end",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
+      "summary": "IREN has been shifting its focus to the AI infrastructure business, and its AI cloud revenue rose 182% in the past quarter to $200 million.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/iren.png",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Ark Invest buys more Coinbase as shares plunge 10% in wider market rout",
+      "source": "The Block",
+      "date": "2026-11-06",
+      "url": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
+      "summary": "Cathie Wood's Ark Invest bought $2.44 million worth of Coinbase on Thursday as the stock plunged 9.69% amid a broader sell-off.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/coinbase_cathie_wood_1920x1080.png",
+      "tags": [
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin Price Holds Near $75,000 After Hot October Jobs Report",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-06",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-75800-jobs",
+      "summary": "Bitcoin Magazine Bitcoin Price Holds Near $75,000 After Hot October Jobs Report Bitcoin price held near $75,800 Friday after U.S. employers added 165,000 jobs in October, far above the 59,000 forecast, as December Fed hike odds climbed toward 80%. This post Bitcoin Price Holds N…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Bitcoin-Price-Holds-Near-75800-After-Hot-October-Jobs-Report.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "South Korean Crypto Exchange Gopax Suspends Withdrawals and Trading After Hacking Threat",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-06",
+      "url": "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
+      "summary": "Bitcoin Magazine South Korean Crypto Exchange Gopax Suspends Withdrawals and Trading After Hacking Threat South Korea's Gopax halted standard withdrawals at 2:55 p.m. and trading at 3:53 p.m. Friday after a hacking-threat email, and is transferring all held assets to cold wallet…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Gopax-Suspends-Withdrawals-Cold-Storage.jpg",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Argentine Bitcoiners Debut “The Genesis of Satoshi Nakamoto” Artwork in Downtown Buenos Aires",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-06",
+      "url": "https://bitcoinmagazine.com/culture/argentine-bitcoiners-debut-the-genesis-of-satoshi-nakamoto-artwork-in-downtown-buenos-aires",
+      "summary": "Bitcoin Magazine Argentine Bitcoiners Debut “The Genesis of Satoshi Nakamoto” Artwork in Downtown Buenos Aires Bitcoin.ar presented the 2.4-meter stainless steel and glass cube “The Genesis of Satoshi Nakamoto” on October 29 at Polo Dot as part of LABITCONF 2026’s Open Fest. Thi…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/tn-4.webp",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Bank of England raises rates to 4% as it forecasts inflation near 5% next year",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/bank-of-england-raises-rates-to-4-as-it-forecasts-inflation-near-5-next-year/",
+      "summary": "Energy inflation has prompted UK tightening, while any pressure on Bitcoin depends on financing conditions and investor demand. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-policy-bridge-gap.webp",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Cheap online services routed web traffic through a White House-linked network, researchers say",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/cheap-online-services-routed-web-traffic-through-a-white-house-linked-network-researchers-say/",
+      "summary": "The firm says six public addresses appeared across 28 services, while its data identifies neither the device nor the person. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/proxy-observation-boundary.webp",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "NYSE-backed crypto venture faces 90% stock rejection as $92 liquidity problem threatens tokenization dream",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/nyse-backed-crypto-venture-faces-90-stock-rejection-as-92-liquidity-problem-threatens-tokenization-dream/",
+      "summary": "Its November 4 notice says the operator and affiliates will abstain from providing liquidity, leaving eligible outside participants to supply the planned pools. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/okxice-liquidity-reservoir.webp",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "FBI agent drains crypto wallets tied to 35 investigations, steals $2.47 million and plans Portugal escape",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/fbi-agent-drains-crypto-wallets-tied-to-35-investigations-steals-2-47-million-and-plans-portugal-escape/",
+      "summary": "Patrick Steven Yaroch used credentials tied to 35 investigations for about 100 fraudulent transfers, according to DOJ. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/fbi-access-shadow-trail.webp",
+      "tags": [
+        "Web3",
+        "AI"
+      ]
+    },
+    {
+      "title": "Bitcoin and Ethereum ETFs lose $530 million in one day as $3 trillion Wall Street wipeout rattles crypto",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-lose-530-million-in-one-day-as-3-trillion-wall-street-wipeout-rattles-crypto/",
+      "summary": "Six funds recorded withdrawals on November 5, leaving this week&#039;s ETF demand recovery short-lived. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/crypto-etf-fractured-bridge.webp",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "XRP sellers face massive slip as USD order book depth fakes size",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/xrp-sellers-face-massive-slip-as-usd-order-book-depth-fakes-size/",
+      "summary": "At the November 4 close, a capped sample of Bitstamp-issued USD offers held less funded inventory than the smaller RLUSD book. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/xrp-funded-depth-hollow-order-book.jpg",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Bitcoin’s rate cut relief stalls as service inflation flares",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/bitcoins-rate-cut-relief-stalls-as-service-inflation-flares/",
+      "summary": "October’s services prices index eased to 73, but its 12-month average reached 69.2, the highest since April 2023. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-rate-relief-heat-jammed-lever.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Unpatched Bitcoin Lightning nodes face channel-draining bug",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/unpatched-bitcoin-lightning-nodes-face-channel-draining-bug/",
+      "summary": "The v26.06.10 update adds channel checks and remote-command fixes, while maintainers also advise restricting and replacing unaccounted-for credentials. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your i…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/core-lightning-channel-drain.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Optimism new proposal weakens council power over standalone chains",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/optimism-new-proposal-weakens-council-power-over-standalone-chains/",
+      "summary": "The proposed policy would let qualifying transfers proceed without another governance vote, changing who users rely on for upgrades. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/optimism-locked-key-cabinet-1280x720-1.jpg",
+      "tags": [
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "Gate boasts 104% cold reserve coverage, but separate snapshot dates raise red flags",
+      "source": "CryptoSlate",
+      "date": "2026-11-06",
+      "url": "https://cryptoslate.com/gate-boasts-104-cold-reserve-coverage-but-separate-snapshot-dates-raise-red-flags/",
+      "summary": "Its new hot-wallet loss test uses separate measurement bases, while independent verification of current PoSEC data remains in progress. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/gate-verification-in-focus.webp",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "Crypto 401(k) Rule Enters Final White House Review",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/converge/regulation/crypto-401-k-rule-enters-final-white-house-review",
+      "summary": "Labor’s public proposal would give plan fiduciaries a process-based safe harbor for investment decisions involving crypto and other assets.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/568432f79613b57c2345652fc671c5279d84075d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Rotki Founder Says Gnosis Pay Exposed His Address, Card and Wallet Details",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/security/rotki-founder-says-gnosis-pay-exposed-his-address-card-and-wallet-details",
+      "summary": "A notification screenshot he shared describes unauthorized access to the consumer-card system on Nov. 3 and says enterprise programs were unaffected.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/53bb685a7b4fe093283cea1ab387e5d7b00bb37d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "What Are Crypto Derivatives? Futures, Perpetuals and Options Explained",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/markets/what-are-crypto-derivatives-futures-perpetuals-and-options-explained",
+      "summary": "Futures bind both sides to settlement obligations. Options give buyers a right in exchange for a premium, while sellers take the corresponding obligation.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/85117cf93db750ee7d59bc49002c609c0ed4897b-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Treasury and Fed Withdraw Plan for $250 Cross-Border Travel Rule Threshold",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/regulation/treasury-and-fed-withdraw-plan-for-250-cross-border-travel-rule-threshold",
+      "summary": "The $3,000 threshold remains in place, including for qualifying crypto transfers under FinCEN's existing guidance.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ea2fe7b0a1860d5f7bcc2653c1e142dc383e339d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Bitcoin Gains Drive Strive's $474.8 Million Q3 Profit",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/bitcoin-gains-drive-strive-s-474-8-million-q3-profit",
+      "summary": "SATA and SATS imply about $287.4 million in annual dividends at November rates and Oct. 30 share counts, a cost excluded from its Bitcoin Yield metric.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9fd2ae6f51e971863d8ae8240d9f68215e621fec-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Safe Says $12.4 Billion of Smart-Account Assets Sits in DeFi",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/defi/safe-says-12-4-billion-of-smart-account-assets-sits-in-defi",
+      "summary": "The figure is net of $2.37 billion in borrowing. Safe's published third-quarter report gives the $57.64 billion total but not the DeFi split.",
+      "image": "https://cdn.thedefiant.io/safe-defi-cropped-jpg-c6aae540-f564-4a8a-9626-ef4b43bf8f44.jpg",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Bank of Russia Clears Bitcoin, Ether and USDT Rules for Nov. 17",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/converge/regulation/bank-of-russia-clears-bitcoin-ether-and-usdt-rules-for-nov-17",
+      "summary": "Non-qualified investors face testing and a 300,000-ruble annual purchase cap per intermediary, while Moscow Exchange targets a Dec. 1 rollout.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/c59d914d9b5eda9eb94596896539cb645c198d62-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Stablecoins",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Binance Hackers Swap $50 Million in XRP, Mostly Into Bitcoin, Elliptic Says",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/hacks/binance-hackers-swap-50-million-in-xrp-mostly-into-bitcoin-elliptic-says",
+      "summary": "Bitcoin obtained from other stolen assets nearly doubled in a day to 1,650 BTC, while the main ETH and bitcoin holdings remain untouched.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4400b84098d88aa1f524328b998dc4ee2726fb22-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Exchanges",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Ethereum Foundation Calls for Contract Checks After Glamsterdam Security Findings",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/security/ethereum-foundation-calls-for-contract-checks-after-glamsterdam-security-findings",
+      "summary": "Most findings involve fixed gas budgets and reserves. The Hoodi testnet upgrade remains paused, with no confirmed mainnet activation date.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/59ad0746b9a350dfbfca03422aac71199b81ce27-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum"
+      ]
+    },
+    {
+      "title": "iPhone Wallet Theft Probe Traces $4.06 Million in TRON Drains",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/hacks/iphone-wallet-theft-probe-traces-4-06-million-in-tron-drains",
+      "summary": "Trust Wallet warns that DarkSword and Coruna exploit older iOS versions to access wallet data, rather than flaws in wallet apps.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3f4fa6aa7faee468527d21c4e2ccd07c27d1257d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Altcoins",
+        "Security",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Ether Falls 8.5% to $2,220, Lagging Bitcoin",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/markets/ether-falls-8-5-to-2-220-lagging-bitcoin",
+      "summary": "US ether ETFs recorded $99.9 million in net withdrawals on Nov. 5, reversing the previous day's $53 million inflow.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/48dd5fb05fcbfb671f79122e48f4142ce10df55e-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "IREN Mining Revenue Falls 58% as AI Sales Reach $200 Million",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/iren-mining-revenue-falls-58-as-ai-sales-reach-200-million",
+      "summary": "IREN aims to substantially complete its mining transition by December, while its $4 billion AI revenue run-rate target moves into early 2027.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3341136ace88bab6049c85b9df4ca88384f94041-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Loopscale Partly Restores Loan Functions, Keeps Vault Withdrawals Frozen",
+      "source": "The Defiant",
+      "date": "2026-11-06",
+      "url": "https://thedefiant.io/news/hacks/loopscale-partly-restores-loan-functions-keeps-vault-withdrawals-frozen",
+      "summary": "Repayments and collateral withdrawals remain disabled for USDC Genesis-funded loans as the Solana lender details two attack paths.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e96e0168fb6552a0ebcc5fcceabaaa03f8fb2a4e-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Stablecoins",
+        "Altcoins",
+        "Security"
+      ]
+    },
+    {
+      "title": "DSA’s Adrian Wall and Former CFTC Chair Chris Giancarlo Discuss Future of U.S. Crypto Regulation at Strobe Summit",
+      "source": "NewsBTC",
+      "date": "2026-11-06",
+      "url": "https://www.newsbtc.com/news/dsas-adrian-wall-and-former-cftc-chair-chris-giancarlo-discuss-future-of-u-s-crypto-regulation-at-strobe-summit/",
+      "summary": "&#160; Washington, D.C., November 6, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, participated in the Strobe Summit, where DSA Managing Di…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/unnamed-750x422.jpg",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "StockFi: Connecting U.S. Stock with the On-Chain Ecosystem to Reshape Asset Circulation",
+      "source": "NewsBTC",
+      "date": "2026-11-06",
+      "url": "https://www.newsbtc.com/news/stockfi-connecting-u-s-stock-with-the-on-chain-ecosystem-to-reshape-asset-circulation/",
+      "summary": "&#160; Start with one stock. Connect two capital worlds. 6 November — Singapore — StockFi is advancing the connection between traditional equities and the on-chain ecosystem through U.S. stock tokenization. Built on BSC, the platform brings stock tokens and the meme ecosystem in…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/b028297af0a04f988f46775c56826391.png-750x422.jpeg",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "EIP-8037/EIP-8038 Glamsterdam",
+      "source": "Ethereum Foundation",
+      "date": "2026-11-06",
+      "url": "https://blog.ethereum.org/en/2026/11/06/glamsterdam-8037-8038",
+      "summary": "Glamsterdam, the next update for Ethereum, is currently being tested on testnets. During these tests Chainsecurity has found a few projects that would be vulnerable after Glamsterdam since they rely on certain invariants. These invariants will be broken by EIP-8037 and EIP-8038…",
+      "image": "",
+      "tags": [
+        "Ethereum"
       ]
     },
     {
@@ -819,6 +1616,788 @@
       "url": "https://www.newsbtc.com/news/htx-earn-winter-campaign-enjoy-apy-boosts-on-7-assets-with-a-quota-limit-of-up-to-14-million-per-user/",
       "summary": "Since the start of Q4, crypto markets have remained volatile and continued to weaken, with major assets retreating from their highs and market participants becoming more cautious. Against this backdrop, HTX Earn recently launched an APY Boost Promotion as part of the HTX Winter…",
       "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/c92a06cb98754a109235c04b7d09b3fe-750x450.jpg",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
+      "source": "CoinDesk",
+      "date": "2026-11-05",
+      "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/564bac7203c6e38e89eb4093ecb221b0bbe4e205-3200x1800.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+      "source": "CoinDesk",
+      "date": "2026-11-05",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/902f86932e61568cce872eb7808f9c9ef9044d93-5123x3415.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
+      "source": "CoinDesk",
+      "date": "2026-11-05",
+      "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/46896a614298dcf705810c12a113e9dab6ce84fb-4416x2488.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
+      "source": "CoinDesk",
+      "date": "2026-11-05",
+      "url": "https://www.coindesk.com/business/2026/11/05/soter-raises-usd23-5m-plus-btc-and-eth-as-banks-demand-theft-protection",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/22cc5bf76c4ce39c3877a108b37d147f91546421-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
+      "source": "CoinDesk",
+      "date": "2026-11-05",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/05/crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/823d276a9a2836ca80874c550bd4c43a890c41d0-3000x2001.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The Eric Trump-backed miner reported $126 million in quarterly net income, largely driven by gains on its Bitcoin holdings, despite rising mining costs and shrinking margins.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PN518266V0HS41TJ9DPJYP/make-bitcoin-great-again2.png",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Asian crypto exchanges are scrambling to tighten security on fears of a wave of potentially AI-assisted hacks, even as regional governments embrace tokenization and stablecoins.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg",
+      "tags": [
+        "Stablecoins",
+        "Exchanges",
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title": "Crypto ally French Hill wins reelection but set to lose House chair",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/news/crypto-ally-french-hill-wins-reelection-arkansas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Republican French Hill secured another term in Congress but will lose his leadership of the House Financial Services Committee when Democrats take control in January.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PRB5HN8051MQNHPJKXZT9K/fortune-glass-for-vote-prediction.jpg",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-fake-teams-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "SignalPlus said attackers compromised an engineer’s computer in a breach that resulted in losses of less than $82,000, which the crypto trading platform pledged to reimburse in full.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PE57WMSNEKDPGAVGB8MBPQ/password-fraud-hacker-scam.png",
+      "tags": [
+        "Exchanges",
+        "Security",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PFFXJ4XKPEQ9E1ESY0C401/two-men-with-badges.png",
+      "tags": [
+        "Regulation",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/news/amundi-tokenizes-european-equity-index-fund-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The new share class offers blockchain-based exposure to an index tracking 600 companies across European markets.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6P8H9870ZQY6MMMYHJSDGZ5/hi-how-binance-plans-to-bring-tokenized-us-stocks-4.png",
+      "tags": [
+        "Ethereum",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Paraguay president resigns after collapse of Ueno digital bank",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/news/paraguay-president-resigns-after-collapse-ueno-digital-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Santiago Peña stepped down amid mounting scrutiny over his former ties to Ueno Bank’s parent company, as the lender’s collapse left millions of customers unable to access their funds.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PC0KXVM1KKT7EEB7A24X5R/hi-bitcoin-a-property-as-of-paraguay.png",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
+      "source": "Cointelegraph",
+      "date": "2026-11-05",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Bitcoin saw sudden downside at the Wall Street open as stocks witnessed a snap sell-off, reversing post-election gains.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6P7EQ58JKF3EYDQMECJPRQF/hi-crypto-market-trading-trader-red-960x640.webp",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Claude Gets Personal Finance—Anthony Pompliano Accuses Anthropic of Copying His Startup",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382689/claude-personal-finance-anthony-pompliano-anthropic",
+      "summary": "Anthropic's Claude finance assistant analyzes spending from linked accounts in the U.S., and Anthony Pompliano has a big problem with it.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Bitcoin Fixes This? Paraguay President Resigns After Bank Lockout Hits 60% of Country",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382676/paraguay-president-resigns-bank-lockout-bitcoin-fixes-this",
+      "summary": "Ueno’s collapse trapped millions of Paraguayan depositors and triggered a president’s resignation, reviving Bitcoin’s argument for self-custody.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/Pena-Resignation-Paraguay-01-gID_4.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "OpenAI Promises to Foot AI’s Power Bill After Voter Revolt. Who Enforces It?",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382674/openai-promises-foot-ai-power-bill-after-voter-revolt",
+      "summary": "OpenAI wants to ease the backlash against AI campuses with promises on electricity, water and secrecy. Its new compact raises a tougher question: Who would make the company comply?",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "DOJ Creates 'Super Intelligence' Task Force to Guard Against AI Abuse",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse",
+      "summary": "Led by two senior DOJ officials, the Super Intelligence Task Force will target misuse by foreign governments, criminal groups and fraudsters—while pushing AI developers to tighten internal controls so their systems “behave as intended.”",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/12/DOJ-gID_7.jpg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data",
+      "summary": "Fresh forensic analysis traces $48.6 million across 11 blockchains and finds thousands of customer deposit addresses drained hours after the Brazilian exchange said it had stopped the breach on Monday.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Security"
+      ]
+    },
+    {
+      "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382663/zcash-upgrade-could-lock-16-million-crypto",
+      "summary": "Zcash's latest upgrade promises faster transactions, but thousands of coins remain in an aging privacy system that will soon stop accepting withdrawals, potentially leaving their owners empty-handed.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-gID_7.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "OpenAI Found 948 Linux Security Flaws—And Figured Out How to Exploit Them",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382632/openai-linux-security-flaws-exploit",
+      "summary": "An automated OpenAI system produced working exploits and draft fixes at roughly $1,279 per flaw, raising new questions about how cheaply AI can find holes in critical software at scale.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
+      "tags": [
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title": "Trump-Backed American Bitcoin Turns a Profit as Bitcoin Rise Lifts Books",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+      "summary": "The Hut 8-backed miner reversed a second-quarter loss, driven largely by a $197 million gain on its Bitcoin holdings.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/bitcoin-mining-decrypt-style-02-gID_7.png",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "S&#038;P 500 Plunges, Wall Street Fears Circuit Breaker, Just One Day After Trump Celebrated Record Highs",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382637/sp-500-plunges-wall-street-circuit-breaker-trump-record-highs",
+      "summary": "A day after Trump celebrated stock market records, the S&#038;P 500 sank 3.8%, putting emergency trading halts in focus as AI stocks dragged Wall Street sharply lower during Thursday trading.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/stocks-gID_7.jpg",
+      "tags": [
+        "Markets",
+        "AI"
+      ]
+    },
+    {
+      "title": "Hollywood Studios Quietly Ban Staff From Betting on Prediction Markets: Report",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382626/hollywood-studios-quietly-ban-staff-from-betting-on-prediction-markets-report",
+      "summary": "Employees are being told not to bet on casting news, release dates or earnings, though experts say the rules will be hard to enforce.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/hollywood-decrypt-style-gID_7.jpg",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Solana Labs’ Leap Launches Mobile App for Trading Tokenized Stocks and Crypto",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382609/solana-labs-leap-launches-mobile-app-tokenized-stocks-crypto",
+      "summary": "Leap, built by the team behind Dialect, launched a beta iPhone app for trading tokenized stocks, ETFs, metals, currencies and crypto on Solana, pitching itself to traders looking beyond meme coins.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-04-gID_7.png",
+      "tags": [
+        "Regulation",
+        "Altcoins",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Democrats to Push Broader Crypto Market Structure Bill After Sweeping US Midterms: Report",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382602/democrats-to-push-broader-crypto-market-structure-bill-after-sweeping-us-midterms-report",
+      "summary": "Analysts said that the Clarity Act's path has become tougher, while advocacy group Stand With Crypto has endorsed 27 winning candidates so far.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
+      "source": "Decrypt",
+      "date": "2026-11-05",
+      "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
+      "summary": "Bitcoin plunged nearly 5% as AI stocks sank, Democratic midterm wins raised fresh policy questions, and forced liquidations erased a Wednesday rally that had been fueled partly by short covering.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "AI"
+      ]
+    },
+    {
+      "title": "Hyperliquid Strategies files to become CFTC-registered FCM, posts $13.3 million in quaterly revenue",
+      "source": "The Block",
+      "date": "2026-11-05",
+      "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455",
+      "summary": "Hyperliquid Strategies posted $13.3M in revenue and $620.6M net income, and filed with the CFTC to become an FCM for U.S. HIP-3 perp markets.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/05/hyperliquid-hype.jpg",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations",
+      "source": "The Block",
+      "date": "2026-11-05",
+      "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+      "summary": "Bitcoin fell 6% to $75,700 and ether 7% as a Nasdaq selloff hit crypto, triggering $1.03 billion in liquidations.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/bitcoin.png",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Base deploys Denim upgrade on mainnet, replacing Flashblocks with 200ms block times",
+      "source": "The Block",
+      "date": "2026-11-05",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+      "summary": "Base activated its fourth network upgrade, Denim, introducing five canonical blocks per second at 200ms intervals.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-05-at-14.20.34.png",
+      "tags": [
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "Canary’s Injective ETF debuts on Nasdaq with exposure to staking rewards",
+      "source": "The Block",
+      "date": "2026-11-05",
+      "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
+      "summary": "Canary Capital's Staked INJ ETF debuts on Nasdaq, giving investors exposure to Injective's INJ token plus staking rewards reflected in NAV.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/10/injective_logo_1920x1080.jpg",
+      "tags": [
+        "DeFi",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Anchorage Digital seeks CFTC swap dealer registration for crypto options business",
+      "source": "The Block",
+      "date": "2026-11-05",
+      "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+      "summary": "Anchorage Digital has applied for CFTC swap dealer registration and plans to offer European-style bitcoin and ether options if approved.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-05-at-10.46.15.png",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Payward-affiliated fund and clients buy AAVE token stake on secondary market",
+      "source": "The Block",
+      "date": "2026-11-05",
+      "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798",
+      "summary": "Payward disclosed neither the size nor price of the AAVE purchases and said it may acquire more tokens.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2024/08/20240819_Aave_News_2.jpg",
+      "tags": [
+        "DeFi",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin Price Trades Near $76,000 as Nasdaq Tumbles into Correction",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-76000-nasdaq",
+      "summary": "Bitcoin Magazine Bitcoin Price Trades Near $76,000 as Nasdaq Tumbles into Correction Bitcoin price held near $76,000 Thursday afternoon as the Nasdaq sank deeper into a correction, crypto liquidations topped $1 billion and Strategy, Coinbase and bitcoin miners sold off in double…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Bitcoin-Price-Trades-Near-76000-Nasdaq-Correction.jpg",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Core Scientific (CORZ) to Exit Bitcoin Mining by Year-End as Colocation Hits $215 Million",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/news/core-scientific-exits-bitcoin-year-end",
+      "summary": "Bitcoin Magazine Core Scientific (CORZ) to Exit Bitcoin Mining by Year-End as Colocation Hits $215 Million Core Scientific will finish winding down bitcoin mining in the fourth quarter and enter 2027 as a pure-play AI colocation landlord, with self-mining revenue already down to…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Core-Scientific-CORZ-to-Exit-Bitcoin-Mining-by-Year-End-as-Colocation-Hits-215-Million.jpg",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "Greece Approves 10% Crypto Capital Gains Tax as First Framework Lands Below Draft Rate",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/news/greece-approves-10-crypto-gains-tax",
+      "summary": "Bitcoin Magazine Greece Approves 10% Crypto Capital Gains Tax as First Framework Lands Below Draft Rate Greece's parliament approved a 10% capital gains tax on cryptocurrencies, the country's first dedicated crypto tax framework, with annual gains up to €500 exempt. This post Gr…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Greece-Approves-10-Crypto-Capital-Gains-Tax-as-First-Framework-Lands-Below-Draft-Rate.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Bull Bitcoin Becomes First Exchange to Add Payjoin Privacy Deposits, Withdrawals, and Payjoin-by-Default Trading",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/business/bull-bitcoin-becomes-first-exchange-to-add-payjoin-privacy-deposits-withdrawals-and-payjoin-by-default-trading",
+      "summary": "Bitcoin Magazine Bull Bitcoin Becomes First Exchange to Add Payjoin Privacy Deposits, Withdrawals, and Payjoin-by-Default Trading Bull Bitcoin is the first Bitcoin exchange to offer Payjoin privacy as a deposit and withdrawal option. Every on-chain buy or sell via BULL Wallet is…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/tn-3.webp",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Web3",
+        "Markets"
+      ]
+    },
+    {
+      "title": "South Korea Pushes 22% Crypto Tax to 2029 in Fourth Delay, Offers Three-Year Loss Carryforward",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/news/south-korea-crypto-tax-2029",
+      "summary": "Bitcoin Magazine South Korea Pushes 22% Crypto Tax to 2029 in Fourth Delay, Offers Three-Year Loss Carryforward South Korea's government will ask lawmakers to delay its 22% crypto gains tax to 2029 and let investors carry losses forward for up to three years. This post South Kor…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Bitcoin-Kimchi-Premium-Is-Back-as-Price-Spikes-Higher-in-South-Korea.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Keel (KEEL) Sells Entire Bitcoin Treasury for $192 Million, Will Sell BTC Daily",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/news/keel-sells-entire-bitcoin-treasury-192m",
+      "summary": "Bitcoin Magazine Keel (KEEL) Sells Entire Bitcoin Treasury for $192 Million, Will Sell BTC Daily Keel sold 2,520 bitcoin in the third quarter, left its treasury near zero and said Quebec-mined coins will now be sold every day as it pivots to AI data centers. This post Keel (KEEL…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Keel-KEEL-Sells-Entire-Bitcoin-Treasury-for-192-Million-Will-Sell-BTC-Daily.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "AI"
+      ]
+    },
+    {
+      "title": "U.S.-Sanctioned Moscow Exchange Will List Bitcoin on Dec. 1 as Russia Pulls Crypto Trading Home",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-05",
+      "url": "https://bitcoinmagazine.com/news/moscow-exchange-bitcoin-trading-dec-1",
+      "summary": "Bitcoin Magazine U.S.-Sanctioned Moscow Exchange Will List Bitcoin on Dec. 1 as Russia Pulls Crypto Trading Home Russia's largest exchange, Moscow Exchange,. will open bitcoin trading on Dec. 1 under the country's new crypto law, with retail buyers tested and capped at 300,000 r…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/U.S.-Sanctioned-Moscow-Exchange-Will-List-Bitcoin-on-Dec.-1-as-Russia-Pulls-Crypto-Trading-Home.jpg",
+      "tags": [
+        "Bitcoin",
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Hyperliquid Strategies Posts $620.6 Million Profit on HYPE Paper Gains",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/tokens/hyperliquid-strategies-posts-620-6-million-profit-on-hype-paper-gains",
+      "summary": "HYPE was trading about 14% below the price used to value the company's quarter-end token holdings.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/cb632838e1aebbdbd8d05e9f50868df4233bda24-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Former FBI Agent Pleads Guilty to $2.47 Million Crypto Theft",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/security/former-fbi-agent-pleads-guilty-to-2-47-million-crypto-theft",
+      "summary": "Prosecutors say Patrick Steven Yaroch used credentials tied to 35 FBI investigations, compromising cases and intelligence sources and methods.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0db1a2201a37689f96020377a6960a6dbb8df88d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Extended Sets Final XTEN Airdrop Rate as Xpoints Program Ends",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/tokens/extended-sets-final-xten-airdrop-rate-as-xpoints-program-ends",
+      "summary": "The exchange also awarded Xpoints to 97 Discord Tester-role holders for early testing, feedback and platform use.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8fb0126513614f9ef99a82b0a26136ddd86fd575-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Greek Parliament Approves 10% Tax on Crypto Gains",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/regulation/greek-parliament-approves-10-tax-on-crypto-gains",
+      "summary": "The framework exempts annual net gains of up to €500 and is scheduled to apply from January 2027.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/05b519d23808c68dc8aa17456b20bdffd03e0008-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "California Tribes Win Order Barring Kalshi Sports Contracts on Their Lands",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/regulation/california-tribes-win-order-barring-kalshi-sports-contracts-on-their-lands",
+      "summary": "Kalshi must report compliance steps within 21 days, after the tribes disputed the effectiveness of its voluntary location blocks.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a96e3fb6f6e05e349cf865a1efc80d306c49dfe5-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Solana Labs’ Leap Opens iPhone Beta for Tokenized Stocks and Crypto",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/defi/solana-labs-leap-opens-iphone-beta-for-tokenized-stocks-and-crypto",
+      "summary": "Trades route through Jupiter, while tokenized securities are unavailable to US persons and users in several other major markets.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3bb7e9b4556a33108c57bb776d0eb14a69d9ae5a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Altcoins",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Anza Urges Solana Validators to Upgrade Agave Before Epoch 1079",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/blockchains/anza-urges-solana-validators-to-upgrade-agave-before-epoch-1079",
+      "summary": "Agave 4.4.1 changes how loader-v3 program data counts toward transaction limits, ahead of a planned Nov. 6 cutoff for unpatched nodes.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4b9cea8106a8adde70d9bff0a1aabff7995632b3-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "EEZ Launches Rollup X With Swaps Filled by Mainnet Liquidity",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/blockchains/eez-launches-rollup-x-with-swaps-filled-by-mainnet-liquidity",
+      "summary": "The Ethereum Economic Zone ran three demonstrations at Devcon in Mumbai. Rollup X is a devnet whose batches are attested by a designated signer rather than proven.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/16e3f2b72cd4e6956d3459f9df61fc6fa0860c41-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "SEC Crypto Broker Rule Enters White House Review",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/converge/regulation/sec-crypto-broker-rule-enters-white-house-review",
+      "summary": "The planned amendments cover capital requirements, customer-asset safeguards and recordkeeping for broker-dealers handling crypto assets.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/b994a42c5efe7eafbf5a6d2b269713456fcbc7b1-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "OpenSSH Ships Urgent Workaround for Alpine Password Bypass",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/security/openssh-ships-urgent-workaround-for-alpine-password-bypass",
+      "summary": "Key-only accounts can be exposed if SSH password authentication remains enabled. Alpine urges operators to update and restart the server process.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e6a686dd86ff91ac7a3bfb2d0e3cbfb3c2ca5241-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Blockaid Warns Reth Bug Can Produce Incorrect State Proofs",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/security/blockaid-warns-reth-bug-can-produce-incorrect-state-proofs",
+      "summary": "Blockaid listed patched builds for reth, op-reth and Base, while Gauntlet curtailed deposits and allocations.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ee2060e5a0f251d731497a8df64c9c951b7cb9ab-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "Crypto Clearing vs. Settlement: What Happens After a Trade?",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/crypto-clearing-vs-settlement-what-happens-after-a-trade",
+      "summary": "Netting offsets obligations, while collateral backs performance. Neither is the same as completing payment and delivery.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ad085f967b04c9e2366b16565f54a36436528873-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Paraguay’s Peña Submits Resignation Amid Ueno Bank Crisis",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/converge/regulation/paraguay-s-pe-a-submits-resignation-amid-ueno-bank-crisis",
+      "summary": "Lawmakers approved impeachment proceedings with 78 votes, while the central bank outlined a first payout group for Ueno depositors.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a5c5586f573b5c69d8be0afbae852178c8249a9b-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Gauntlet Restricts V1 Vault Deposits After Reported op-reth Vulnerability",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/defi/gauntlet-restricts-v1-vault-deposits-after-reported-op-reth-vulnerability",
+      "summary": "The risk curator is also pausing allocations and reducing LayerZero-bridged asset exposure, while saying no exploit has been reported to its knowledge.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/55c2e8e0b5fcfae65f8d7e6439ffb194ac2c4ef2-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title": "Floki Takes Trading Bot Offline Amid Exploit Investigation",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/security/floki-takes-trading-bot-offline-amid-exploit-investigation",
+      "summary": "The team plans to move affected users to new wallets and warns against further deposits into bot wallets.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/de366d0b6a4db085ed741697b58a23f354e43313-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Security",
+        "Web3",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Aave Schedules Vote on Babylon Native Bitcoin Collateral for V4",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/defi/aave-schedules-vote-on-babylon-native-bitcoin-collateral-for-v4",
+      "summary": "LlamaRisk has proposed a 300 BTC collateral cap, but activating the market would still require a separate onchain governance vote.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7ac3ccb23c1e0f225e262368cfea5b629c08e215-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "DeFi",
+        "Web3",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin Slides Below $77,000 as Ether Sinks 7%",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/markets/bitcoin-slides-below-77-000-as-ether-sinks-7",
+      "summary": "Total crypto market value fell 6.8% over 24 hours, while bitcoin gave back much of Wednesday’s post-election rebound.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/133d23736567fe4fdee99335a7df83fd7435311e-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Markets"
+      ]
+    },
+    {
+      "title": "SoFi Says Crypto Vendor Issue Is Delaying Deposits and Withdrawals",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/sofi-says-crypto-vendor-issue-is-delaying-deposits-and-withdrawals",
+      "summary": "The bank says incoming transfers are awaiting review and outgoing transfers will be processed after review, while assuring customers their funds are secure.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/11e157e86992c64f2806f8451d566fad194de349-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Groma Launches Real Estate Issuance and Redemption on Uniswap",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/defi/groma-launches-real-estate-issuance-and-redemption-on-uniswap",
+      "summary": "The GRO/USDC pool on Base uses net asset value pricing, with wallet eligibility enforced by Uniswap v4’s Permissioned Pools Hook.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/6da5f9d3dbf453b88614fbd288c610b24a1b445d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Stablecoins",
+        "Layer 2",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Zcash Nears NU7 Upgrade and Sprout Spending Cutoff",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/blockchains/zcash-nears-nu7-upgrade-and-sprout-spending-cutoff",
+      "summary": "About 12,224 ZEC remained in the legacy shielded pool ahead of the cutoff. NU7 will also reduce target block spacing from 75 seconds to 25 seconds.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/543c55d85ea6c605ae7e08bffb4327365084f0b6-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Anchorage Digital Applies for CFTC Swap Dealer Registration",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/converge/regulation/anchorage-digital-applies-for-cftc-swap-dealer-registration",
+      "summary": "The firm says its US-client options business has crossed the $8 billion threshold for an exemption from swap dealer registration.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/12d541d1a3a42354ab0e4b9cc046c0612729db77-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Tempo Introduces Credit Service With Unsecured Loans in Bolivia",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/tempo-introduces-credit-service-with-unsecured-loans-in-bolivia",
+      "summary": "Tala supplies the capital and takes the credit risk for eligible El Dorado users, while Tempo connects businesses with third-party lenders.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/2bc45065b86e7cf59e2b6f2237cbae4a2518aee1-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Canary’s Staked INJ ETF Begins Trading on Nasdaq",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/tokens/canary-s-staked-inj-etf-begins-trading-on-nasdaq",
+      "summary": "The fund expects to retain 70% of staking rewards before its separate 1.10% annual sponsor fee and other expenses.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8f65a28e5a30f284a3fbddf3ecce8652345680b5-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi",
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Lido Adds Firelight Loss Protection to Earn Vaults",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/defi/lido-adds-firelight-loss-protection-to-earn-vaults",
+      "summary": "First-period Firelight limits are about $12.1 million for EarnETH and $4 million for EarnUSD, ahead of the DAO’s existing share-burn buffer.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4040fd7f80550cbcca01f55324f06f9bf1faeeb8-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "Kalshi Opens Single-Stock Perpetual Futures Trading",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/kalshi-opens-single-stock-perpetual-futures-trading",
+      "summary": "AAPL and AMZN contracts showed estimated leverage near five times, while a court challenge threatens the regulatory basis for stock perps.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bded6159bc9c7f65f2bdff8ef64f0fe409d96fc3-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Binance Asks ArbitrumDAO to Release Frozen ETH and ARB",
+      "source": "The Defiant",
+      "date": "2026-11-05",
+      "url": "https://thedefiant.io/news/defi/binance-asks-arbitrumdao-to-release-frozen-eth-and-arb",
+      "summary": "The draft would let recovered assets replenish reserves used to cover customer losses. Binance expects the governance process to take seven weeks or longer.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/1c5989e78592b4d12b7a9509f819826c06ca00ab-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Gate Pioneers Proof of Security (PoSEC), Achieving 104.58% Cold Storage Coverage to Solidify Asset Security",
+      "source": "NewsBTC",
+      "date": "2026-11-05",
+      "url": "https://www.newsbtc.com/news/gate-pioneers-proof-of-security-posec-achieving-104-58-cold-storage-coverage-to-solidify-asset-security/",
+      "summary": "Gate has officially introduced Proof of Security (PoSEC), a new asset security verification framework, becoming the first digital asset trading platform in the industry to launch a PoSEC security verification system. Since its founding in 2013, Gate has consistently placed user…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/unknown-1-750x422.png",
       "tags": [
         "Markets"
       ]
