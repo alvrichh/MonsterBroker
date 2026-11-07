@@ -1,20 +1,166 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
-      "title": "Here’s what happened in crypto today",
+      "title": "Bitcoin holders have received eCash — What can you do with it?",
       "source": "Cointelegraph",
-      "date": "2026-11-06",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "date": "2026-11-07",
+      "url": "https://cointelegraph.com/magazine/bitcoin-holders-have-received-ecash-what-can-you-with-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Bitcoin’s eCash fork gives eligible holders an equivalent balance of ECX, but questions remain over where they can trade the tokens and what they can do with them.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6NTSVE1D4C4XEP4NP4HXZRA/magazine-stablecoins-effect-the-genius-stablecoin-bill-will-have-on-bitcoin-adoption.png",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "US sanctions Canadian money-exchange firms over Iran ties",
+      "source": "Cointelegraph",
+      "date": "2026-11-07",
+      "url": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US also offers as much as $20 million and possible relocation for information about Iran’s nuclear program.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6TV46HT5722N7KQ7PPJEREP/hi-crypto-users-in-iran-sanctions-1.jpg",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Suspicious prediction market activity seen before election poll release: NYT",
+      "source": "Cointelegraph",
+      "date": "2026-11-07",
+      "url": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Bets were placed shortly before two recent New York Times/Siena political polls were released to the public, according to a report.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6TKZ82M5JMRKRWCTC3GH1QA/hi-one-month-left-to-polymarket-season.jpg",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Nvidia may face a more hostile post-election Washington: Report",
+      "source": "Cointelegraph",
+      "date": "2026-11-07",
+      "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "CEO Jensen Huang’s relationship with President Donald Trump probably won’t save the company from a more adversarial Washington, Semafor says.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6TF8XXVHRYCKDRNDMW19WCP/analys-analytics-bisiness-man-woman-down-city-crash-nvidia.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Stablecoin contraction forces Bitcoin drop despite Fed reserve gains",
+      "source": "CryptoSlate",
+      "date": "2026-11-07",
+      "url": "https://cryptoslate.com/stablecoin-contraction-forces-bitcoin-drop-despite-fed-reserve-gains/",
+      "summary": "The dated comparison pairs a reserve rebound with shrinking dollar-token circulation, leaving the link to Bitcoin buying unestablished. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/02-fed-facade.jpg",
       "tags": [
         "Bitcoin",
-        "DeFi",
-        "Regulation",
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Morpho loan stress exposes cbXRP, but spares native XRP",
+      "source": "CryptoSlate",
+      "date": "2026-11-07",
+      "url": "https://cryptoslate.com/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp/",
+      "summary": "A November 6 snapshot placed 8.84 million USDC across 1,070 positions within a further 10% oracle decline, assuming unchanged debt and collateral. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/morpho-cbxrp-tension.jpg",
+      "tags": [
+        "Stablecoins",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Millions watched Kalshi’s election odds without betting a dollar",
+      "source": "CryptoSlate",
+      "date": "2026-11-07",
+      "url": "https://cryptoslate.com/millions-watched-kalshis-election-odds-without-betting-a-dollar/",
+      "summary": "Kalshi says people watching its midterm markets outnumbered traders five to one. For those spectators, Kalshi offers a forecast that keeps moving while the country waits for an answer. You could spend election night on Kalshi without buying anything, as millions of people did th…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/kalshi-election-window-watchers.webp",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "EIP-8037 state-gas rules force Ethereum dApps to rewrite billing",
+      "source": "CryptoSlate",
+      "date": "2026-11-07",
+      "url": "https://cryptoslate.com/eip-8037-state-gas-rules-force-ethereum-dapps-to-rewrite-billing/",
+      "summary": "A November 6 appeal asks projects to test gas assumptions and report repair options that could shape Glamsterdam’s specifications. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/glamsterdam-01-meter-bypass.jpg",
+      "tags": [
+        "Ethereum",
+        "Markets"
+      ]
+    },
+    {
+      "title": "US Sanctions Eight Canadian Money Firms Over Alleged Iran Crypto Links",
+      "source": "The Defiant",
+      "date": "2026-11-07",
+      "url": "https://thedefiant.io/converge/regulation/us-sanctions-eight-canadian-money-firms-over-alleged-iran-crypto-links",
+      "summary": "The designations freeze covered assets and generally bar US dealings with the firms. OFAC also listed six Tron addresses.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/fa054ecc504d0e53de1ecc8aada44c90099acec5-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Keplr Pauses Google and Apple Login After Unauthorized Transaction Reports",
+      "source": "The Defiant",
+      "date": "2026-11-07",
+      "url": "https://thedefiant.io/news/security/keplr-pauses-google-and-apple-login-after-unauthorized-transaction-reports",
+      "summary": "The wallet says recovery-phrase and hardware-wallet accounts are unaffected in its initial assessment, while social-login users should stop sending funds to their accounts.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5563a827b0d53c0f5d6a301c0586b8d633d556ef-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
         "Web3"
+      ]
+    },
+    {
+      "title": "Dinari Promises Anthropic dShares on IPO Day, Including for US Investors",
+      "source": "The Defiant",
+      "date": "2026-11-07",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/dinari-promises-anthropic-dshares-on-ipo-day-including-for-us-investors",
+      "summary": "The pledge follows Ondo's non-US launch plan, while Dinari's US tokens remain non-transferable and barred from DeFi.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/489ee1efa8b58789eae4a9a3fc48d7972b8279cf-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "MEXC Says Withdrawals Continue as FinCEN Orders US Financial Cutoff",
+      "source": "The Defiant",
+      "date": "2026-11-07",
+      "url": "https://thedefiant.io/news/cefi/mexc-says-withdrawals-continue-as-fincen-orders-us-financial-cutoff",
+      "summary": "The exchange says it has begun an independent review of its AML and sanctions controls. The US transfer ban takes effect 30 days after Federal Register publication.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/629b79200268c68fcc094c1f9b56df733e5aad00-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Regulation",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "url": "https://www.newsbtc.com/news/ethereum/ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven/",
+      "summary": "US spot Ether ETFs posted a $99.9 million net outflow on November 5, Farside data show, following an $85.3 million outflow on November 3 and a temporary…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-n07-02-ether-etf-flows-commons-750x422.jpg",
+      "tags": [
+        "Ethereum",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Bitcoin ETFs Lose $411.9M on Friday as BlackRock Drives the Selling",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "url": "https://www.newsbtc.com/news/bitcoin/bitcoin-etfs-lose-411-9m-on-friday-as-blackrock-drives-the-selling/",
+      "summary": "US spot Bitcoin ETFs recorded a net $411.9 million outflow on November 6, according to Farside Investors. BlackRock's IBIT accounted for $403 million in…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-n07-01-bitcoin-etf-flows-commons-750x476.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
       ]
     },
     {
@@ -52,7 +198,7 @@
       ]
     },
     {
-      "title": "Live updates: Bitcoin slips further after blowout October jobs numbers",
+      "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
       "source": "CoinDesk",
       "date": "2026-11-06",
       "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
@@ -60,39 +206,6 @@
       "image": "",
       "tags": [
         "Bitcoin"
-      ]
-    },
-    {
-      "title": "What Democrats’ US midterm sweep means for the CLARITY Act",
-      "source": "Cointelegraph",
-      "date": "2026-11-06",
-      "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "The CLARITY Act faces a new test as Democrats control Congress, raising questions over consumer protections, ethics and what the crypto industry may have to concede.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R79GK8R2493NTQFW6VGRDS/magazine-republicans-vs-democrats-and-crypto-as-a-point-of-contention.jpg",
-      "tags": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
-      "source": "Cointelegraph",
-      "date": "2026-11-06",
-      "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Nigeria has banned algorithmic stablecoins and introduced reserve requirements for issuers as it expands central bank oversight of crypto payment services.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RFZC8EDJXT26642DWHC0EV/hi-the-crypto-act-explained-nigeria-1.jpg",
-      "tags": [
-        "Stablecoins"
-      ]
-    },
-    {
-      "title": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
-      "source": "Cointelegraph",
-      "date": "2026-11-06",
-      "url": "https://cointelegraph.com/news/ethereum-devs-fork-glamsterdam-hoodi-smart-contract-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Ethereum developers are investigating concerns tied to eight smart contract invariants tied to Glamsterdam’s EIP-8037 and EIP-8038.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RG4RXBGZ2VPEVAFNJC6VA3/hi-takeaways-5-years-after-the-dao-crisis-and-ethereum-hardfork-1.jpg",
-      "tags": [
-        "Ethereum"
       ]
     },
     {
@@ -231,96 +344,6 @@
       ]
     },
     {
-      "title": "Bank of England raises rates to 4% as it forecasts inflation near 5% next year",
-      "source": "CryptoSlate",
-      "date": "2026-11-06",
-      "url": "https://cryptoslate.com/bank-of-england-raises-rates-to-4-as-it-forecasts-inflation-near-5-next-year/",
-      "summary": "Energy inflation has prompted UK tightening, while any pressure on Bitcoin depends on financing conditions and investor demand. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-policy-bridge-gap.webp",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Cheap online services routed web traffic through a White House-linked network, researchers say",
-      "source": "CryptoSlate",
-      "date": "2026-11-06",
-      "url": "https://cryptoslate.com/cheap-online-services-routed-web-traffic-through-a-white-house-linked-network-researchers-say/",
-      "summary": "The firm says six public addresses appeared across 28 services, while its data identifies neither the device nor the person. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/proxy-observation-boundary.webp",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "NYSE-backed crypto venture faces 90% stock rejection as $92 liquidity problem threatens tokenization dream",
-      "source": "CryptoSlate",
-      "date": "2026-11-06",
-      "url": "https://cryptoslate.com/nyse-backed-crypto-venture-faces-90-stock-rejection-as-92-liquidity-problem-threatens-tokenization-dream/",
-      "summary": "Its November 4 notice says the operator and affiliates will abstain from providing liquidity, leaving eligible outside participants to supply the planned pools. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/okxice-liquidity-reservoir.webp",
-      "tags": [
-        "DeFi"
-      ]
-    },
-    {
-      "title": "FBI agent drains crypto wallets tied to 35 investigations, steals $2.47 million and plans Portugal escape",
-      "source": "CryptoSlate",
-      "date": "2026-11-06",
-      "url": "https://cryptoslate.com/fbi-agent-drains-crypto-wallets-tied-to-35-investigations-steals-2-47-million-and-plans-portugal-escape/",
-      "summary": "Patrick Steven Yaroch used credentials tied to 35 investigations for about 100 fraudulent transfers, according to DOJ. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/fbi-access-shadow-trail.webp",
-      "tags": [
-        "Web3",
-        "AI"
-      ]
-    },
-    {
-      "title": "Crypto 401(k) Rule Enters Final White House Review",
-      "source": "The Defiant",
-      "date": "2026-11-06",
-      "url": "https://thedefiant.io/converge/regulation/crypto-401-k-rule-enters-final-white-house-review",
-      "summary": "Labor’s public proposal would give plan fiduciaries a process-based safe harbor for investment decisions involving crypto and other assets.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/568432f79613b57c2345652fc671c5279d84075d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Rotki Founder Says Gnosis Pay Exposed His Address, Card and Wallet Details",
-      "source": "The Defiant",
-      "date": "2026-11-06",
-      "url": "https://thedefiant.io/news/security/rotki-founder-says-gnosis-pay-exposed-his-address-card-and-wallet-details",
-      "summary": "A notification screenshot he shared describes unauthorized access to the consumer-card system on Nov. 3 and says enterprise programs were unaffected.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/53bb685a7b4fe093283cea1ab387e5d7b00bb37d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Web3"
-      ]
-    },
-    {
-      "title": "What Are Crypto Derivatives? Futures, Perpetuals and Options Explained",
-      "source": "The Defiant",
-      "date": "2026-11-06",
-      "url": "https://thedefiant.io/news/markets/what-are-crypto-derivatives-futures-perpetuals-and-options-explained",
-      "summary": "Futures bind both sides to settlement obligations. Options give buyers a right in exchange for a premium, while sellers take the corresponding obligation.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/85117cf93db750ee7d59bc49002c609c0ed4897b-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Treasury and Fed Withdraw Plan for $250 Cross-Border Travel Rule Threshold",
-      "source": "The Defiant",
-      "date": "2026-11-06",
-      "url": "https://thedefiant.io/news/regulation/treasury-and-fed-withdraw-plan-for-250-cross-border-travel-rule-threshold",
-      "summary": "The $3,000 threshold remains in place, including for qualifying crypto transfers under FinCEN's existing guidance.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ea2fe7b0a1860d5f7bcc2653c1e142dc383e339d-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Regulation"
-      ]
-    },
-    {
       "title": "DSA’s Adrian Wall and Former CFTC Chair Chris Giancarlo Discuss Future of U.S. Crypto Regulation at Strobe Summit",
       "source": "NewsBTC",
       "date": "2026-11-06",
@@ -329,28 +352,6 @@
       "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/unnamed-750x422.jpg",
       "tags": [
         "Regulation"
-      ]
-    },
-    {
-      "title": "StockFi: Connecting U.S. Stock with the On-Chain Ecosystem to Reshape Asset Circulation",
-      "source": "NewsBTC",
-      "date": "2026-11-06",
-      "url": "https://www.newsbtc.com/news/stockfi-connecting-u-s-stock-with-the-on-chain-ecosystem-to-reshape-asset-circulation/",
-      "summary": "&#160; Start with one stock. Connect two capital worlds. 6 November — Singapore — StockFi is advancing the connection between traditional equities and the on-chain ecosystem through U.S. stock tokenization. Built on BSC, the platform brings stock tokens and the meme ecosystem in…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/b028297af0a04f988f46775c56826391.png-750x422.jpeg",
-      "tags": [
-        "Web3"
-      ]
-    },
-    {
-      "title": "EIP-8037/EIP-8038 Glamsterdam",
-      "source": "Ethereum Foundation",
-      "date": "2026-11-06",
-      "url": "https://blog.ethereum.org/en/2026/11/06/glamsterdam-8037-8038",
-      "summary": "Glamsterdam, the next update for Ethereum, is currently being tested on testnets. During these tests Chainsecurity has found a few projects that would be vulnerable after Glamsterdam since they rely on certain invariants. These invariants will be broken by EIP-8037 and EIP-8038…",
-      "image": "",
-      "tags": [
-        "Ethereum"
       ]
     }
   ]
