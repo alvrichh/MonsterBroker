@@ -1,66 +1,66 @@
-# MonsterBroker · Radar cripto · 2026-11-08
+# MonsterBroker · Radar cripto · 2026-11-09
 
 **Radar cripto**
 
 > Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.
 
-30 titulares en portada · 2825 en el archivo.
+30 titulares en portada · 2939 en el archivo.
 
 ## Noticias
 
-- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-08 · `Bitcoin` `DeFi` `Regulation` `Web3`
+- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-09 · `Bitcoin` `DeFi` `Regulation` `Web3`
   Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.
-- **[These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)](https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000)** — CoinDesk · 2026-11-08 · `Bitcoin`
-- **[Binance France emails announce closure of its users’ accounts on Dec. 31](https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-08 · `Exchanges`
-  Any assets left on the exchange will be charged monthly fees starting on Nov. 29, company says.
-- **[Amsterdam protesters break into Microsoft data center construction site: Report](https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-08 · `Crypto`
-  Dutch police said they detained 150-200 people for trespassing during the protest.
-- **[Binance’s finance chief Kaiser Ng to leave company, report says](https://cointelegraph.com/news/binances-finance-chief-kaiser-ng-to-leave-company-report-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-08 · `Exchanges`
-  Ng will be replaced by Justin Yek, who was formerly vice-president of finance at Airwallex.
-- **[This Bitcoin Developer’s Idea Would Make Quantum Attacks a Losing Bet](https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet)** — Decrypt · 2026-11-08 · `Bitcoin` `Security` `Web3`
-  Cory Fields wants future quantum attackers to post Bitcoin as collateral before touching vulnerable wallets, giving prepared owners a chance to recover their coins and collect a potentially costly penalty.
-- **[Gold is still 25% below its peak even as demand reaches $188B in Q3](https://cryptoslate.com/gold-is-still-25-below-its-peak-while-demand-reaches-188b/)** — CryptoSlate · 2026-11-08 · `Crypto`
-  Central banks bought more gold in the third quarter of 2026 than consumers worldwide bought for jewelry. According to the World Gold Council&#039;s latest demand report, central banks and other official institutions acquired an estimated net 321 metric tons, while jewelry consum…
-- **[Keplr Confirms Web3Auth Recovery Addresses After Wallet Breach](https://thedefiant.io/news/security/keplr-confirms-web3auth-recovery-addresses-after-wallet-breach)** — The Defiant · 2026-11-08 · `Security` `Web3`
-  The list includes the destination of a six-account Cosmos Hub batch that tokenized 2,265.59 staked ATOM.
-- **[Tornado Cash-Funded Wallet Builds $26 Million Bitcoin-Ether Trade](https://thedefiant.io/news/hacks/tornado-cash-funded-wallet-builds-26-million-bitcoin-ether-trade)** — The Defiant · 2026-11-08 · `Bitcoin` `Ethereum` `Stablecoins` `Web3`
-  The wallet converted 3,100 ETH into roughly 6.92 million USDC before pairing a Bitcoin long with an Ether short on Hyperliquid.
-- **[Cosmos Batch Moves 2,266 Staked ATOM From Six Accounts](https://thedefiant.io/news/hacks/cosmos-batch-moves-2-266-staked-atom-from-six-accounts)** — The Defiant · 2026-11-08 · `Web3`
-  One delegator reported theft, while Web3Auth says some apparent wallet drains are protective recovery transfers.
-- **[Sky TVL Falls 15% in a Week as USDS Supply Contracts](https://thedefiant.io/news/defi/sky-tvl-falls-15-in-a-week-as-usds-supply-contracts)** — The Defiant · 2026-11-08 · `DeFi`
-  USDS circulating supply fell to $5.59 billion over the same week, while Sky.money lists a 3.80% savings rate set by governance.
-- **[Kraken Parent Payward Takes AAVE Stake as Institutions Look Deeper Into DeFi](https://www.newsbtc.com/news/defi/kraken-parent-payward-takes-aave-stake-as-institutions-look-deeper-into-defi/)** — NewsBTC · 2026-11-08 · `DeFi` `Exchanges`
-  Payward, the infrastructure company behind Kraken, said November 5 that an affiliated fund and its clients had acquired an undisclosed amount of AAVE through…
-- **[Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto](https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/)** — NewsBTC · 2026-11-08 · `Regulation` `Altcoins` `Markets`
-  Leap, described by Solana Labs as a mobile trading app for tokenised stocks, ETFs, metals, currencies and crypto, launched in early-access beta on iOS on…
-- **[Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain](https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/)** — NewsBTC · 2026-11-08 · `DeFi` `Web3`
-  Aave Labs said November 6 it had acquired Avon's team and technology, including fixed- and floating-rate lending systems and an onchain order book. The move…
-- **[Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds](https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/)** — NewsBTC · 2026-11-08 · `Bitcoin` `Exchanges` `Security`
-  A November 6 update from blockchain intelligence firm Elliptic says roughly $124 million of assets stolen in the October Binance breach had been converted…
-- **[Stablecoin contraction forces Bitcoin drop despite Fed reserve gains](https://cryptoslate.com/stablecoin-contraction-forces-bitcoin-drop-despite-fed-reserve-gains/)** — CryptoSlate · 2026-11-07 · `Bitcoin` `Stablecoins`
-  The dated comparison pairs a reserve rebound with shrinking dollar-token circulation, leaving the link to Bitcoin buying unestablished. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Morpho loan stress exposes cbXRP, but spares native XRP](https://cryptoslate.com/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp/)** — CryptoSlate · 2026-11-07 · `Stablecoins` `Altcoins`
-  A November 6 snapshot placed 8.84 million USDC across 1,070 positions within a further 10% oracle decline, assuming unchanged debt and collateral. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Millions watched Kalshi’s election odds without betting a dollar](https://cryptoslate.com/millions-watched-kalshis-election-odds-without-betting-a-dollar/)** — CryptoSlate · 2026-11-07 · `Markets`
-  Kalshi says people watching its midterm markets outnumbered traders five to one. For those spectators, Kalshi offers a forecast that keeps moving while the country waits for an answer. You could spend election night on Kalshi without buying anything, as millions of people did th…
-- **[Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end](https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end)** — CoinDesk · 2026-11-07 · `Exchanges`
-- **[U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows](https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows)** — CoinDesk · 2026-11-07 · `Regulation` `Exchanges`
-- **[Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets](https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets)** — CoinDesk · 2026-11-07 · `Security` `Web3`
-- **[Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue](https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue)** — Decrypt · 2026-11-07 · `Exchanges`
-  Apple and Meta’s objections mean all seven of the biggest U.S. tech companies have now asked to keep their shares off the planned OKX-ICE venue.
-- **[AI Chip Stocks Bounce After Global Rout—But Is the Bubble Starting to Burst?](https://decrypt.co/382770/ai-chip-stocks-bounce-global-rout-bubble-starting-burst)** — Decrypt · 2026-11-07 · `AI`
-  A Friday rebound offered relief after a historic selloff. The question now is whether politics and mounting debt could turn an AI correction into something much worse.
-- **[Sony Axing Game Discs Will Have Outsized Impact on Low-Income Gamers, Experts Say](https://decrypt.co/382714/sony-axing-game-discs-will-have-outsized-impact-on-low-income-gamers-experts-say)** — Decrypt · 2026-11-07 · `NFT & Gaming` `Markets`
-  Experts say a disc-free PlayStation will price out low-income players, while in much of Africa, digital-only gaming means breaking Sony’s rules.
-- **[Binance CFO steps down nine days after record hack; co-CEO says transition was planned six months ago](https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992)** — The Block · 2026-11-07 · `Exchanges` `Security`
-  Co-CEO Yi He said Ng is departing to pursue a new venture, under a transition plan put in place over the past six months.
-- **[Ex-FBI agent pleads guilty to stealing $2.47 million in crypto from wallets tied to 35 investigations](https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988)** — The Block · 2026-11-07 · `Web3` `AI`
-  Yaroch will pay at least $2.4 million in restitution and will forfeit any profits he would earn in the future from telling his story.
-- **[Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June](https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984)** — The Block · 2026-11-07 · `Bitcoin` `Regulation`
-  BlackRock's IBIT accounted for 98% of Friday's outflows, with $403 million leaving the industry-leading fund.
-- **[TeraWulf’s bitcoin mining revenue falls 69% as HPC leasing surges amid Anthropic buildout](https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885)** — The Block · 2026-11-06 · `Bitcoin` `AI`
-  TeraWulf reported $63 million in artificial intelligence-related quarterly HPC lease revenue, up 774% year over year.
-- **[Bitcoin Price Holds Near $75,000 After Hot October Jobs Report](https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-75800-jobs)** — Bitcoin Magazine · 2026-11-06 · `Bitcoin` `Markets`
-  Bitcoin Magazine Bitcoin Price Holds Near $75,000 After Hot October Jobs Report Bitcoin price held near $75,800 Friday after U.S. employers added 165,000 jobs in October, far above the 59,000 forecast, as December Fed hike odds climbed toward 80%. This post Bitcoin Price Holds N…
-- **[South Korean Crypto Exchange Gopax Suspends Withdrawals and Trading After Hacking Threat](https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat)** — Bitcoin Magazine · 2026-11-06 · `Bitcoin` `Exchanges` `Security` `Web3`
-  Bitcoin Magazine South Korean Crypto Exchange Gopax Suspends Withdrawals and Trading After Hacking Threat South Korea's Gopax halted standard withdrawals at 2:55 p.m. and trading at 3:53 p.m. Friday after a hacking-threat email, and is transferring all held assets to cold wallet…
+- **[A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees](https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees)** — CoinDesk · 2026-11-09 · `Bitcoin`
+- **[Google’s AI chip push adds more pressure on Nvidia](https://www.coindesk.com/markets/2026/11/09/google-s-ai-chip-push-adds-more-pressure-on-nvidia)** — CoinDesk · 2026-11-09 · `AI`
+- **[North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack](https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack)** — CoinDesk · 2026-11-09 · `Exchanges` `Security`
+- **[NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race](https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race)** — CoinDesk · 2026-11-09 · `Altcoins`
+- **[Analysts see no broader ‘contagion’ from $6.3B Binance hack](https://cointelegraph.com/markets/analysts-no-contagion-effect-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-09 · `Exchanges` `Security`
+  Binance’s pledge to cover all user losses helped contain the fallout from the $6.3 billion hack, analysts said.
+- **[The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules](https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-09 · `Stablecoins` `Exchanges` `Security`
+  The Binance hack proved stablecoin freezes work. Now the UK should make clear freeze rules a condition of listing coins.
+- **[Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364](https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-09 · `Bitcoin` `Regulation`
+  Strategy bought $81.9 million in Bitcoin last week while spending $188.3 million repurchasing STRC preferred shares, according to its latest SEC filing.
+- **[Tom Lee’s Bitmine Adds $20M in Ethereum, Seizing on Vitalik’s 'ETH Is Money' Declaration](https://decrypt.co/382854/tom-lee-bitmine-adds-20m-ethereum-vitalik-eth-money)** — Decrypt · 2026-11-09 · `Ethereum`
+  The firm’s stash reached 6.07 million ETH—4.97% of supply and 99% of the way to its “Alchemy of 5%” goal—as chairman Tom Lee called Vitalik Buterin’s “ETH is money” comments a “seismic shift.”
+- **[NYSE Taps Avalanche to Settle Its Planned Tokenized Stock Platform](https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform)** — Decrypt · 2026-11-09 · `Altcoins` `Web3` `Markets`
+  Ava Labs said Avalanche will serve as the “core ledger technology” for the clearing firm behind the NYSE-affiliated venue, which aims to bring 24/7 trading, clearing and settlement of tokenized securities onchain.
+- **[Strategy Buys $82M in Bitcoin, Buys Back $188M of STRC](https://decrypt.co/382820/strategy-buys-82m-in-bitcoin-buys-back-188m-of-strc)** — Decrypt · 2026-11-09 · `Bitcoin` `Regulation`
+  The Bitcoin treasury firm sold $284 million of MSTR stock to fund the moves, days before MSCI names companies facing index removal.
+- **[Microsoft-Backed Space and Time Launches Platform to Let AI Agents Verify Private Data](https://decrypt.co/382697/microsoft-backed-space-and-time-launches-platform-to-let-ai-agents-verify-private-data)** — Decrypt · 2026-11-09 · `AI`
+  Space and Time Enterprise uses Proof of SQL to prove calculations on private business data without exposing the records to AI agents.
+- **[StoneX sees 97% upside for Bullish as $4.2 billion Equiniti deal opens tokenization market](https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464)** — The Block · 2026-11-09 · `Markets`
+  StoneX initiated coverage of Bullish with a Buy rating and a $42 price target, implying roughly 97% upside from its current levels.
+- **[Coinbase and PNC Bank expand partnership with USDC payments for corporate clients](https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466)** — The Block · 2026-11-09 · `Stablecoins` `Exchanges`
+  PNC Bank is piloting USDC payment acceptance for corporate and institutional clients through its expanded partnership with Coinbase.
+- **[Binance hack launderers mint homemade Elon Musk, animal memecoins to move stolen funds: Elliptic](https://www.theblock.co/news/ecosystems/2026-11-09-binance-hack-launderers-mint-homemade-elon-musk-animal-memecoins-move-stolen-funds-elliptic-436440)** — The Block · 2026-11-09 · `Exchanges` `Security` `Web3`
+  Elliptic says the extra swaps slow investigators down, but the stolen funds remain traceable onchain.
+- **[Ethereum treasury Sharplink’s Q3 net income hits $751 million on unrealized ether gains](https://www.theblock.co/news/markets/2026-11-09-sharplink-q3-2026-earnings-net-income-eth-holdings-436459)** — The Block · 2026-11-09 · `Ethereum` `Regulation`
+  Sharplink posted Q3 revenue of $13.5 million and net income of $751.4 million, driven by unrealized ETH gains.
+- **[TD Cowen Gives Stablecoin Yield Ban 10% Odds as Banks Plan Push in Democrat-Led Congress](https://bitcoinmagazine.com/news/td-cowen-stablecoin-yield-ban-10-odds)** — Bitcoin Magazine · 2026-11-09 · `Bitcoin` `DeFi` `Stablecoins` `Regulation`
+  Bitcoin Magazine TD Cowen Gives Stablecoin Yield Ban 10% Odds as Banks Plan Push in Democrat-Led Congress TD Cowen's Jaret Seiberg puts only a 10% chance on a congressional ban on platform stablecoin yield over the next two years, even as banks renew their push after Democratic…
+- **[BlackRock: Security Fears Are Driving Bitcoin Whales Into IBIT](https://bitcoinmagazine.com/news/blackrock-bitcoin-whales-self-custody-ibit)** — Bitcoin Magazine · 2026-11-09 · `Bitcoin` `Security` `Markets`
+  Bitcoin Magazine BlackRock: Security Fears Are Driving Bitcoin Whales Into IBIT BlackRock's Robbie Mitchnick told Barron's demand to swap directly held bitcoin for IBIT shares is at its highest yet, with "security and peace of mind" the top reason as kidnappings and hacks rise.…
+- **[Binance to Close Accounts in Four EU Countries Dec. 31, Charging Idle Balances From Nov. 29](https://bitcoinmagazine.com/news/binance-closing-accounts-four-eu-countries)** — Bitcoin Magazine · 2026-11-09 · `Bitcoin` `Exchanges`
+  Bitcoin Magazine Binance to Close Accounts in Four EU Countries Dec. 31, Charging Idle Balances From Nov. 29 Binance told users in France, Spain, Italy and Poland to withdraw their crypto, with deposits blocked, accounts closing Dec. 31 and a monthly fee starting Nov. 29, as the…
+- **[U.S. Regulators Drop $250 Travel Rule Plan, Crypto Language Too](https://bitcoinmagazine.com/news/fincen-fed-withdraw-travel-rule-250)** — Bitcoin Magazine · 2026-11-09 · `Bitcoin` `Regulation`
+  Bitcoin Magazine U.S. Regulators Drop $250 Travel Rule Plan, Crypto Language Too FinCEN and the Federal Reserve formally withdrew a 2020 proposal that would have cut the cross-border funds-transfer threshold from $3,000 to $250 and spelled out that the rules cover crypto, saying…
+- **[Bitcoin Lightning’s security update shuts one door. A critical Linux flaw remains](https://cryptoslate.com/bitcoin-lightnings-security-update-shuts-one-door-a-critical-linux-flaw-remains/)** — CryptoSlate · 2026-11-09 · `Bitcoin` `Security`
+  LND’s October 30 releases block a demonstrated MPTCP exploit route, but affected hosts need a patched kernel and reboot. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[US drops a proposed crypto rule. Europe can still hold up your $500 transfer](https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/)** — CryptoSlate · 2026-11-09 · `Exchanges`
+  The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Nigeria tells dollar-stablecoin issuers: go local or lose retail access](https://cryptoslate.com/nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access/)** — CryptoSlate · 2026-11-09 · `Stablecoins`
+  Continued Class 2 access during assessment needs express CBN permission, while foreign licenses cannot replace local issuer and token approvals. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Coinbase’s blockchain got faster. Some apps can still connect but get no data](https://cryptoslate.com/coinbases-blockchain-got-faster-some-apps-can-still-connect-but-get-no-data/)** — CryptoSlate · 2026-11-09 · `Exchanges`
+  Apps using Flashblocks must migrate after Denim left retired endpoints accepting connections without streaming data. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Buterin Urges Store-of-Value Focus for ETH, Not Fee Burns](https://thedefiant.io/news/blockchains/buterin-urges-store-of-value-focus-for-eth-not-fee-burns)** — The Defiant · 2026-11-09 · `Ethereum` `Web3` `Markets`
+  The Ethereum co-founder backs keeping EIP-1559 but argues that maximizing fees could price out users and undermine decentralization.
+- **[Cosmos Contributes IBC to Linux Foundation Decentralized Trust](https://thedefiant.io/news/infrastructure/cosmos-contributes-ibc-to-linux-foundation-decentralized-trust)** — The Defiant · 2026-11-09 · `Web3`
+  Cosmos Labs holds five places on the initial seven-person technical committee, alongside maintainers from Datachain and OpenZeppelin.
+- **[Kinetiq Launches Elysium Mainnet for Hyperliquid](https://thedefiant.io/news/defi/kinetiq-launches-elysium-mainnet-for-hyperliquid)** — The Defiant · 2026-11-09 · `Markets`
+  Pump.fun and Fomo say Elysium trading is live, while native HyperCore data reads and fast order submissions await a later upgrade.
+- **[Base’s Retired Flashblocks Feeds Accept Connections but Send No Data](https://thedefiant.io/news/blockchains/base-s-retired-flashblocks-feeds-accept-connections-but-send-no-data)** — The Defiant · 2026-11-09 · `Layer 2`
+  Denim replaced block previews with complete blocks every 200 milliseconds, requiring developers to change subscriptions and review pending-state reads.
+- **[US Sanctions Eight Canadian Money Services Firms Over Iranian Crypto Transfer Allegations](https://www.newsbtc.com/news/us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations/)** — NewsBTC · 2026-11-09 · `Regulation` `Exchanges`
+  The US Treasury has added eight Canada-based money services businesses to its sanctions list, alleging that they helped move value for the Iranian regime and sanctioned actors. The November 6 action explicitly focuses on exchanges between local…
+- **[Stellar Foundation Backs Marketnode to Expand Tokenized Funds Across Asia-Pacific](https://www.newsbtc.com/technology/stellar-foundation-backs-marketnode-to-expand-tokenized-funds-across-asia-pacific/)** — NewsBTC · 2026-11-09 · `Crypto`
+  The Stellar Development Foundation announced a strategic investment in Marketnode on October 29, aiming to widen institutional access to tokenized…

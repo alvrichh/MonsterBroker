@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -18,347 +18,345 @@
       ]
     },
     {
-      "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+      "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
       "source": "CoinDesk",
-      "date": "2026-11-08",
-      "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
+      "date": "2026-11-09",
+      "url": "https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/aee234db418da001bf5ae613c8da62131873c838-1330x998.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6bc97519d5345c3c5216389198cb36d38f7f90b3-3924x3024.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Bitcoin"
       ]
     },
     {
-      "title": "Binance France emails announce closure of its users’ accounts on Dec. 31",
-      "source": "Cointelegraph",
-      "date": "2026-11-08",
-      "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Any assets left on the exchange will be charged monthly fees starting on Nov. 29, company says.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6XKMA4GCCY02X2C5H5XBVBP/hi-consortium-open-doors-binance.jpg",
+      "title": "Google’s AI chip push adds more pressure on Nvidia",
+      "source": "CoinDesk",
+      "date": "2026-11-09",
+      "url": "https://www.coindesk.com/markets/2026/11/09/google-s-ai-chip-push-adds-more-pressure-on-nvidia",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/90f39fc46356434c7e4ffade0abab7f574c575c3-1719x864.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Exchanges"
+        "AI"
       ]
     },
     {
-      "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
-      "source": "Cointelegraph",
-      "date": "2026-11-08",
-      "url": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Dutch police said they detained 150-200 people for trespassing during the protest.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X8JFEEG972QNHB7E2TQ63J/hi-the-rise-of-major-institutions-is-inevitable-microsoft.jpg",
+      "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+      "source": "CoinDesk",
+      "date": "2026-11-09",
+      "url": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c18c9af8ef94bcbc9a17fac89a01b83bfc76fd8f-5472x3648.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Binance’s finance chief Kaiser Ng to leave company, report says",
-      "source": "Cointelegraph",
-      "date": "2026-11-08",
-      "url": "https://cointelegraph.com/news/binances-finance-chief-kaiser-ng-to-leave-company-report-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Ng will be replaced by Justin Yek, who was formerly vice-president of finance at Airwallex.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X3D6NBXVQ58B0WF2EB2C96/bank-building-hall-entrance-door-binance.png",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "This Bitcoin Developer’s Idea Would Make Quantum Attacks a Losing Bet",
-      "source": "Decrypt",
-      "date": "2026-11-08",
-      "url": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet",
-      "summary": "Cory Fields wants future quantum attackers to post Bitcoin as collateral before touching vulnerable wallets, giving prepared owners a chance to recover their coins and collect a potentially costly penalty.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg",
-      "tags": [
-        "Bitcoin",
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Gold is still 25% below its peak even as demand reaches $188B in Q3",
-      "source": "CryptoSlate",
-      "date": "2026-11-08",
-      "url": "https://cryptoslate.com/gold-is-still-25-below-its-peak-while-demand-reaches-188b/",
-      "summary": "Central banks bought more gold in the third quarter of 2026 than consumers worldwide bought for jewelry. According to the World Gold Council&#039;s latest demand report, central banks and other official institutions acquired an estimated net 321 metric tons, while jewelry consum…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/loaded-gold-lift.webp",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Keplr Confirms Web3Auth Recovery Addresses After Wallet Breach",
-      "source": "The Defiant",
-      "date": "2026-11-08",
-      "url": "https://thedefiant.io/news/security/keplr-confirms-web3auth-recovery-addresses-after-wallet-breach",
-      "summary": "The list includes the destination of a six-account Cosmos Hub batch that tokenized 2,265.59 staked ATOM.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/14f5ab336f1bb442e1f4a600193fbadea809e72a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Tornado Cash-Funded Wallet Builds $26 Million Bitcoin-Ether Trade",
-      "source": "The Defiant",
-      "date": "2026-11-08",
-      "url": "https://thedefiant.io/news/hacks/tornado-cash-funded-wallet-builds-26-million-bitcoin-ether-trade",
-      "summary": "The wallet converted 3,100 ETH into roughly 6.92 million USDC before pairing a Bitcoin long with an Ether short on Hyperliquid.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4a373e6c828ed0567ea6dce5ee88648d12ffd22b-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Bitcoin",
-        "Ethereum",
-        "Stablecoins",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Cosmos Batch Moves 2,266 Staked ATOM From Six Accounts",
-      "source": "The Defiant",
-      "date": "2026-11-08",
-      "url": "https://thedefiant.io/news/hacks/cosmos-batch-moves-2-266-staked-atom-from-six-accounts",
-      "summary": "One delegator reported theft, while Web3Auth says some apparent wallet drains are protective recovery transfers.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4a7ad06d917734f59f63d761ff132147960e1de4-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Web3"
-      ]
-    },
-    {
-      "title": "Sky TVL Falls 15% in a Week as USDS Supply Contracts",
-      "source": "The Defiant",
-      "date": "2026-11-08",
-      "url": "https://thedefiant.io/news/defi/sky-tvl-falls-15-in-a-week-as-usds-supply-contracts",
-      "summary": "USDS circulating supply fell to $5.59 billion over the same week, while Sky.money lists a 3.80% savings rate set by governance.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4b6f7e288bff4857a81d7e3c3e3dd212e0b5c3e6-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "DeFi"
-      ]
-    },
-    {
-      "title": "Kraken Parent Payward Takes AAVE Stake as Institutions Look Deeper Into DeFi",
-      "source": "NewsBTC",
-      "date": "2026-11-08",
-      "url": "https://www.newsbtc.com/news/defi/kraken-parent-payward-takes-aave-stake-as-institutions-look-deeper-into-defi/",
-      "summary": "Payward, the infrastructure company behind Kraken, said November 5 that an affiliated fund and its clients had acquired an undisclosed amount of AAVE through…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2025/12/Kraken-Review-Is-It-Safe-Legit-Crypto-Exchange.jpg",
-      "tags": [
-        "DeFi",
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
-      "source": "NewsBTC",
-      "date": "2026-11-08",
-      "url": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/",
-      "summary": "Leap, described by Solana Labs as a mobile trading app for tokenised stocks, ETFs, metals, currencies and crypto, launched in early-access beta on iOS on…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845-307x460.jpeg",
-      "tags": [
-        "Regulation",
-        "Altcoins",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
-      "source": "NewsBTC",
-      "date": "2026-11-08",
-      "url": "https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/",
-      "summary": "Aave Labs said November 6 it had acquired Avon's team and technology, including fixed- and floating-rate lending systems and an onchain order book. The move…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2023/06/98ba7670-30c1-4740-9194-379e4813359b-cover-460x276.png",
-      "tags": [
-        "DeFi",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds",
-      "source": "NewsBTC",
-      "date": "2026-11-08",
-      "url": "https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/",
-      "summary": "A November 6 update from blockchain intelligence firm Elliptic says roughly $124 million of assets stolen in the October Binance breach had been converted…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-shielded-from-quantum-attack-bitcoin-logo-.jpeg",
-      "tags": [
-        "Bitcoin",
         "Exchanges",
         "Security"
       ]
     },
     {
-      "title": "Stablecoin contraction forces Bitcoin drop despite Fed reserve gains",
-      "source": "CryptoSlate",
-      "date": "2026-11-07",
-      "url": "https://cryptoslate.com/stablecoin-contraction-forces-bitcoin-drop-despite-fed-reserve-gains/",
-      "summary": "The dated comparison pairs a reserve rebound with shrinking dollar-token circulation, leaving the link to Bitcoin buying unestablished. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/02-fed-facade.jpg",
+      "title": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+      "source": "CoinDesk",
+      "date": "2026-11-09",
+      "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e5010be687a255fbd4ca9b45cb952c3ec72fe13a-6302x3545.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Bitcoin",
-        "Stablecoins"
-      ]
-    },
-    {
-      "title": "Morpho loan stress exposes cbXRP, but spares native XRP",
-      "source": "CryptoSlate",
-      "date": "2026-11-07",
-      "url": "https://cryptoslate.com/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp/",
-      "summary": "A November 6 snapshot placed 8.84 million USDC across 1,070 positions within a further 10% oracle decline, assuming unchanged debt and collateral. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/morpho-cbxrp-tension.jpg",
-      "tags": [
-        "Stablecoins",
         "Altcoins"
       ]
     },
     {
-      "title": "Millions watched Kalshi’s election odds without betting a dollar",
-      "source": "CryptoSlate",
-      "date": "2026-11-07",
-      "url": "https://cryptoslate.com/millions-watched-kalshis-election-odds-without-betting-a-dollar/",
-      "summary": "Kalshi says people watching its midterm markets outnumbered traders five to one. For those spectators, Kalshi offers a forecast that keeps moving while the country waits for an answer. You could spend election night on Kalshi without buying anything, as millions of people did th…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/kalshi-election-window-watchers.webp",
-      "tags": [
-        "Markets"
-      ]
-    },
-    {
-      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-      "source": "CoinDesk",
-      "date": "2026-11-07",
-      "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-      "source": "CoinDesk",
-      "date": "2026-11-07",
-      "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/9b6c50614a95b8691bb96a1027e2c050c8f9b64c-960x720.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Regulation",
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-      "source": "CoinDesk",
-      "date": "2026-11-07",
-      "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/422bf0c58d3c5d984b8ee7f8a379b85250db7bc2-6016x4016.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
-      "source": "Decrypt",
-      "date": "2026-11-07",
-      "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
-      "summary": "Apple and Meta’s objections mean all seven of the biggest U.S. tech companies have now asked to keep their shares off the planned OKX-ICE venue.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "AI Chip Stocks Bounce After Global Rout—But Is the Bubble Starting to Burst?",
-      "source": "Decrypt",
-      "date": "2026-11-07",
-      "url": "https://decrypt.co/382770/ai-chip-stocks-bounce-global-rout-bubble-starting-burst",
-      "summary": "A Friday rebound offered relief after a historic selloff. The question now is whether politics and mounting debt could turn an AI correction into something much worse.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2020/07/popping-bubble-1-gID_7.png",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Sony Axing Game Discs Will Have Outsized Impact on Low-Income Gamers, Experts Say",
-      "source": "Decrypt",
-      "date": "2026-11-07",
-      "url": "https://decrypt.co/382714/sony-axing-game-discs-will-have-outsized-impact-on-low-income-gamers-experts-say",
-      "summary": "Experts say a disc-free PlayStation will price out low-income players, while in much of Africa, digital-only gaming means breaking Sony’s rules.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/sony-ps5-playstation-5-decrypt-style-gID_7.jpg",
-      "tags": [
-        "NFT & Gaming",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Binance CFO steps down nine days after record hack; co-CEO says transition was planned six months ago",
-      "source": "The Block",
-      "date": "2026-11-07",
-      "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992",
-      "summary": "Co-CEO Yi He said Ng is departing to pursue a new venture, under a transition plan put in place over the past six months.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Grayscale-Crypto-Leaders-with-Binance-Gold_clean.png",
+      "title": "Analysts see no broader ‘contagion’ from $6.3B Binance hack",
+      "source": "Cointelegraph",
+      "date": "2026-11-09",
+      "url": "https://cointelegraph.com/markets/analysts-no-contagion-effect-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Binance’s pledge to cover all user losses helped contain the fallout from the $6.3 billion hack, analysts said.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M708577YNJM1YTD403ZVNDXB/hi-volatility2.jpg",
       "tags": [
         "Exchanges",
         "Security"
       ]
     },
     {
-      "title": "Ex-FBI agent pleads guilty to stealing $2.47 million in crypto from wallets tied to 35 investigations",
-      "source": "The Block",
-      "date": "2026-11-07",
-      "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988",
-      "summary": "Yaroch will pay at least $2.4 million in restitution and will forfeit any profits he would earn in the future from telling his story.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/FBI-and-Bitcoin-Vineyard-Investigation_clean.png",
+      "title": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
+      "source": "Cointelegraph",
+      "date": "2026-11-09",
+      "url": "https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The Binance hack proved stablecoin freezes work. Now the UK should make clear freeze rules a condition of listing coins.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M33DXG3A0A4EZ0MK4MVHFSA0/binance.jpg",
       "tags": [
-        "Web3",
-        "AI"
+        "Stablecoins",
+        "Exchanges",
+        "Security"
       ]
     },
     {
-      "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
-      "source": "The Block",
-      "date": "2026-11-07",
-      "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
-      "summary": "BlackRock's IBIT accounted for 98% of Friday's outflows, with $403 million leaving the industry-leading fund.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Neon-Liquid-Bitcoin-and-Ethereum-Flow_clean.png",
+      "title": "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
+      "source": "Cointelegraph",
+      "date": "2026-11-09",
+      "url": "https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Strategy bought $81.9 million in Bitcoin last week while spending $188.3 million repurchasing STRC preferred shares, according to its latest SEC filing.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3KYHA0Z0DAFRPRWE639Z8D7/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-6.jpg",
       "tags": [
         "Bitcoin",
         "Regulation"
       ]
     },
     {
-      "title": "TeraWulf’s bitcoin mining revenue falls 69% as HPC leasing surges amid Anthropic buildout",
-      "source": "The Block",
-      "date": "2026-11-06",
-      "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
-      "summary": "TeraWulf reported $63 million in artificial intelligence-related quarterly HPC lease revenue, up 774% year over year.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-06-at-12.44.27.png",
+      "title": "Tom Lee’s Bitmine Adds $20M in Ethereum, Seizing on Vitalik’s 'ETH Is Money' Declaration",
+      "source": "Decrypt",
+      "date": "2026-11-09",
+      "url": "https://decrypt.co/382854/tom-lee-bitmine-adds-20m-ethereum-vitalik-eth-money",
+      "summary": "The firm’s stash reached 6.07 million ETH—4.97% of supply and 99% of the way to its “Alchemy of 5%” goal—as chairman Tom Lee called Vitalik Buterin’s “ETH is money” comments a “seismic shift.”",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/10/tom-lee-decrypt-style-04-gID_7.jpg",
       "tags": [
-        "Bitcoin",
-        "AI"
+        "Ethereum"
       ]
     },
     {
-      "title": "Bitcoin Price Holds Near $75,000 After Hot October Jobs Report",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-06",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-75800-jobs",
-      "summary": "Bitcoin Magazine Bitcoin Price Holds Near $75,000 After Hot October Jobs Report Bitcoin price held near $75,800 Friday after U.S. employers added 165,000 jobs in October, far above the 59,000 forecast, as December Fed hike odds climbed toward 80%. This post Bitcoin Price Holds N…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Bitcoin-Price-Holds-Near-75800-After-Hot-October-Jobs-Report.jpg",
+      "title": "NYSE Taps Avalanche to Settle Its Planned Tokenized Stock Platform",
+      "source": "Decrypt",
+      "date": "2026-11-09",
+      "url": "https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform",
+      "summary": "Ava Labs said Avalanche will serve as the “core ledger technology” for the clearing firm behind the NYSE-affiliated venue, which aims to bring 24/7 trading, clearing and settlement of tokenized securities onchain.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/stocks-gID_7.jpg",
       "tags": [
-        "Bitcoin",
+        "Altcoins",
+        "Web3",
         "Markets"
       ]
     },
     {
-      "title": "South Korean Crypto Exchange Gopax Suspends Withdrawals and Trading After Hacking Threat",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-06",
-      "url": "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
-      "summary": "Bitcoin Magazine South Korean Crypto Exchange Gopax Suspends Withdrawals and Trading After Hacking Threat South Korea's Gopax halted standard withdrawals at 2:55 p.m. and trading at 3:53 p.m. Friday after a hacking-threat email, and is transferring all held assets to cold wallet…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Gopax-Suspends-Withdrawals-Cold-Storage.jpg",
+      "title": "Strategy Buys $82M in Bitcoin, Buys Back $188M of STRC",
+      "source": "Decrypt",
+      "date": "2026-11-09",
+      "url": "https://decrypt.co/382820/strategy-buys-82m-in-bitcoin-buys-back-188m-of-strc",
+      "summary": "The Bitcoin treasury firm sold $284 million of MSTR stock to fund the moves, days before MSCI names companies facing index removal.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/michael-saylor-microstrategy-youtube-gID_7.png",
       "tags": [
         "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Microsoft-Backed Space and Time Launches Platform to Let AI Agents Verify Private Data",
+      "source": "Decrypt",
+      "date": "2026-11-09",
+      "url": "https://decrypt.co/382697/microsoft-backed-space-and-time-launches-platform-to-let-ai-agents-verify-private-data",
+      "summary": "Space and Time Enterprise uses Proof of SQL to prove calculations on private business data without exposing the records to AI agents.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/07/ai-agentic-payments-1-gID_7.jpg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "StoneX sees 97% upside for Bullish as $4.2 billion Equiniti deal opens tokenization market",
+      "source": "The Block",
+      "date": "2026-11-09",
+      "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
+      "summary": "StoneX initiated coverage of Bullish with a Buy rating and a $42 price target, implying roughly 97% upside from its current levels.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-09-at-18.50.16.png",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Coinbase and PNC Bank expand partnership with USDC payments for corporate clients",
+      "source": "The Block",
+      "date": "2026-11-09",
+      "url": "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466",
+      "summary": "PNC Bank is piloting USDC payment acceptance for corporate and institutional clients through its expanded partnership with Coinbase.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-09-at-15.27.46.png",
+      "tags": [
+        "Stablecoins",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Binance hack launderers mint homemade Elon Musk, animal memecoins to move stolen funds: Elliptic",
+      "source": "The Block",
+      "date": "2026-11-09",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-09-binance-hack-launderers-mint-homemade-elon-musk-animal-memecoins-move-stolen-funds-elliptic-436440",
+      "summary": "Elliptic says the extra swaps slow investigators down, but the stolen funds remain traceable onchain.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/keplr-web3auth-art.jpg",
+      "tags": [
         "Exchanges",
         "Security",
         "Web3"
+      ]
+    },
+    {
+      "title": "Ethereum treasury Sharplink’s Q3 net income hits $751 million on unrealized ether gains",
+      "source": "The Block",
+      "date": "2026-11-09",
+      "url": "https://www.theblock.co/news/markets/2026-11-09-sharplink-q3-2026-earnings-net-income-eth-holdings-436459",
+      "summary": "Sharplink posted Q3 revenue of $13.5 million and net income of $751.4 million, driven by unrealized ETH gains.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/05/20260512_Sharplink_News.jpg",
+      "tags": [
+        "Ethereum",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "TD Cowen Gives Stablecoin Yield Ban 10% Odds as Banks Plan Push in Democrat-Led Congress",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-09",
+      "url": "https://bitcoinmagazine.com/news/td-cowen-stablecoin-yield-ban-10-odds",
+      "summary": "Bitcoin Magazine TD Cowen Gives Stablecoin Yield Ban 10% Odds as Banks Plan Push in Democrat-Led Congress TD Cowen's Jaret Seiberg puts only a 10% chance on a congressional ban on platform stablecoin yield over the next two years, even as banks renew their push after Democratic…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/TD-Cowen-Stablecoin-Yield-Ban-10-Odds-Capitol-Vault.jpg",
+      "tags": [
+        "Bitcoin",
+        "DeFi",
+        "Stablecoins",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "BlackRock: Security Fears Are Driving Bitcoin Whales Into IBIT",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-09",
+      "url": "https://bitcoinmagazine.com/news/blackrock-bitcoin-whales-self-custody-ibit",
+      "summary": "Bitcoin Magazine BlackRock: Security Fears Are Driving Bitcoin Whales Into IBIT BlackRock's Robbie Mitchnick told Barron's demand to swap directly held bitcoin for IBIT shares is at its highest yet, with \"security and peace of mind\" the top reason as kidnappings and hacks rise.…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/BlackRock-Security-Fears-Are-Driving-Bitcoin-Whales-Into-IBIT.jpg",
+      "tags": [
+        "Bitcoin",
+        "Security",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Binance to Close Accounts in Four EU Countries Dec. 31, Charging Idle Balances From Nov. 29",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-09",
+      "url": "https://bitcoinmagazine.com/news/binance-closing-accounts-four-eu-countries",
+      "summary": "Bitcoin Magazine Binance to Close Accounts in Four EU Countries Dec. 31, Charging Idle Balances From Nov. 29 Binance told users in France, Spain, Italy and Poland to withdraw their crypto, with deposits blocked, accounts closing Dec. 31 and a monthly fee starting Nov. 29, as the…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Binance.jpg",
+      "tags": [
+        "Bitcoin",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "U.S. Regulators Drop $250 Travel Rule Plan, Crypto Language Too",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-09",
+      "url": "https://bitcoinmagazine.com/news/fincen-fed-withdraw-travel-rule-250",
+      "summary": "Bitcoin Magazine U.S. Regulators Drop $250 Travel Rule Plan, Crypto Language Too FinCEN and the Federal Reserve formally withdrew a 2020 proposal that would have cut the cross-border funds-transfer threshold from $3,000 to $250 and spelled out that the rules cover crypto, saying…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/U.S.-Regulators-Drop-250-Travel-Rule-Plan-Crypto-Language-Too.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Bitcoin Lightning’s security update shuts one door. A critical Linux flaw remains",
+      "source": "CryptoSlate",
+      "date": "2026-11-09",
+      "url": "https://cryptoslate.com/bitcoin-lightnings-security-update-shuts-one-door-a-critical-linux-flaw-remains/",
+      "summary": "LND’s October 30 releases block a demonstrated MPTCP exploit route, but affected hosts need a patched kernel and reboot. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/lnd-update-linux-foundation.webp",
+      "tags": [
+        "Bitcoin",
+        "Security"
+      ]
+    },
+    {
+      "title": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
+      "source": "CryptoSlate",
+      "date": "2026-11-09",
+      "url": "https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/",
+      "summary": "The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/eu-transfer-collection-vault.webp",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Nigeria tells dollar-stablecoin issuers: go local or lose retail access",
+      "source": "CryptoSlate",
+      "date": "2026-11-09",
+      "url": "https://cryptoslate.com/nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access/",
+      "summary": "Continued Class 2 access during assessment needs express CBN permission, while foreign licenses cannot replace local issuer and token approvals. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/nigeria-stablecoin-license-gate.webp",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Coinbase’s blockchain got faster. Some apps can still connect but get no data",
+      "source": "CryptoSlate",
+      "date": "2026-11-09",
+      "url": "https://cryptoslate.com/coinbases-blockchain-got-faster-some-apps-can-still-connect-but-get-no-data/",
+      "summary": "Apps using Flashblocks must migrate after Denim left retired endpoints accepting connections without streaming data. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/base-dry-data-pipe.webp",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Buterin Urges Store-of-Value Focus for ETH, Not Fee Burns",
+      "source": "The Defiant",
+      "date": "2026-11-09",
+      "url": "https://thedefiant.io/news/blockchains/buterin-urges-store-of-value-focus-for-eth-not-fee-burns",
+      "summary": "The Ethereum co-founder backs keeping EIP-1559 but argues that maximizing fees could price out users and undermine decentralization.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/b1d70e4f760b084a0f41a0c4666454ddb2d4d660-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Ethereum",
+        "Web3",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Cosmos Contributes IBC to Linux Foundation Decentralized Trust",
+      "source": "The Defiant",
+      "date": "2026-11-09",
+      "url": "https://thedefiant.io/news/infrastructure/cosmos-contributes-ibc-to-linux-foundation-decentralized-trust",
+      "summary": "Cosmos Labs holds five places on the initial seven-person technical committee, alongside maintainers from Datachain and OpenZeppelin.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/52f3a8834e980bc49c737bdc463412cc18711de7-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "title": "Kinetiq Launches Elysium Mainnet for Hyperliquid",
+      "source": "The Defiant",
+      "date": "2026-11-09",
+      "url": "https://thedefiant.io/news/defi/kinetiq-launches-elysium-mainnet-for-hyperliquid",
+      "summary": "Pump.fun and Fomo say Elysium trading is live, while native HyperCore data reads and fast order submissions await a later upgrade.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0cf9f6296346d2e96715d8efc089457f477ae151-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Base’s Retired Flashblocks Feeds Accept Connections but Send No Data",
+      "source": "The Defiant",
+      "date": "2026-11-09",
+      "url": "https://thedefiant.io/news/blockchains/base-s-retired-flashblocks-feeds-accept-connections-but-send-no-data",
+      "summary": "Denim replaced block previews with complete blocks every 200 milliseconds, requiring developers to change subscriptions and review pending-state reads.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/c694925924d73d7de1903f3c9f2b92bde1003d6a-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
+      "tags": [
+        "Layer 2"
+      ]
+    },
+    {
+      "title": "US Sanctions Eight Canadian Money Services Firms Over Iranian Crypto Transfer Allegations",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "url": "https://www.newsbtc.com/news/us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations/",
+      "summary": "The US Treasury has added eight Canada-based money services businesses to its sanctions list, alleging that they helped move value for the Iranian regime and sanctioned actors. The November 6 action explicitly focuses on exchanges between local…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/02_us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations-750x422.png",
+      "tags": [
+        "Regulation",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Stellar Foundation Backs Marketnode to Expand Tokenized Funds Across Asia-Pacific",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "url": "https://www.newsbtc.com/technology/stellar-foundation-backs-marketnode-to-expand-tokenized-funds-across-asia-pacific/",
+      "summary": "The Stellar Development Foundation announced a strategic investment in Marketnode on October 29, aiming to widen institutional access to tokenized…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-n08-25-singapore-financial-district-skyline-commons-750x500.jpg",
+      "tags": [
+        "Crypto"
       ]
     }
   ]
