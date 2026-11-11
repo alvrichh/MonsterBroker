@@ -1,4 +1,4 @@
-# MonsterBroker · Radar cripto · 2026-11-10
+# MonsterBroker · Radar cripto · 2026-11-11
 
 **Radar cripto**
 
@@ -8,59 +8,59 @@
 
 ## Noticias
 
-- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-10 · `Bitcoin` `DeFi` `Regulation` `Web3`
+- **[Here’s what happened in crypto today](https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-11 · `Bitcoin` `DeFi` `Regulation` `Web3`
   Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.
-- **[Will stablecoins survive once the banks catch up?](https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up)** — CoinDesk · 2026-11-10 · `Stablecoins`
-- **[U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%](https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3)** — CoinDesk · 2026-11-10 · `Crypto`
-- **[Ripple Prime head Marc Asch to step down, Noel Kimmel named successor](https://www.coindesk.com/business/2026/11/09/ripple-prime-head-marc-asch-to-step-down-noel-kimmel-named-successor)** — CoinDesk · 2026-11-10 · `Altcoins`
-- **[Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings](https://www.coindesk.com/daybook-us/2026/11/10/bitcoin-breaks-with-stocks-declines-as-etf-outflows-mount-mara-sells-holdings)** — CoinDesk · 2026-11-10 · `Bitcoin` `Regulation`
-- **[Poland’s lower house backs sanctions bill covering crypto freezes](https://cointelegraph.com/news/poland-bill-freeze-sanctions-crypto-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-10 · `Regulation`
-  The bill is now before the Senate and would broaden the grounds for adding people and companies to Poland’s national sanctions list.
-- **[Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss](https://cointelegraph.com/magazine/bitcoins-best-buying-opportunity-ever-has-arrived-mark-moss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-10 · `Bitcoin` `Regulation`
-  Bitcoin Opportunity Fund co-founder Mark Moss says that with banks and ETFs widening access to Bitcoin he expects a new record high in 2027.
-- **[Bitcoin may benefit as global tightening slows, Binance Research says](https://cointelegraph.com/markets/bitcoin-price-global-tightening-binance-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-10 · `Bitcoin` `Exchanges` `Markets`
-  Binance Research says Bitcoin could find support as global monetary tightening slows, even as markets price in a December Fed rate hike.
-- **[Solana's Jupiter Expands Beyond Trading With Token Baskets, Yield Vaults and New Portfolio](https://decrypt.co/382836/solanas-jupiter-expands-beyond-trading-with-token-baskets-yield-vaults-and-new-portfolio)** — Decrypt · 2026-11-10 · `DeFi` `Altcoins` `Markets`
-  The trading platform, which says it has routed more than $1.3 trillion in trades, is launching four products ahead of Solana Breakpoint.
-- **[Decrypt Money Account Gets Confidential Transfers With Solana Privacy Firm Helius](https://decrypt.co/382806/decrypt-money-account-gets-confidential-transfers-with-solana-privacy-firm-helius)** — Decrypt · 2026-11-10 · `Exchanges` `Altcoins`
-  Helius' Solana Privacy Rings will let Decrypt users send funds without broadcasting amounts, as it grows out The Information Exchange.
-- **[Anthropic Sets IPO Price Range at $70 to $78, Valuing Company at Up to $1.4 Trillion](https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion)** — Decrypt · 2026-11-10 · `Exchanges` `Markets`
-  The Claude developer is also lining up $26 billion from Nvidia, Google and other tech giants in a private placement alongside the listing.
-- **[Moody’s Taps Chainlink to Send Credit Ratings Across Multiple Blockchains](https://decrypt.co/382888/moodys-chainlink-credit-ratings-across-multiple-blockchains)** — Decrypt · 2026-11-10 · `Crypto`
-  The testnet pilot used Chainlink’s CCIP to distribute Moody’s ratings simultaneously across permissioned and permissionless blockchains, while preserving the firm’s existing publication and governance processes.
-- **[Bitdeer reports record Q3 revenue as net loss widens to $125.5 million](https://www.theblock.co/news/business/2026-11-10-bitdeer-reports-record-q3-revenue-as-net-loss-widens-to-125-5-million-437217)** — The Block · 2026-11-10 · `Bitcoin`
-  Bitdeer reported record third-quarter revenue of $320.7 million as bitcoin production surged 248% to 3,855 BTC.
-- **[Visa adds Monad to stablecoin settlement network options](https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201)** — The Block · 2026-11-10 · `Stablecoins` `Markets`
-  Visa has added Monad as a stablecoin settlement option for participating issuers and acquirers, the Monad Foundation said.
-- **[eToro’s Q3 profit plunges 74% as weaker crypto trading weighs on earnings](https://www.theblock.co/news/business/2026-11-10-etoros-q3-profit-plunges-74-as-weaker-crypto-trading-weighs-on-earnings-437192)** — The Block · 2026-11-10 · `Markets`
-  eToro reported a 74% decline in Q3 profit to $15 million, with weaker crypto activity weighing on earnings.
-- **[HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows](https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177)** — The Block · 2026-11-10 · `Bitcoin` `AI`
-  HIVE reported a $78.7 million quarterly net loss and $84.9 million in revenue, including $8.8 million from its AI business.
+- **[OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month](https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month)** — CoinDesk · 2026-11-11 · `Stablecoins` `Exchanges` `Markets`
+- **[Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about](https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about)** — CoinDesk · 2026-11-11 · `Crypto`
+- **[Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound](https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks)** — CoinDesk · 2026-11-11 · `Bitcoin` `AI`
+- **[Bitcoin barely flinches at hot CPI as ETF selling slows](https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows)** — CoinDesk · 2026-11-11 · `Bitcoin` `Regulation`
+- **[Deutsche Bank launches crypto custody for companies and institutions](https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-11 · `Bitcoin` `Ethereum` `Stablecoins` `Web3`
+  Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.
+- **[Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts](https://cointelegraph.com/magazine/paraguay-bank-collapse-shows-stablecoins-can-offer-a-lifeline-of-sorts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-11 · `Stablecoins`
+  Ueno’s collapse exposed the fragility of digital banking in Paraguay, as customers scrambled for access to their money and stablecoins offered a lifeline.
+- **[Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions](https://cointelegraph.com/research/bitcoin-covenants-part-5-matt-op-ccv?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound)** — Cointelegraph · 2026-11-11 · `Bitcoin` `Web3`
+  OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.
+- **[Decrypt Becomes First News Publisher to Offer Perps Trading, Powered by Solana's Phoenix](https://decrypt.co/382992/decrypt-becomes-first-news-publisher-to-offer-perps-trading-powered-by-solanas-phoenix)** — Decrypt · 2026-11-11 · `Altcoins` `Markets`
+  The integration brings perpetual futures trading into Decrypt, so readers can trade crypto, stocks and commodities without leaving the news.
+- **[Morning Minute: What Anthropic’s $1.4 Trillion IPO Means for Crypto](https://decrypt.co/383001/morning-minute-what-anthropics-1-4-trillion-ipo-means-for-crypto)** — Decrypt · 2026-11-11 · `Bitcoin`
+  Hint: if it plays out similarly to the SpaceX IPO, it means the Bitcoin bottom is very close.
+- **[Kraken Parent Payward Brings 200 UK and EU Stocks Onchain as xStocks](https://decrypt.co/383000/kraken-parent-payward-brings-200-uk-and-eu-stocks-onchain-as-xstocks)** — Decrypt · 2026-11-11 · `Exchanges` `Web3`
+  The expansion takes xStocks past 1,500 tokenized assets, though the new UK tokens still can't be bought by investors in the UK.
+- **[Nvidia Sheds $430B in Two Days as Jensen Huang Faces Calls to Resign](https://decrypt.co/382991/nvidia-sheds-430b-in-two-days-as-jensen-huang-faces-calls-to-resign)** — Decrypt · 2026-11-11 · `Crypto`
+  Nvidia's independent directors have hired Wachtell Lipton to investigate its CEO's ties to an alleged Chinese spy, as pressure mounts.
+- **[Bitcoin ‘ripe for a squeeze’ as options traders raise odds of sub-$70,000 Christmas](https://www.theblock.co/news/markets/2026-11-11-bitcoin-ripe-for-squeeze-options-traders-raise-odds-sub-70000-christmas-437897)** — The Block · 2026-11-11 · `Bitcoin` `Markets`
+  Bitcoin trades below $74,000 on Wednesday after five weekly losses, with Derive pricing 31% odds of a sub-$70,000 Christmas.
+- **[Nomura’s Laser Digital helps launch Saudi SME credit vault targeting $100 million on BNB Chain](https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824)** — The Block · 2026-11-11 · `Altcoins`
+  Nomura's Laser Digital is advising ZIG Finance on a tokenized Saudi SME private credit vault targeting a $100 million raise on BNB Chain.
+- **[OKXICE sets Nov. 23 launch for tokenized securities venue under SEC innovation exemption](https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342)** — The Block · 2026-11-11 · `Regulation`
+  OKXICC, plans to launch its tokenized securities venue at the end of the month, the joint venture announced on Wednesday.
+- **[Bitcoin Core discloses three patched security flaws, including high-severity mining bug](https://www.theblock.co/news/ecosystems/2026-11-11-bitcoin-core-discloses-three-patched-security-flaws-including-high-severity-mining-bug-437862)** — The Block · 2026-11-11 · `Bitcoin`
+  Bitcoin Core disclosed three previously patched security vulnerabilities, including a high-severity bug affecting block template creation.
+- **[Deutsche Bank Switches On Bitcoin Custody for Paying Clients](https://bitcoinmagazine.com/news/deutsche-bank-bitcoin-custody-live)** — Bitcoin Magazine · 2026-11-11 · `Bitcoin` `Ethereum` `Stablecoins`
+  Bitcoin Magazine Deutsche Bank Switches On Bitcoin Custody for Paying Clients Germany's largest lender now holds bitcoin, ether and three stablecoins for institutional and corporate clients in Europe, but it has not named any customers or disclosed fees. This post Deutsche Bank…
+- **[Bitcoin holds $73,000 as odds of a December 50 bps rate hike jump](https://cryptoslate.com/bitcoin-holds-73000-as-odds-of-a-december-50-bps-rate-hike-jump/)** — CryptoSlate · 2026-11-11 · `Bitcoin`
+  The odds of a 50-basis-point Federal Reserve hike in December rose from 0% to 13.6% on Nov. 10 after October CPI beat forecasts, as Bitcoin fell to an intraday low below $73,000. Meanwhile, the odds of a 25-basis-point hike climbed from 84% to 86.4%, according to a Nov. 10 CME F…
+- **[Tokenized stock trading hits $2.7B even though trades can cost 3% more](https://cryptoslate.com/tokenized-stock-trading-hits-2-7b-even-though-trades-can-cost-3-more/)** — CryptoSlate · 2026-11-11 · `Exchanges` `Web3` `Markets`
+  Tokenized stocks recorded about $3 billion in decentralized-exchange transactions over seven days, according to figures reported on Nov. 4. US stocks rallied that day as Republicans lost unified control of Washington, with the S&amp;P 500 up 1.6%, the Dow up about 3% and the Nas…
+- **[US card debt hits $1.29 trillion as Bitcoin loans expose a collateral divide](https://cryptoslate.com/us-card-debt-hits-1-29-trillion-as-bitcoin-loans-expose-a-collateral-divide/)** — CryptoSlate · 2026-11-11 · `Bitcoin` `Exchanges` `Markets`
+  Coinbase advertises borrowing from 5.1%, but modeled savings depend on fees and a Bitcoin pledge exposed to liquidation. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[96% of older Bitcoin being sent to exchanges is now underwater](https://cryptoslate.com/96-of-older-bitcoin-sent-to-exchanges-is-underwater/)** — CryptoSlate · 2026-11-11 · `Bitcoin` `Exchanges`
+  November 10 below-cost deposits fell 29.22% from the prior day but still accounted for about 96% of the cohort&#039;s exchange inflows. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
+- **[Anthropic Perp Exposure Tops $300 Million in Snapshots](https://thedefiant.io/news/defi/anthropic-perp-exposure-tops-300-million-in-snapshots)** — The Defiant · 2026-11-11 · `Markets`
+  Buildix readings span multiple Hyperliquid markets. The Trade.xyz contract alone showed $109.4 million, about 30% above The Defiant’s Nov. 10 snapshot.
+- **[Keplr User Reports 1,200 ATOM Move Amid Recovery Effort](https://thedefiant.io/news/security/keplr-user-reports-1-200-atom-move-amid-recovery-effort)** — The Defiant · 2026-11-11 · `Web3`
+  Onchain records confirm the staked assets moved to an address outside the Nov. 8 recovery list. That does not establish who controls it.
+- **[OKXICE Sets Nov. 23 Stock-Token Launch After Objections](https://thedefiant.io/converge/tradfi-and-fintech/okxice-sets-nov-23-stock-token-launch-after-objections)** — The Defiant · 2026-11-11 · `Regulation`
+  The venture expects more than 70 assets, including 59 Direxion ETFs, but issuer objections still constrain shares tokenized by unaffiliated third parties.
+- **[IBM Targets 520 Qubits With Next Nighthawk Processor](https://thedefiant.io/frontier/technology/ibm-targets-520-qubits-with-next-nighthawk-processor)** — The Defiant · 2026-11-11 · `Crypto`
+  IBM plans to link two r3 chips in 2027. Developers can use new managed quantum-classical workflows now, but the processor remains a design target.
+- **[Former Cointelegraph CEO Joins Phase as Co-Founder and CEO](https://www.newsbtc.com/news/former-cointelegraph-ceo-joins-phase-as-co-founder-and-ceo/)** — NewsBTC · 2026-11-11 · `AI`
+  The appointment follows the launch of Phase’s Layer 1 blockchain mainnet and AI agent services, backed by $45 million in founder funding. SAN FRANCISCO, November 11, 2026 — Phase, a technology company building the operating layer for the AI agent economy, today announced that Ya…
+- **[ARK Invest Trims Block and Bullish Positions as Bitcoin ETF Outflows Continue](https://www.newsbtc.com/market-news/ark-invest-block-bullish-share-sales-crypto-etf-flows/)** — NewsBTC · 2026-11-11 · `Bitcoin` `Regulation` `Markets`
+  Disclosed ARK Invest trading activity points to sales of shares in crypto-linked companies Block and Bullish alongside changes elsewhere in its…
+- **[Arca Opens to Everyone, Paying People for the AI Sessions They’d Otherwise Throw Away](https://www.newsbtc.com/news/arca-opens-to-everyone-paying-people-for-the-ai-sessions-theyd-otherwise-throw-away/)** — NewsBTC · 2026-11-11 · `AI`
+  After invite-only early access, the desktop app from the team behind Brevis is now open to anyone on Mac and Windows. &#160; HONG KONG, November 11, 2026: Arca, a new desktop app from the team behind Brevis, opened to the public today. Arca pays people for the AI sessions they&#…
+- **[Exodus Reports $8.3M Quarterly Loss as Wallet Platform Expands Payments Business](https://www.newsbtc.com/business/exodus-q3-2026-loss-wallet-payments-expansion/)** — NewsBTC · 2026-11-11 · `Web3`
+  Exodus reported third-quarter revenue of around $32.5 million, up 7%, while swinging to an $8.3 million net loss from a profit a year earlier. The…
 - **[Trump Media (DJT) Pledges 73% of Its Bitcoin to an Options Program as $1 Billion Note Deadline Nears](https://bitcoinmagazine.com/news/trump-media-pledges-73-percent-bitcoin)** — Bitcoin Magazine · 2026-11-10 · `Bitcoin` `Markets`
   Bitcoin Magazine Trump Media (DJT) Pledges 73% of Its Bitcoin to an Options Program as $1 Billion Note Deadline Nears Trump Media's Q3 10-Q shows 11,385 of its roughly 15,649 bitcoin pledged to an options program whose counterparty can reuse the coins, with nearly all the rest b…
-- **[MARA Sells 13,597 Bitcoin for $1.1 Billion, Says More Sales Are Coming](https://bitcoinmagazine.com/news/mara-sells-13597-bitcoin-1-1-billion)** — Bitcoin Magazine · 2026-11-10 · `Bitcoin` `AI`
-  Bitcoin Magazine MARA Sells 13,597 Bitcoin for $1.1 Billion, Says More Sales Are Coming MARA sold about 40% of its bitcoin stack after Sept. 30, used $750 million to repay all its BTC-backed term loans and said it will keep selling to fund AI infrastructure, convertible note put…
-- **[Hyperscale Data (GPUS) Sells Its Last Bitcoin for AI Data Center, Months After Chasing $100 Million Treasury](https://bitcoinmagazine.com/news/hyperscale-data-sells-last-bitcoin-ai)** — Bitcoin Magazine · 2026-11-10 · `Bitcoin` `Regulation` `AI`
-  Bitcoin Magazine Hyperscale Data (GPUS) Sells Its Last Bitcoin for AI Data Center, Months After Chasing $100 Million Treasury Hyperscale Data sold its remaining 211.56 bitcoin for about $16 million by Nov. 8, bringing sales since late July to about 1,113 BTC as it races to energ…
-- **[Onramp Launches Business Bitcoin Accounts With Two-Person Withdrawal Approvals as Wrench Attacks Climb](https://bitcoinmagazine.com/news/onramp-launches-business-bitcoin-accounts-approvals)** — Bitcoin Magazine · 2026-11-10 · `Bitcoin` `Regulation` `Security`
-  Bitcoin Magazine Onramp Launches Business Bitcoin Accounts With Two-Person Withdrawal Approvals as Wrench Attacks Climb The Austin firm rolled out a free company account with named users and second-person withdrawal approvals, plus a higher Treasury tier that splits keys across…
-- **[Strategy spent more than twice as much on preferred buybacks as Bitcoin last week](https://cryptoslate.com/strategy-spent-more-than-twice-as-much-on-preferred-buybacks-as-bitcoin-last-week/)** — CryptoSlate · 2026-11-10 · `Bitcoin`
-  The November 9 filing shows common-stock proceeds funding Bitcoin purchases and a larger STRC buyback during November 2-8. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Any Bitcoin recovery faces a cash problem as Binance’s stablecoins fall to $32 billion](https://cryptoslate.com/any-bitcoin-recovery-faces-a-cash-problem-as-binances-stablecoins-fall-to-32-billion/)** — CryptoSlate · 2026-11-10 · `Bitcoin` `DeFi` `Stablecoins` `Exchanges`
-  Binance showed greater nearby Bitcoin buy-order value than OKX in one November 10 sample, leaving persistent liquidity unproven. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Analysts project Bitcoin to move just 2.5% on today’s CPI data](https://cryptoslate.com/analysts-project-bitcoin-to-move-just-2-5-on-todays-cpi-data/)** — CryptoSlate · 2026-11-10 · `Bitcoin` `Markets`
-  A study reports a 6.33-point volatility gap, but the different measurement windows do not establish cheaper protection. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Core inflation excludes oil. Bitcoin investors still cannot ignore it](https://cryptoslate.com/core-inflation-excludes-oil-bitcoin-investors-still-cannot-ignore-it/)** — CryptoSlate · 2026-11-10 · `Bitcoin`
-  Stronger post-2020 oil transmission could complicate monetary easing, but second-round effects have not yet appeared. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox
-- **[Grayscale Pledges $1 Million in Zcash ETF Campaign](https://thedefiant.io/converge/tradfi-and-fintech/grayscale-pledges-1-million-in-zcash-etf-campaign)** — The Defiant · 2026-11-10 · `Regulation`
-  ZCSH trades on NYSE Arca and held $675.7 million in assets as of Nov. 9. Its prospectus sets a 2.5% annual sponsor fee.
-- **[Jupiter Adds Token Baskets and Curated Yield Vaults](https://thedefiant.io/news/defi/jupiter-adds-token-baskets-and-curated-yield-vaults)** — The Defiant · 2026-11-10 · `DeFi`
-  Third-party curators will run the vault strategies, while basket users authorize automatic trades from individual vaults rather than pooled funds.
-- **[Malicious Pull Requests Target Vizor and Zingo Wallets](https://thedefiant.io/news/security/malicious-pull-requests-target-vizor-and-zingo-wallets)** — The Defiant · 2026-11-10 · `Web3` `AI`
-  None of the six requests was merged; the campaign paired credential-stealing code with instructions telling AI reviewers not to flag secret uploads.
-- **[Alta Raises $47.5 Million for Bank-Focused Blockchain](https://thedefiant.io/converge/infrastructure/alta-raises-47-5-million-for-bank-focused-blockchain)** — The Defiant · 2026-11-10 · `Crypto`
-  Airwallex plans to connect the network to local payment rails, while Alta builds privacy and institutional policy checks into settlement.
-- **[Valour Lists Eight New Crypto ETPs Including Canton, Morpho and Raydium](https://www.newsbtc.com/news/valour-lists-eight-new-crypto-etps-including-canton-morpho-and-raydium/)** — NewsBTC · 2026-11-10 · `DeFi` `Exchanges` `Markets`
-  Valour, a subsidiary of DeFi Technologies, says it has added eight digital asset exchange-traded products to Sweden's Spotlight Stock Market. The November 5 announcement expands the issuer's range beyond the most established cryptocurrencies into a…
-- **[Circle Makes the Case for AI Agent Payments, With Spending Controls at the Center](https://www.newsbtc.com/news/circle-makes-the-case-for-ai-agent-payments-with-spending-controls-at-the-center/)** — NewsBTC · 2026-11-10 · `Stablecoins` `AI`
-  Circle is arguing that stablecoins could become a useful payment layer for AI agents that buy software, access services or settle transactions on behalf of people and businesses. A November 4 explainer from the USDC issuer sets out what it calls…
