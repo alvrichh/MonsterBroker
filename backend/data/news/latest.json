@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -18,6 +18,182 @@
       ]
     },
     {
+      "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "source": "CoinDesk",
+      "date": "2026-11-14",
+      "url": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/139f96d99240c3a1ed36b5aee8360db8f6ec9f2e-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+      "source": "CoinDesk",
+      "date": "2026-11-14",
+      "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/edd6986aac22b09dea34bd96bcf1c26daad85c18-1600x740.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "source": "CoinDesk",
+      "date": "2026-11-14",
+      "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/1015dde522ef326b0be42591a52370d74f450a3f-6070x4047.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "source": "Cointelegraph",
+      "date": "2026-11-14",
+      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X8JFEEG972QNHB7E2TQ63J/hi-the-rise-of-major-institutions-is-inevitable-microsoft.jpg",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "source": "Cointelegraph",
+      "date": "2026-11-14",
+      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7CHQ8H5VMWGN9MBP9CQVNVC/layoffs-fired-human-resource-hr-leaving-quit-people-ai-2.jpg",
+      "tags": [
+        "Web3",
+        "AI"
+      ]
+    },
+    {
+      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "source": "Cointelegraph",
+      "date": "2026-11-14",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FQAANP3H5Z0XYV77PNYB10/hi-will-the-blockchain-stop-leaks-of-crypto.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
+      "source": "The Block",
+      "date": "2026-11-14",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+      "summary": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2022/05/20220518_Meta-Facebook-Mark-Zuckerberg.jpg",
+      "tags": [
+        "Exchanges",
+        "Security",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Microsoft found a way to turn a helpful AI into a sleeper agent",
+      "source": "CryptoSlate",
+      "date": "2026-11-14",
+      "url": "https://cryptoslate.com/microsoft-found-a-way-to-turn-a-helpful-ai-into-a-sleeper-agent/",
+      "summary": "Seven neurons controlled a harmless marker, while a separate 60-neuron test predicted a destructive command format. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/microsoft-ai-hidden-door.webp",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "50,000 people installed this Bitcoin browser extension. Now control of it is up for sale",
+      "source": "CryptoSlate",
+      "date": "2026-11-14",
+      "url": "https://cryptoslate.com/50000-people-installed-this-bitcoin-browser-extension-now-control-of-it-is-up-for-sale/",
+      "summary": "The current offer is separate from documented malware cases, but it shows how buyers can acquire an audience and future update control. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-extension-sale-key.webp",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Elizabeth Warren could reopen crypto’s banking fight without changing a single law",
+      "source": "CryptoSlate",
+      "date": "2026-11-14",
+      "url": "https://cryptoslate.com/warren-could-reopen-crypto-banking-fight-without-changing-a-single-law/",
+      "summary": "Elizabeth Warren&#039;s next confrontation with crypto could put companies and regulators under serious pressure without changing a single law. With Democrats taking control of the Senate, she&#039;s expected to chair the Senate Banking Committee in January, giving her more say…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/crypto-custody-records-labyrinth.webp",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Coinbase AI trading tool pauses bots, but leaves orders open",
+      "source": "CryptoSlate",
+      "date": "2026-11-14",
+      "url": "https://cryptoslate.com/coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open/",
+      "summary": "Armstrong is promoting Coinbase’s new controls, but pausing an agent does not confirm that orders are canceled or positions closed. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/coinbase-01-mechanical-order-feed.jpg",
+      "tags": [
+        "Exchanges",
+        "Markets",
+        "AI"
+      ]
+    },
+    {
+      "title": "Pennysia Users Urged to Revoke Approvals After Exploit",
+      "source": "The Defiant",
+      "date": "2026-11-14",
+      "url": "https://thedefiant.io/news/hacks/pennysia-users-urged-to-revoke-approvals-after-exploit",
+      "summary": "Onchain records show swaps were disabled before SlowMist's public warning. The cited drain affected four addresses.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a425b62e1a93b3871475911e32512d51b507f3c3-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Security",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Singapore Files 41 Charges in Nvidia-Linked Server Case",
+      "source": "The Defiant",
+      "date": "2026-11-14",
+      "url": "https://thedefiant.io/frontier/ai/singapore-files-41-charges-in-nvidia-linked-server-case",
+      "summary": "Shi Bingzhe and two companies face money-laundering allegations over purchases of 917 servers, expanding a probe involving shipments to Malaysia.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/491ddd10fd48967d809ee3e41a1677e57210a91c-2816x1584.webp?fm=webp&q=85",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Cursor Links Extension Attack to Exposed Credentials",
+      "source": "The Defiant",
+      "date": "2026-11-14",
+      "url": "https://thedefiant.io/frontier/security/cursor-links-extension-attack-to-exposed-credentials",
+      "summary": "Up to 5,000 users potentially received a tampered Claude Code extension. Cursor is urging affected teams to check machines and rotate exposed credentials.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d8dcd30dd29977b859801d9f84092aa018d13750-2816x1584.webp?fm=webp&q=85",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title": "1inch Warns Delegators to Claim Rewards by Nov. 27",
+      "source": "The Defiant",
+      "date": "2026-11-14",
+      "url": "https://thedefiant.io/news/defi/1inch-warns-delegators-to-claim-rewards-by-nov-27",
+      "summary": "New resolver delegations are closed. Existing delegators should claim rewards and undelegate before the deadline; plain 1INCH staking is unaffected.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/14e9f18306f210b77cc57df3bce418ec5f774645-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
       "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
       "source": "CoinDesk",
       "date": "2026-11-13",
@@ -26,76 +202,6 @@
       "image": "https://cdn.sanity.io/images/s3y3vcno/production/c6a8d9e5fa0a7902d01bc64094e514fa9a1ac32b-2048x1152.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
-      "source": "CoinDesk",
-      "date": "2026-11-13",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/3f9cbf6da5f21a1a81b4eaa15d4e4f7dcfecba8c-1600x900.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-      "source": "CoinDesk",
-      "date": "2026-11-13",
-      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/08b632a654251b193a137eced80be2bec14bb635-1920x1080.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Live news: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
-      "source": "CoinDesk",
-      "date": "2026-11-13",
-      "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
-      "summary": "",
-      "image": "",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Arthur Hayes ‘flattered’ as Coinbase backs US stock perps",
-      "source": "Cointelegraph",
-      "date": "2026-11-13",
-      "url": "https://cointelegraph.com/news/arthur-hayes-coinbase-us-stock-perps-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Arthur Hayes said he was “flattered” by Coinbase’s defense of US stock perpetual futures, a decade after BitMEX launched perpetual swaps.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5YN0CT8F4HNHWRJS1ST7JTJ/arthur-hayes.jpg",
-      "tags": [
-        "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Nakamoto shares fall 6% premarket after Q3 revenue turns negative",
-      "source": "Cointelegraph",
-      "date": "2026-11-13",
-      "url": "https://cointelegraph.com/markets/nakamoto-shares-fall-after-negative-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "A $5.8 million loss on Bitcoin options pushed operating revenue below zero, and higher Bitcoin prices lifted net income to $85.5 million.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1Y8ZNSF5WMPGFQ1661WSGAG/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold-2.jpg",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
-      "source": "Cointelegraph",
-      "date": "2026-11-13",
-      "url": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Police suspect the group drew up fictitious loan agreements to disguise crypto trading proceeds it transferred directly into bank accounts.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7A9KC13WNDH9B0FYB99Y1X5/hi-fundraising-101-a-beginners-guide-on-raising-funds-using-cryptocurrencies-israel.jpg",
-      "tags": [
         "Markets"
       ]
     },
@@ -180,17 +286,6 @@
       ]
     },
     {
-      "title": "UK, Singapore, and Thailand central banks complete foreign exchange settlement trial linking traditional and tokenized systems",
-      "source": "The Block",
-      "date": "2026-11-13",
-      "url": "https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692",
-      "summary": "Three central banks published findings from a cross-border FX settlement trial using Partior's synchronization prototype.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-13-at-14.59.24.png",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
       "title": "President Trump Taps Two Democrats in Bipartisan Slate of SEC and CFTC Nominees as Both Agencies Run Short-Handed",
       "source": "Bitcoin Magazine",
       "date": "2026-11-13",
@@ -237,105 +332,6 @@
         "Regulation",
         "Exchanges",
         "Security"
-      ]
-    },
-    {
-      "title": "The cost of a $70,000 Bitcoin hedge more than doubled in a day",
-      "source": "CryptoSlate",
-      "date": "2026-11-13",
-      "url": "https://cryptoslate.com/bitcoin-hedge-cost-more-than-doubled/",
-      "summary": "A November 27 put rose 127.6% between two BTC-denominated trades while its reported implied volatility fell. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-fixed-strike-hedge.webp",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Bitcoin’s futures pile has a problem: less cash to fuel a rebound",
-      "source": "CryptoSlate",
-      "date": "2026-11-13",
-      "url": "https://cryptoslate.com/bitcoins-futures-pile-has-a-problem-less-cash-to-fuel-a-rebound/",
-      "summary": "DWF Labs&#039; Martin Lee noted that Bitcoin futures open interest stood at 704,000 BTC this week, the highest since Sept. 24, while spot market liquidity continued to thin. Meanwhile, the Treasury&#039;s $25 billion 30-year bond auction on Nov. 12 drew a 2.36 bid-to-cover ratio…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-shallow-market-depth.webp",
-      "tags": [
-        "Bitcoin",
-        "DeFi",
-        "Regulation",
-        "Markets"
-      ]
-    },
-    {
-      "title": "The catch in crypto’s Anthropic IPO rush: lock up your money and you could still miss out",
-      "source": "CryptoSlate",
-      "date": "2026-11-13",
-      "url": "https://cryptoslate.com/the-catch-in-cryptos-anthropic-ipo-rush-lock-up-your-money-and-you-could-still-miss-out/",
-      "summary": "Kraken, Bitget and BigONE disclose uncertain fills, while successful allocations carry extra charges and different delivery schedules. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/anthropic-ipo-locked-funds.webp",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Bitcoin falls below $70,000 as $870 million in bullish bets are liquidated",
-      "source": "CryptoSlate",
-      "date": "2026-11-13",
-      "url": "https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/",
-      "summary": "CoinGlass&#039;s 24-hour figures showed heavy pressure on bullish positions amid rate and NVIDIA uncertainty, while Microsoft&#039;s outage continued. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your in…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-leverage-release-pressure-1.webp",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Nakamoto Options Loss Turns Q3 Operating Revenue Negative",
-      "source": "The Defiant",
-      "date": "2026-11-13",
-      "url": "https://thedefiant.io/news/markets/nakamoto-options-loss-turns-q3-operating-revenue-negative",
-      "summary": "Bitcoin valuation gains drove an $85.5 million profit, while part of the loss-making options program provides downside protection tied to Kraken loan collateral.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/32f219fd59a7aecb0a4ab914b5e6b4741c951fbc-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Bitcoin",
-        "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "DOJ and CFTC Sue Arkansas to Halt Kalshi Enforcement",
-      "source": "The Defiant",
-      "date": "2026-11-13",
-      "url": "https://thedefiant.io/news/regulation/doj-and-cftc-sue-arkansas-to-halt-kalshi-enforcement",
-      "summary": "The federal complaint seeks protection beyond Kalshi, including a bar on investigations tied to transactions on CFTC-regulated exchanges.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/fab9f1a90cb889e4bf656be7b95bfb29eb0a5e6f-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Regulation",
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "BoE and Asian Central Banks Test Linked FX Settlement",
-      "source": "The Defiant",
-      "date": "2026-11-13",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/boe-and-asian-central-banks-test-linked-fx-settlement",
-      "summary": "Project Meridian FX APAC linked traditional and tokenised test systems, but did not involve live participants or production operating conditions.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ea55ee014215e59f85daab067ddeeb328718d86c-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Nakamoto Delays Kraken Debt as Bitcoin Collateral Falls",
-      "source": "The Defiant",
-      "date": "2026-11-13",
-      "url": "https://thedefiant.io/news/markets/nakamoto-delays-kraken-debt-as-bitcoin-collateral-falls",
-      "summary": "The company pushed a 60 million USDT payment into 2027 and gained credit for protective derivatives, but collateral requirements still allow earlier liquidation.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/4d4da6e427267c9fd11c9a11151f94005e3607f1-2048x1152.png?w=800&fit=max&fm=jpg&q=70&bg=ffffff",
-      "tags": [
-        "Bitcoin",
-        "Stablecoins",
-        "Exchanges",
-        "Markets"
       ]
     },
     {
