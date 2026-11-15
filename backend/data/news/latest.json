@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -15,6 +15,174 @@
         "DeFi",
         "Regulation",
         "Web3"
+      ]
+    },
+    {
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "source": "CoinDesk",
+      "date": "2026-11-15",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "source": "CoinDesk",
+      "date": "2026-11-15",
+      "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/f5ebb4afb940e3439b9bd9944fc26aaedb49540b-2213x1011.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "source": "Cointelegraph",
+      "date": "2026-11-15",
+      "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7FBMZXNH6CNG3W9M8RNBHCN/hi-meet-the-trader-who-lost-bitcoin-bear-market.jpg",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Altcoins",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Coinone warns of phishing, identity theft after customer data breach",
+      "source": "Cointelegraph",
+      "date": "2026-11-15",
+      "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The South Korean crypto exchange said potentially exposed information includes passwords, bank account numbers, national identification numbers and crypto wallet addresses.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7F3YVA7631KKAGKFRGDJWMH/coinone.png",
+      "tags": [
+        "Exchanges",
+        "Security",
+        "Web3"
+      ]
+    },
+    {
+      "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
+      "source": "Cointelegraph",
+      "date": "2026-11-15",
+      "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The stUSDT team did not disclose a reason for winding down the RWA protocol but assured holders that all underlying assets remain fully backed.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4STR9GPNQXV18RZ1XBHZJV9/hi-coinflares-exit-and-the-future-of-cloud-mining-3.jpg",
+      "tags": [
+        "DeFi",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+      "source": "Decrypt",
+      "date": "2026-11-15",
+      "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+      "summary": "Spot Bitcoin ETFs shed $185.4 million on Friday, their seventh straight day of outflows, pushing November losses to about $2.1 billion as Bitcoin fell toward $64,000.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?",
+      "source": "CryptoSlate",
+      "date": "2026-11-15",
+      "url": "https://cryptoslate.com/can-bitcoin-use-britains-wasted-wind/",
+      "summary": "Flexible mines could use curtailed Scottish wind, but most recent constraint spending paid for replacement power elsewhere. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-wind-curtailment.webp",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "The Fed could rescue bond markets and still make life harder for Bitcoin",
+      "source": "CryptoSlate",
+      "date": "2026-11-15",
+      "url": "https://cryptoslate.com/fed-bond-market-rescue-could-still-hurt-bitcoin/",
+      "summary": "Her proposals separate emergency market support from the rate path, leaving Bitcoin exposed to a different monetary-policy channel. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/fed-funding-bitcoin-barrier.webp",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Is Ethereum the “worst asset of all time,” amid estimated $8.83 billion BitMine loss ?",
+      "source": "CryptoSlate",
+      "date": "2026-11-15",
+      "url": "https://cryptoslate.com/is-ethereum-the-worst-asset-of-all-time-amid-estimated-8-83-billion-bitmine-loss/",
+      "summary": "The image shared by @ThinkingUSD pairs November holdings with an August average cost, while BitMine supplies no updated basis in its November release. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your in…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/ethereum-bitmine-mixed-dates_1024.png",
+      "tags": [
+        "Ethereum"
+      ]
+    },
+    {
+      "title": "Lido’s lending plan could block loan repayments without stopping interest",
+      "source": "CryptoSlate",
+      "date": "2026-11-15",
+      "url": "https://cryptoslate.com/lidos-lending-plan-could-block-loan-repayments-without-stopping-interest/",
+      "summary": "Lido Lend’s proposed emergency pause would halt repayment and lender exits, while a separate governance path could make the interruption indefinite. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/lido-exit-interest.webp",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "title": "Ethereum Gas Fees: From Wallet Estimate to Final Cost",
+      "source": "The Defiant",
+      "date": "2026-11-15",
+      "url": "https://thedefiant.io/news/blockchains/ethereum-gas-fees-from-wallet-estimate-to-final-cost",
+      "summary": "Gas measures computational work. A real Ethereum transaction shows why a spending ceiling can exceed the fee finally charged.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/eef00c68faacde7045f69e26f19e15276308c33f-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Ethereum",
+        "Web3"
+      ]
+    },
+    {
+      "title": "Armed Robot Dogs Appear in El Salvador's Haiti Video",
+      "source": "The Defiant",
+      "date": "2026-11-15",
+      "url": "https://thedefiant.io/frontier/technology/armed-robot-dogs-appear-in-el-salvador-s-haiti-video",
+      "summary": "The presidency described a stadium search role. A weapons researcher tentatively identified Unitree Go2 robots fitted with Israeli-made rifles; combat use remains unconfirmed.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e18f6e10c9f42010760b69b79c7330af45455b14-2816x1584.webp?fm=webp&q=85",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "US Bitcoin ETFs Shed $1.91 Billion in Seven Sessions",
+      "source": "The Defiant",
+      "date": "2026-11-15",
+      "url": "https://thedefiant.io/news/markets/us-bitcoin-etfs-shed-1-91-billion-in-seven-sessions",
+      "summary": "BlackRock’s IBIT accounted for about $1.42 billion of the withdrawals as Binance Research pointed to tighter financial conditions and AI-financing concerns.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e8e7064d875d786a20c1a9568f2b838f44004f83-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Exchanges",
+        "AI"
+      ]
+    },
+    {
+      "title": "Bitcoin Regains $65,000 After Falling to Four-Month Low",
+      "source": "The Defiant",
+      "date": "2026-11-15",
+      "url": "https://thedefiant.io/news/markets/bitcoin-regains-65-000-after-falling-to-four-month-low",
+      "summary": "The Coinbase low was 0.94% below its earlier Saturday trough. US spot bitcoin ETFs recorded seven straight sessions of net outflows.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7544bcb4fa44cba94476c446a80a1b7f532714c1-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Exchanges"
       ]
     },
     {
@@ -42,54 +210,6 @@
       ]
     },
     {
-      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
-      "source": "CoinDesk",
-      "date": "2026-11-14",
-      "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/1015dde522ef326b0be42591a52370d74f450a3f-6070x4047.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin",
-        "Regulation",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
-      "source": "Cointelegraph",
-      "date": "2026-11-14",
-      "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X8JFEEG972QNHB7E2TQ63J/hi-the-rise-of-major-institutions-is-inevitable-microsoft.jpg",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
-      "source": "Cointelegraph",
-      "date": "2026-11-14",
-      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7CHQ8H5VMWGN9MBP9CQVNVC/layoffs-fired-human-resource-hr-leaving-quit-people-ai-2.jpg",
-      "tags": [
-        "Web3",
-        "AI"
-      ]
-    },
-    {
-      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
-      "source": "Cointelegraph",
-      "date": "2026-11-14",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FQAANP3H5Z0XYV77PNYB10/hi-will-the-blockchain-stop-leaks-of-crypto.jpg",
-      "tags": [
-        "Bitcoin",
-        "Regulation"
-      ]
-    },
-    {
       "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
       "source": "The Block",
       "date": "2026-11-14",
@@ -103,183 +223,84 @@
       ]
     },
     {
-      "title": "Microsoft found a way to turn a helpful AI into a sleeper agent",
-      "source": "CryptoSlate",
+      "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+      "source": "Decrypt",
       "date": "2026-11-14",
-      "url": "https://cryptoslate.com/microsoft-found-a-way-to-turn-a-helpful-ai-into-a-sleeper-agent/",
-      "summary": "Seven neurons controlled a harmless marker, while a separate 60-neuron test predicted a destructive command format. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/microsoft-ai-hidden-door.webp",
+      "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
+      "summary": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/jensen-huang-nvidia-decrypt-style-05-gID_7.jpg",
       "tags": [
         "AI"
       ]
     },
     {
-      "title": "50,000 people installed this Bitcoin browser extension. Now control of it is up for sale",
-      "source": "CryptoSlate",
+      "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+      "source": "Decrypt",
       "date": "2026-11-14",
-      "url": "https://cryptoslate.com/50000-people-installed-this-bitcoin-browser-extension-now-control-of-it-is-up-for-sale/",
-      "summary": "The current offer is separate from documented malware cases, but it shows how buyers can acquire an audience and future update control. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-extension-sale-key.webp",
+      "url": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
+      "summary": "Four nonprofit advocacy groups want a California court to stop major AI developers from building stronger models, alleging their technology could cause catastrophic harm worldwide.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Justice-gID_7.png",
       "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Elizabeth Warren could reopen crypto’s banking fight without changing a single law",
-      "source": "CryptoSlate",
-      "date": "2026-11-14",
-      "url": "https://cryptoslate.com/warren-could-reopen-crypto-banking-fight-without-changing-a-single-law/",
-      "summary": "Elizabeth Warren&#039;s next confrontation with crypto could put companies and regulators under serious pressure without changing a single law. With Democrats taking control of the Senate, she&#039;s expected to chair the Senate Banking Committee in January, giving her more say…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/crypto-custody-records-labyrinth.webp",
-      "tags": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Coinbase AI trading tool pauses bots, but leaves orders open",
-      "source": "CryptoSlate",
-      "date": "2026-11-14",
-      "url": "https://cryptoslate.com/coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open/",
-      "summary": "Armstrong is promoting Coinbase’s new controls, but pausing an agent does not confirm that orders are canceled or positions closed. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/coinbase-01-mechanical-order-feed.jpg",
-      "tags": [
-        "Exchanges",
-        "Markets",
+        "Regulation",
         "AI"
       ]
     },
     {
-      "title": "Pennysia Users Urged to Revoke Approvals After Exploit",
-      "source": "The Defiant",
+      "title": "What Is Canton Network? The Privacy Blockchain Built for Wall Street",
+      "source": "Decrypt",
       "date": "2026-11-14",
-      "url": "https://thedefiant.io/news/hacks/pennysia-users-urged-to-revoke-approvals-after-exploit",
-      "summary": "Onchain records show swaps were disabled before SlowMist's public warning. The cited drain affected four addresses.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a425b62e1a93b3871475911e32512d51b507f3c3-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Security",
-        "Web3"
-      ]
-    },
-    {
-      "title": "Singapore Files 41 Charges in Nvidia-Linked Server Case",
-      "source": "The Defiant",
-      "date": "2026-11-14",
-      "url": "https://thedefiant.io/frontier/ai/singapore-files-41-charges-in-nvidia-linked-server-case",
-      "summary": "Shi Bingzhe and two companies face money-laundering allegations over purchases of 917 servers, expanding a probe involving shipments to Malaysia.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/491ddd10fd48967d809ee3e41a1677e57210a91c-2816x1584.webp?fm=webp&q=85",
+      "url": "https://decrypt.co/resources/what-is-canton-network-the-privacy-blockchain-built-for-wall-street",
+      "summary": "Canton Network is a privacy-enabled blockchain built for banks and tokenized assets. Here's how it works and what Canton Coin (CC) does.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/canton-network-privacy-learn-gID_4-pID_6.png",
       "tags": [
         "Crypto"
       ]
     },
     {
-      "title": "Cursor Links Extension Attack to Exposed Credentials",
-      "source": "The Defiant",
+      "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
+      "source": "The Block",
       "date": "2026-11-14",
-      "url": "https://thedefiant.io/frontier/security/cursor-links-extension-attack-to-exposed-credentials",
-      "summary": "Up to 5,000 users potentially received a tampered Claude Code extension. Cursor is urging affected teams to check machines and rotate exposed credentials.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d8dcd30dd29977b859801d9f84092aa018d13750-2816x1584.webp?fm=webp&q=85",
+      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+      "summary": "About 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for roughly $2.1 million in BNB and USDT.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/keplr-web3auth-art.jpg",
       "tags": [
+        "Stablecoins",
+        "Altcoins",
         "Security"
       ]
     },
     {
-      "title": "1inch Warns Delegators to Claim Rewards by Nov. 27",
-      "source": "The Defiant",
+      "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
+      "source": "The Block",
       "date": "2026-11-14",
-      "url": "https://thedefiant.io/news/defi/1inch-warns-delegators-to-claim-rewards-by-nov-27",
-      "summary": "New resolver delegations are closed. Existing delegators should claim rewards and undelegate before the deadline; plain 1INCH staking is unaffected.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/14e9f18306f210b77cc57df3bce418ec5f774645-2048x1152.webp?fm=webp&q=85",
+      "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+      "summary": "The CFTC sued Louisiana Friday to block a state judge's order banning 31 prediction markets, including Kalshi and Polymarket, in the state.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2020/06/20200630_CFTC-Daily.jpg",
       "tags": [
-        "DeFi"
-      ]
-    },
-    {
-      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
-      "source": "CoinDesk",
-      "date": "2026-11-13",
-      "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c6a8d9e5fa0a7902d01bc64094e514fa9a1ac32b-2048x1152.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Exchanges",
+        "Regulation",
         "Markets"
       ]
     },
     {
-      "title": "Crypto Laundering a 'Material Risk' for UK Ahead of FATF Review: RUSI",
-      "source": "Decrypt",
-      "date": "2026-11-13",
-      "url": "https://decrypt.co/383227/crypto-laundering-a-material-risk-for-uk-ahead-of-fatf-review-rusi",
-      "summary": "Assessors visit in June 2027, months before full crypto rules take effect, leaving the UK to prove it can enforce against crypto laundering.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/rusi-royal-united-services-institute-decrypt-style-gID_7.jpg",
+      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+      "source": "The Block",
+      "date": "2026-11-14",
+      "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Neon-Liquid-Bitcoin-and-Ethereum-Flow_clean.png",
       "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "‘Roadmap is Complete,' Cardano Founder Charles Hoskinson Says",
-      "source": "Decrypt",
-      "date": "2026-11-13",
-      "url": "https://decrypt.co/383221/roadmap-is-complete-cardano-founder-charles-hoskinson-says",
-      "summary": "Cardano's ADA token is down almost 95% from its all-time high, and investors don't seem to be happy that the roadmap is complete.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/07/cardano-decrypt-style-02-gID_7.png",
-      "tags": [
+        "Bitcoin",
+        "Regulation",
         "Altcoins"
       ]
     },
     {
-      "title": "Morning Minute: Crypto Plummets as Jensen Huang Exits Nvidia",
-      "source": "Decrypt",
-      "date": "2026-11-13",
-      "url": "https://decrypt.co/383222/morning-minute-crypto-plummets-as-jensen-huang-exits-nvidia",
-      "summary": "Bitcoin fell all the way to $68,000 overnight and hit a new three-month low. But are there reasons for hope?",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/bitcoin-down-decrypt-style-gID_7.png",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Nvidia Employees Push Board to Bring Back Jensen Huang: Report",
-      "source": "Decrypt",
-      "date": "2026-11-13",
-      "url": "https://decrypt.co/383217/nvidia-employees-push-board-to-bring-back-jensen-huang-report",
-      "summary": "An internal post urging Nvidia's board to weigh staff sentiment has drawn more than 1,600 comments, including calls to reinstate Huang.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-nvidia-jensen-huang-gID_7.png",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Tether-backed Twenty One Capital reports $1.09 billion Q3 net income on bitcoin gains",
-      "source": "The Block",
-      "date": "2026-11-13",
-      "url": "https://www.theblock.co/news/business/2026-11-13-tether-backed-twenty-one-capital-reports-1-09-billion-q3-net-income-on-bitcoin-gains-439711",
-      "summary": "Twenty One Capital reported $1.09 billion in Q3 net income, driven by Bitcoin gains, while posting a $4.8 million operating loss.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-13-at-17.34.13.png",
-      "tags": [
-        "Bitcoin",
-        "Stablecoins"
-      ]
-    },
-    {
-      "title": "Ethereum and Layer 1s Explained",
-      "source": "The Block",
-      "date": "2026-11-13",
-      "url": "https://www.theblock.co/learn/campus/ethereum-and-layer-1s-explained-435883",
-      "summary": "Ethereum 101 explains how Ethereum made blockchains programmable. It covers smart contracts, accounts and the EVM, ETH and gas fees, Proof of Stake, network upgrades, and how alternative Layer 1s trade off security, decentralization and scalability.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/cover-16x9-5.png",
-      "tags": [
-        "Ethereum",
-        "Web3"
-      ]
-    },
-    {
-      "title": "From $6 to $6.9 million: Two dormant Bitcoin addresses wake up to move 100 BTC after more than 16 years",
-      "source": "The Block",
-      "date": "2026-11-13",
-      "url": "https://www.theblock.co/news/markets/2026-11-13-from-6-to-6-9-million-two-dormant-bitcoin-addresses-wake-up-to-move-100-btc-after-more-than-16-years-439698",
-      "summary": "Two Bitcoin whale addresses moved 100 BTC worth $6.89 million after more than 16 years of dormancy on Friday.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-13-at-12.01.51.png",
+      "title": "Bitcoin Price Falls 14% in a Week to $65,000 as Weekend Selling Breaks Friday’s Low",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-14",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-13-percent-65600",
+      "summary": "Bitcoin Magazine Bitcoin Price Falls 14% in a Week to $65,000 as Weekend Selling Breaks Friday&#8217;s Low Bitcoin price crashed about 13% over the past week and traded near $65,600 on Saturday. This post Bitcoin Price Falls 14% in a Week to $65,000 as Weekend Selling Breaks Fri…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Bitcoin-Price-Craters-Over-13-in-a-Week-to-65500-as-Weekend-Selling-Breaks-Fridays-Low.jpg",
       "tags": [
         "Bitcoin",
         "Markets"
@@ -318,20 +339,6 @@
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/fe4171d8-fca4-4028-b84e-511e4b7d04fb.png",
       "tags": [
         "Bitcoin"
-      ]
-    },
-    {
-      "title": "DOJ Wins Court Authority to Seize $1.2 Billion of North Korea’s Stolen Binance Crypto as Freezes Top $2.7 Billion",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-13",
-      "url": "https://bitcoinmagazine.com/news/doj-north-korea-binance-1-2-billion-seize",
-      "summary": "Bitcoin Magazine DOJ Wins Court Authority to Seize $1.2 Billion of North Korea&#8217;s Stolen Binance Crypto as Freezes Top $2.7 Billion The DOJ won court authority to seize $1.2 billion of North Korea's stolen Binance crypto and took down a $400 million deepfake theft scheme. T…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/DOJ-Wins-Court-Authority-to-Seize-1.2-Billion-of-North-Koreas-Stolen-Binance-Crypto-as-Freezes-Top-2.7-Billion.jpg",
-      "tags": [
-        "Bitcoin",
-        "Regulation",
-        "Exchanges",
-        "Security"
       ]
     },
     {
