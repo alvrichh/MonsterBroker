@@ -91,6 +91,7 @@ export const api = {
     reset: () => request('/bot/reset', { method: 'POST' }),
     config: (body) => request('/bot/config', { method: 'PUT', body }),
     trades: (limit = 50) => request('/bot/trades', { params: { limit } }),
+    timeMachine: (params) => request('/bot/timemachine', { params }),
   },
 
   news: {
