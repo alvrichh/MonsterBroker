@@ -126,7 +126,7 @@ class AgentConfig(BaseModel):
     # alone; above 0, every entry gets a stop that many ATRs away, a target at
     # target_r times that risk, and a size that loses risk_per_trade of the
     # equity if the stop fills (never more cash than trade_fraction).
-    stop_atr: float = Field(0.0, ge=0.0, le=10.0)
+    stop_atr: float = Field(2.0, ge=0.0, le=10.0)
     target_r: float = Field(2.0, ge=0.5, le=10.0)
     risk_per_trade: float = Field(0.01, ge=0.001, le=0.1)
     daily_loss_limit: float = Field(0.0, ge=0.0, le=0.5)  # 0 = off; no new entries past this drawdown in a UTC day

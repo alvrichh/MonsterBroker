@@ -166,7 +166,7 @@ async def test_perp_sell_only_closes_when_shorts_are_off(tmp_path):
 @pytest.mark.asyncio
 async def test_perp_liquidation_on_a_crash_candle(tmp_path):
     futures = FakeFutures({"BTC/USDT": GOLDEN})
-    agent = make_agent(tmp_path, futures, leverage=10.0)
+    agent = make_agent(tmp_path, futures, leverage=10.0, stop_atr=0.0)  # no stop: the crash reaches liquidation
     await agent.tick()
     liq = agent.state().portfolio.perp_positions["BTC/USDT"].liquidation_price
     assert liq == pytest.approx(101 * (1 - 0.1 + MAINTENANCE_MARGIN))
