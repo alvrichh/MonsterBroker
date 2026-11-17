@@ -1,11 +1,16 @@
+from typing import Literal
+
 from fastapi import APIRouter, Depends, HTTPException, Query
+from starlette.concurrency import run_in_threadpool
 
 from app.agent.agent import TickResult
 from app.agent.state import AgentState, Decision
-from app.api.deps import AgentDep, CurrentUser, DbSession, QuestsDep, SettingsDep, get_current_user
+from app.api.deps import AgentDep, CurrentUser, DbSession, MarketDep, QuestsDep, SettingsDep, get_current_user
 from app.api.schemas.bot import ConfigIn, PerpPositionOut, StatusOut, StrategyOut, TradesOut
+from app.services.exchange import MarketDataError
 from app.services.quests import EVENT_BOT_CONFIG, EVENT_BOT_TICK, EVENT_PERP_MODE
-from app.strategies import STRATEGIES
+from app.services.timemachine import TimeMachineError, TimeMachineOut, run_time_machine
+from app.strategies import STRATEGIES, get_strategy
 
 router = APIRouter()
 
@@ -93,3 +98,34 @@ def trades(agent: AgentDep, limit: int = Query(50, ge=1, le=500)):
 @router.get("/decisions", response_model=list[Decision])
 def decisions(agent: AgentDep, limit: int = Query(50, ge=1, le=500)):
     return agent.state().decisions[-limit:][::-1]
+
+
+TIME_MACHINE_CANDLES = 1000  # ~6 weeks of 1h candles, ~5 months of 4h ones
+DEFAULT_STOP_ATR = 2.0  # when the bot runs without stops, the replay still needs one
+
+
+@router.get("/timemachine", response_model=TimeMachineOut)
+async def time_machine(agent: AgentDep, market: MarketDep,
+                       symbol: str = Query(..., pattern=r"^[A-Za-z0-9]+/[A-Za-z0-9]+$"),
+                       side: Literal["long", "short"] = "long",
+                       horizon: int = Query(24, ge=4, le=168, description="candles ahead"),
+                       replays: int = Query(10_000, ge=1_000, le=20_000),
+                       seed: int = Query(19, ge=0, le=1_000_000),
+                       stop_atr: float | None = Query(None, gt=0.0, le=10.0),
+                       target_r: float | None = Query(None, ge=0.5, le=10.0)):
+    """Replay a trade on the bot's timeframe and strategy before it is taken:
+    N simulated futures from the coin's own candles, plus the strategy's real
+    record on those candles. A simulation, not a prediction."""
+    config = agent.state().config
+    try:
+        candles = await market.ohlcv(symbol.upper(), config.timeframe, TIME_MACHINE_CANDLES)
+    except MarketDataError as error:
+        raise HTTPException(502, str(error)) from error
+    try:
+        return await run_in_threadpool(
+            run_time_machine, candles, get_strategy(config.strategy), symbol.upper(), side == "long",
+            config.timeframe, stop_atr or config.stop_atr or DEFAULT_STOP_ATR, target_r or config.target_r,
+            horizon, replays, seed,
+        )
+    except TimeMachineError as error:
+        raise HTTPException(422, str(error)) from error
