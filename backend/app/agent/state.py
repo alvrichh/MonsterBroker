@@ -27,6 +27,9 @@ class Position(BaseModel):
     symbol: str
     amount: float = 0.0
     avg_price: float = 0.0
+    stop: float | None = None
+    target: float | None = None
+    entry_bar: int | None = None  # open time (ms) of the candle it filled on
 
 
 class PerpPosition(BaseModel):
@@ -43,6 +46,9 @@ class PerpPosition(BaseModel):
     liquidation_price: float
     opened_at: str
     funding_paid: float = 0.0  # cumulative; positive = paid, negative = received
+    stop: float | None = None
+    target: float | None = None
+    entry_bar: int | None = None  # open time (ms) of the candle it filled on
 
     def unrealized_pnl(self, price: float) -> float:
         direction = 1.0 if self.side == Side.LONG else -1.0
@@ -115,6 +121,23 @@ class AgentConfig(BaseModel):
     market: Market = Market.SPOT
     leverage: float = Field(3.0, ge=1.0, le=20.0)  # perps only
     allow_shorts: bool = True  # perps only: a SELL with no position opens a short
+    # Exits and risk (see app/tools/exits.py, sizing.py, risk.py). With
+    # stop_atr = 0 there are no stops and entries are sized by trade_fraction
+    # alone; above 0, every entry gets a stop that many ATRs away, a target at
+    # target_r times that risk, and a size that loses risk_per_trade of the
+    # equity if the stop fills (never more cash than trade_fraction).
+    stop_atr: float = Field(0.0, ge=0.0, le=10.0)
+    target_r: float = Field(2.0, ge=0.5, le=10.0)
+    risk_per_trade: float = Field(0.01, ge=0.001, le=0.1)
+    daily_loss_limit: float = Field(0.0, ge=0.0, le=0.5)  # 0 = off; no new entries past this drawdown in a UTC day
+    max_entries_per_day: int = Field(0, ge=0, le=100)  # 0 = off
+
+
+class DayMark(BaseModel):
+    """The equity at the first tick of a UTC day, for the daily loss limit."""
+
+    date: str
+    equity: float
 
 
 class AgentState(BaseModel):
@@ -126,3 +149,4 @@ class AgentState(BaseModel):
     ticks: int = 0
     last_prices: dict[str, float] = Field(default_factory=dict)
     benchmark: Benchmark | None = None
+    day_start: DayMark | None = None

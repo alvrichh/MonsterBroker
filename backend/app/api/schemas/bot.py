@@ -16,6 +16,8 @@ class PerpPositionOut(BaseModel):
     liquidation_price: float
     opened_at: str
     funding_paid: float
+    stop: float | None = None
+    target: float | None = None
     mark_price: float
     unrealized_pnl: float
     roe: float  # return on the margin, percent
@@ -47,6 +49,11 @@ class ConfigIn(BaseModel):
     market: Market | None = None
     leverage: float | None = Field(None, ge=1.0, le=20.0)
     allow_shorts: bool | None = None
+    stop_atr: float | None = Field(None, ge=0.0, le=10.0)
+    target_r: float | None = Field(None, ge=0.5, le=10.0)
+    risk_per_trade: float | None = Field(None, ge=0.001, le=0.1)
+    daily_loss_limit: float | None = Field(None, ge=0.0, le=0.5)
+    max_entries_per_day: int | None = Field(None, ge=0, le=100)
 
 
 class StrategyOut(BaseModel):

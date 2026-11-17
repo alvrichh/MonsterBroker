@@ -24,7 +24,8 @@ FUNDING_INTERVAL_HOURS = 8.0
 
 
 class Executor(Protocol):
-    def execute(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float) -> Trade | None: ...
+    def execute(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float,
+                budget: float | None = None) -> Trade | None: ...
 
 
 def liquidation_price(side: Side, entry: float, leverage: float, mmr: float = MAINTENANCE_MARGIN) -> float:
@@ -38,17 +39,22 @@ def liquidation_price(side: Side, entry: float, leverage: float, mmr: float = MA
 class PaperExecutor:
     MIN_NOTIONAL = 10.0  # Binance's own floor for spot orders, in quote
 
-    def execute(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float) -> Trade | None:
+    def execute(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float,
+                budget: float | None = None) -> Trade | None:
+        """`budget`, when given, is the cost of a buy (sized by risk); it never
+        goes past cash * fraction."""
         if price <= 0:
             return None
         if signal.action == Action.BUY:
-            return self._buy(portfolio, signal, price, fraction)
+            return self._buy(portfolio, signal, price, fraction, budget)
         if signal.action == Action.SELL:
             return self._sell(portfolio, signal, price)
         return None
 
-    def _buy(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float) -> Trade | None:
-        budget = portfolio.cash * fraction
+    def _buy(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float,
+             budget: float | None = None) -> Trade | None:
+        cap = portfolio.cash * fraction
+        budget = cap if budget is None else min(budget, cap)
         if budget < self.MIN_NOTIONAL:
             return None
         amount = budget / price
@@ -90,11 +96,13 @@ class PerpExecutor:
     """Paper perpetuals. Fills at the mark price; one position per symbol."""
 
     def open(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float, leverage: float,
-             now: str) -> Trade | None:
+             now: str, margin: float | None = None) -> Trade | None:
+        """`margin`, when given, is sized by risk; it never goes past cash * fraction."""
         if price <= 0 or signal.action == Action.HOLD or signal.symbol in portfolio.perp_positions:
             return None
         side = Side.LONG if signal.action == Action.BUY else Side.SHORT
-        margin = portfolio.cash * fraction
+        cap = portfolio.cash * fraction
+        margin = cap if margin is None else min(margin, cap)
         notional = margin * leverage
         fee = notional * TAKER_FEE
         if margin < MIN_MARGIN or margin + fee > portfolio.cash:
@@ -163,5 +171,6 @@ class LiveExecutor:
     """Deliberately not implemented. Real orders need exchange keys, order
     types, error handling and a human saying yes; none of that is here."""
 
-    def execute(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float) -> Trade | None:
+    def execute(self, portfolio: Portfolio, signal: Signal, price: float, fraction: float,
+                budget: float | None = None) -> Trade | None:
         raise NotImplementedError("Live trading is not wired. Keep PAPER_TRADING=true.")
