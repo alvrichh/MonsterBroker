@@ -186,3 +186,200 @@
   color: var(--ink);
   border-left: 2px solid var(--accent);
 }
+
+/* A sub-heading inside the config form (stops and risk). */
+.form__sub {
+  margin: 8px 0 -4px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+}
+
+/* Time Machine ----------------------------------------------------------- */
+
+.tm {
+  margin-bottom: 16px;
+
+  > p {
+    margin-top: 4px;
+  }
+}
+
+.tm__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin: 16px 0;
+
+  .field {
+    flex: 1 1 140px;
+  }
+
+  .btn {
+    flex: 0 0 auto;
+  }
+}
+
+.tm__result {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tm__plan {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+  margin: 0;
+
+  div {
+    padding: 8px 12px;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-sm);
+  }
+
+  dt {
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  dd {
+    margin: 2px 0 0;
+  }
+}
+
+/* target / stop / neither as one stacked bar */
+.tm__odds {
+  display: flex;
+  height: 14px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--bg-2);
+}
+
+.tm__bar--target {
+  background: var(--up);
+}
+
+.tm__bar--stop {
+  background: var(--down);
+}
+
+.tm__bar--neither {
+  background: var(--rule-strong);
+}
+
+.tm__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  strong {
+    color: var(--ink);
+  }
+}
+
+.tm__swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.tm__fan {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+}
+
+.tm__band--outer {
+  fill: var(--accent);
+  opacity: 0.14;
+}
+
+.tm__band--inner {
+  fill: var(--accent);
+  opacity: 0.28;
+}
+
+.tm__median {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.tm__level {
+  line {
+    stroke-width: 1.5;
+    stroke-dasharray: 6 4;
+  }
+
+  text {
+    font-family: var(--font-mono);
+    font-size: 10px; /* viewBox units: the chart scales, so phones get bigger ones below */
+  }
+}
+
+@media (max-width: 600px) {
+  .tm__level text {
+    font-size: 20px;
+  }
+}
+
+.tm__level--target {
+  line { stroke: var(--up); }
+  text { fill: var(--up); }
+}
+
+.tm__level--stop {
+  line { stroke: var(--down); }
+  text { fill: var(--down); }
+}
+
+.tm__level--entry {
+  line {
+    stroke: var(--muted);
+    stroke-dasharray: 2 4;
+  }
+
+  text { fill: var(--muted); }
+}
+
+.tm__line {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.tm__verdict {
+  margin: 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
+}
+
+.tm__verdict--leans_target,
+.tm__verdict--strong_target {
+  border-left-color: var(--up);
+  background: var(--up-wash);
+}
+
+.tm__verdict--leans_stop,
+.tm__verdict--strong_stop {
+  border-left-color: var(--down);
+  background: var(--down-wash);
+}

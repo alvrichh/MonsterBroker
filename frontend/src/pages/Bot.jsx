@@ -4,6 +4,7 @@ import BotVsHodl from '../components/BotVsHodl.jsx';
 import Notice from '../components/Notice.jsx';
 import RangeField from '../components/RangeField.jsx';
 import StatCard from '../components/StatCard.jsx';
+import TimeMachine from '../components/TimeMachine.jsx';
 import { PlayIcon, RefreshIcon } from '../components/icons.jsx';
 import Loading from '../components/Loading.jsx';
 import { TIMEFRAMES } from '../data/coins.js';
@@ -15,6 +16,7 @@ import { api } from '../lib/api.js';
 import { amount, dateTime, money, percent } from '../lib/format.js';
 
 const asPercent = (fraction) => `${Math.round(Number(fraction) * 100)} %`;
+const asFinePercent = (fraction) => `${(Number(fraction) * 100).toFixed(1)} %`;
 
 export default function Bot() {
   const { t } = useI18n();
@@ -73,6 +75,11 @@ export default function Bot() {
       trade_fraction: Number(form.trade_fraction),
       min_confidence: Number(form.min_confidence),
       leverage: Number(form.leverage),
+      stop_atr: Number(form.stop_atr),
+      target_r: Number(form.target_r),
+      risk_per_trade: Number(form.risk_per_trade),
+      daily_loss_limit: Number(form.daily_loss_limit),
+      max_entries_per_day: Number(form.max_entries_per_day),
     };
     const result = await run(() => api.bot.config(body));
     if (result) setMessage(t('bot.saved'));
@@ -188,6 +195,63 @@ export default function Bot() {
                       />
                     )}
                   </div>
+                  <h3 className="form__sub">{t('bot.risk')}</h3>
+                  <div className="range-group">
+                    <RangeField
+                      label={t('bot.stopAtr')}
+                      hint={t('bot.stopAtrHint')}
+                      min={0}
+                      max={5}
+                      step={0.5}
+                      value={form.stop_atr}
+                      format={(v) => (Number(v) === 0 ? t('bot.off') : `${Number(v)} ATR`)}
+                      onChange={(v) => setForm({ ...form, stop_atr: v })}
+                    />
+                    {Number(form.stop_atr) > 0 && (
+                      <>
+                        <RangeField
+                          label={t('bot.targetR')}
+                          hint={t('bot.targetRHint')}
+                          min={0.5}
+                          max={5}
+                          step={0.5}
+                          value={form.target_r}
+                          format={(v) => `${Number(v)}R`}
+                          onChange={(v) => setForm({ ...form, target_r: v })}
+                        />
+                        <RangeField
+                          label={t('bot.riskPerTrade')}
+                          hint={t('bot.riskPerTradeHint')}
+                          min={0.001}
+                          max={0.05}
+                          step={0.001}
+                          value={form.risk_per_trade}
+                          format={asFinePercent}
+                          onChange={(v) => setForm({ ...form, risk_per_trade: v })}
+                        />
+                      </>
+                    )}
+                    <RangeField
+                      label={t('bot.dailyLoss')}
+                      hint={t('bot.dailyLossHint')}
+                      min={0}
+                      max={0.2}
+                      step={0.01}
+                      value={form.daily_loss_limit}
+                      format={(v) => (Number(v) === 0 ? t('bot.off') : asPercent(v))}
+                      onChange={(v) => setForm({ ...form, daily_loss_limit: v })}
+                    />
+                    <RangeField
+                      label={t('bot.maxEntries')}
+                      hint={t('bot.maxEntriesHint')}
+                      min={0}
+                      max={20}
+                      step={1}
+                      value={form.max_entries_per_day}
+                      format={(v) => (Number(v) === 0 ? t('bot.off') : String(Number(v)))}
+                      onChange={(v) => setForm({ ...form, max_entries_per_day: v })}
+                    />
+                  </div>
                   {form.market === 'perp' && (
                     <>
                       <label className="check">
@@ -213,7 +277,7 @@ export default function Bot() {
                   <h2>{t('bot.positions')}</h2>
                   {Object.keys(s.portfolio.positions).length === 0 ? <p className="muted">—</p> : (
                     <table className="table">
-                      <thead><tr><th>{t('common.symbol')}</th><th>{t('common.amount')}</th><th>{t('bot.avgPrice')}</th><th>{t('bot.value')}</th></tr></thead>
+                      <thead><tr><th>{t('common.symbol')}</th><th>{t('common.amount')}</th><th>{t('bot.avgPrice')}</th><th>{t('bot.value')}</th><th>{t('bot.exits')}</th></tr></thead>
                       <tbody>
                         {Object.values(s.portfolio.positions).map((p) => (
                           <tr key={p.symbol}>
@@ -221,6 +285,7 @@ export default function Bot() {
                             <td className="mono">{amount(p.amount)}</td>
                             <td className="mono">{money(p.avg_price)}</td>
                             <td className="mono">{money(p.amount * (s.last_prices[p.symbol] ?? p.avg_price), { digits: 2 })}</td>
+                            <td className="mono"><Exits stop={p.stop} target={p.target} /></td>
                           </tr>
                         ))}
                       </tbody>
@@ -236,7 +301,7 @@ export default function Bot() {
                     <div className="table-scroll">
                       <table className="table">
                         <thead>
-                          <tr><th>{t('common.symbol')}</th><th>{t('common.side')}</th><th>{t('bot.size')}</th><th>{t('bot.entry')}</th><th>{t('bot.markPrice')}</th><th>{t('bot.upnl')}</th><th>{t('bot.liqPrice')}</th><th>{t('bot.fundingPaid')}</th></tr>
+                          <tr><th>{t('common.symbol')}</th><th>{t('common.side')}</th><th>{t('bot.size')}</th><th>{t('bot.entry')}</th><th>{t('bot.markPrice')}</th><th>{t('bot.upnl')}</th><th>{t('bot.liqPrice')}</th><th>{t('bot.exits')}</th><th>{t('bot.fundingPaid')}</th></tr>
                         </thead>
                         <tbody>
                           {Object.values(s.perp_positions).map((p) => (
@@ -248,6 +313,7 @@ export default function Bot() {
                               <td className="mono">{money(p.mark_price)}</td>
                               <td className={`mono ${p.unrealized_pnl >= 0 ? 'up' : 'down'}`}>{money(p.unrealized_pnl, { digits: 2 })} <span className="muted">({percent(p.roe, 1)})</span></td>
                               <td className="mono">{money(p.liquidation_price)}</td>
+                              <td className="mono"><Exits stop={p.stop} target={p.target} /></td>
                               <td className="mono muted">{money(p.funding_paid, { digits: 2 })}</td>
                             </tr>
                           ))}
@@ -279,6 +345,8 @@ export default function Bot() {
               {!canDrive && s.recent_decisions.length > 3 && <SignInGate compact text={t('gate.decisions')} />}
             </section>
           </div>
+
+          <TimeMachine symbols={s.config.symbols} timeframe={s.config.timeframe} />
 
           <section className="card">
             <h2>{t('bot.trades')}</h2>
@@ -315,5 +383,17 @@ export default function Bot() {
         </>
       )}
     </div>
+  );
+}
+
+// Stop and target of an open position, or a dash when it has none.
+function Exits({ stop, target }) {
+  if (stop == null && target == null) return <span className="muted">—</span>;
+  return (
+    <>
+      <span className="down">{money(stop)}</span>
+      <span className="muted"> / </span>
+      <span className="up">{money(target)}</span>
+    </>
   );
 }
