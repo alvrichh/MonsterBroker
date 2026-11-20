@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -18,181 +18,312 @@
       ]
     },
     {
-      "title": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
+      "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
       "source": "CoinDesk",
-      "date": "2026-11-19",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/19/crypto-for-advisors-falling-prices-drove-october-s-10-drop-in-institutional-crypto-exposure",
+      "date": "2026-11-20",
+      "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/920a08914439fa23e0b80f679bab0e55bdd3bb38-3840x2160.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/ee1f6aa8d9fba0788e1caa531b53c15fbc6174ba-4608x2880.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Crypto"
       ]
     },
     {
-      "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+      "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
       "source": "CoinDesk",
-      "date": "2026-11-19",
-      "url": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft",
+      "date": "2026-11-20",
+      "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Exchanges",
-        "Security"
-      ]
-    },
-    {
-      "title": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
-      "source": "CoinDesk",
-      "date": "2026-11-19",
-      "url": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/43995e42989e47c7971eb757461c12e7772652a7-5472x3648.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
-      "source": "CoinDesk",
-      "date": "2026-11-19",
-      "url": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/13cd4f14be950fbfb70e6dc6ab16bf0fdc1d8647-4533x2550.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Anthropic shares expected to open 26.5% above $83 IPO price",
-      "source": "Cointelegraph",
-      "date": "2026-11-19",
-      "url": "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "The Claude maker’s $81.3 billion offering comes as OKX reports a premium in its pre-IPO contract ahead of the Nasdaq debut.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7T8ETDTK3X1WT0HPSKQE0AH/hi-the-company-launches-pre-ipo-markets.jpg",
-      "tags": [
-        "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Ethereum’s new DeFi security tool raises questions over censorship",
-      "source": "Cointelegraph",
-      "date": "2026-11-19",
-      "url": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Phylax’s system lets decentralized protocols block potentially harmful transactions, but raises questions about potential censorship and Ethereum’s concentrated builder market.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Q178B6E75WCCC6M7HFQ7YG/magazine-ethereum-pectra-upgrade.png",
-      "tags": [
-        "Ethereum",
-        "DeFi",
-        "Web3",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Hong Kong adds Hyperliquid to list of ‘suspicious’ crypto platforms",
-      "source": "Cointelegraph",
-      "date": "2026-11-19",
-      "url": "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Hong Kong’s securities regulator said Hyperliquid has no local license and may have promoted its trading services to investors in the city.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SSXM07R00FXVHJM9C31XXF/wall-warning-hyperliquid-2.jpg",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/cb2a91ec8eda764f9a0f74f30550a6a716563fda-2517x1416.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Regulation",
         "Markets"
       ]
     },
     {
-      "title": "Anthropic Tops SpaceX's Initial IPO With $81 Billion Deal: Where the Money Went",
-      "source": "Decrypt",
-      "date": "2026-11-19",
-      "url": "https://decrypt.co/383623/anthropic-tops-spacex-initial-ipo-81-billion-deal-where-the-money-went",
-      "summary": "The Claude maker beat SpaceX's original share sale, though not its expanded final IPO. Here's who got the money and why the computing bill could be even bigger.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+      "title": "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut",
+      "source": "CoinDesk",
+      "date": "2026-11-20",
+      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/821262fb4f697ff07420d4aa3b5969e9eb886658-5424x3616.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Crypto"
+        "Bitcoin"
       ]
     },
     {
-      "title": "Gen Z Embraces Crypto While Most Americans Call It a 'Side Quest'",
-      "source": "Decrypt",
-      "date": "2026-11-19",
-      "url": "https://decrypt.co/383589/gen-z-embraces-crypto-most-americans-side-quest",
-      "summary": "A SoFi and YouGov survey found that 21% of Gen Z adults own crypto, more than hold employer retirement plans, even as only 13% of all Americans own it and most remain skeptical.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/genz-phones-ai-1-gID_7.png",
+      "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+      "source": "CoinDesk",
+      "date": "2026-11-20",
+      "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/dd1a65646bd21c2b4d0d2821fdd923999c402438-1000x667.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Crypto"
+        "Bitcoin",
+        "Web3"
       ]
     },
     {
-      "title": "Quantum Upgrade Could Be 'Particularly Challenging' for Blockchains: IOSCO",
-      "source": "Decrypt",
-      "date": "2026-11-19",
-      "url": "https://decrypt.co/383613/quantum-upgrade-could-be-particularly-challenging-for-blockchains-iosco",
-      "summary": "The global securities watchdog said markets shouldn't wait for quantum computers to arrive, flagging bulkier signatures and harder upgrades.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/quantum-computer-decrypt-style-gID_7.jpg",
+      "title": "DBS bets it can lose the deposit and keep the client",
+      "source": "Cointelegraph",
+      "date": "2026-11-20",
+      "url": "https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The Singapore bank earned a record $208 million in transaction services fees in the third quarter — now it’s helping companies turn deposits into stablecoins they can spend without it.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7WNFYH0FRWPZX615E3RNKNQ/sponsored-marina-bay-sand-singapore-light-water11-1.jpg",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
+      "source": "Cointelegraph",
+      "date": "2026-11-20",
+      "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7WGQEQ57ZB4C6X8Y2M5KYTQ/christine-lagarde-imf.jpg",
       "tags": [
         "Markets"
       ]
     },
     {
-      "title": "Morning Minute: Google’s Newest AI Model Tops Benchmarks Ahead of Anthropic IPO",
-      "source": "Decrypt",
-      "date": "2026-11-19",
-      "url": "https://decrypt.co/383609/morning-minute-googles-newest-ai-model-tops-benchmarks-ahead-of-anthropic-ipo",
-      "summary": "Anthropic bulls seem to be shrugging off the news, as ANT pops 25% over IPO price on Hyperliquid pre-debut.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/google-quantum-decrypt-style-02-gID_7.jpg",
+      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
+      "source": "Cointelegraph",
+      "date": "2026-11-20",
+      "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "OnChain Lens tracked nearly $600 million in ETH transfers over two days as the Binance hackers moved the stolen funds through fresh wallets and cross-chain protocols to obscure their trail.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5KZARS72JZC0FSMD8WX2PAG/aml-money-laundering-crypto-1.jpg",
       "tags": [
-        "Markets",
-        "AI"
-      ]
-    },
-    {
-      "title": "Hill, Moreno blame delays for missed Clarity Act window but differ on reach of agency rulemaking",
-      "source": "The Block",
-      "date": "2026-11-19",
-      "url": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
-      "summary": "Hill and Moreno fault Clarity Act delays but disagree on how much crypto regulators can accomplish.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/06/Clarity-Act-Learn-scaled.jpg",
-      "tags": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Bitcoin finance protocol Hashi goes live on Sui mainnet",
-      "source": "The Block",
-      "date": "2026-11-19",
-      "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
-      "summary": "Hashi is processing bitcoin deposits on Sui mainnet, with hBTC used for Fluid loans and HoneyB vaults on Upshift.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/GettyImages-461203600-scaled.jpg",
-      "tags": [
-        "Bitcoin",
-        "Altcoins",
-        "Web3"
-      ]
-    },
-    {
-      "title": "US launches cybercrime center with TRM Labs to help trace crypto tied to scams",
-      "source": "The Block",
-      "date": "2026-11-19",
-      "url": "https://www.theblock.co/news/regulation/2026-11-19-us-launches-cybercrime-center-with-trm-labs-to-help-trace-crypto-tied-to-scams-443599",
-      "summary": "The Threat Disruption Center will help investigators trace victims’ funds and identify crypto wallets used by scammers.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/capitol.png",
-      "tags": [
+        "Ethereum",
+        "Exchanges",
         "Security",
         "Web3"
       ]
     },
     {
-      "title": "1inch integrates Hyperliquid’s perpetual futures contracts into its dApp and wallet platform",
-      "source": "The Block",
-      "date": "2026-11-19",
-      "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574",
-      "summary": "Users can fund a position with a token they already hold on 1inch, which will be routed to USDC and deposited to a balance on Hyperliquid.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/1inch.png",
+      "title": "Senate Passes Bill Banning Prediction Market Bets on War, Terrorism and Death",
+      "source": "Decrypt",
+      "date": "2026-11-20",
+      "url": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death",
+      "summary": "Sen. Adam Schiff's DEATH BETS Act would bar U.S.-regulated exchanges from listing contracts tied to war, assassinations or deaths.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg",
       "tags": [
-        "Stablecoins",
+        "Regulation",
+        "Exchanges",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Morning Minute: Anthropic IPO Pops, Sinks Markets",
+      "source": "Decrypt",
+      "date": "2026-11-20",
+      "url": "https://decrypt.co/383691/morning-minute-anthropic-ipo-pops-sinks-markets",
+      "summary": "A (brief) win for Anthropic's ANT stock on IPO day meant a loss for just about every other major asset class.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "MoonPay Applies for National Trust Bank Charter to Grow Custody and Stablecoin Business",
+      "source": "Decrypt",
+      "date": "2026-11-20",
+      "url": "https://decrypt.co/383688/moonpay-applies-for-national-trust-bank-charter-to-grow-custody-and-stablecoin-business",
+      "summary": "The crypto payments firm joins a rush of crypto companies seeking federal trust charters, which face growing political scrutiny.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-moonpay-gID_7.png",
+      "tags": [
+        "Stablecoins"
+      ]
+    },
+    {
+      "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
+      "source": "Decrypt",
+      "date": "2026-11-20",
+      "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+      "summary": "Thursday's ETF outflow was the funds' biggest in three weeks, as rising Treasury yields and Fed rate hike bets weigh on crypto.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Rep. Horsford sees opening for House vote on crypto tax bill before Congress ends",
+      "source": "The Block",
+      "date": "2026-11-20",
+      "url": "https://www.theblock.co/news/regulation/2026-11-20-rep-horsford-sees-opening-house-vote-crypto-tax-bill-before-congress-ends-444720",
+      "summary": "Rep. Steven Horsford said a bipartisan crypto tax bill could pass the House before this current Congress ends.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/GettyImages-2303482998-scaled-e1795184982398.jpg",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Wintermute policy chief calls for crypto lobby to ‘clean house’ in D.C.",
+      "source": "The Block",
+      "date": "2026-11-20",
+      "url": "https://www.theblock.co/news/regulation/2026-11-20-wintermute-policy-chief-calls-for-crypto-lobby-clean-house-d-c-444721",
+      "summary": "Wintermute's Ron Hammond says crypto needs a new strategy after repeated lobbying setbacks against established financial interests.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/image-2026-11-20T172211.323.jpg",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+      "source": "The Block",
+      "date": "2026-11-20",
+      "url": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217",
+      "summary": "BlackRock's IBIT made up nearly all of Thursday's outflows, despite Morgan Stanley's MSBT attracting $49.6 million.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/image-2026-11-20T143815.443.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+      "source": "The Block",
+      "date": "2026-11-20",
+      "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
+      "summary": "Ark Invest bought nearly 1 million Anthropic shares and trimmed its Ethereum and Solana staking ETF holdings.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/GettyImages-2305894191.jpg",
+      "tags": [
+        "Ethereum",
+        "DeFi",
+        "Regulation",
+        "Altcoins"
+      ]
+    },
+    {
+      "title": "Block Says Most Bitcoin Payments on Square Are for Coffee and Food",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-20",
+      "url": "https://bitcoinmagazine.com/news/block-square-bitcoin-payments-report",
+      "summary": "Bitcoin Magazine Block Says Most Bitcoin Payments on Square Are for Coffee and Food Block’s first bitcoin payments report found the median Square payment is about $13, with 72% at food and drink businesses, as it pushes for a de minimis tax exemption. This post Block Says Most B…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Block-Says-Most-Bitcoin-Payments-on-Square-Are-for-Coffee-and-Food.jpg",
+      "tags": [
+        "Bitcoin"
+      ]
+    },
+    {
+      "title": "Bitcoin Hovers Just Above Average Holder’s Cost Basis as Price Keeps Dipping",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-20",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-hovers-above-realized-price",
+      "summary": "Bitcoin Magazine Bitcoin Hovers Just Above Average Holder’s Cost Basis as Price Keeps Dipping Bitcoin is trading barely above its realized price, the average cost of every coin, and a break below would put the average holder at a loss for the first time since early 2023. This po…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/2026-11-12-morning.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin Price Slips Near $61,500 as Tech Selloff Spreads to Asia",
+      "source": "Bitcoin Magazine",
+      "date": "2026-11-20",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-61500-asia",
+      "summary": "Bitcoin Magazine Bitcoin Price Slips Near $61,500 as Tech Selloff Spreads to Asia The bitcoin price slipped to near $61,500 on Friday morning, its lowest level since July, as the tech selloff spread to Asia and IBIT posted a record outflow. This post Bitcoin Price Slips Near $61…",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Price-May-Be-Battered-but-Analysts-See-Structural-Adoption-Story-Still-Intact.jpg",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin hits four-month low as $820 million liquidated and $12.7 billion short squeeze risk builds",
+      "source": "CryptoSlate",
+      "date": "2026-11-20",
+      "url": "https://cryptoslate.com/bitcoin-hits-four-month-low-as-820-million-liquidated-and-12-7-billion-short-squeeze-risk-builds/",
+      "summary": "Bitcoin fell to its lowest level in four months as an $820 million liquidation wave swept the derivatives market. The leading cryptocurrency fell to $61,196 on Nov. 20 before recovering to $61,901 as of press time, according to CryptoSlate data. This price performance extended a…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-expiry-weather-shields.webp",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "The DeFi protocol powering $1.6 billion in Coinbase loans as crypto lending goes mainstream",
+      "source": "CryptoSlate",
+      "date": "2026-11-20",
+      "url": "https://cryptoslate.com/the-defi-protocol-powering-1-6-billion-in-coinbase-loans-as-crypto-lending-goes-mainstream/",
+      "summary": "The New York rollout extends a service that Coinbase offers through its app and lenders fund through Morpho’s markets. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/coinbase-morpho-trailer.webp",
+      "tags": [
+        "DeFi",
+        "Exchanges",
         "Web3",
         "Markets"
+      ]
+    },
+    {
+      "title": "AI data center boom linked to 650 premature US deaths as pollution spreads across states",
+      "source": "CryptoSlate",
+      "date": "2026-11-20",
+      "url": "https://cryptoslate.com/ai-data-center-boom-linked-to-650-premature-us-deaths-as-pollution-spreads-across-states/",
+      "summary": "An MIT-led study estimates about 650 premature deaths in the contiguous US in 2023 from pollution linked to the electricity data centers drew from the grid. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in y…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/grid-pollution-weather-vane.webp",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Bitcoin buyers face a trading issue as stablecoins just suffer their biggest supply drop since 2022",
+      "source": "CryptoSlate",
+      "date": "2026-11-20",
+      "url": "https://cryptoslate.com/bitcoin-buyers-face-a-trading-issue-as-stablecoins-just-suffer-their-biggest-supply-drop-since-2022/",
+      "summary": "Flowdesk’s Greg Guttas explains how a market maker could use its own stablecoins to fund a Bitcoin purchase and settle with the client later. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-dealer-transfer-lift.webp",
+      "tags": [
+        "Bitcoin",
+        "Stablecoins",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Aster Blames Coordinated Trades for Mark-Price Divergence",
+      "source": "The Defiant",
+      "date": "2026-11-20",
+      "url": "https://thedefiant.io/news/markets/aster-blames-coordinated-trades-for-mark-price-divergence",
+      "summary": "Aster says its insurance fund took over positions and some profitable positions were forcibly reduced. Its report announces a safeguards review but no compensation plan.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/84b1f8bf2866d3f004fd9c1dbc729d87ce3b0cc4-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "title": "Bitcoin Touches $60,000 as Slide From Oct. 21 Hits 29%",
+      "source": "The Defiant",
+      "date": "2026-11-20",
+      "url": "https://thedefiant.io/news/markets/bitcoin-touches-60-000-as-slide-from-oct-21-hits-29",
+      "summary": "Coinbase recorded $60,001 at 10:26 a.m. ET, while Bitstamp touched $60,000 in the same minute.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bf46a25083b740df0358ad583cb3a31dcaca84b8-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Bitcoin",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Zcash Falls Below $800 as Losses Outpace Bitcoin, Ether",
+      "source": "The Defiant",
+      "date": "2026-11-20",
+      "url": "https://thedefiant.io/news/markets/zcash-falls-below-800-as-losses-outpace-bitcoin-ether",
+      "summary": "ZEC traded about 53% below a late-September price, extending a selloff that took it below $1,100 earlier this month.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/b4aff8ad5f7188d163548c27c03a94180e058068-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Bitcoin",
+        "Ethereum",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Intel 18A vs. TSMC N2: How to Read the Chip Claims",
+      "source": "The Defiant",
+      "date": "2026-11-20",
+      "url": "https://thedefiant.io/news/technology/intel-18a-vs-tsmc-n2-how-to-read-the-chip-claims",
+      "summary": "Node names are not transistor measurements. Public disclosures show different approaches to making chips faster and more efficient—but use different comparison points.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/395a90e5f91ff3143e41ab0e82d4fef8fe9eac69-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Crypto"
       ]
     },
     {
@@ -205,136 +336,6 @@
       "tags": [
         "Bitcoin",
         "Web3"
-      ]
-    },
-    {
-      "title": "Coinbase Launches U.S. Spot Margin Trading With Up to 10x Leverage",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-19",
-      "url": "https://bitcoinmagazine.com/news/coinbase-us-spot-margin-10x",
-      "summary": "Bitcoin Magazine Coinbase Launches U.S. Spot Margin Trading With Up to 10x Leverage Coinbase opened crypto spot margin trading in the U.S. with up to 10x leverage, but only for eligible contract participants with more than $10 million invested. This post Coinbase Launches U.S. S…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2025/12/Coinbase-is-About-to-Launch-Prediction-Markets-and-Tokenized-Stocks-Report.jpg",
-      "tags": [
-        "Bitcoin",
-        "Exchanges",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Russia’s Central Bank to Let Retail Investors Trade Bitcoin on Margin",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-19",
-      "url": "https://bitcoinmagazine.com/news/russia-retail-bitcoin-margin-trading",
-      "summary": "Bitcoin Magazine Russia&#8217;s Central Bank to Let Retail Investors Trade Bitcoin on Margin A Bank of Russia official said retail investors will be able to trade crypto on margin up to 300,000 rubles, with the first crypto funds for qualified investors expected in 2027. This po…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/07/Russia-Central-Bank-Crypto.jpg",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Bitcoin Price Rebounds Near $64,000 as Anthropic IPO Lifts Tech Stocks",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-19",
-      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-rebounds-64000-anthropic",
-      "summary": "Bitcoin Magazine Bitcoin Price Rebounds Near $64,000 as Anthropic IPO Lifts Tech Stocks The bitcoin price climbed back to near $63,700 on Thursday morning as Anthropic's record IPO lifted tech stocks, though ETF outflows and Fed hike risk kept gains in check. This post Bitcoin P…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Bitcoin-Price-Slips-While-US-Treasury-Yields-Soar.jpg",
-      "tags": [
-        "Bitcoin",
-        "Regulation",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Over 7 million Bitcoin could face a quantum security reckoning after new discovery",
-      "source": "CryptoSlate",
-      "date": "2026-11-19",
-      "url": "https://cryptoslate.com/over-7-million-bitcoin-could-face-a-quantum-security-reckoning-after-new-discovery/",
-      "summary": "Nearly three-quarters of the tally came from historical matches, and the spending conditions behind those matches matter for a future quantum migration. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-census-lightbox.webp",
-      "tags": [
-        "Bitcoin"
-      ]
-    },
-    {
-      "title": "Anthropic’s crypto futures traded 25% above its $81 billion IPO price as Bitcoin slumped 22%",
-      "source": "CryptoSlate",
-      "date": "2026-11-19",
-      "url": "https://cryptoslate.com/bitcoins-22-slump-fails-to-dampen-crypto-traders-bullish-bets-on-anthropics-81-billion-ipo/",
-      "summary": "Crypto futures tied to Anthropic traded about 25% above the company’s IPO price on Thursday. The bets swelled during a Bitcoin selloff, but research from Block Scholes points to a broader retreat from risk rather than clear evidence that investors sold Bitcoin to buy Anthropic.…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-anthropic-windsock-divergence.webp",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Anthropic hits $1.5 trillion valuation in record IPO as ECB warns AI funding could dry up",
-      "source": "CryptoSlate",
-      "date": "2026-11-19",
-      "url": "https://cryptoslate.com/anthropic-hits-1-5-trillion-valuation-in-record-ipo-as-ecb-warns-ai-funding-could-dry-up/",
-      "summary": "Anthropic priced its $81 billion IPO at $83 a share Wednesday. The company behind Claude said it expected trading to begin on Nasdaq on Nov. 19. If the stock opens above $83, investors who got shares in the offering will have an immediate gain on paper. Anthropic won&#039;t get…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/anthropic-ipo-bell.webp",
-      "tags": [
-        "Markets",
-        "AI"
-      ]
-    },
-    {
-      "title": "Bitcoin flashes a signal seen at four previous market bottoms as $62,000 comes under pressure",
-      "source": "CryptoSlate",
-      "date": "2026-11-19",
-      "url": "https://cryptoslate.com/bitcoin-flashes-a-signal-seen-at-four-previous-market-bottoms-as-62000-comes-under-pressure/",
-      "summary": "The second bounce was smaller by the close, and the loss data leave spot demand as the next test. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-rebound-belay.webp",
-      "tags": [
-        "Bitcoin",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Selig Says US Retail Onchain Perps Need Regulated Exchanges",
-      "source": "The Defiant",
-      "date": "2026-11-19",
-      "url": "https://thedefiant.io/news/regulation/selig-says-us-retail-onchain-perps-need-regulated-exchanges",
-      "summary": "Asked about Hyperliquid, the CFTC chair cited Backpack and said to 'stay tuned' on other protocols, according to The Block.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/c7d32bb4f28668733e153ad273bbd47d56ec99ac-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Regulation",
-        "Exchanges",
-        "Web3"
-      ]
-    },
-    {
-      "title": "xStocks Says It Can't Meet All Anthropic IPO Access Demand",
-      "source": "The Defiant",
-      "date": "2026-11-19",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/xstocks-says-it-can-t-meet-all-anthropic-ipo-access-demand",
-      "summary": "xStocks said unfilled funds will be released without fees. Kraken's terms charge a 5% spread on allocations customers receive.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/20941988bed9661ba57efdd8e2f71fca95746a04-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "PHP Patches Critical Code-Execution Flaw Rated 9.2",
-      "source": "The Defiant",
-      "date": "2026-11-19",
-      "url": "https://thedefiant.io/frontier/security/php-patches-critical-code-execution-flaw-rated-9-2",
-      "summary": "The bug affects PHP's default file-based session storage. Code execution requires attacker influence over session data, an interrupted write and suitable application code.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9c777e784fe793affb63294a59dc77b8653e7fec-2816x1584.webp?fm=webp&q=85",
-      "tags": [
-        "Security"
-      ]
-    },
-    {
-      "title": "Bundesbank and MAS Test Proof-Based Euro-SGD Settlement",
-      "source": "The Defiant",
-      "date": "2026-11-19",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/bundesbank-and-mas-test-proof-based-euro-sgd-settlement",
-      "summary": "Project Simbolon coordinated payments without a direct link between central bank ledgers, but used simulated money rather than a live settlement service.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/173d6014321fc8c9200df1f0dca0c4503c619e9c-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Crypto"
       ]
     },
     {
