@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "headline": "Radar cripto",
   "insight": "Titulares recientes de medios cripto, agrupados por tema. Resumen con IA no disponible.",
   "items": [
     {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
@@ -18,85 +18,200 @@
       ]
     },
     {
-      "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
       "source": "CoinDesk",
-      "date": "2026-11-20",
-      "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians",
+      "date": "2026-11-21",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/ee1f6aa8d9fba0788e1caa531b53c15fbc6174ba-4608x2880.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/a0b9c77ef2096d8c4905fefac8edbe280eb49ff3-1920x1080.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
-        "Crypto"
+        "Ethereum",
+        "DeFi",
+        "Regulation"
       ]
     },
     {
-      "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
+      "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
       "source": "CoinDesk",
-      "date": "2026-11-20",
-      "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+      "date": "2026-11-21",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/cb2a91ec8eda764f9a0f74f30550a6a716563fda-2517x1416.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/0fd512cd2b3b63152562fab784b9d94b8b8b56ea-1500x994.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+      "source": "CoinDesk",
+      "date": "2026-11-21",
+      "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+      "summary": "",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e801fab0ba43b1fac7d53b2dde06f85232d5e766-1506x830.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Regulation",
-        "Markets"
+        "Altcoins"
       ]
     },
     {
-      "title": "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut",
+      "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
       "source": "CoinDesk",
-      "date": "2026-11-20",
-      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "date": "2026-11-21",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
       "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/821262fb4f697ff07420d4aa3b5969e9eb886658-5424x3616.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c4a0fdccd8d94e89522ad3903cb55ceb60c5e3d6-2158x1102.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
       "tags": [
         "Bitcoin"
       ]
     },
     {
-      "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
-      "source": "CoinDesk",
-      "date": "2026-11-20",
-      "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
-      "summary": "",
-      "image": "https://cdn.sanity.io/images/s3y3vcno/production/dd1a65646bd21c2b4d0d2821fdd923999c402438-1000x667.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip",
+      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
+      "source": "Cointelegraph",
+      "date": "2026-11-21",
+      "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Industry groups have until Dec. 11 to apply for the ECB’s first experimental exercises under its Appia initiative, with later submissions reviewed on a rolling basis.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M34BTQXP52VJEXVV822SS5QM/hi-what-is-a-decentralized-money-market-and-eu-stablecoin-2.jpg",
       "tags": [
-        "Bitcoin",
-        "Web3"
+        "Crypto"
       ]
     },
     {
-      "title": "DBS bets it can lose the deposit and keep the client",
+      "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
       "source": "Cointelegraph",
-      "date": "2026-11-20",
-      "url": "https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "The Singapore bank earned a record $208 million in transaction services fees in the third quarter — now it’s helping companies turn deposits into stablecoins they can spend without it.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7WNFYH0FRWPZX615E3RNKNQ/sponsored-marina-bay-sand-singapore-light-water11-1.jpg",
-      "tags": [
-        "Stablecoins"
-      ]
-    },
-    {
-      "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
-      "source": "Cointelegraph",
-      "date": "2026-11-20",
-      "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7WGQEQ57ZB4C6X8Y2M5KYTQ/christine-lagarde-imf.jpg",
+      "date": "2026-11-21",
+      "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Whistleblowers could receive 10% to 30% of monetary sanctions in qualifying prediction market fraud cases exceeding $1 million in penalties.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3TG0M8S1BAV7KN2AJ34JJE9/prediction-market.jpg",
       "tags": [
         "Markets"
       ]
     },
     {
-      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
+      "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
       "source": "Cointelegraph",
-      "date": "2026-11-20",
-      "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "OnChain Lens tracked nearly $600 million in ETH transfers over two days as the Binance hackers moved the stolen funds through fresh wallets and cross-chain protocols to obscure their trail.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5KZARS72JZC0FSMD8WX2PAG/aml-money-laundering-crypto-1.jpg",
+      "date": "2026-11-21",
+      "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Hong Kong’s securities regulator says the proposal would strengthen investor protections, with the bill set for its first reading in the Legislative Council on Dec. 2.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Y9VC5TT6XQ46DCK68VGC0X/regulation-hong-kong.jpg",
       "tags": [
-        "Ethereum",
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+      "source": "Decrypt",
+      "date": "2026-11-21",
+      "url": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+      "summary": "Tech stocks are buckling after Anthropic’s historic IPO and Nvidia’s leadership crisis, while Bitcoin has slipped below $60,000. Experts disagree on whether AI faces a correction or a dot-com-style bust.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/stocks-gID_7.jpg",
+      "tags": [
+        "Bitcoin",
+        "AI"
+      ]
+    },
+    {
+      "title": "JPMorgan says bitcoin’s price drop pressures miners, Senate passes ‘Death Bets Act’, and more",
+      "source": "The Block",
+      "date": "2026-11-21",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-20-jpmorgan-bitcoin-price-drop-miners-senate-passes-death-bets-act-more-crypto-news-444786",
+      "summary": "In today's newsletter, JPMorgan says bitcoin's price drop puts more pressure on miners; Senate passes bill to ban prediction markets tied to death and war; and more.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2024/05/20240501_JPMorgan_News.jpg",
+      "tags": [
+        "Bitcoin",
+        "Regulation",
+        "Markets"
+      ]
+    },
+    {
+      "title": "US Treasury sells $15 billion in first nine-day cash bill auction since 2008",
+      "source": "CryptoSlate",
+      "date": "2026-11-21",
+      "url": "https://cryptoslate.com/us-treasury-sells-15-billion-in-first-nine-day-cash-bill-auction-since-2008/",
+      "summary": "Treasury had flagged possible month-end borrowing and reported $891.2 billion in cash at the Nov. 19 close. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/treasury-nine-day-cash-bill.webp",
+      "tags": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "Kraken says trades stand after Bitcoin sold at $24,250 Canadian",
+      "source": "CryptoSlate",
+      "date": "2026-11-21",
+      "url": "https://cryptoslate.com/kraken-says-trades-stand-after-bitcoin-sold-at-24250-canadian/",
+      "summary": "Kraken’s Canadian-dollar Bitcoin pair hit nearly identical lows in consecutive 15-minute intervals. Other CAD pairs also posted unusually low prices. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inb…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/kraken-canadian-bitcoin-low.webp",
+      "tags": [
+        "Bitcoin",
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Ethereum’s Glamsterdam delay reveals a troubling pattern behind its biggest network upgrades",
+      "source": "CryptoSlate",
+      "date": "2026-11-21",
+      "url": "https://cryptoslate.com/ethereums-glamsterdam-delay-reveals-a-troubling-pattern-behind-its-biggest-network-upgrades/",
+      "summary": "Ethereum&#039;s Glamsterdam upgrade has slipped into 2027, exposing a growing disconnect between faster development and the network&#039;s ability to meet deadlines. On Nov. 20, Ethereum Foundation researcher Toni Wahrstätter said the upgrade, which the foundation had targeted f…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/ethereum-testing-return-loop.webp",
+      "tags": [
+        "Ethereum"
+      ]
+    },
+    {
+      "title": "Binance can hold MEXC deposits even after the blockchain clears them",
+      "source": "CryptoSlate",
+      "date": "2026-11-21",
+      "url": "https://cryptoslate.com/binance-can-hold-mexc-deposits-even-after-the-blockchain-clears-them/",
+      "summary": "You can send crypto from MEXC to Binance, see that the transaction went through on the blockchain, and still be unable to trade with that deposit when you log in to Binance. That&#039;s what Binance told customers to expect while it reviews deposits from MEXC. Try to move money…",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/binance-credit-review.webp",
+      "tags": [
+        "Exchanges"
+      ]
+    },
+    {
+      "title": "Kraken Says Trades Stand After Bitcoin’s CAD Plunge",
+      "source": "The Defiant",
+      "date": "2026-11-21",
+      "url": "https://thedefiant.io/news/cefi/kraken-says-trades-stand-after-bitcoin-s-cad-plunge",
+      "summary": "Kraken’s USD/CAD market fell to C$0.30 per US dollar. Adam Back said arbitrage spread the distortion to other CAD pairs.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0c8e1a5119dd5914fea76f3c885f979728c48fab-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Bitcoin",
         "Exchanges",
-        "Security",
-        "Web3"
+        "Markets"
+      ]
+    },
+    {
+      "title": "Canton Approves Plan to Extend CC Burns Across MainNet",
+      "source": "The Defiant",
+      "date": "2026-11-21",
+      "url": "https://thedefiant.io/converge/blockchains/canton-approves-plan-to-extend-cc-burns-across-mainnet",
+      "summary": "Legacy license fees would give way to token burns on dedicated synchronizers, with the first phase tentatively planned for Q1 2027.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bda1ba83b1c27291a6d21386f67015d4a6424ba3-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Nasdaq Composite vs. Nasdaq-100: What Each Measures",
+      "source": "The Defiant",
+      "date": "2026-11-21",
+      "url": "https://thedefiant.io/news/markets/nasdaq-composite-vs-nasdaq-100-what-each-measures",
+      "summary": "The Composite covers a broad set of Nasdaq-listed stocks; the Nasdaq-100 focuses on large nonfinancial companies. Each combines many stocks, whose weights determine their contributions to its return.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e9b818fd3e210ebee2fda531486f57e3b89bdc71-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "Crypto"
+      ]
+    },
+    {
+      "title": "How Crypto-Backed Loans Work: Collateral to Repayment",
+      "source": "The Defiant",
+      "date": "2026-11-21",
+      "url": "https://thedefiant.io/news/defi/how-crypto-backed-loans-work-collateral-to-repayment",
+      "summary": "Aave’s public rules show how pledged crypto backs a separate debt, why that debt grows and what repayment frees up.",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a96cef87e2b40970fec0d3c0e67c3bc501e66fdd-2048x1152.webp?fm=webp&q=85",
+      "tags": [
+        "DeFi"
       ]
     },
     {
@@ -135,18 +250,6 @@
       ]
     },
     {
-      "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
-      "source": "Decrypt",
-      "date": "2026-11-20",
-      "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
-      "summary": "Thursday's ETF outflow was the funds' biggest in three weeks, as rising Treasury yields and Fed rate hike bets weigh on crypto.",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
-      "tags": [
-        "Bitcoin",
-        "Regulation"
-      ]
-    },
-    {
       "title": "Rep. Horsford sees opening for House vote on crypto tax bill before Congress ends",
       "source": "The Block",
       "date": "2026-11-20",
@@ -178,20 +281,6 @@
       "tags": [
         "Bitcoin",
         "Regulation"
-      ]
-    },
-    {
-      "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
-      "source": "The Block",
-      "date": "2026-11-20",
-      "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
-      "summary": "Ark Invest bought nearly 1 million Anthropic shares and trimmed its Ethereum and Solana staking ETF holdings.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/GettyImages-2305894191.jpg",
-      "tags": [
-        "Ethereum",
-        "DeFi",
-        "Regulation",
-        "Altcoins"
       ]
     },
     {
@@ -230,137 +319,40 @@
       ]
     },
     {
-      "title": "Bitcoin hits four-month low as $820 million liquidated and $12.7 billion short squeeze risk builds",
-      "source": "CryptoSlate",
+      "title": "Tracy Schuchart: Bitcoin Trading “Like a Risk Asset” as Fed Hikes Loom",
+      "source": "Bitcoin Magazine",
       "date": "2026-11-20",
-      "url": "https://cryptoslate.com/bitcoin-hits-four-month-low-as-820-million-liquidated-and-12-7-billion-short-squeeze-risk-builds/",
-      "summary": "Bitcoin fell to its lowest level in four months as an $820 million liquidation wave swept the derivatives market. The leading cryptocurrency fell to $61,196 on Nov. 20 before recovering to $61,901 as of press time, according to CryptoSlate data. This price performance extended a…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-expiry-weather-shields.webp",
+      "url": "https://bitcoinmagazine.com/videos/tracy-schuchart-bitcoin-trading-like-a-risk-asset-as-fed-hikes-loom",
+      "summary": "&#9654; Bitcoin Magazine Tracy Schuchart: Bitcoin Trading “Like a Risk Asset” as Fed Hikes Loom Tracy Shuchart says Bitcoin's biggest long-term argument is its monetary scarcity, but investors need to separate the long-term thesis from how it's trading today. This post Tracy Sch…",
+      "image": "https://img.youtube.com/vi/8ZLlc6cnmDs/hqdefault.jpg",
       "tags": [
         "Bitcoin",
         "Markets"
       ]
     },
     {
-      "title": "The DeFi protocol powering $1.6 billion in Coinbase loans as crypto lending goes mainstream",
-      "source": "CryptoSlate",
+      "title": "HTX Research Publishes Six-Month Outlook for Bitcoin and Crypto Markets",
+      "source": "NewsBTC",
       "date": "2026-11-20",
-      "url": "https://cryptoslate.com/the-defi-protocol-powering-1-6-billion-in-coinbase-loans-as-crypto-lending-goes-mainstream/",
-      "summary": "The New York rollout extends a service that Coinbase offers through its app and lenders fund through Morpho’s markets. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/coinbase-morpho-trailer.webp",
+      "url": "https://www.newsbtc.com/news/htx-research-publishes-six-month-outlook-for-bitcoin-and-crypto-markets/",
+      "summary": "Apia, Samoa, November 20, 2026 – HTX Research, the dedicated research arm of HTX, has published a new report titled From a Price Rebound to a Recovery in Capital Flows: A Six-Month Outlook for Bitcoin and Crypto Markets. The report addresses a central question for the months ahe…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/071958c9f06b41b6b6c7409968843877-750x422.png",
+      "tags": [
+        "Bitcoin",
+        "Markets"
+      ]
+    },
+    {
+      "title": "Banks Are Adopting Stablecoins: Here Is Why Crypto-Native Dollars Still Win on User Freedom",
+      "source": "NewsBTC",
+      "date": "2026-11-20",
+      "url": "https://www.newsbtc.com/news/banks-are-adopting-stablecoins-here-is-why-crypto-native-dollars-still-win-on-user-freedom/",
+      "summary": "As traditional giants rush into digital dollars, USDD’s Yvonne Chia explains why 24/7 access, self-custody, and transparent yield give decentralized stablecoins an edge banks can’t replicate. 20 November – Road Town, Totorla, British Virgin Islands – Decentralized stablecoin pro…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/d9c27ce13ced4069a8a5a1be839915ee-2-750x500.jpg",
       "tags": [
         "DeFi",
-        "Exchanges",
-        "Web3",
-        "Markets"
-      ]
-    },
-    {
-      "title": "AI data center boom linked to 650 premature US deaths as pollution spreads across states",
-      "source": "CryptoSlate",
-      "date": "2026-11-20",
-      "url": "https://cryptoslate.com/ai-data-center-boom-linked-to-650-premature-us-deaths-as-pollution-spreads-across-states/",
-      "summary": "An MIT-led study estimates about 650 premature deaths in the contiguous US in 2023 from pollution linked to the electricity data centers drew from the grid. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in y…",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/grid-pollution-weather-vane.webp",
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Bitcoin buyers face a trading issue as stablecoins just suffer their biggest supply drop since 2022",
-      "source": "CryptoSlate",
-      "date": "2026-11-20",
-      "url": "https://cryptoslate.com/bitcoin-buyers-face-a-trading-issue-as-stablecoins-just-suffer-their-biggest-supply-drop-since-2022/",
-      "summary": "Flowdesk’s Greg Guttas explains how a market maker could use its own stablecoins to fund a Bitcoin purchase and settle with the client later. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-dealer-transfer-lift.webp",
-      "tags": [
-        "Bitcoin",
         "Stablecoins",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Aster Blames Coordinated Trades for Mark-Price Divergence",
-      "source": "The Defiant",
-      "date": "2026-11-20",
-      "url": "https://thedefiant.io/news/markets/aster-blames-coordinated-trades-for-mark-price-divergence",
-      "summary": "Aster says its insurance fund took over positions and some profitable positions were forcibly reduced. Its report announces a safeguards review but no compensation plan.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/84b1f8bf2866d3f004fd9c1dbc729d87ce3b0cc4-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Markets"
-      ]
-    },
-    {
-      "title": "Bitcoin Touches $60,000 as Slide From Oct. 21 Hits 29%",
-      "source": "The Defiant",
-      "date": "2026-11-20",
-      "url": "https://thedefiant.io/news/markets/bitcoin-touches-60-000-as-slide-from-oct-21-hits-29",
-      "summary": "Coinbase recorded $60,001 at 10:26 a.m. ET, while Bitstamp touched $60,000 in the same minute.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bf46a25083b740df0358ad583cb3a31dcaca84b8-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Bitcoin",
-        "Exchanges"
-      ]
-    },
-    {
-      "title": "Zcash Falls Below $800 as Losses Outpace Bitcoin, Ether",
-      "source": "The Defiant",
-      "date": "2026-11-20",
-      "url": "https://thedefiant.io/news/markets/zcash-falls-below-800-as-losses-outpace-bitcoin-ether",
-      "summary": "ZEC traded about 53% below a late-September price, extending a selloff that took it below $1,100 earlier this month.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/b4aff8ad5f7188d163548c27c03a94180e058068-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Bitcoin",
-        "Ethereum",
-        "Markets"
-      ]
-    },
-    {
-      "title": "Intel 18A vs. TSMC N2: How to Read the Chip Claims",
-      "source": "The Defiant",
-      "date": "2026-11-20",
-      "url": "https://thedefiant.io/news/technology/intel-18a-vs-tsmc-n2-how-to-read-the-chip-claims",
-      "summary": "Node names are not transistor measurements. Public disclosures show different approaches to making chips faster and more efficient—but use different comparison points.",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/395a90e5f91ff3143e41ab0e82d4fef8fe9eac69-2048x1152.webp?fm=webp&q=85",
-      "tags": [
-        "Crypto"
-      ]
-    },
-    {
-      "title": "Ledger Finds Tampered Hardware Wallets in Berlin, Probes Two in Dubai",
-      "source": "Bitcoin Magazine",
-      "date": "2026-11-19",
-      "url": "https://bitcoinmagazine.com/news/ledger-tampered-wallets-berlin-dubai",
-      "summary": "Bitcoin Magazine Ledger Finds Tampered Hardware Wallets in Berlin, Probes Two in Dubai Ledger confirmed tampered hardware wallets in Berlin and is investigating two more in Dubai, widening a probe into spy implants that steal recovery phrases. This post Ledger Finds Tampered Har…",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Pics-1-4.jpg",
-      "tags": [
-        "Bitcoin",
         "Web3"
-      ]
-    },
-    {
-      "title": "OmenX announces $2 million in funding from Informed Ventures and launches on-demand 30-second Bitcoin predictions",
-      "source": "NewsBTC",
-      "date": "2026-11-19",
-      "url": "https://www.newsbtc.com/news/omenx-announces-2-million-in-funding-from-informed-ventures-and-launches-on-demand-30-second-bitcoin-predictions/",
-      "summary": "The Base-native leveraged prediction market platform expands its offering across crypto, global financial assets, sports and esports. Toronto, November 19, 2026 – OmenX, a Base-native leveraged prediction market platform, today announced $2 million in funding from Informed Ventu…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/64920c29395549da84c6cb9dc07034d3-750x500.jpg",
-      "tags": [
-        "Bitcoin",
-        "Layer 2",
-        "Markets"
-      ]
-    },
-    {
-      "title": "MEXC’s Hacken-Audited November 2026 Proof of Reserves Shows Reserve Ratios Above 100% Across Major Assets",
-      "source": "NewsBTC",
-      "date": "2026-11-19",
-      "url": "https://www.newsbtc.com/news/mexcs-hacken-audited-november-2026-proof-of-reserves-shows-reserve-ratios-above-100-across-major-assets/",
-      "summary": "Mutsamudu, Comoros, November 19, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its November 2026 Proof of Reserves (PoR) report, independently audited by Hacken. The report shows MEXC&#8217;s solid reserve position, with user assets in every major asset bac…",
-      "image": "https://www.newsbtc.com/wp-content/uploads/2026/11/photo_2026-11-19_08-40-35-715x536.jpg",
-      "tags": [
-        "Security",
-        "Markets"
       ]
     }
   ]
